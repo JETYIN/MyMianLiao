@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true" android:state_pressed="false">
+        <shape>
+            <solid android:color="#34CED9"/>
+            <size android:width="1dp" android:height="1dp"/>
+        </shape>
+    </item>
+
+    <item android:state_enabled="true" android:state_pressed="true">
+        <shape>
+            <solid android:color="#31C4CE"/>
+            <size android:width="1dp" android:height="1dp"/>
+        </shape>
+    </item>
+
+    <item android:state_enabled="false">
+        <shape>
+            <solid android:color="@color/btn_disabled"/>
+            <size android:width="1dp" android:height="1dp"/>
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fl_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/ptr_tribe_posts"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:divider="@null"
+        android:dividerHeight="0px"
+        android:listSelector="@android:color/transparent"
+        android:scrollbarStyle="outsideOverlay"/>
+
+    <com.tjut.mianliao.black.MagicLinearLayout
+        android:id="@+id/bg_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.tjut.mianliao.component.ArcMenu
+            android:id="@+id/id_arcmenu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="20dp"
+            app:position="right_bottom"
+            app:radius="100dp">
+
+            <com.tjut.mianliao.theme.ThemeImageView
+                android:id="@+id/id_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_arc_menu"/>
+
+            <com.tjut.mianliao.theme.ThemeImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/nomal_post_common"
+                android:tag="normal"/>
+
+            <com.tjut.mianliao.theme.ThemeImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/nomal_post_video"
+                android:tag="video"/>
+
+            <com.tjut.mianliao.theme.ThemeImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/nomal_post_ballot"
+                android:tag="vote"/>
+        </com.tjut.mianliao.component.ArcMenu>
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+</FrameLayout>

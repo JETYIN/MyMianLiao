@@ -1,0 +1,47 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <com.tjut.mianliao.theme.ThemeImageView
+        android:id="@+id/iv_pink"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/bg_memo_circle_pink"
+        android:onClick="onClick" />
+
+    <com.tjut.mianliao.theme.ThemeImageView
+        android:id="@+id/iv_blue"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/bg_memo_circle_blue"
+        android:onClick="onClick" />
+
+    <com.tjut.mianliao.theme.ThemeImageView
+        android:id="@+id/iv_grown"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/bg_memo_circle_grown"
+        android:onClick="onClick" />
+
+    <com.tjut.mianliao.theme.ThemeImageView
+        android:id="@+id/iv_orange"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/bg_memo_circle_orange"
+        android:onClick="onClick" />
+
+    <com.tjut.mianliao.theme.ThemeImageView
+        android:id="@+id/iv_purple"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/bg_memo_circle_purple"
+        android:onClick="onClick" />
+
+</com.tjut.mianliao.black.MagicLinearLayout>

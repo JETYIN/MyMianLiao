@@ -1,0 +1,26 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical">
+
+    <com.tjut.mianliao.theme.ThemeTextView android:background="#FCE1B4" android:layout_height="wrap_content" android:layout_width="match_parent" android:padding="5dp" android:text="@string/emo_recharge_warm_reminder" android:textColor="#666" android:textSize="13sp" />
+
+    <com.tjut.mianliao.black.MagicRelativeLayout android:layout_height="wrap_content" android:layout_width="match_parent">
+
+        <com.tjut.mianliao.theme.ThemeTextView android:layout_alignParentLeft="true" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_width="wrap_content" android:padding="5dp" android:text="@string/emo_recharge_my_balance" android:textSize="15sp" />
+
+        <com.tjut.mianliao.theme.ThemeTextView android:id="@+id/tv_balance" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_height="wrap_content" android:layout_marginRight="15dp" android:layout_width="wrap_content" android:textColor="#666" android:textSize="15sp" />
+    </com.tjut.mianliao.black.MagicRelativeLayout>
+
+    <View android:background="#ccc" android:layout_height="1px" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:layout_width="match_parent" />
+
+    <com.tjut.mianliao.black.MagicRelativeLayout android:id="@+id/rl_recharge_record" android:layout_height="wrap_content" android:layout_width="match_parent">
+
+        <com.tjut.mianliao.theme.ThemeTextView android:layout_alignParentLeft="true" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_width="wrap_content" android:padding="5dp" android:text="@string/emo_recharge_record" android:textSize="15sp" />
+
+        <com.tjut.mianliao.theme.ThemeImageView android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_height="wrap_content" android:layout_marginRight="15dp" android:layout_width="wrap_content" android:src="@drawable/btn_next" />
+    </com.tjut.mianliao.black.MagicRelativeLayout>
+
+    <com.tjut.mianliao.theme.ThemeTextView android:background="#F5F5EB" android:gravity="center_vertical" android:layout_height="wrap_content" android:layout_width="match_parent" android:paddingBottom="5dp" android:paddingLeft="15dp" android:paddingTop="5dp" android:text="@string/emo_recharge_chose_money" android:textColor="#666" android:textSize="13sp" />
+
+    <ListView android:id="@+id/lv_recharge_list" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:layout_width="match_parent">
+    </ListView>
+
+</com.tjut.mianliao.black.MagicLinearLayout>

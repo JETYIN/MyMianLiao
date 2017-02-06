@@ -1,0 +1,208 @@
+<com.tjut.mianliao.black.MagicFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.tjut.mianliao.black.MagicRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            android:id="@+id/ll_login_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="65dp"
+            android:orientation="vertical" >
+
+            <com.tjut.mianliao.theme.ThemeImageView
+                android:id="@+id/iv_change_elephant"
+                android:layout_width="match_parent"
+                android:layout_height="78dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/pic_bg_look" />
+
+            <com.tjut.mianliao.black.MagicLinearLayout
+                android:id="@+id/ll_login_panel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="13dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/pic_bg_tv_look"
+                android:orientation="vertical"
+                android:paddingTop="2dp" >
+
+                <com.tjut.mianliao.black.MagicLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal" 
+                    android:gravity="center_vertical">
+
+                    <com.tjut.mianliao.theme.ThemeTextView
+                        android:id="@+id/tv_log_username"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:drawableLeft="@drawable/logon_person"
+                        android:drawablePadding="10dp"
+                        android:textSize="15sp" 
+                        android:layout_gravity="center_vertical"/>
+
+                    <EditText
+                        android:id="@+id/et_account"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@null"
+                        android:focusable="true"
+                        android:hint="@string/lgi_hint_account"
+                        android:imeOptions="actionNext"
+                        android:inputType="textNoSuggestions"
+                        android:maxLength="32"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:textColor="#585858"
+                        android:textSize="14sp"
+                        android:typeface="normal" 
+                        android:layout_gravity="center_vertical"/>
+                </com.tjut.mianliao.black.MagicLinearLayout>
+
+                <com.tjut.mianliao.theme.ThemeImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="#eeeded" />
+
+                <com.tjut.mianliao.black.MagicRelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical" >
+
+                    <com.tjut.mianliao.black.MagicLinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="58dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <com.tjut.mianliao.theme.ThemeTextView
+                            android:id="@+id/tv_log_password"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:drawableLeft="@drawable/logon_lock"
+                            android:drawablePadding="10dp"
+                            android:textSize="15sp" 
+                            android:layout_gravity="center_vertical"/>
+
+                        <EditText
+                            android:id="@+id/et_password"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@null"
+                            android:hint="@string/lgi_hint_password"
+                            android:imeOptions="actionDone"
+                            android:inputType="textPassword"
+                            android:maxLength="32"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textColor="#585858"
+                            android:textSize="14sp"
+                            android:typeface="normal" />
+                    </com.tjut.mianliao.black.MagicLinearLayout>
+
+                    <com.tjut.mianliao.theme.ThemeImageView
+                        android:id="@+id/iv_pass_check"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="20dp"
+                        android:onClick="onClick"
+                        android:src="@drawable/pic_bt_check" />
+                </com.tjut.mianliao.black.MagicRelativeLayout>
+            </com.tjut.mianliao.black.MagicLinearLayout>
+        </com.tjut.mianliao.black.MagicLinearLayout>
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_below="@id/ll_login_info"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="21dp"
+            android:layout_marginRight="21dp"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/bg_bt_blue"
+            android:onClick="onClick"
+            android:text="@string/lgi_login"
+            android:textSize="15sp" />
+        
+           <TextView
+            android:id="@+id/tv_forget_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/btn_login"
+            android:layout_marginRight="21dp"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:layout_marginTop="8dp"
+            android:text="@string/lgi_forgot_password"
+            android:textColor="#A6A6A6"
+            android:textSize="14sp" />
+        
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:id="@+id/tv_login_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_login"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="13dp"
+            android:textColor="#ff0000"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="40dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/logo_mark" />
+        </LinearLayout>
+    </com.tjut.mianliao.black.MagicRelativeLayout>
+
+    <com.tjut.mianliao.black.MagicLinearLayout
+        android:id="@+id/ll_loading"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:background="@drawable/login_progress_bg"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ProgressBar
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:indeterminateBehavior="repeat"
+            android:indeterminateDrawable="@drawable/login_ext_loading_ratate"
+            android:indeterminateOnly="true" />
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="@string/login_loading_txt"
+            android:textColor="@color/btn_blue"
+            android:textSize="13sp" />
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+</com.tjut.mianliao.black.MagicFrameLayout>

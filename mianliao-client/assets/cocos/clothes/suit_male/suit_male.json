@@ -1,0 +1,35 @@
+{
+"skeleton": { "hash": "SZvXk1giR+Gy36AqEi/VOiyZFMc", "spine": "2.1.27", "width": 343, "height": 696, "images": "./taozhuang1/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "xiayi_taozhuang1", "bone": "root", "attachment": "xiayi_taozhuang1" },
+	{ "name": "youjian_taozhuang1", "bone": "root", "attachment": "youjian_taozhuang1" },
+	{ "name": "zuojian_taozhuang1", "bone": "root", "attachment": "zuojian_taozhuang1" },
+	{ "name": "shangyi_taozhuang1", "bone": "root", "attachment": "shangyi_taozhuang1" },
+	{ "name": "toufa_taozhuang1", "bone": "root", "attachment": "toufa_taozhuang1" }
+],
+"skins": {
+	"default": {
+		"shangyi_taozhuang1": {
+			"shangyi_taozhuang1": { "x": -16.24, "y": 347.13, "width": 210, "height": 201 }
+		},
+		"toufa_taozhuang1": {
+			"toufa_taozhuang1": { "x": -12.74, "y": 623.63, "width": 343, "height": 348 }
+		},
+		"xiayi_taozhuang1": {
+			"xiayi_taozhuang1": { "x": -3.24, "y": 184.13, "width": 144, "height": 165 }
+		},
+		"youjian_taozhuang1": {
+			"youjian_taozhuang1": { "x": 58.25, "y": 384.63, "width": 103, "height": 116 }
+		},
+		"zuojian_taozhuang1": {
+			"zuojian_taozhuang1": { "x": -78.24, "y": 384.63, "width": 90, "height": 114 }
+		}
+	}
+},
+"animations": {
+	"animation": {}
+}
+}

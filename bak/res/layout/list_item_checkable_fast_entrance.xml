@@ -1,0 +1,43 @@
+<com.tjut.mianliao.black.MagicRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector_bg_item"
+    android:gravity="center_vertical"
+    app:color_magic="0">
+
+    <TextView
+        android:id="@+id/tv_fast_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:drawablePadding="15dp"
+        android:gravity="center"
+        android:textColor="#767676"
+        android:textSize="15sp"/>
+
+    <CheckBox
+        android:id="@+id/cb_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:button="@drawable/selector_fastentrance_checkbox"
+        android:clickable="false"
+        android:focusable="false"/>
+
+    <com.tjut.mianliao.theme.ThemeLineView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@id/tv_fast_name"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#e6e6e6"/>
+
+</com.tjut.mianliao.black.MagicRelativeLayout>

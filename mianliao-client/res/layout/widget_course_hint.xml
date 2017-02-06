@@ -1,0 +1,5 @@
+<com.tjut.mianliao.black.MagicRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="match_parent" android:layout_width="match_parent">
+
+    <com.tjut.mianliao.theme.ThemeTextView android:id="@+id/tv_widget_hint" android:layout_centerInParent="true" android:layout_height="wrap_content" android:layout_width="wrap_content" android:paddingBottom="16dp" />
+
+</com.tjut.mianliao.black.MagicRelativeLayout>

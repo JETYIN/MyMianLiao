@@ -1,0 +1,7 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_horizontal" android:layout_height="wrap_content" android:layout_width="wrap_content" android:orientation="vertical">
+
+    <com.tjut.mianliao.theme.ThemeTextView android:background="@drawable/popup" android:id="@+id/tv_marker_txt" android:layout_height="wrap_content" android:layout_width="wrap_content" android:paddingLeft="19dp" android:paddingRight="19dp" android:paddingTop="9dp" android:textColor="@color/map_show_txt_color" android:textSize="15sp" />
+
+    <com.tjut.mianliao.theme.ThemeImageView android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_width="wrap_content" android:paddingBottom="-30dp" android:src="@drawable/map_ic_big_place" />
+
+</com.tjut.mianliao.black.MagicLinearLayout>

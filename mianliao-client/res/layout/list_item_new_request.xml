@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/contact_item_height"
+    android:background="@drawable/selector_bg_item"
+    android:orientation="horizontal"
+    app:color_magic="0">
+
+    <include
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        layout="@layout/list_item_user_info"
+        android:background="@null"/>
+
+    <Button
+        android:id="@+id/btn_reject"
+        android:layout_width="55dp"
+        android:layout_height="28dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/selector_btn_white"
+        android:focusable="false"
+        android:padding="0dp"
+        android:text="@string/nc_reject"
+        android:textColor="@color/btn_white_txt"
+        android:textSize="@dimen/title_text_size_small"/>
+
+    <Button
+        android:id="@+id/btn_agree"
+        android:layout_width="55dp"
+        android:layout_height="28dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="@dimen/card_margin_horizontal"
+        android:background="@drawable/selector_btn_green"
+        android:focusable="false"
+        android:padding="0dp"
+        android:text="@string/nc_agree"
+        android:textSize="@dimen/title_text_size_small"/>
+
+</LinearLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_search_live"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:background="@drawable/bg_bt_white"
+    android:orientation="vertical"
+    android:paddingTop="7dp">
+
+    <ImageView
+        android:id="@+id/iv_post_pic"
+        android:layout_width="152dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp"
+        android:src="@drawable/pic_bg_task_banner"/>
+
+    <TextView
+        android:id="@+id/tv_post_content"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"
+        android:maxLines="2"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp"
+        android:textColor="#656565"
+        android:textSize="12sp"/>
+
+    <com.tjut.mianliao.theme.ThemeLineView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="5dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp">
+
+        <com.tjut.mianliao.component.AvatarView
+            android:id="@+id/av_avatar"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/pic_face_01"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/av_avatar"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#656565"
+                android:textSize="10sp"/>
+
+            <TextView
+                android:id="@+id/tv_school"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#C9C7C7"
+                android:textSize="9sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/buttom_like_hover"/>
+
+            <TextView
+                android:id="@+id/tv_praise_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="21"
+                android:textColor="#C9C7C7"
+                android:textSize="9sp"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

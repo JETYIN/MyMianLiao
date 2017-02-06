@@ -1,0 +1,31 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_height="wrap_content" android:layout_width="match_parent">
+
+    <com.tjut.mianliao.black.MagicLinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="vertical" android:paddingTop="10dp">
+
+        <include layout="@layout/list_item_bounty" android:id="@+id/rl_task" />
+
+        <include layout="@layout/list_item_bounty_contract" android:id="@+id/rl_contract" />
+
+        <com.tjut.mianliao.black.MagicRelativeLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:padding="10dp">
+
+            <com.tjut.mianliao.theme.ThemeTextView android:id="@+id/tv_rating" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_width="wrap_content" android:text="@string/bty_rating_desc" android:textColor="#717070" android:textSize="16sp" />
+
+            <RadioGroup android:id="@+id/rg_rating" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_toRightOf="@id/tv_rating" android:layout_width="match_parent" android:orientation="horizontal">
+
+                <RadioButton style="@style/MianLiao.RatingItem" android:drawableTop="@drawable/selector_btn_rating_bad" android:id="@+id/rb_bad" android:layout_height="wrap_content" android:layout_weight="1" android:layout_width="0dp" android:text="@string/bty_rating_bad" />
+
+                <RadioButton style="@style/MianLiao.RatingItem" android:drawableTop="@drawable/selector_btn_rating_normal" android:id="@+id/rb_normal" android:layout_height="wrap_content" android:layout_weight="1" android:layout_width="0dp" android:text="@string/bty_rating_normal" />
+
+                <RadioButton style="@style/MianLiao.RatingItem" android:checked="true" android:drawableTop="@drawable/selector_btn_rating_good" android:id="@+id/rb_good" android:layout_height="wrap_content" android:layout_weight="1" android:layout_width="0dp" android:text="@string/bty_rating_good" />
+            </RadioGroup>
+
+            <com.tjut.mianliao.black.MagicFrameLayout android:background="@drawable/bg_input_rating" android:id="@+id/fl_rating" android:layout_below="@id/tv_rating" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:layout_width="match_parent">
+
+                <EditText android:background="@null" android:gravity="top" android:hint="@string/bty_rating_hint" android:id="@+id/et_rating" android:inputType="textMultiLine" android:layout_height="wrap_content" android:layout_width="match_parent" android:maxLines="8" android:minLines="5" android:textColor="#717070" android:textSize="15sp" />
+            </com.tjut.mianliao.black.MagicFrameLayout>
+
+            <com.tjut.mianliao.component.ProgressButton app:text="@string/bty_rating_submit" app:textColor="@color/white" android:background="@drawable/selector_btn_blue" android:id="@+id/pb_submit" android:layout_below="@id/fl_rating" android:layout_height="40dp" android:layout_marginTop="16dp" android:layout_width="match_parent" />
+        </com.tjut.mianliao.black.MagicRelativeLayout>
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+</ScrollView>

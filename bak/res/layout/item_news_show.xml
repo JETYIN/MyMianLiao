@@ -1,0 +1,57 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_news"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_new_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:background="@drawable/pic_bg_notifi_title"
+        android:gravity="center_vertical"
+        android:paddingLeft="50dp"
+        android:text="@string/news_homepage_title"
+        android:textColor="@color/white"
+        android:textSize="15sp"/>
+
+    <com.tjut.mianliao.black.MagicLinearLayout
+        android:id="@+id/ll_news_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/pic_bg_notifi_white"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            android:id="@+id/real_ll_news_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             android:orientation="vertical">
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:id="@+id/tv_news_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:textColor="#8C8C8C"
+                android:textSize="12sp"/>
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:id="@+id/tv_news_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:textColor="#8C8C8C"
+                android:textSize="12sp"/>
+        </com.tjut.mianliao.black.MagicLinearLayout>
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+</com.tjut.mianliao.black.MagicLinearLayout>

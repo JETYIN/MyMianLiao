@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/post_item_margin_top" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="你的好友在关注"
+                android:textColor="#515151"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tv_refresh_recommend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                android:drawableRight="@drawable/button_refresh_recommend"
+                android:gravity="center"
+                android:text="换一批"
+                android:textColor="#c7c7c9"
+                android:textSize="9sp" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="15dp"
+            android:baselineAligned="false">
+
+            <LinearLayout
+                android:id="@+id/ll_recommed_user"
+                android:layout_width="0dp"
+                android:layout_height="122dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/pic_friend_bg"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_follow_user_desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="27dp"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="left|center_vertical"
+                    android:textColor="#656565"
+                    android:textSize="11sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="#d7d7d7" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical">
+
+                    <com.tjut.mianliao.component.ProImageView
+                        android:id="@+id/iv_avatar"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="10dp"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:id="@+id/tv_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@id/iv_avatar"
+                        android:layout_marginLeft="15dp"
+                        android:layout_toRightOf="@id/iv_avatar"
+                        android:textColor="#515151"
+                        android:textSize="12sp" />
+
+                    <ImageView
+                        android:id="@+id/iv_gender"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@id/tv_name"
+                        android:src="@drawable/img_boy" />
+
+                    <TextView
+                        android:id="@+id/tv_school"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tv_name"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_toRightOf="@id/iv_avatar"
+                        android:textColor="#bdbdbd"
+                        android:textSize="9sp" />
+
+                    <TextView
+                        android:id="@+id/tv_follow_user"
+                        android:layout_width="65dp"
+                        android:layout_height="27dp"
+                        android:layout_below="@id/tv_school"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="7dp"
+                        android:layout_toRightOf="@id/iv_avatar"
+                        android:background="@drawable/bg_follow_recommed"
+                        android:gravity="center"
+                        android:text="@string/tribe_follow_with"
+                        android:textColor="#ff9884"
+                        android:textSize="14sp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_recommed_tribe"
+                android:layout_width="0dp"
+                android:layout_height="122dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/pic_friend_bg"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_follow_tribe_desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="27dp"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="left|center_vertical"
+                    android:textColor="#656565"
+                    android:textSize="11sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="#d7d7d7" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical">
+
+                    <com.tjut.mianliao.component.ProImageView
+                        android:id="@+id/iv_tribe_icon"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="10dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/pic_face_01" />
+
+                    <TextView
+                        android:id="@+id/tv_tribe_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@id/iv_tribe_icon"
+                        android:layout_marginLeft="15dp"
+                        android:layout_toRightOf="@id/iv_tribe_icon"
+                        android:textColor="#515151"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tv_tribe_base"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tv_tribe_name"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_toRightOf="@id/iv_tribe_icon"
+                        android:textColor="#bdbdbd"
+                        android:textSize="9sp" />
+
+                    <TextView
+                        android:id="@+id/tv_follow_tribe"
+                        android:layout_width="65dp"
+                        android:layout_height="27dp"
+                        android:layout_below="@id/tv_tribe_base"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="7dp"
+                        android:layout_toRightOf="@id/iv_tribe_icon"
+                        android:background="@drawable/bg_tv_rad_circle"
+                        android:gravity="center"
+                        android:text="@string/tribe_follow_with"
+                        android:textColor="#ff9884"
+                        android:textSize="14sp" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

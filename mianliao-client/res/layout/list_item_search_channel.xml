@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tjut.mianliao.black.MagicRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp">
+
+    <com.tjut.mianliao.component.ProImageView
+        android:id="@+id/iv_channel_icon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical" 
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/iv_channel_icon"
+        android:layout_marginRight="20dp">
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:id="@+id/tv_channel_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="#515151"/>
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:id="@+id/tv_channel_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:textColor="#656565"/>
+    </LinearLayout>
+
+    <com.tjut.mianliao.theme.ThemeLineView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="80dp"
+        android:layout_alignParentBottom="true"/>
+
+</com.tjut.mianliao.black.MagicRelativeLayout>

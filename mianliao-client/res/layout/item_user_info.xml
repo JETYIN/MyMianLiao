@@ -1,0 +1,41 @@
+<com.tjut.mianliao.black.MagicRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_user"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:onClick="onClick"
+    android:orientation="vertical">
+
+    <com.tjut.mianliao.black.MagicFrameLayout
+        android:id="@+id/rl_user_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/pic_bg_photo_avatar">
+
+        <com.tjut.mianliao.component.ProAvatarView
+            android:id="@+id/iv_avatar"
+            android:layout_width="117dp"
+            android:layout_height="117dp"
+            android:layout_gravity="center"
+            android:scaleType="fitXY"
+            android:src="@drawable/pic_face_01"
+            app:borderType="roundCorner"
+            app:cornerRadius="150dp"/>
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="20dp"
+            android:drawablePadding="3dp"
+            android:drawableRight="@drawable/pic_bg_man"
+            android:maxLength="6"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:textStyle="bold"/>
+    </com.tjut.mianliao.black.MagicFrameLayout>
+
+</com.tjut.mianliao.black.MagicRelativeLayout>

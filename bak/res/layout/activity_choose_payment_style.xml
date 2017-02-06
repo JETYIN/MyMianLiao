@@ -1,0 +1,26 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical">
+
+    <com.tjut.mianliao.theme.ThemeTextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/emo_recharge_pay_way" />
+
+    <com.tjut.mianliao.black.MagicRelativeLayout android:clickable="true" android:id="@+id/rl_pay_balance" android:layout_height="wrap_content" android:layout_width="match_parent" android:onClick="onClick" android:paddingBottom="10dp" android:paddingTop="10dp">
+
+        <com.tjut.mianliao.theme.ThemeTextView android:layout_alignParentLeft="true" android:layout_centerInParent="true" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_width="wrap_content" android:text="@string/pay_money_by_ml_god" />
+
+        <com.tjut.mianliao.theme.ThemeTextView android:drawablePadding="5dp" android:drawableRight="@drawable/ic_enter" android:id="@+id/tv_balance" android:layout_alignParentRight="true" android:layout_centerInParent="true" android:layout_height="wrap_content" android:layout_marginRight="15dp" android:layout_width="wrap_content" />
+    </com.tjut.mianliao.black.MagicRelativeLayout>
+
+    <com.tjut.mianliao.black.MagicRelativeLayout android:clickable="true" android:id="@+id/rl_pay_alipay" android:layout_height="wrap_content" android:layout_width="match_parent" android:onClick="onClick" android:paddingBottom="10dp" android:paddingTop="10dp">
+
+        <com.tjut.mianliao.theme.ThemeTextView android:layout_alignParentLeft="true" android:layout_centerInParent="true" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_width="wrap_content" android:text="@string/pay_alipay" />
+
+        <com.tjut.mianliao.theme.ThemeTextView android:drawablePadding="5dp" android:drawableRight="@drawable/ic_enter" android:layout_alignParentRight="true" android:layout_centerInParent="true" android:layout_height="wrap_content" android:layout_marginRight="15dp" android:layout_width="wrap_content" />
+    </com.tjut.mianliao.black.MagicRelativeLayout>
+
+    <com.tjut.mianliao.black.MagicRelativeLayout android:clickable="true" android:id="@+id/rl_pay_unionpay" android:layout_height="wrap_content" android:layout_width="match_parent" android:onClick="onClick" android:paddingBottom="10dp" android:paddingTop="10dp">
+
+        <com.tjut.mianliao.theme.ThemeTextView android:layout_alignParentLeft="true" android:layout_centerInParent="true" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_width="wrap_content" android:text="@string/pay_money_by_unionpay" />
+
+        <com.tjut.mianliao.theme.ThemeTextView android:drawablePadding="5dp" android:drawableRight="@drawable/ic_enter" android:layout_alignParentRight="true" android:layout_centerInParent="true" android:layout_height="wrap_content" android:layout_marginRight="15dp" android:layout_width="wrap_content" android:text="@string/pay_money_unionpay" />
+    </com.tjut.mianliao.black.MagicRelativeLayout>
+
+</com.tjut.mianliao.black.MagicLinearLayout>

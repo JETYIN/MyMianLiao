@@ -1,0 +1,61 @@
+<com.tjut.mianliao.black.MagicRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="6dp">
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bg_chat_time"
+        android:paddingBottom="1dp"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        android:paddingTop="1dp"
+        android:textColor="#fff"
+        android:textSize="12sp"
+        android:visibility="gone"/>
+
+    <com.tjut.mianliao.component.AvatarView
+        android:id="@+id/iv_avatar"
+        android:layout_width="@dimen/chat_avatar_size"
+        android:layout_height="@dimen/chat_avatar_size"
+        android:layout_below="@+id/tv_time"
+        android:layout_marginLeft="4dp"
+        android:src="@drawable/chat_botton_bg_faviconboy"/>
+
+    <com.tjut.mianliao.black.MagicLinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/iv_avatar"
+        android:layout_marginLeft="@dimen/chatbox_margin_avatar"
+        android:layout_marginRight="@dimen/chatbox_margin_blank"
+        android:layout_toRightOf="@+id/iv_avatar"
+        android:background="@drawable/bg_chat_other"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/chatbox_padding"
+        android:paddingLeft="@dimen/chatbox_padding_arrow"
+        android:paddingRight="@dimen/chatbox_padding"
+        android:paddingTop="@dimen/chatbox_padding">
+
+        <com.tjut.mianliao.component.ProImageView
+            android:id="@+id/iv_image"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="4dp"
+            android:scaleType="centerCrop"/>
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:id="@+id/tv_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:textColor="#737373"
+            android:textIsSelectable="true"
+            android:textSize="15sp"/>
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+</com.tjut.mianliao.black.MagicRelativeLayout>

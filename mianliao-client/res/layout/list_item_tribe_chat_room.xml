@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_tribe_chat"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:clickable="true"
+    android:onClick="onClick">
+
+    <com.tjut.mianliao.component.AvatarView
+        android:id="@+id/iv_room_avatar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:scaleType="fitXY"
+        app:borderType="circle"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/iv_room_avatar"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_chat_room_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#515151"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tv_online_people"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:drawableLeft="@drawable/club_pic_people"
+            android:drawablePadding="7dp"
+            android:textColor="#9b9a9a"
+            android:textSize="10sp"/>
+
+        <TextView
+            android:id="@+id/tv_chat_room_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:textColor="#838383"
+            android:textSize="12sp"/>
+    </LinearLayout>
+
+    <com.tjut.mianliao.theme.ThemeLineView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="85dp"/>
+
+</RelativeLayout>

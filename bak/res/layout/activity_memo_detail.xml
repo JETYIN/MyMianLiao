@@ -1,0 +1,52 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.tjut.mianliao.black.MagicRelativeLayout
+        android:id="@+id/rl_memo_detail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.tjut.mianliao.black.MagicRelativeLayout
+            android:id="@+id/rl_memo_detail1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="25dp"
+            app:color_magic="0" >
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:id="@+id/tv_memo_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="30dp"
+                android:textSize="14sp" />
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:id="@+id/tv_memo_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_memo_detail"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/memo_icon_clock_white"
+                android:drawablePadding="10dp"
+                android:textSize="14sp" />
+        </com.tjut.mianliao.black.MagicRelativeLayout>
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:id="@+id/tv_create_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/rl_memo_detail1"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#3C3C3C"
+            android:textSize="14sp" />
+    </com.tjut.mianliao.black.MagicRelativeLayout>
+
+</ScrollView>

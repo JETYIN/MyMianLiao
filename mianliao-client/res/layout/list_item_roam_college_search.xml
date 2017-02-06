@@ -1,0 +1,17 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/college_search_cell_bg"
+    android:orientation="vertical">
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_school_name"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_marginLeft="16dp"
+        android:gravity="center_vertical"
+        android:textColor="@color/white"
+        android:textSize="15sp">
+    </com.tjut.mianliao.theme.ThemeTextView>
+
+</com.tjut.mianliao.black.MagicLinearLayout>

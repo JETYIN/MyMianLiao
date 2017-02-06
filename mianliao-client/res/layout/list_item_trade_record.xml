@@ -1,0 +1,57 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_trade_time"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:background="@android:color/transparent"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:textColor="#8C8C8C"/>
+
+    <com.tjut.mianliao.black.MagicRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:background="@color/white"
+        android:paddingLeft="20dp"
+        app:color_magic="0">
+
+        <com.tjut.mianliao.component.ProImageView
+            android:id="@+id/piv_trade_icon"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_avatar_forum"/>
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/piv_trade_icon"
+            android:orientation="vertical">
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:id="@+id/tv_trade_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#8C8C8C"
+                android:textSize="12sp"/>
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:id="@+id/tv_trade_intro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:textColor="#7D7D7D"
+                android:textSize="10sp"/>
+        </com.tjut.mianliao.black.MagicLinearLayout>
+    </com.tjut.mianliao.black.MagicRelativeLayout>
+
+</com.tjut.mianliao.black.MagicLinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>toufa</key>
+	<string>toufa_taozhuang1</string>
+	<key>shangyi</key>
+	<string>shangyi_taozhuang1</string>
+	<key>xiayi</key>
+	<string>xiayi_taozhuang1</string>
+	<key>zuojian</key>
+	<string>zuojian_taozhuang1</string>
+	<key>youjian</key>
+	<string>youjian_taozhuang1</string>
+</dict>
+</plist>

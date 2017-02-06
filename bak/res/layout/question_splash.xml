@@ -1,0 +1,7 @@
+<com.tjut.mianliao.black.MagicRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/bg_question_splash" android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical">
+
+    <Button android:background="@drawable/selector_question_btn_blue" android:id="@+id/btn_exit" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layout_height="47dp" android:layout_marginBottom="25dp" android:layout_width="257dp" android:text="@string/quest_exit" android:textColor="#FFFFFF" android:textSize="20sp" />
+
+    <Button android:background="@drawable/selector_question_btn_yellow" android:id="@+id/btn_begin" android:layout_above="@id/btn_exit" android:layout_centerHorizontal="true" android:layout_height="47dp" android:layout_marginBottom="25dp" android:layout_width="257dp" android:text="@string/quest_begin" android:textColor="#81670C" android:textSize="20sp" />
+
+</com.tjut.mianliao.black.MagicRelativeLayout>

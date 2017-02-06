@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fl_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:onClick="onClick">
+
+    <SurfaceView
+        android:id="@+id/surface_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:onClick="onClick" />
+
+    <FrameLayout
+        android:id="@+id/fl_connection_container"
+        android:layout_width="120dp"
+        android:layout_height="200dp"
+        android:layout_gravity="bottom|right"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:id="@+id/rl_2nd_container"
+            android:layout_width="120dp"
+            android:layout_height="200dp"
+            android:layout_gravity="bottom|right"
+            android:background="#b3000000" />
+
+        <ImageView
+            android:id="@+id/iv_close_connection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|right"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:src="@drawable/button_go_back"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/ll_close_connection_menu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:background="@android:color/transparent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/live_close_connection"
+                    android:textColor="@color/white"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_close_conn"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center"
+                android:onClick="onClick">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/you_sure"
+                    android:textColor="#54B846"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_close_conn_cancle"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center"
+                android:onClick="onClick">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/search_cancel"
+                    android:textColor="@color/white"
+                    android:textSize="15sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_wait_live_ui"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:gravity="center">
+
+                <com.tjut.mianliao.component.ProImageView
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:src="@drawable/pic_face_06" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/live_will_start_connection_succ"
+                    android:textColor="@color/white"
+                    android:textSize="15sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+    <com.tjut.mianliao.anim.HeartLayout
+        android:id="@+id/bessal_view"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:layout_marginBottom="40dp"
+        android:background="@android:color/transparent"
+        android:clickable="true"
+        android:onClick="onClick" />
+
+    <com.tjut.mianliao.live.XDanmuView
+        android:id="@+id/danmu_rl"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="200dp"
+        android:background="@android:color/transparent"
+        android:clickable="true"
+        android:onClick="onClick" />
+
+    <ListView
+        android:id="@+id/list_live_msg"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="65dp"
+        android:background="@android:color/transparent"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:listSelector="@android:color/transparent"
+        android:stackFromBottom="true"
+        android:transcriptMode="alwaysScroll" />
+
+    <com.tjut.mianliao.anim.GiftAnimView
+        android:id="@+id/gift_anim_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="210dp"
+        android:background="@android:color/transparent" />
+
+    <LinearLayout
+        android:id="@+id/ll_reply"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="bottom"
+        android:gravity="center_vertical"
+        android:visibility="gone">
+
+        <CheckBox
+            android:id="@+id/tv_send_dm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:text="弹幕"
+            android:textColor="#ffffff"
+            android:textSize="15sp" />
+
+        <com.tjut.mianliao.component.RichMlEditText
+            android:id="@+id/et_msg"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_input_white_transperent"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:text="发送"
+            android:textColor="#ffffff"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_open_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/iv_open_operate"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="8dp"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:src="@drawable/img_living_uparrow" />
+
+        <ImageView
+            android:id="@+id/iv_contact_line"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="12dp"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:src="@drawable/img_living_contact_light"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_gift_lists"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="12dp"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:src="@drawable/img_living_gift" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_operate"
+        android:layout_width="match_parent"
+        android:layout_height="119dp"
+        android:layout_gravity="bottom"
+        android:background="#E5ffffff"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:id="@+id/ll_camera"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClick">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="10dp"
+                android:drawableTop="@drawable/img_living_change_camare"
+                android:gravity="center"
+                android:text="切换摄像头"
+                android:textColor="#8a8a8a" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/ll_flash_light"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClick">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="10dp"
+                android:drawableTop="@drawable/img_living_light_on"
+                android:gravity="center"
+                android:text="闪光灯"
+                android:textColor="#8a8a8a" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/ll_manager"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClick">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="10dp"
+                android:drawableTop="@drawable/img_living_admin"
+                android:gravity="center"
+                android:text="管理员"
+                android:textColor="#8a8a8a" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/ll_share"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClick">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="10dp"
+                android:drawableTop="@drawable/img_living_share"
+                android:gravity="center"
+                android:text="分享"
+                android:textColor="#8a8a8a" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/tv_ml_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|top"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="59dp"
+        android:src="@drawable/watermark_mianliaotv" />
+
+    <TextView
+        android:id="@+id/tv_date_today"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|top"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="74dp"
+        android:shadowDx="-1"
+        android:shadowRadius="2"
+        android:text="2016.06.24"
+        android:textColor="#66ffffff"
+        android:textSize="9sp" />
+
+
+    <com.tjut.mianliao.component.LiveGiftPicker
+        android:id="@+id/gift_picker"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="bottom"
+        android:background="#F2ffffff"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="7dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_avatar_black_transparent"
+                android:paddingRight="15dp">
+
+                <FrameLayout
+                    android:id="@+id/fr_avatar"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerVertical="true">
+
+                    <com.tjut.mianliao.component.AvatarView
+                        android:id="@+id/iv_avatar"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:onClick="onClick"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/pic_face_05"
+                        app:borderType="circle"
+                        app:cornerRadius="100dp" />
+
+                    <ImageView
+                        android:id="@+id/iv_type_icon"
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:layout_gravity="bottom|right"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/ic_id_student" />
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/tv_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_toRightOf="@+id/fr_avatar"
+                    android:shadowDx="-1"
+                    android:shadowRadius="2"
+                    android:text="校长同志"
+                    android:textColor="@color/white"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/tv_follow_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_name"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_toRightOf="@+id/fr_avatar"
+                    android:shadowDx="-1"
+                    android:shadowRadius="2"
+                    android:text="120521"
+                    android:textColor="@color/white"
+                    android:textSize="9sp" />
+
+            </RelativeLayout>
+
+            <com.jess.ui.TwoWayGridView
+                android:id="@+id/follow_gridview"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:scrollbars="none"
+                app:cacheColorHint="#E8E8E8"
+                app:columnWidth="50dp"
+                app:gravity="center_vertical"
+                app:horizontalSpacing="5dp"
+                app:numColumns="auto_fit"
+                app:numRows="1"
+                app:rowHeight="45dp"
+                app:scrollDirectionLandscape="horizontal"
+                app:scrollDirectionPortrait="horizontal"
+                app:stretchMode="spacingWidthUniform"
+                app:verticalSpacing="16dp" />
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="12dp"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:src="@drawable/live_cancel" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_income"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_gravity="left|top"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/bg_black_transparent"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:text="贡献榜"
+            android:textColor="#ff7e7e"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/tv_income"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="13131313"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/img_living_right_arrow" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_gifts_list_info"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="bottom"
+        android:background="#B2000000"
+        android:visibility="gone">
+
+        <com.handmark.pulltorefresh.library.PullToRefreshListView
+            android:id="@+id/ptrlv_gifts_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:animationCache="true"
+            android:background="@android:color/transparent"
+            android:divider="@null"
+            android:dividerHeight="0px"
+            android:fadingEdge="none"
+            android:listSelector="@android:color/transparent"
+            android:scrollbarStyle="outsideOverlay"
+            android:scrollingCache="true" />
+
+        <TextView
+            android:id="@+id/tv_no_gift_notice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawablePadding="10dp"
+            android:drawableTop="@drawable/live_gift_box"
+            android:gravity="center"
+            android:text="本场直播暂未收到礼物"
+            android:textColor="#4affffff"
+            android:textSize="14sp" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_connection_list"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="bottom"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tv_request_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="有2人请求连线" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="本场连线成功消耗十个麦粒，一次付费，可多次连接" />
+
+        <com.jess.ui.TwoWayGridView
+            android:id="@+id/gv_request_list"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:background="#f00"
+            android:scrollbars="none"
+            app:cacheColorHint="#E8E8E8"
+            app:columnWidth="50dp"
+            app:gravity="center_vertical"
+            app:horizontalSpacing="5dp"
+            app:numColumns="auto_fit"
+            app:numRows="1"
+            app:rowHeight="45dp"
+            app:scrollDirectionLandscape="horizontal"
+            app:scrollDirectionPortrait="horizontal"
+            app:stretchMode="spacingWidthUniform"
+            app:verticalSpacing="16dp" />
+    </LinearLayout>
+
+    <include layout="@layout/activity_living_user_information" />
+
+    <ListView
+        android:id="@+id/lv_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:animationCache="true"
+        android:background="@color/white"
+        android:divider="@null"
+        android:dividerHeight="0px"
+        android:fadingEdge="none"
+        android:listSelector="@android:color/transparent"
+        android:scrollbars="none"
+        android:visibility="gone" />
+
+    <GridView
+        android:id="@+id/gv_share"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#CCffffff"
+        android:horizontalSpacing="15dp"
+        android:layout_gravity="bottom"
+        android:numColumns="4"
+        android:verticalSpacing="15dp"
+        android:visibility="gone"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"/>
+
+    <include layout="@layout/item_hoster_add_manager" />
+
+    <include layout="@layout/item_hoster_add_manager_no" />
+
+    <FrameLayout
+        android:id="@+id/iv_blur"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</FrameLayout>

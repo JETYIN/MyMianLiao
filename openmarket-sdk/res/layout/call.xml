@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <com.openmarket.softphone.view.GLRemoteVideoView
+        android:id="@+id/call_remotevideoview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone" />
+
+    <com.openmarket.softphone.view.CameraPreview
+        android:id="@+id/call_camerapreview"
+        android:layout_width="144px"
+        android:layout_height="192px"
+        android:layout_gravity="left|bottom"
+        android:layout_margin="10dip"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/call_top_overlay"
+        android:layout_width="fill_parent"
+        android:layout_height="70dip"
+        android:layout_gravity="top|center_horizontal"
+        android:background="#99000000"
+        android:orientation="horizontal"
+        android:padding="10dip" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/call_name_text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="PEER NAME"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/call_status_text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="00:00"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/call_middle_overlay"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:background="@android:color/transparent"
+        android:orientation="vertical"
+        android:padding="10dip" >
+
+        <LinearLayout
+            android:id="@+id/top_middle_overlay"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <ToggleButton
+                android:id="@+id/call_mute_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="onMuteClick"
+                android:textOff="@string/om_mute"
+                android:textOn="@string/om_mute" />
+
+            <ToggleButton
+                android:id="@+id/call_speaker_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="onSpeakerClick"
+                android:textOff="@string/om_speaker"
+                android:textOn="@string/om_speaker" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bottom_middle_overlay"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false" >
+
+            <Button
+                android:id="@+id/toggleVideo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="onVideoToggleClick"
+                android:text="@string/om_enable_video" />
+
+            <Button
+                android:id="@+id/addUser"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="onAddUserClick"
+                android:text="@string/om_add_user" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/call_bottom_overlay"
+        android:layout_width="fill_parent"
+        android:layout_height="70dip"
+        android:layout_gravity="bottom|center_horizontal"
+        android:background="#99000000"
+        android:orientation="horizontal"
+        android:padding="10dip" >
+
+        <Button
+            android:id="@+id/call_bottom_btn_left"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:onClick="onLeftBottomClick"
+            android:text="@string/om_accept" />
+
+        <Button
+            android:id="@+id/call_bottom_btn_right"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:onClick="onRightBottomClick"
+            android:text="@string/om_reject" />
+
+        <Button
+            android:id="@+id/call_bottom_btn_single"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:onClick="onSingleBottomClick"
+            android:text="@string/om_end_call"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/call_touchlockoverlay"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#FF000000"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+    </LinearLayout>
+
+</FrameLayout>

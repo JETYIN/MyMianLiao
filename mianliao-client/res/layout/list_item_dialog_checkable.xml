@@ -1,0 +1,1 @@
+<CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android" style="@style/MianLiao.CardText" android:drawableLeft="@drawable/selector_btn_checkbox" android:drawablePadding="10dp" android:layout_height="match_parent" android:layout_width="match_parent" />

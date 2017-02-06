@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sv_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.tjut.mianliao.black.MagicLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:color_magic="0">
+
+        <com.tjut.mianliao.black.MagicRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@color/white"
+            app:color_magic="0">
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:text="@string/tribe_name"
+                android:textColor="#515151"
+                android:textSize="16sp"/>
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:id="@+id/tv_tribe_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="35dp"
+                android:textColor="#959595"
+                android:textSize="14sp"/>
+        </com.tjut.mianliao.black.MagicRelativeLayout>
+
+        <com.tjut.mianliao.theme.ThemeLineView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="15dp"/>
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            app:color_magic="0">
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="@string/tribe_desc"
+                android:textColor="#515151"
+                android:textSize="16sp"/>
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:id="@+id/tv_tribe_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:textColor="#959595"
+                android:textSize="14sp"/>
+        </com.tjut.mianliao.black.MagicLinearLayout>
+
+        <com.tjut.mianliao.theme.ThemeLineView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="15dp"/>
+
+        <com.tjut.mianliao.black.MagicRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@color/white"
+            app:color_magic="0">
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:text="@string/tribe_type"
+                android:textColor="#515151"
+                android:textSize="16sp"/>
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:id="@+id/tv_tribe_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="35dp"
+                android:textColor="#959595"
+                android:textSize="14sp"/>
+        </com.tjut.mianliao.black.MagicRelativeLayout>
+
+        <com.tjut.mianliao.theme.ThemeLineView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="15dp"/>
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:minHeight="77dp"
+            app:color_magic="0">
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="@string/tribe_rule"
+                android:textColor="#515151"
+                android:textSize="16sp"/>
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:id="@+id/tv_tribe_rule"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:textColor="#959595"
+                android:textSize="14sp"
+                android:paddingBottom="10dp"/>
+        </com.tjut.mianliao.black.MagicLinearLayout>
+
+        <com.tjut.mianliao.theme.ThemeLineView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="15dp"/>
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:background="@color/white"
+            android:paddingBottom="15dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:text="@string/tribe_chief"
+            android:textColor="#515151"
+            android:textSize="16sp"/>
+
+        <com.tjut.mianliao.component.ExpandableGridView
+            android:id="@+id/gv_tribe_chief"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            android:listSelector="@android:color/transparent"
+            android:numColumns="2"
+            android:stretchMode="columnWidth"/>
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+</ScrollView>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="dialog_top">#3b3449</color>
+    <color name="dialog_middle">#443e4f</color>
+    <color name="bg_basic">#F5F3EF</color>
+    <color name="white">#FFF</color>
+    <color name="dialog_night">#a5a3a9</color>
+    <color name="dialog_image_night">#a5a3a9</color>
+    <color name="news_bg_white">#F5F5F5</color>
+    <color name="hr_divider">#DFDFDF</color>
+    <color name="hr_divider_black">#3465538B</color>
+    <color name="btn_disabled">#DDDDDD</color>
+    <color name="opacity_50">#44000000</color>
+    <color name="btn_blue">#34CED9</color>
+    <color name="ref_friend">#7CBADB</color>
+    <color name="card_foreground">@color/white</color>
+    <color name="card_pressed">#44F7F5F2</color>
+    <color name="hr_divider_gray">#CCCCCC</color>
+    <color name="map_show_txt_color">#4D4D4D</color>
+    <color name="group_item_bg">#EDEDED</color>
+    <color name="roam_college_bg">#7D9EC0</color>
+    <color name="college_list_dialog_bg">#D11D2347</color>
+    <color name="college_search_cell_bg">#D11A203D</color>
+    <color name="college_search_list_bg">#D11D2347</color>
+    <color name="sign_in_day_item_dialog">#B7CBD3</color>
+    <color name="bg_black">#32000000</color>
+    <color name="bg_night_color">#211b2f</color>
+    <color name="hr_night_color">#272235</color>
+    <color name="dark_open_vip">#E60066</color>
+    <color name="wd_common">#ECEAEA</color>
+    
+
+    <!-- Shadow -->
+    <color name="text_shadow">#5000</color>
+
+    <!-- Contact -->
+    <color name="contact_info_color">#9F9792</color>
+
+    <!-- Add Contact -->
+    <color name="adc_face_match_desc">#FB735E</color>
+    <color name="adc_person_around_desc">#2BCF81</color>
+    <color name="adc_friend_recommend">#32BBBC</color>
+
+    <!-- text color -->
+    <color name="txt_black">#111</color>
+    <color name="txt_white">#EEEEEE</color>
+    <color name="txt_darkgray">#303030</color>
+    <color name="txt_lightgray">#979797</color>
+    <color name="txt_in_card">#5E5E5E</color>
+    <color name="txt_in_card_light">#A1A1A1</color>
+    <color name="txt_headline">#808080</color>
+    <color name="txt_color_red">#ff443b</color>
+    <color name="btn_white_txt">#31C4CE</color>
+    <color name="txt_more_menu">#565656</color>
+    <color name="txt_keyword">#67BE47</color>
+    <color name="txt_green">#3BBA68</color>
+    <color name="txt_green_75">#C03BBA68</color>
+    <color name="txt_green_smv_addr">#44b86b</color>
+
+    <!-- News -->
+    <color name="news_mark">#8E8E8E</color>
+    <color name="news_marked">#FA7886</color>
+    <color name="news_item_bg_black">#32000000</color>
+
+    <!-- News Comment -->
+    <color name="news_cmt_time">#A9A9A9</color>
+    <color name="news_cmt_content">#7A7A7A</color>
+    <color name="news_cmt_reply">#2E2E2E</color>
+
+    <!-- Curriculum -->
+    <color name="cur_color_number">#FFFFFF</color>
+    <color name="cur_border">#BFBFBF</color>
+    <color name="cur_cell_a">#4D000000</color>
+    <color name="cur_cell_b">#33000000</color>
+
+    <!-- Course Score -->
+    <!-- score >= 90 -->
+    <color name="course_score_1">#FF7979</color>
+    <!-- 70 <= score < 90 -->
+    <color name="course_score_2">#4ED9AD</color>
+    <!-- 50 <= score < 70 -->
+    <color name="course_score_3">#41D1D3</color>
+    <!-- score < 50 -->
+    <color name="course_score_4">#B588F1</color>
+
+    <!-- Notice -->
+    <color name="ntc_answer_accept_highlight">#F5A804</color>
+
+    <!-- Face Match -->
+    <color name="face_question_mark">#BAB19E</color>
+    <color name="face_info">#BAB19C</color>
+    <color name="face_similarity">#FF7979</color>
+
+    <array name="lesson_colors">
+        <item>#fda650</item>
+        <item>#f46e50</item>
+        <item>#4bb3ff</item>
+        <item>#ae98ff</item>
+        <item>#ff8c8c</item>
+        <item>#72cc3c</item>
+        <item>#c788cd</item>
+        <item>#ffd92a</item>
+        <item>#7896cc</item>
+        <item>#2ed8ec</item>
+        <item>#cda27e</item>
+    </array>
+
+    <!-- Forum List -->
+    <color name="txt_tab_item_grey">#807F7F</color>
+    <color name="txt_tab_item_green">#3ECD9B</color>
+    <color name="txt_tab_item_orange">#FECC2F</color>
+    <color name="txt_title_tab_item_text">#292929</color>
+    <color name="txt_tab_item_purple">#B95167</color>
+    <color name="txt_tab_item_normal">#515151</color>
+    <color name="txt_tab_item_normal_black">#fcdde4</color>
+    <color name="txt_tab_item_choosed">#ffffff</color>
+    <color name="txt_tab_item_forum">#6FAAF4</color>
+    <color name="txt_tab_item_forum_choosed_night">#221d2e</color>
+
+    <!-- Bounty tab -->
+    <color name="txt_bty_tab">#595959</color>
+    <color name="txt_bty_tab_selected">#34CED9</color>
+
+    <!-- Primary medal -->
+    <color name="mdl_primary">#6B5950</color>
+    <color name="mdl_empty">#D1C4B5</color>
+
+    <!-- Emotion picker -->
+    <color name="emo_picker_tab_bg">#AEAEAE</color>
+    <color name="emo_picker_tab_bg_chosen">@color/white</color>
+    <color name="emo_picker_tab_txt">@color/white</color>
+    <color name="emo_picker_tab_txt_chosen">#505050</color>
+
+    <!-- Attachment view -->
+    <color name="att_view_name_color">#2E2E2E</color>
+    <color name="att_view_size_color">#A2A2A2</color>
+    <color name="atta_txt_green">#44b86b</color>
+
+    <!-- Post Action -->
+    <color name="bg_post_action">#F2F2F2</color>
+    <color name="bg_post_action_pressed">#DADADA</color>
+    <color name="bg_post_action_liked">#FF6b80</color>
+    <color name="bg_post_action_liked_pressed">#C0FF6b80</color>
+
+    <!-- Chat Item -->
+    <color name="chat_item_me">@color/white</color>
+    <color name="chat_item_me_disabled">#E8E8E8</color>
+    <color name="chat_item_other">#484848</color>
+    <color name="chat_item_other_disabled">#AAAAAA</color>
+
+    <!-- Channel -->
+    <color name="channel_post_reply_name">#68AAFD</color>
+    <color name="transparent">#0000</color>
+    
+    <!-- LetterBarView -->
+    <color name="letter_bar_state_pressed">#33000000</color>
+    
+    <color name="biz_audio_progress_bg">#ff0000</color>
+    <color name="biz_audio_progress_first">#ffffff</color>
+    <color name="biz_audio_progress_second">#6b6666</color>
+
+    <color name="default_bg">#aa000000</color>
+    <!--special color-->
+    <color name="black_a10_color">#1a000000</color>
+    <color name="white_fafaf8">#fafaf8</color>
+
+    
+    <color name="uvv_gray">#969696</color>
+    <color name="uvv_black">#ff000000</color>
+    <color name="uvv_light_gray">#ffF0F0F0</color>
+    <color name="uvv_titlebar_bg">#7f000000</color>
+    
+    <color name="radiobg_press">#43859d</color>
+    <color name="radiobg_normal">#555555</color>
+
+    <color name="right_cancel">#B2ffffff</color>
+</resources>

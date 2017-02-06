@@ -1,0 +1,7 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="vertical">
+
+    <com.tjut.mianliao.theme.ThemeTextView android:background="@drawable/bg_card_head_noline" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/card_margin_horizontal" android:layout_marginRight="@dimen/card_margin_horizontal" android:layout_marginTop="@dimen/card_item_spacing" android:layout_width="match_parent" android:paddingLeft="20dp" android:paddingTop="10dp" android:text="@string/points_my_quests" android:textColor="@color/txt_in_card" android:textSize="14sp" />
+
+    <include layout="@layout/list_item_quest" />
+
+</com.tjut.mianliao.black.MagicLinearLayout>

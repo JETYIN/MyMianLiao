@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_activated="true" android:color="@android:color/white"/>
+    <item android:color="@color/qupai_gray_0x8c"/>
+
+</selector><!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/color/qupai_effect_chooser_item_text_long.xml -->

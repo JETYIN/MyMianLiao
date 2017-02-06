@@ -1,0 +1,276 @@
+# To enable ProGuard in your project, edit project.properties
+# to define the proguard.config property as described in that file.
+#
+# Add project specific ProGuard rules here.
+# By default, the flags in this file are appended to flags specified
+# in ${sdk.dir}/tools/proguard/proguard-android.txt
+# You can edit the include path and order by changing the ProGuard
+# include property in project.properties.
+#
+# For more details, see
+#   http://developer.android.com/guide/developing/tools/proguard.html
+
+# Add any project specific keep options here:
+
+# If your project uses WebView with JS, uncomment the following
+# and specify the fully qualified class name to the JavaScript interface
+# class:
+#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
+#   public *;
+#}
+
+-dontusemixedcaseclassnames
+-dontskipnonpubliclibraryclasses
+-verbose
+-ignorewarnings
+
+# GCM service
+-dontwarn com.google.android.gcm.**
+
+# umeng sdk
+-dontshrink
+-dontoptimize
+-dontwarn android.webkit.WebView
+-dontwarn com.umeng.**
+-dontwarn com.tencent.weibo.sdk.**
+
+-libraryjars ../umeng-social-lib/libs/SocialSDK_QQZone_2.jar
+
+-keepattributes Exceptions,InnerClasses,Signature
+-keepattributes *Annotation*
+-keepattributes SourceFile,LineNumberTable
+
+-keep public interface com.tencent.**
+-keep public interface com.umeng.socialize.**
+-keep public interface com.umeng.socialize.sensor.**
+
+-keep public class com.umeng.socialize.* {*;}
+-keep public class javax.**
+-keep public class android.webkit.**
+
+-keep public class com.tencent.** {*;}
+-keep class com.umeng.socialize.sensor.**
+
+-keep class com.tencent.mm.sdk.modelmsg.WXMediaMessage {*;}
+
+-keep class com.tencent.mm.sdk.modelmsg.** implements com.tencent.mm.sdk.modelmsg.WXMediaMessage$IMediaObject {*;}
+
+-libraryjars ../tuSdk/libs/TuSDKCore-2.4.0.jar
+-libraryjars ../tuSdk/libs/TuSDKGee-1.9.0.jar
+
+-keep class org.lasque.tusdk.*
+-keep class org.lasque.tusdk.modules.*
+-keep class org.lasque.tusdk.core.**{ *; }
+-keep class org.lasque.tusdk.impl.**{ *; }
+-keep class org.lasque.tusdk.impl.components.**{ *; }
+-keep class org.lasque.tusdk.modules.components.**{ *; }
+
+-keep class com.tjut.mianliao.common.TuSdkEditImageHelper
+-keep class com.tjut.mianliao.util.GetImageHelper
+
+# pinyin4j
+-dontwarn net.sourceforge.pinyin4j.*
+-dontwarn com.hp.hpl.sparta.*
+
+# tencent pigeon
+-keep public class * extends android.app.Service
+-keep public class * extends android.content.BroadcastReceiver
+-keep class com.tencent.android.tpush.**  {* ;}
+-keep class com.tencent.mid.**  {* ;}
+
+# baidu ditu
+-keep class com.baidu.** { *; }
+-keep class vi.com.gdi.bgl.android.** {*;}
+
+-keep class com.baidu.navisdk.** {*;}
+-keep interface com.baidu.navisdk.** {*;}
+-dontwarn com.baidu.navisdk.**
+
+-keep class com.sinovoice.hcicloudsdk.** {*;}
+-keep interface com.sinovoice.hcicloudsdk.** {*;}
+-dontwarn com.sinovoice.hcicloudsdk.**
+
+
+# avatar system
+-keep class org.cocos2dx.lib.** {*;}
+-keep interface org.cocos2dx.lib.** {*;}
+
+-keep class com.chukong.cocosplay.client.** {*;}
+-keep interface com.chukong.cocosplay.client.** {*;}
+
+-keep class **.R$* { *; } #保持R文件不被混淆，否则，反射是获取不到资源id的 
+
+-keep class com.tjut.mianliao.cocos2dx.** {*;}
+-keep interface com.tjut.mianliao.cocos2dx.** {*;}
+
+# OneSdk--qupai
+-ignorewarnings
+-dontwarn com.alibaba.**
+-keep class com.alibaba.**
+-keepclassmembers class com.alibaba.** {
+    *;
+}
+-keep class com.taobao.**
+-keepclassmembers class com.taobao.** {
+    *;
+}
+
+-dontwarn com.google.common.**
+-dontwarn com.amap.api.**
+-dontwarn net.jcip.annotations.**
+
+-keepattributes Annotation,EnclosingMethod,Signature,InnerClasses
+
+-keep class com.duanqu.**
+-keepclassmembers class com.duanqu.** {
+    *;
+}
+
+-dontwarn org.apache.http.**
+-keepclassmembers class org.apache.http.** {
+    *;
+}
+-dontwarn com.taobao.update.**
+
+-dontwarn android.util.**
+
+-dontwarn com.google.auto.factory.**
+
+-dontwarn com.taobao.tae.sdk.callback.**
+
+-ignorewarnings
+-keepnames class com.fasterxml.jackson.** { *; }
+-dontwarn com.fasterxml.jackson.databind.**
+-keep class org.codehaus.** { *; }
+-keepclassmembers public final enum org.codehaus.jackson.annotate.JsonAutoDetect$Visibility {
+public static final org.codehaus.jackson.annotate.JsonAutoDetect$Visibility *; }
+-keep interface com.j256.**
+-keepclassmembers interface com.j256.** { *; }
+-keep enum com.j256.**
+-keepclassmembers enum com.j256.** { *; }
+-keep class com.j256.**
+-keepclassmembers class com.j256.** { *; }
+
+# uppay
+-optimizationpasses 5
+-dontusemixedcaseclassnames
+-dontskipnonpubliclibraryclasses
+-verbose
+-dontoptimize
+-optimizations !code/simplification/arithmetic,!field/*,!class/merging/*
+
+-keep public class * extends android.app.Activity
+-keep public class * extends android.app.Application
+-keep public class * extends android.app.Service
+-keep public class * extends android.content.BroadcastReceiver
+-keep public class * extends android.content.ContentProvider
+-keep public class * extends android.app.backup.BackupAgentHelper
+-keep public class * extends android.preference.Preference
+-keep public class com.android.vending.licensing.ILicensingService
+
+
+-keep  public class com.unionpay.uppay.net.HttpConnection {
+	public <methods>;
+}
+-keep  public class com.unionpay.uppay.net.HttpParameters {
+	public <methods>;
+}
+-keep  public class com.unionpay.uppay.model.BankCardInfo {
+	public <methods>;
+}
+-keep  public class com.unionpay.uppay.model.PAAInfo {
+	public <methods>;
+}
+-keep  public class com.unionpay.uppay.model.ResponseInfo {
+	public <methods>;
+}
+-keep  public class com.unionpay.uppay.model.PurchaseInfo {
+	public <methods>;
+}
+-keep  public class com.unionpay.uppay.util.DeviceInfo {
+	public <methods>;
+}
+-keep  public class java.util.HashMap {
+	public <methods>;
+}
+-keep  public class java.lang.String {
+	public <methods>;
+}
+-keep  public class java.util.List {
+	public <methods>;
+}
+-keep  public class com.unionpay.uppay.util.PayEngine {
+	public <methods>;
+	native <methods>;
+}
+
+-keepclasseswithmembernames class * {
+    native <methods>;
+}
+
+-keepclasseswithmembers class * {
+    public <init>(android.content.Context, android.util.AttributeSet);
+}
+
+-keepclasseswithmembers class * {
+    public <init>(android.content.Context, android.util.AttributeSet, int);
+}
+
+-keepclassmembers class * extends android.app.Activity {
+   public void *(android.view.View);
+}
+
+-keepclassmembers enum * {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}
+
+-keep class * implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator *;
+}
+
+-keep  public class com.unionpay.utils.UPUtils {
+	native <methods>;
+}
+ # picasso
+-dontwarn com.squareup.picasso.**
+
+ # live -le
+-keep class com.letv.** { *;}
+-keep class com.lecloud.** {*;}
+-keep class android.webkit.** { *;}
+
+-dontwarn com.avdmg.avdsmart.**
+-dontwarn com.lecloud.**
+-dontwarn com.letv.adlib.**
+-dontwarn com.letv.play.**
+-dontwarn com.letv.pp.**
+-dontwarn org.rajawali3d.**
+-dontwarn android.webkit.**
+-dontwarn com.letv.universal.widget.**
+
+# ping ++
+-dontwarn com.alipay.**
+-keep class com.alipay.** {*;}
+
+-dontwarn  com.ta.utdid2.**
+-keep class com.ta.utdid2.** {*;}
+
+-dontwarn  com.ut.device.**
+-keep class com.ut.device.** {*;}
+
+-dontwarn  com.tencent.**
+-keep class com.tencent.** {*;}
+
+-dontwarn  com.unionpay.**
+-keep class com.unionpay.** {*;}
+
+-dontwarn com.pingplusplus.**
+-keep class com.pingplusplus.** {*;}
+
+-dontwarn com.baidu.**
+-keep class com.baidu.** {*;}
+
+-keepclassmembers class * {
+    @android.webkit.JavascriptInterface <methods>;
+}

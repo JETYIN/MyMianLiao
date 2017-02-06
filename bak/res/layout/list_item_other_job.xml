@@ -1,0 +1,9 @@
+<com.tjut.mianliao.black.MagicRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/selector_bg_item" android:layout_height="46dp" android:layout_width="match_parent">
+
+    <com.tjut.mianliao.theme.ThemeTextView android:id="@+id/tv_job_desc" android:layout_centerVertical="true" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginRight="90dp" android:layout_width="wrap_content" android:textColor="#424242" android:textSize="16sp" />
+
+    <com.tjut.mianliao.theme.ThemeTextView android:background="@drawable/selector_btn_blue" android:gravity="center" android:id="@+id/tv_action" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_height="31dp" android:layout_marginRight="12dp" android:layout_width="wrap_content" android:paddingLeft="10dp" android:paddingRight="10dp" android:text="@string/job_take_a_look" android:textColor="@color/white" android:textSize="15sp" />
+
+    <View android:background="@color/hr_divider" android:layout_alignParentBottom="true" android:layout_height="1px" android:layout_width="match_parent" />
+
+</com.tjut.mianliao.black.MagicRelativeLayout>

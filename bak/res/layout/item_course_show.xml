@@ -1,0 +1,144 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_course_remind"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.tjut.mianliao.black.MagicFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.tjut.mianliao.theme.ThemeImageView
+            android:id="@+id/iv_bg_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/pic_bg_class_title"/>
+
+        <com.tjut.mianliao.theme.ThemeImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/pic_clock"/>
+
+        <TextView
+            android:id="@+id/tv_remind_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:paddingTop="18dp"
+            android:text="10:00"
+            android:textColor="@color/white"
+            android:textSize="12sp"/>
+    </com.tjut.mianliao.black.MagicFrameLayout>
+
+    <com.tjut.mianliao.black.MagicFrameLayout
+        android:id="@+id/fl_class_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/pic_bg_class_white">
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:baselineAligned="false"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <com.tjut.mianliao.black.MagicRelativeLayout
+                android:id="@+id/rl_course_show"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp">
+
+                <com.tjut.mianliao.black.MagicLinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true">
+
+                    <com.tjut.mianliao.theme.ThemeTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/cur_di"
+                        android:textSize="12sp"/>
+
+                    <com.tjut.mianliao.theme.ThemeTextView
+                        android:id="@+id/tv_course_pitch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:textStyle="bold"/>
+
+                    <com.tjut.mianliao.theme.ThemeTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/cur_jie"
+                        android:textSize="12sp"/>
+                </com.tjut.mianliao.black.MagicLinearLayout>
+
+                <com.tjut.mianliao.theme.ThemeTextView
+                    android:id="@+id/tv_course_addr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:textSize="12sp"/>
+            </com.tjut.mianliao.black.MagicRelativeLayout>
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:id="@+id/tv_course_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15sp"
+                android:singleLine="true"
+                android:maxLength="8"
+                android:textSize="12sp"
+                android:textStyle="bold"/>
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:id="@+id/tv_course_teacher"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15sp"
+                android:maxLength="6"
+                android:textColor="#8C8C8C"
+                android:textSize="12sp"/>
+        </com.tjut.mianliao.black.MagicLinearLayout>
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            android:id="@+id/ll_add_class"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal"
+            android:paddingTop="20dp"
+            android:visibility="gone">
+
+            <com.tjut.mianliao.theme.ThemeImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bottom_icon_class_plus"/>
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:text="@string/mc_click_add_class"
+                android:textColor="#8B8B8B"
+                android:layout_gravity="center_vertical"
+                android:textSize="12sp"/>
+        </com.tjut.mianliao.black.MagicLinearLayout>
+    </com.tjut.mianliao.black.MagicFrameLayout>
+
+</com.tjut.mianliao.black.MagicLinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tjut.mianliao.black.MagicRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_content"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="@color/white"
+    android:clickable="true"
+    android:onClick="onClick"
+    android:orientation="vertical"
+    app:color_magic="0">
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textColor="#9b9a9a"
+        android:textSize="15sp">
+    </com.tjut.mianliao.theme.ThemeTextView>
+
+   <View
+        android:id="@+id/line_view"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_alignParentBottom="true"
+        android:background="#E6E6E6"/>
+
+</com.tjut.mianliao.black.MagicRelativeLayout>

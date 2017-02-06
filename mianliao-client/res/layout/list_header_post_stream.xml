@@ -1,0 +1,14 @@
+<com.tjut.mianliao.black.MagicFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.tjut.mianliao.black.MagicLinearLayout
+        android:id="@+id/ll_top_five"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        app:color_magic="0"/>
+
+</com.tjut.mianliao.black.MagicFrameLayout>

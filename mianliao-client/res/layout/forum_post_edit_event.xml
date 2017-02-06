@@ -1,0 +1,45 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@drawable/bg_item_with_bottom_line_last" android:layout_height="wrap_content" android:layout_width="wrap_content" android:orientation="vertical">
+
+    <include layout="@layout/hr_divider" />
+
+    <com.tjut.mianliao.component.CardItemConf app:cardHint="@string/field_tbd" app:cardTitle="@string/fe_start_at" android:id="@+id/cif_start_at" android:layout_height="wrap_content" android:layout_width="match_parent" />
+
+    <include layout="@layout/hr_divider" />
+
+    <com.tjut.mianliao.component.CardItemConf app:cardHint="@string/field_tbd" app:cardTitle="@string/fe_reg_deadline" android:id="@+id/cif_reg_deadline" android:layout_height="wrap_content" android:layout_width="match_parent" />
+
+    <include layout="@layout/hr_divider" />
+
+    <com.tjut.mianliao.component.CardItemBase app:cardTitle="@string/fe_feature" android:layout_height="wrap_content" android:layout_width="match_parent">
+
+        <EditText style="@style/MianLiao.EditText.InCard" android:hint="@string/fe_feature_hint" android:id="@+id/et_feature" android:layout_height="wrap_content" android:layout_marginRight="@dimen/card_margin_horizontal" android:layout_width="match_parent" android:maxLength="100" android:singleLine="true" />
+    </com.tjut.mianliao.component.CardItemBase>
+
+    <include layout="@layout/hr_divider" />
+
+    <com.tjut.mianliao.component.CardItemBase app:cardTitle="@string/fe_location" android:layout_height="wrap_content" android:layout_width="match_parent">
+
+        <EditText style="@style/MianLiao.EditText.InCard" android:hint="@string/fe_location_hint" android:id="@+id/et_location" android:layout_height="wrap_content" android:layout_marginRight="@dimen/card_margin_horizontal" android:layout_width="match_parent" android:maxLength="100" android:singleLine="true" />
+    </com.tjut.mianliao.component.CardItemBase>
+
+    <include layout="@layout/hr_divider" />
+
+    <com.tjut.mianliao.component.CardItemBase app:cardTitle="@string/fe_cost" android:layout_height="wrap_content" android:layout_width="match_parent">
+
+        <EditText style="@style/MianLiao.EditText.InCard" android:hint="@string/fe_cost_hint" android:id="@+id/et_cost" android:layout_height="wrap_content" android:layout_marginRight="@dimen/card_margin_horizontal" android:layout_width="match_parent" android:maxLength="100" android:singleLine="true" />
+    </com.tjut.mianliao.component.CardItemBase>
+
+    <include layout="@layout/hr_divider" />
+
+    <com.tjut.mianliao.component.CardItemBase app:cardTitle="@string/fe_contact" android:layout_height="wrap_content" android:layout_width="match_parent">
+
+        <EditText style="@style/MianLiao.EditText.InCard" android:hint="@string/fe_contact_hint" android:id="@+id/et_contact" android:layout_height="wrap_content" android:layout_marginRight="@dimen/card_margin_horizontal" android:layout_width="match_parent" android:maxLength="100" android:singleLine="true" />
+    </com.tjut.mianliao.component.CardItemBase>
+
+    <include layout="@layout/hr_divider" />
+
+    <com.tjut.mianliao.component.CardItemBase app:cardTitle="@string/fe_quota" android:layout_height="wrap_content" android:layout_width="match_parent">
+
+        <EditText style="@style/MianLiao.EditText.InCard" android:hint="@string/fe_quota_hint" android:id="@+id/et_quota" android:inputType="number" android:layout_height="wrap_content" android:layout_marginRight="@dimen/card_margin_horizontal" android:layout_width="match_parent" android:maxLength="10" android:singleLine="true" />
+    </com.tjut.mianliao.component.CardItemBase>
+</com.tjut.mianliao.black.MagicLinearLayout>

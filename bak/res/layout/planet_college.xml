@@ -1,0 +1,24 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_planet_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bg_bt_roam_title"
+        android:gravity="center_horizontal|bottom"
+        android:paddingBottom="6dp"
+        android:textColor="#8d8e8e"
+        android:textSize="13sp"/>
+
+    <com.tjut.mianliao.theme.ThemeImageView
+        android:id="@+id/iv_planet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"/>
+
+</com.tjut.mianliao.black.MagicLinearLayout>

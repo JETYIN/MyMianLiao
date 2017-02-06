@@ -1,0 +1,7 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/ll_msg_loc" android:layout_height="wrap_content" android:layout_width="wrap_content" android:orientation="vertical">
+
+    <com.tjut.mianliao.component.StaticMapView android:id="@+id/smv_msg_map" android:layout_height="80dp" android:layout_width="180dp" />
+
+    <com.tjut.mianliao.theme.ThemeTextView android:id="@+id/tv_msg_addr" android:layout_height="wrap_content" android:layout_width="wrap_content" android:maxWidth="180dp" android:padding="2dp" android:textColor="#44B86B" android:textSize="12sp" />
+
+</com.tjut.mianliao.black.MagicLinearLayout>

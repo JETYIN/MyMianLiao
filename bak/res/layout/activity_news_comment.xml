@@ -1,0 +1,10 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical">
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView android:divider="@color/hr_divider" android:dividerHeight="1px" android:id="@+id/ptrlv_news_comments" android:layout_height="0dp" android:layout_weight="1" android:layout_width="match_parent" android:listSelector="@null" android:overScrollFooter="@null" android:overScrollHeader="@null" android:scrollbarStyle="outsideOverlay" />
+
+    <com.tjut.mianliao.black.MagicFrameLayout android:background="@drawable/bg_navi_bar" android:layout_height="@dimen/navi_bar_height" android:layout_width="match_parent">
+
+        <com.tjut.mianliao.theme.ThemeTextView android:background="@drawable/selector_btn_orange" android:clickable="true" android:gravity="center" android:id="@+id/tv_comment" android:layout_gravity="center" android:layout_height="35dp" android:layout_width="180dp" android:onClick="onClick" android:text="@string/rpl_title_comment" android:textColor="@color/selector_pb_color" android:textSize="15sp" />
+    </com.tjut.mianliao.black.MagicFrameLayout>
+
+</com.tjut.mianliao.black.MagicLinearLayout>

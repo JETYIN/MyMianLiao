@@ -1,0 +1,40 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <com.tjut.mianliao.component.MLViewPager
+        android:id="@+id/vp_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <com.tjut.mianliao.theme.ThemeImageView
+        android:id="@+id/iv_left"
+        android:layout_width="@dimen/default_btn_size"
+        android:layout_height="@dimen/default_btn_size"
+        android:layout_gravity="center_vertical"
+        android:scaleType="center"
+        android:src="@drawable/selector_btn_left"
+        tools:ignore="ContentDescription"
+        android:visibility="gone"/>
+
+    <com.tjut.mianliao.theme.ThemeImageView
+        android:id="@+id/iv_right"
+        android:layout_width="@dimen/default_btn_size"
+        android:layout_height="@dimen/default_btn_size"
+        android:layout_gravity="right|center_vertical"
+        android:scaleType="center"
+        android:src="@drawable/selector_btn_right"
+        tools:ignore="ContentDescription"
+        android:visibility="gone"/>
+
+    <com.tjut.mianliao.component.PageIndicator
+        android:id="@+id/pi_switcher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="5dp"
+        app:dotColor="#99FFFFFF"
+        app:dotColorSelected="#3ECD9B"
+        app:dotSize="12dp"/>
+
+</merge>

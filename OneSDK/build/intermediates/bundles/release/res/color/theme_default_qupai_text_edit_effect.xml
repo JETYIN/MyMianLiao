@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:state_activated="true" android:color="@color/defalut_primary_color"/>
+  <item android:color="@color/qupai_gray_0x80"/>
+</selector>
+<!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/color/theme_default_qupai_text_edit_effect.xml -->

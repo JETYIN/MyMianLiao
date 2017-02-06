@@ -1,0 +1,7 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical">
+
+    <com.tjut.mianliao.component.ProImageView android:layout_height="200dp" android:layout_width="match_parent" />
+    
+     <com.handmark.pulltorefresh.library.PullToRefreshListView android:background="@color/news_bg_white" android:divider="@null" android:id="@+id/ptr_emotions" android:layout_height="0dp" android:layout_weight="1" android:layout_width="match_parent" android:listSelector="@color/news_bg_white" android:scrollbarStyle="outsideOverlay" />
+
+</com.tjut.mianliao.black.MagicLinearLayout>

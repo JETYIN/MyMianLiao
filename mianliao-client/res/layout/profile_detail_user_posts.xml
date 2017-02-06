@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tjut.mianliao.component.StickyPtrListView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ptr_list_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:animationCache="true"
+    android:background="@android:color/transparent"
+    android:divider="@null"
+    android:dividerHeight="0px"
+    android:listSelector="@android:color/transparent"
+    android:scrollbarStyle="outsideOverlay"
+    android:scrollbars="none"
+    android:scrollingCache="true"/>

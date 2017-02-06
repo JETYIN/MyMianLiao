@@ -1,0 +1,173 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_note"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_note_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/pic_bg_memo_title"
+        android:gravity="center"
+        android:text="@string/note_post_note"
+        android:textColor="@color/white"
+        android:textSize="15sp"/>
+
+    <com.tjut.mianliao.black.MagicFrameLayout
+        android:id="@+id/fl_memo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/pic_bg_memo_white">
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            android:id="@+id/ll_note_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.tjut.mianliao.black.MagicLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal"
+                android:paddingRight="15dp">
+
+                <com.tjut.mianliao.black.MagicLinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+                </com.tjut.mianliao.black.MagicLinearLayout>
+
+                <com.tjut.mianliao.black.MagicLinearLayout
+                    android:id="@+id/ll_note_memo"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/iv_memo_logo"
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"/>
+
+                    <com.tjut.mianliao.theme.ThemeTextView
+                        android:id="@+id/tv_note_memo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:maxLines="1"
+                        android:textColor="#8C8C8C"
+                        android:textSize="10sp"/>
+                </com.tjut.mianliao.black.MagicLinearLayout>
+            </com.tjut.mianliao.black.MagicLinearLayout>
+
+            <com.tjut.mianliao.black.MagicLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal"
+                android:paddingRight="15dp">
+
+                <com.tjut.mianliao.black.MagicLinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="7">
+                </com.tjut.mianliao.black.MagicLinearLayout>
+
+                <com.tjut.mianliao.black.MagicLinearLayout
+                    android:id="@+id/ll_note_note"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_weight="13">
+
+                    <ImageView
+                        android:id="@+id/iv_note_logo"
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"/>
+
+                    <com.tjut.mianliao.theme.ThemeTextView
+                        android:id="@+id/tv_note_note"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:maxLines="1"
+                        android:textColor="#8C8C8C"
+                        android:textSize="10sp"/>
+                </com.tjut.mianliao.black.MagicLinearLayout>
+            </com.tjut.mianliao.black.MagicLinearLayout>
+
+            <com.tjut.mianliao.black.MagicLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal"
+                android:paddingRight="15dp">
+
+                <com.tjut.mianliao.black.MagicLinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+                </com.tjut.mianliao.black.MagicLinearLayout>
+
+                <com.tjut.mianliao.black.MagicLinearLayout
+                    android:id="@+id/ll_note_hw"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/iv_hw_logo"
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"/>
+
+                    <com.tjut.mianliao.theme.ThemeTextView
+                        android:id="@+id/tv_note_hw"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:maxLines="1"
+                        android:textColor="#8C8C8C"
+                        android:textSize="10sp"/>
+                </com.tjut.mianliao.black.MagicLinearLayout>
+            </com.tjut.mianliao.black.MagicLinearLayout>
+        </com.tjut.mianliao.black.MagicLinearLayout>
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            android:id="@+id/ll_add_note"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:paddingTop="20dp"
+            android:visibility="gone">
+
+            <com.tjut.mianliao.theme.ThemeImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bottom_icon_class_plus"/>
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="7dp"
+                android:text="@string/mc_click_add_note"
+                android:textColor="#8B8B8B"
+                android:textSize="12sp"/>
+        </com.tjut.mianliao.black.MagicLinearLayout>
+    </com.tjut.mianliao.black.MagicFrameLayout>
+
+</com.tjut.mianliao.black.MagicLinearLayout>

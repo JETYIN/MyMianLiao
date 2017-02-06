@@ -1,0 +1,84 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_emotions"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <com.tjut.mianliao.component.PageIndicator
+        android:id="@+id/pi_emotions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        app:dotSize="14dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/img_living_contact_light" />
+
+            <TextView
+                android:id="@+id/tv_wealth_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30dp"
+                android:gravity="center"
+                android:text="100"
+                android:textColor="#B2ffffff"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_my_gold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:text="充值:0"
+                android:textColor="#e7a90d"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_send_gift"
+            android:layout_width="73dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/bg_live_gift_send"
+            android:gravity="center"
+            android:text="发送"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_timer_count"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/bg_circle_live_gift"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:shadowDx="50"
+            android:text="10"
+            android:textColor="@color/white"
+            android:visibility="gone" />
+    </RelativeLayout>
+</merge>

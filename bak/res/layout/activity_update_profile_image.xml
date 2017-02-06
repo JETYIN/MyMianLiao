@@ -1,0 +1,54 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.tjut.mianliao.black.MagicLinearLayout
+        android:id="@+id/ll_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <com.tjut.mianliao.component.ProImageView
+            android:id="@+id/piv_image"
+            android:layout_width="match_parent"
+            android:layout_height="360dp"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:scaleType="fitXY"
+            android:src="@drawable/pic_prof_scene" />
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:id="@+id/tv_change"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="87dp"
+            android:background="@drawable/bg_change_bg_blue"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:padding="10dp"
+            android:text="@string/prof_update_bg"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:visibility="gone" />
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:id="@+id/tv_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="28dp"
+            android:background="@drawable/bg_save_white"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:padding="10dp"
+            android:text="@string/prof_save"
+            android:textColor="#9A9A9A"
+            android:textSize="15sp" />
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+</ScrollView>

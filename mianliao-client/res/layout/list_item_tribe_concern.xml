@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center_vertical">
+
+    <com.tjut.mianliao.component.AvatarView
+        android:id="@+id/piv_tribe_logo"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:scaleType="fitXY"
+        app:borderType="roundCorner"
+        app:cornerRadius="5dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@id/piv_tribe_logo"
+        android:orientation="vertical">
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:id="@+id/tv_tribe_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#515151"
+            android:textSize="17sp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:id="@+id/tv_post_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/cicre_tribe"
+                android:drawablePadding="5dp"
+                android:textColor="#9B9A9A"
+                android:textSize="10sp"/>
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:id="@+id/tv_people_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:drawableLeft="@drawable/cicre_tribe"
+                android:drawablePadding="5dp"
+                android:textColor="#9B9A9A"
+                android:textSize="10sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dp"
+        android:textColor="#9D9D9D"
+        android:textSize="14sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="15dp"
+        android:background="#e6e6e6"/>
+
+</RelativeLayout>

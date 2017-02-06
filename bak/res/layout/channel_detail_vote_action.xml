@@ -1,0 +1,78 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="vertical"
+    app:color_magic="0" >
+
+    <com.tjut.mianliao.theme.ThemeLineView
+        android:id="@+id/view_up_line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#E6E6E6" />
+
+    <com.tjut.mianliao.black.MagicLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:orientation="horizontal"
+        app:color_magic="0" >
+
+        <com.tjut.mianliao.theme.ThemeLineView
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="#CCCCCC" />
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            android:id="@+id/ll_share_vote"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            app:color_magic="0" >
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/icon_share_hover"
+                android:drawablePadding="5dp"
+                android:gravity="center"
+                android:text="@string/share"
+                android:textColor="#999999"
+                android:textSize="11sp" />
+        </com.tjut.mianliao.black.MagicLinearLayout>
+
+        <com.tjut.mianliao.theme.ThemeImageView
+            android:layout_width="1px"
+            android:layout_height="wrap_content"
+            android:background="@drawable/normal_pic_vertical"
+            android:contentDescription="@null" />
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            android:id="@+id/ll_comment_vote"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            app:color_magic="0" >
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:id="@+id/tv_comment_vote"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/buttom_comment"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/channel_comment"
+                android:textColor="#999999"
+                android:textSize="11sp" />
+        </com.tjut.mianliao.black.MagicLinearLayout>
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+    <com.tjut.mianliao.theme.ThemeImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/img_solid_split"
+        android:contentDescription="@null" />
+
+</com.tjut.mianliao.black.MagicLinearLayout>

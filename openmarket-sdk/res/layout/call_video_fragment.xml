@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <com.openmarket.softphone.view.GLRemoteVideoView
+        android:id="@+id/call_remotevideoview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <com.openmarket.softphone.view.CameraPreview
+        android:id="@+id/call_camerapreview"
+        android:layout_width="144px"
+        android:layout_height="192px"
+        android:layout_gravity="left|bottom"
+        android:layout_margin="10dip" />
+
+</FrameLayout>

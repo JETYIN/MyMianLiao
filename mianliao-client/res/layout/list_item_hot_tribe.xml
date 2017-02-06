@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="68dp"
+    android:paddingLeft="15dp">
+
+    <com.tjut.mianliao.component.AvatarView
+        android:id="@+id/piv_tribe_logo"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="14dp"
+        android:layout_marginTop="14dp"
+        android:scaleType="fitXY"
+        app:borderType="roundCorner"
+        app:cornerRadius="5dp"/>
+
+    <LinearLayout
+        android:id="@+id/ll_title_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="13dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/piv_tribe_logo"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_tribe_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#515151"
+            android:textSize="17sp"/>
+
+        <TextView
+            android:id="@+id/tv_tribe_describe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLength="15"
+            android:textColor="#a7a7a7"
+            android:textSize="11sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_post_num"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/cicre_tribe"
+            android:drawablePadding="5dp"
+            android:gravity="left"
+            android:textColor="#cbcbcb"
+            android:textSize="10sp"/>
+
+        <TextView
+            android:id="@+id/tv_people_num"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/cicre_tribe"
+            android:drawablePadding="5dp"
+            android:gravity="left"
+            android:textColor="#cbcbcb"
+            android:textSize="10sp"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="2dp"
+        android:background="#e6e6e6"/>
+
+</RelativeLayout>

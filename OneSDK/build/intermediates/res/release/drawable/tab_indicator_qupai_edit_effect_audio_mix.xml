@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@color/qupai_gray_0x33" android:state_activated="true"/>
+    <item android:drawable="@color/qupai_gray_0x19"/>
+
+</selector><!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/drawable/tab_indicator_qupai_edit_effect_audio_mix.xml -->

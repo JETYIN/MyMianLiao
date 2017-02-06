@@ -1,0 +1,223 @@
+<com.tjut.mianliao.black.MagicRelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ScrollView
+        android:id="@+id/ll_vip_home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#E6E6E6" />
+
+            <LinearLayout
+                android:id="@+id/lv_vip_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:orientation="vertical" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginTop="15dp" />
+
+            <com.tjut.mianliao.black.MagicLinearLayout
+                android:id="@+id/ll_bottom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <com.tjut.mianliao.theme.ThemeTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:text="@string/emo_recharge_pay_way" />
+
+                <com.tjut.mianliao.black.MagicLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/white"
+                    android:orientation="vertical"
+                    app:color_magic="0" >
+
+                    <com.tjut.mianliao.black.MagicRelativeLayout
+                        android:id="@+id/rl_pay_balance"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:onClick="onClick"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp" >
+
+                        <com.tjut.mianliao.theme.ThemeTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerInParent="true"
+                            android:layout_marginLeft="15dp"
+                            android:drawableLeft="@drawable/bottom_icon_smallgolden"
+                            android:drawablePadding="5dp"
+                            android:text="@string/pay_money_by_ml_god" />
+
+                        <com.tjut.mianliao.theme.ThemeTextView
+                            android:id="@+id/tv_balance"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerInParent="true"
+                            android:layout_marginRight="15dp"
+                            android:drawablePadding="5dp"
+                            android:drawableRight="@drawable/pay_botton_bg_click"
+                            android:textColor="#868686" />
+                    </com.tjut.mianliao.black.MagicRelativeLayout>
+
+                    <com.tjut.mianliao.black.MagicRelativeLayout
+                        android:id="@+id/rl_pay_alipay"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:onClick="onClick"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp" >
+
+                        <com.tjut.mianliao.theme.ThemeTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerInParent="true"
+                            android:layout_marginLeft="15dp"
+                            android:drawableLeft="@drawable/pay_pic_bg_alipay"
+                            android:drawablePadding="5dp"
+                            android:text="@string/pay_alipay" />
+
+                        <com.tjut.mianliao.theme.ThemeTextView
+                            android:id="@+id/tv_alipay"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerInParent="true"
+                            android:layout_marginRight="15dp"
+                            android:drawablePadding="5dp"
+                            android:drawableRight="@drawable/pay_botton_bg_icon" />
+                    </com.tjut.mianliao.black.MagicRelativeLayout>
+
+                    <com.tjut.mianliao.black.MagicRelativeLayout
+                        android:id="@+id/rl_pay_unionpay"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:onClick="onClick"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp" >
+
+                        <com.tjut.mianliao.theme.ThemeTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerInParent="true"
+                            android:layout_marginLeft="15dp"
+                            android:drawableLeft="@drawable/pay_pic_bg_unionpay"
+                            android:drawablePadding="5dp"
+                            android:text="@string/pay_money_by_unionpay" />
+
+                        <com.tjut.mianliao.theme.ThemeTextView
+                            android:id="@+id/tv_unionpay"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerInParent="true"
+                            android:layout_marginRight="15dp"
+                            android:drawablePadding="5dp"
+                            android:drawableRight="@drawable/pay_botton_bg_icon"
+                            android:text="@string/pay_money_unionpay"
+                            android:textColor="#868686" />
+                    </com.tjut.mianliao.black.MagicRelativeLayout>
+                </com.tjut.mianliao.black.MagicLinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_marginTop="10dp" />
+
+                <com.tjut.mianliao.black.MagicRelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    app:color_magic="0" >
+
+                    <com.tjut.mianliao.theme.ThemeTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerInParent="true"
+                        android:layout_marginLeft="15dp"
+                        android:text="@string/pay_total" />
+
+                    <com.tjut.mianliao.theme.ThemeTextView
+                        android:id="@+id/tv_show_money_count"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerInParent="true"
+                        android:layout_marginRight="15dp"
+                        android:textColor="#FCB83D" />
+                </com.tjut.mianliao.black.MagicRelativeLayout>
+
+                <com.tjut.mianliao.black.MagicLinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="10dp" >
+
+                    <com.tjut.mianliao.theme.ThemeTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/pay_vip_agreed" />
+
+                    <com.tjut.mianliao.theme.ThemeTextView
+                        android:id="@+id/tv_ml_agreement"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:autoLink="web"
+                        android:clickable="true"
+                        android:linksClickable="true"
+                        android:onClick="onClick"
+                        android:text="@string/pay_vip_ml_agreement"
+                        android:textColor="#49C0C3" />
+                </com.tjut.mianliao.black.MagicLinearLayout>
+            </com.tjut.mianliao.black.MagicLinearLayout>
+        </com.tjut.mianliao.black.MagicLinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/tv_pay_confirm"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_orange_rectangle"
+        android:clickable="true"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/pay_confirm"
+        android:textColor="#7A4903"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"/>
+
+</com.tjut.mianliao.black.MagicRelativeLayout>

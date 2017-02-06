@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="zh">
+    <!-- Generic -->
+    <string name="app_name">MianLiao</string>
+    <string name="version">version</string>
+    <string name="check_for_update">vérifier les mises à jour</string>
+    <string name="clip_board_clipped">copié dans le presse-papiers</string>
+    <string name="field_no_info">pas d’info</string>
+    <string name="delete">supprimer</string>
+    <string name="contacts">correspondances</string>
+    <string name="loading">chargement</string>
+    <string name="storage_not_available">carte mémoire pas disponible</string>
+    <string name="crop_image">couper l’image</string>
+    <string name="user_agreement">accord d’utilisation de mianliao</string>
+    <string name="change_log">renouveler le journal</string>
+    <string name="invite_friends">Inviter un ami</string>
+    <string name="invite_friends_desc">Votre ami vous a invité à vous abonner à mianliao, cliquez sur l\'adresse ici à télécharger: </string>
+    <string name="please_choose">faites le choix</string>
+
+    <!-- network -->
+    <string name="connecting">sous connexion</string>
+    <string name="disconnected">déconnecté</string>
+    <string name="no_network">pas de réseau d’internet</string>
+    <string name="connect_timeout">délai de connexion</string>
+    <string name="network_error">erreur de réseau d’internet</string>
+    <string name="invalid_url">URL invalide</string>
+
+    <!-- foot bar -->
+    <string name="tab_my_college">nouvelles</string>
+    <string name="tab_forum">forum</string>
+    <string name="tab_explore">plus</string>
+
+    <!-- Chat -->
+    <string name="me">moi:&#160;</string>
+    <string name="more">plus</string>
+    <string name="call_checking_availability">état de synchronisation</string>
+    <string name="call_starting">Lancer l’appel</string>
+    <string name="call_failed">Vous n’arrivez pas à lancer l’appel. Veuillez réessayer plus tard.</string>
+    <string name="call_voice_no_phone">Pas son numéro de portable.</string>
+    <string name="cht_chat_with_friends">parler avec les amis</string>
+    <string name="cht_open_contacts">ouvrir les correspondences</string>
+    <string name="cht_no_chat_recently">Pas de conversation récente avec vos amis. Cliquez les correspondences en haut à droite pour lancer une conversation.</string>
+    <string name="cht_choose_call">Choisissez le mode d’appel</string>
+    <string name="cht_clip_board_label">mianliao- conversation </string>
+
+    <string-array name="cht_long_press_menu">
+        <item>supprimer la conversation</item>
+    </string-array>
+    <string-array name="cht_call_choices">
+        <item>appel</item>
+        <item>(wifi) vidéo</item>
+    </string-array>
+
+    <!-- News -->
+    <string name="news_category_all">toutes les nouvelles</string>
+    <string name="news_category_hot">nouvelles chaudes</string>
+    <string name="news_category_fav">mes favoris</string>
+    <string name="news_favorite">favori</string>
+    <string name="news_favorited">favorisé</string>
+    <string name="news_liked_count">apprécier (%1$d)</string>
+    <string name="news_commented_count">commentaire(%1$d nombre)</string>
+    <string name="news_comment_reply">réponse  %1$s</string>
+    <string name="news_comment_content">%1$s réponse: %2$s</string>
+    <string name="news_published_on">publié %1$s</string>
+    <string name="news_ticket_congrats">Félicitations! Vous avez gagné le billet.</string>
+    <string name="news_tst_not_found">pas de résultat</string>
+    <string name="news_tst_fetch_list_failed">Echouer à renouveler la liste des nouvelles</string>
+    <string name="news_tst_fetch_cmt_failed">Echouer à Lire les commentaires des nouvelles</string>
+    <string name="news_tst_favorite_failed">Echouer à ajouter dans le favori</string>
+    <string name="news_tst_favorite_success">favorisé</string>
+    <string name="news_tst_unfavorite_failed">Echouer à supprimer dans le favori</string>
+    <string name="news_tst_unfavorite_success">Supprimé dans le favori</string>
+    <string name="news_tst_like_failed">Echouer à cliquer “appréciation”</string>
+    <string name="news_tst_like_success">“appréciation”cliqué </string>
+    <string name="news_tst_unlike_failed">Echouer à annuler “appréciation”</string>
+    <string name="news_tst_unlike_success">“appréciation”annulée</string>
+    <string name="news_tst_comment_failed">Echouer à commenter</string>
+    <string name="news_tst_comment_success">Réussir à commenter</string>
+    <string name="news_tst_ticket_failed">Echouer àgagner le billet</string>
+
+    <!-- News Source -->
+    <string name="news_source_details">informations en détail</string>
+    <string name="news_source_authed">code d’identification de mianliao</string>
+    <string name="news_source_followed_count">nombre des suiveurs: %1$d</string>
+    <string name="news_source_follow">suivre</string>
+    <string name="news_source_unfollow">ne suivre plus</string>
+    <string name="news_source_more">plus</string>
+    <string name="news_source_qrcode">notre code QR</string>
+    <string name="news_source_about">Qui sommes-nous</string>
+    <string name="news_source_phone">tél</string>
+    <string name="news_source_email">émail</string>
+    <string name="news_source_web">web</string>
+    <string name="news_source_address">adresse</string>
+    <string name="news_source_tst_not_found">aucune source de nouvelle trouvée</string>
+    <string name="news_source_tst_profile_failed">aucune information en détail sur la source de nouvelle trouvée</string>
+    <string name="news_source_tst_follow_failed">Echouer à suivre la source de nouvelle</string>
+    <string name="news_source_tst_news_failed">aucune liste de nouvelles trouvée</string>
+
+    <!-- News Sources -->
+    <string name="news_sources_title">source de nouvelle</string>
+    <string name="news_sources_followed">mes suivis</string>
+    <string name="news_sources_search_hint">Qu’est-ce qui vous intéresse?</string>
+    <string name="news_sources_search_info">~Les excellentes sources de nouvelles à ne pas rater</string>
+    <string name="news_sources_tst_fetch_error">aucune liste des sources de nouvelles trouvée</string>
+
+    <!-- Login -->
+    <string name="lgi_login">connectez-vous</string>
+    <string name="lgi_hint_account">votre compte</string>
+    <string name="lgi_hint_password">votre mot de passe</string>
+    <string name="lgi_login_failed">échec de connexion</string>
+    <string name="lgi_account_too_short">Mon cher ami, vouz avez un nom de compte trop court. Il faut au moins 4 caractères</string>
+    <string name="lgi_password_too_short">Mon cher ami, vouz avez un mot de passe trop court. Il faut au moins 4 caractères</string>
+    <string name="lgi_logging_in">connexion……</string>
+    <string name="lgi_wrong_login_info">erreur de compte ou mot de passe\n(Veuillez utiliser le compte et le mot de passe pour le système éducatif)</string>
+    <string name="lgi_network_unavailable">Dommage! Le réseau d’internet n’est pas disponible</string>
+    <string name="lgi_login_expired">connexion non valable</string>
+    <string name="lgi_login_expired_desc">connectez-vous à nouveau</string>
+    <string name="lgi_failed_too_frequent">Connexion trop fréquente. Veuillez essayer plus tard.</string>
+    <string name="lgi_failed_ids_error">Anomalie du serveur IDS</string>
+    <string name="lgi_failed_version_too_old">Version de mianliao trop faible</string>
+    <string name="lgi_failed_version_too_old_desc">Votre version de mianliao est trop faible. Cliquez “oui”à gagner la dernière version.</string>
+
+    <!-- Curriculum -->
+    <string name="cur_title_num_week" formatted="false">%d Semaine</string>
+    <string name="cur_week_mon">lun</string>
+    <string name="cur_week_tue">mar</string>
+    <string name="cur_week_wed">mer</string>
+    <string name="cur_week_thu">jeu</string>
+    <string name="cur_week_fri">ven</string>
+    <string name="cur_week_sat">sam</string>
+    <string name="cur_week_sun">dim</string>
+    <string name="cur_choose_course">choisir le cours</string>
+    <string name="cur_edit_course">rédiger le cours</string>
+
+    <!-- Course Search -->
+    <string name="course_search_title">Choisir le cours rapidement</string>
+    <string name="course_search_hint">Tapez le nom du cours</string>
+    <string name="course_search_info">（%1$s）C’est peut-être votre cours</string>
+    <string name="course_time_clear">note</string>
+    <string name="course_time_clear_desc">Vous êtes sûr à éliminer le temps dans les critères de filtre?</string>
+    <string name="course_manual_add">ajouter ce cours.</string>
+    <string name="course_classmates_count">%1$d nombre de personnes</string>
+    <string name="course_classmates">élève</string>
+    <string name="course_teacher">professeur</string>
+    <string name="course_entry">détail</string>
+    <string name="course_join">ajouter le cours</string>
+    <string name="course_leave">quitter le cours</string>
+    <string name="course_rating">donner une note</string>
+    <string name="course_rating_desc">%1$.1f/5 (%2$s nombre de personnes qui ont donné une note)</string>
+    <string name="course_rating_failed">Echouer à donner une note</string>
+    <string name="course_checkin">signer</string>
+    <string name="course_checkin_desc">%1$s nombre de personnes qui ont fait la signature</string>
+    <string name="course_checkin_me">Je veux signer.</string>
+    <string name="course_checkin_failed">Echouer à signer</string>
+    <string name="course_tst_search_error">recherche erreur</string>
+    <string name="course_tst_join_success">ajouter cours avec succès</string>
+    <string name="course_tst_join_failed">impossible d\'ajouter des cours</string>
+    <string name="course_tst_join_already_joint">vous avez ajouté au cours</string>
+    <string name="course_tst_leave_success">la réussite du programme de sortie</string>
+    <string name="course_tst_leave_failed">les programmes de sortie ne</string>
+    <string name="course_tst_leave_hasnt_joint">vous n\'avez pas ajouté au programme</string>
+
+    <!-- Course Classmates -->
+    <string name="classmates_title">liste de élèves</string>
+
+    <!-- Course -->
+    <string name="course_description">@string/course_entry</string>
+    <string name="course_name_head">cours</string>
+    <string name="course_classroom_head">classe</string>
+    <string name="course_teacher_head">prof</string>
+    <string name="course_period_head">nombre d’heures</string>
+    <string name="course_weeks_head">nombre de semaines</string>
+    <string name="course_choose_weeks">choisissez le nombre de semaines</string>
+    <string name="course_choose_periods">choisissez le nombre d’heures</string>
+    <string name="course_delete_period">supprimer</string>
+    <string name="course_input_classroom">tapez le no.de classe</string>
+    <string name="course_add_period">ajouter plus d’heures</string>
+    <string name="course_delete">supprimer cette leçon</string>
+    <string name="course_input_name">tapez le nom du cours</string>
+    <string name="course_input_teacher">tapez le nom du prof</string>
+    <string name="course_semester_desc">%1$d~%2$d année semestre %3$d</string>
+    <string name="course_week_desc">%1$s semaine</string>
+    <string name="course_odd_week_desc">%1$s~%2$s semaine impaire</string>
+    <string name="course_even_week_desc">%1$s~%2$s semaine paire</string>
+    <string name="course_weekday_desc">%1$s semaine</string>
+    <string name="course_period_desc">%1$s heure</string>
+    <string name="course_entry_desc">%1$s %2$s@%3$s</string>
+    <string name="course_total_classmates">Pour l\'instant, il y a %1$s élèves qui ont choisi ce cours</string>
+    <string name="course_hint_loading">chargement</string>
+    <string name="course_tst_failed_get_info">Echouer à supprimer ce cours</string>
+    <string name="course_tst_get_init_data">obtenir les premières données du serveur</string>
+    <string name="course_tst_fill_all_field">remplissez toutes les informations</string>
+    <string name="course_tst_period_overlapped">conflit du temps</string>
+    <string name="course_tst_course_updated">Réussir à rédiger le cours</string>
+    <string name="course_tst_course_joint">réussir àajouter le cours</string>
+    <string name="course_tst_failed_join_course">Echouer à ajouter le cours(%1$s)，Veuillez essayer encore une fois</string>
+
+    <!-- Course Widget -->
+    <string name="course_wid_not_logged_in">Vous avez oublié à vous connecter</string>
+    <string name="course_wid_no_lesson">On n’a pas de cours aujourd’hui.</string>
+    <string name="course_wid_unknown_location">lieu inconnu</string>
+    <string name="course_wid_unknown">inconnu</string>
+    <string name="course_wid_label">mianliao programme des cours</string>
+
+    <!-- Contacts -->
+    <string name="contacts_search_hint">Tapez le nom de la personne</string>
+
+    <!-- New Contact -->
+    <string name="nc_title">nouvel ami</string>
+    <string name="nc_reject">refuser</string>
+    <string name="nc_agree">accepter</string>
+    <string name="nc_request_desc">Demander de vous ajouter comme ami</string>
+    <string name="nc_handling_last_request">traiter la demande précédente</string>
+
+    <!-- Add contact -->
+    <string name="adc_add_contact">ajouter un ami</string>
+    <string name="adc_request_sent">demande déjà envoyée</string>
+
+    <!-- Update -->
+    <string name="upd_no_new_version">Vous avez déjà  la dernière version</string>
+    <string name="upd_failed_check_new_version">Echouer à vérifier les mises à jour</string>
+    <string name="upd_has_update">Il y a la nouvelle version %1$s</string>
+    <string name="upd_has_update_major">Il y a la nouvelle version importante %1$s</string>
+    <string name="upd_update">renouveler</string>
+
+    <!-- More tab -->
+    <string name="more_quit">quitter</string>
+    <string name="more_quit_desc">Attention. Une fois quitté, vous ne recevrez plus de messages depuis vos amis. Décidé à quitter?</string>
+    <string name="more_description_logout">Une fois quitté, toutes les données seront effacées.</string>
+    <string name="more_settings">installer</string>
+    <string name="more_qa">questions</string>
+    <string name="more_question">quiz</string>
+    <string name="more_curriculum">cours</string>
+    <string name="more_scan">scanner</string>
+
+    <!-- Profile -->
+    <string name="prof_edit">rédiger</string>
+    <string name="prof_short_desc">signature</string>
+    <string name="prof_gender">sexe</string>
+    <string name="prof_real_name">nom</string>
+    <string name="prof_nick_name">surnom</string>
+    <string name="prof_email">émail</string>
+    <string name="prof_phone">tél</string>
+    <string name="prof_update_avatar">changer de photo</string>
+    <string name="prof_edit_profile">rédiger le profil</string>
+    <string name="prof_change_not_saved">déjà modifié, pas encore conservé</string>
+    <string name="prof_change_not_saved_desc">déjà modifié, pas encore conservé.Cliquer “abandoner”pour quitter.</string>
+    <string name="prof_discard">abandonner</string>
+    <string name="prof_save">conserver</string>
+    <string name="prof_email_malformed">Utilisez une adresse e-mail valide!</string>
+    <string name="prof_failed_save_picture">Echouer à conserver la photo</string>
+    <string name="prof_failed_update_profile">Echouer à envoyer le profil</string>
+    <string name="prof_not_connected">déconnecté au serveur</string>
+    <string name="prof_old_password_wrong">erreur de mot de passé originaire</string>
+    <string name="prof_new_password_too_short">Il faut au moins 6 caractères pour le nouveau mot de passe</string>
+    <string name="prof_password_dont_match">Les nouveaux mots de passe tapés les deux fois ne s’accordent pas</string>
+    <string name="prof_update_password_failed">Echouer à renouveler le mot de passe</string>
+    <string name="prof_update_password_success">Réussir à renouveler le mot de passe</string>
+    <string name="prof_update_password">Modifier le mot de passe</string>
+    <string name="prof_old_password">ancien mot de passe</string>
+    <string name="prof_new_password">nouveau mot de passe</string>
+    <string name="prof_password_again">retaper le nouveau mot de passe</string>
+    <string name="prof_no_medal">Dommage,aucune médaille acquise</string>
+    <string name="prof_my_medal">Mes médailles</string>
+    <string name="prof_cant_get_medal_info">Aucune information de médaille trouvée</string>
+    <string name="prof_getting_medal">Obtenir de l’information de médaille depuis le serveur</string>
+    <string name="prof_no_short_desc">Il est bien paresseux sans rien laisser.</string>
+    <string name="prof_male">masculin</string>
+    <string name="prof_female">féminin</string>
+    <string name="prof_log_out">quitter</string>
+    <string name="prof_send_email">envoyer l’émail</string>
+    <string name="prof_desc_grade">%1$s degré</string>
+    <string name="prof_my_qrcode">Mon code QR</string>
+    <string name="prof_user_not_exist">L’abonné n’existe pas</string>
+
+    <string-array name="get_image_choices">
+        <item>Choisir les images dans l’ordinateur</item>
+        <item>Rrendre la photo</item>
+    </string-array>
+
+    <string name="prof_blacklist_add">Ajouter dans la liste noire</string>
+    <string name="prof_blacklist_add_success">Déjà ajouté dans la liste noire</string>
+    <string name="prof_blacklist_add_failed">Echouer à ajouter dans la liste noire.</string>
+    <string name="prof_blacklist_add_desc">Ajouté dans la liste noire.Vous ne recevrez plus son information</string>
+    <string name="prof_blacklist_remove">Sortir de la liste noire</string>
+    <string name="prof_blacklist_remove_success">Déjà sorti de la liste noire</string>
+    <string name="prof_blacklist_remove_failed">Echouer à sortir de la liste noire. Veuillez essayer plus tard</string>
+    <string name="prof_contact_add">Ajouter un ami</string>
+    <string name="prof_contact_remove">Relever la relation d’amis</string>
+    <string name="prof_contact_remove_success">La relation d’amis est déjà relevée</string>
+    <string name="prof_contact_remove_failed">Echouer à relever la relation d’amis. Veuillez essayer plus tard.</string>
+    <string name="prof_contact_remove_desc">Une fois que la relation d’amis a été relevée, les conversations avec lui seront effacées en même temps.</string>
+    <string name="prof_chat">Envoyer un message</string>
+
+    <!-- Question -->
+    <string name="quest_begin">Commencer à répondre les questions</string>
+    <string name="quest_exit">Quitter</string>
+    <string name="quest_correct">Vrai</string>
+    <string name="quest_wrong">Faux</string>
+    <string name="quest_next">Suivant</string>
+    <string name="quest_number">%1$d numéro de la question</string>
+    <string name="quest_no_more">Vous avez tout répondu</string>
+    <string name="quest_congrat">Félicitations.Vous êtes le petit prince de questions</string>
+
+    <!-- Feedback -->
+    <string name="fbk_success">Merci de votre feed-back</string>
+    <string name="fbk_fail">Echec de poser le feed-back</string>
+
+    <!-- Developing -->
+    <string name="dvp_developing">Sous développement</string>
+    <string name="dvp_description">Désolé, nos ingénieurs s\'efforcent maintenant de développer la nouvelle version. Veuillez patienter</string>
+
+    <!-- Settings -->
+    <string name="setting_title">Installer</string>
+    <string name="setting_new_message_sound">Alerte de message</string>
+    <string name="setting_new_message_vibrate">Alerte par vibration</string>
+    <string name="setting_night_mode">Période à ne pas déranger:23:00–8:00</string>
+    <string name="setting_enter_send_message">Envoyer le message par la touche “entrée”</string>
+    <string name="setting_default_tab">Page d\'accueil par défaut</string>
+    <string name="setting_daily_course_alarm">Rappel des cours par jour</string>
+    <string name="setting_daily_course_alarm_time">Heure de rappel par jour</string>
+    <string name="setting_daily_course_alarm_time_summary">%1$s %2$02d:%3$02d</string>
+
+    <string-array name="setting_daily_course_alarm_day">
+        <item>jour avant</item>
+        <item>jour en cours</item>
+    </string-array>
+    <string-array name="setting_daily_course_remind">
+        <item>Vous avez %1$d cours demain.</item>
+        <item>Vous avez %1$d cours aujourd’hui</item>
+    </string-array>
+
+    <string name="setting_daily_course_alarm_hour">%1$02d heure</string>
+    <string name="setting_daily_course_alarm_minute">%1$02d minute</string>
+    <string name="setting_privacy">intimité</string>
+    <string name="setting_about">à propos de mianliao</string>
+    <string name="setting_no_hint">Ne me rappelez plus</string>
+    <string name="setting_set_now">Installer maintenant</string>
+    <string name="setting_nick_hint">Rappel de surnom</string>
+    <string name="setting_nick_hint_msg">Vous n’avez pas encore de surnom. Installez maintenant
+        \n\nSi vous n’installez pas maintenant, votre nom réel sera utilisé. Vous pouvez installer dans votre profil plus tard.</string>
+
+    <!-- Privacy settings -->
+    <string name="setting_contacts_blacklist">liste noire</string>
+    <string name="setting_temporary_chat">Il est autorisé de parler avec des étrangers</string>
+
+    <!-- Scanner -->
+    <string name="scan_hint">Scanner le code QR ou le code-barres dans la case ci-dessus</string>
+    <string name="scan_camera_not_available">caméra pas disponible</string>
+    <string name="scan_result">résultat de scanner</string>
+    <string name="scan_copy">copier</string>
+    <string name="scan_clip_board_label">mianliao-scanner</string>
+    <string name="scan_send_email">@string/prof_send_email</string>
+    <string name="scan_open">ouvrir</string>
+    <string name="scan_call">appeler</string>
+    <string name="scan_handling">traitement en cours</string>
+
+    <!-- QR code -->
+    <string name="qrc_title">carte de visite par code QR</string>
+    <string name="qrc_failed_gen_qrcode">Echec de fabrication de code QR</string>
+    <string name="qrc_desc_user">Ajouter-moi comme ami en scannant le code QR ci-dessus
+        \n(cliquer ici pour conserver l’image de code QR)</string>
+    <string name="qrc_qrcode_saved">code QR déjà conservé:&#160;</string>
+    <string name="qrc_qrcode_save_failed">Echec de conserver le code QR</string>
+    <string name="qrc_view">vérifier</string>
+
+    <!-- Ticket -->
+    <string name="tic_title">vérifier le billet</string>
+    <string name="tic_ticket">numéro du billet:&#160;</string>
+    <string name="tic_wicket_success">passer la vérification</string>
+    <string name="tic_wicket_failed">échec de vérification</string>
+    <string name="tic_desc_success">numéro du billet: %1$s\nannonce: %2$s</string>
+    <string name="tic_desc_failed">numéro du billet: %1$s\nannonce: %2$s\ncause: %3$s</string>
+    <string name="tic_view_records">enregistrement de vérification</string>
+    <string name="tic_continue">continuer à vérifier le billet</string>
+    <string name="tic_fail_checked_on">Le billet a été vérifié:&#160;</string>
+    <string name="tic_fail_invalid">billet invalide</string>
+    <string name="tic_fail_not_authed">Vous n\'avez pas le droit à traiter ce billet</string>
+    <string name="tic_fail_other">autre:&#160;</string>
+    <string name="tic_input_hint">Tapez le numéro du billet</string>
+    <string name="tic_input_correct_ticket">Tapez le numéro du billet</string>
+    <string name="tic_manual_check">vérifier le billet manuellement</string>
+    <string name="tic_recent_wicket_records">record de vérification récent</string>
+
+    <!-- QA -->
+    <string name="qa_ask">interroger</string>
+    <string name="qa_question">question</string>
+    <string name="qa_answer">réponse</string>
+    <string name="qa_solved">déjà réglé</string>
+    <string name="qa_choose_image">choisir l’image</string>
+    <string-array name="qa_image_choices">
+        <item>aperçu</item>
+        <item>supprimer</item>
+    </string-array>
+    <string name="qa_discard_title">non validé</string>
+    <string name="qa_discard_message">Abandonner ce que vous avez rédigé</string>
+    <string name="qa_discard_continue">continuer à rédiger</string>
+    <string name="qa_discard_quit">abandonner</string>
+    <string name="qa_upload_title">transfert en cours</string>
+    <string name="qa_upload_message">Abandnner le transfert</string>
+    <string name="qa_upload_wait">Attendre</string>
+    <string name="qa_upload_quit">Stopper et quitter</string>
+    <string name="qa_upload_failed">Echec de transfert</string>
+    <string name="qa_get_data_failed">Echec d’obtenir les données</string>
+    <string name="qa_choose_answer_failed">Echec de choisir la réponse</string>
+    <string name="qa_submit">confirmé à déposer</string>
+    <string name="qa_post_hint_question">Tapez la question</string>
+    <string name="qa_post_hint_answer">Tapez la réponse</string>
+    <string name="qa_desc_empty">Il ne faut pas être vide</string>
+    <string name="qa_create_an_answer">Je veut répondre</string>
+    <string name="qa_invalid_question">Question invalide</string>
+    <string name="qa_handle_image_failed">Echouer à traiter les images</string>
+    <string name="qa_menu_all">Toutes les questions</string>
+    <string name="qa_menu_asked">Mes questions</string>
+    <string name="qa_menu_answered">Mes réponses</string>
+    <string name="qa_choose_answer">Choisir la réponse</string>
+    <string name="qa_choose_answer_desc">Choisissez celle-ci comme la meilleure réponse (une fois choisi, on ne peut pas modifier)?</string>
+
+    <!-- Image Activity -->
+    <string name="ia_title">Voir l’image</string>
+    <string name="ia_invalid_image_uri">adresse d’image invalide</string>
+    <string name="ia_open_file_failed">Echouer à ouvrir le document</string>
+
+    <!-- MsResponse -->
+    <string name="msr_cancelled">annulé</string>
+    <string name="msr_parse_failed">Erreur de données renvoyées depuis le serveur d’analyse</string>
+    <string name="msr_missing_parameter">paramètre manquant</string>
+    <string name="msr_database_error">erreur de base de données</string>
+</resources>

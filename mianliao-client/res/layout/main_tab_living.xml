@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/srl_living"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <com.tjut.mianliao.component.MyScrollView
+            android:id="@+id/my_living_scroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:descendantFocusability="beforeDescendants"
+                android:focusable="true"
+                android:focusableInTouchMode="true">
+
+                <LinearLayout
+                    android:id="@+id/ll_living"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/ll_top_distance"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.tjut.mianliao.component.CommonBanner
+                            android:id="@+id/vs_living_switcher"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            app:banner_plate="13" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="10dp"
+                            android:layout_marginTop="7dp"
+                            android:background="@color/white" />
+
+                        <com.tjut.mianliao.component.TopicTagView
+                            android:id="@+id/ttv_recommend_living"
+                            android:layout_width="match_parent"
+                            android:layout_height="85dp"
+                            android:background="@color/white" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="10dp"
+                            android:background="@color/white" />
+
+                        <android.support.design.widget.TabLayout
+                            android:id="@+id/tabs"
+                            android:layout_width="match_parent"
+                            android:layout_height="39dp"
+                            android:background="@drawable/img_main_page"
+                            app:tabIndicatorColor="#ffffff"
+                            app:tabSelectedTextColor="#ffffff"
+                            app:tabTextColor="#B2ffffff" />
+                    </LinearLayout>
+
+                    <android.support.v4.view.ViewPager
+                        android:id="@+id/vp_type_living"
+                        android:layout_width="match_parent"
+                        android:layout_height="550dp" />
+
+
+                </LinearLayout>
+
+                <android.support.design.widget.TabLayout
+                    android:id="@+id/tabs_top"
+                    android:layout_width="match_parent"
+                    android:layout_height="39dp"
+                    android:background="@drawable/img_main_page"
+                    app:tabIndicatorColor="@color/white"
+                    app:tabIndicatorHeight="3dp"
+                    app:tabSelectedTextColor="#ffffff"
+                    app:tabTextColor="#B2ffffff" />
+            </RelativeLayout>
+        </com.tjut.mianliao.component.MyScrollView>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <ImageView
+        android:id="@+id/iv_start_live"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/img_start_live" />
+
+</FrameLayout>
+

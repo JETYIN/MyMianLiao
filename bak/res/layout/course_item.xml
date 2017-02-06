@@ -1,0 +1,3 @@
+<com.tjut.mianliao.curriculum.CourseView xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/bg_item_course" android:gravity="center_horizontal" android:layout_height="match_parent" android:layout_width="match_parent" android:padding="2dp" android:textColor="@color/white" android:textSize="12sp">
+
+</com.tjut.mianliao.curriculum.CourseView>

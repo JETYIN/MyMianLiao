@@ -1,0 +1,7 @@
+{
+    "project_type": "cpp",
+    "engine_dir": "../cocos2d/",
+    "android_cfg": {
+        "project_path": "proj.android"
+    }
+}

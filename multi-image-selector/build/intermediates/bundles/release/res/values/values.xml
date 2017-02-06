@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/workSpace/MianLiao/multi-image-selector/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="folder_cover_size">72dp</dimen>
+    <dimen name="image_size">120dp</dimen>
+    <dimen name="space_size">2dp</dimen>
+    <!-- From: file:/D:/workSpace/MianLiao/multi-image-selector/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="folder_all">All Images</string>
+    <string name="msg_amount_limit">Select images amount is limit</string>
+    <string name="msg_no_camera">No system camera found</string>
+    <string name="preview">Preview</string>
+    <!-- From: file:/D:/workSpace/MianLiao/multi-image-selector/res/values/style.xml -->
+    <eat-comment/>
+    <style name="AppThemeFixCrash" parent="Theme.AppCompat.Light.DarkActionBar"/>
+</resources>

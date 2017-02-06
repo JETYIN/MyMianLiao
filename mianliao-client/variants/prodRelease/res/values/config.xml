@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="debug">false</bool>
+    <bool name="use_dev_server">false</bool>
+    <bool name="use_stg_server">false</bool>
+</resources>

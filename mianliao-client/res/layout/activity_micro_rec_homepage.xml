@@ -1,0 +1,117 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sv_micro"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="none">
+
+    <com.tjut.mianliao.black.MagicLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.tjut.mianliao.component.CommonBanner
+            android:id="@+id/vs_switcher"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            app:banner_plate="9"/>
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.tjut.mianliao.black.MagicLinearLayout
+                android:id="@+id/ll_search_job"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center"
+                android:onClick="onClick">
+
+                <com.tjut.mianliao.theme.ThemeTextView
+                    android:id="@+id/tv_find"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/school_botton_bg_find"
+                    android:gravity="bottom|center_horizontal"
+                    android:paddingBottom="15dp"
+                    android:text="@string/job_title"/>
+            </com.tjut.mianliao.black.MagicLinearLayout>
+
+            <com.tjut.mianliao.black.MagicLinearLayout
+                android:id="@+id/ll_intel_match"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center"
+                android:onClick="onClick">
+
+                <com.tjut.mianliao.theme.ThemeTextView
+                    android:id="@+id/tv_search"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/school_botton_bg_search"
+                    android:gravity="bottom|center_horizontal"
+                    android:paddingBottom="15dp"
+                    android:text="@string/job_intel_match"/>
+            </com.tjut.mianliao.black.MagicLinearLayout>
+        </com.tjut.mianliao.black.MagicLinearLayout>
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.tjut.mianliao.black.MagicLinearLayout
+                android:id="@+id/ll_my_resume"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center"
+                android:onClick="onClick">
+
+                <com.tjut.mianliao.theme.ThemeTextView
+                    android:id="@+id/tv_resume"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/school_botton_bg_resume"
+                    android:gravity="bottom|center_horizontal"
+                    android:paddingBottom="15dp"
+                    android:text="@string/job_my_resume"/>
+            </com.tjut.mianliao.black.MagicLinearLayout>
+
+            <com.tjut.mianliao.black.MagicLinearLayout
+                android:id="@+id/ll_emp_calendar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center"
+                android:onClick="onClick">
+
+                <com.tjut.mianliao.theme.ThemeTextView
+                    android:id="@+id/tv_memology"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/school_botton_bg_menology"
+                    android:gravity="bottom|center_horizontal"
+                    android:paddingBottom="15dp"
+                    android:text="@string/job_recru_cal"/>
+            </com.tjut.mianliao.black.MagicLinearLayout>
+        </com.tjut.mianliao.black.MagicLinearLayout>
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+</ScrollView>

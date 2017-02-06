@@ -1,0 +1,52 @@
+<com.tjut.mianliao.black.MagicFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+    <FrameLayout
+        android:id="@+id/fl_ptr_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="36dp">
+
+        <com.handmark.pulltorefresh.library.PullToRefreshListView
+            android:id="@+id/ptrlv_post_stream"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:animationCache="true"
+            android:background="@android:color/transparent"
+            android:divider="@null"
+            android:dividerHeight="0px"
+            android:fadingEdge="none"
+            android:listSelector="@android:color/transparent"
+            android:scrollbarStyle="outsideOverlay"
+            android:scrollingCache="true"/>
+    </FrameLayout>
+
+    <com.tjut.mianliao.forum.RoamCollegeView
+        android:id="@+id/roaming_colleages"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="36dp"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:background="@color/transparent"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/post_type_tab_layout"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            layout="@layout/forum_choice_tab"/>
+
+        <com.tjut.mianliao.theme.ThemeLineView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#b2b2b2"/>
+    </LinearLayout>
+
+</com.tjut.mianliao.black.MagicFrameLayout>

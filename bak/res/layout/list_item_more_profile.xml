@@ -1,0 +1,13 @@
+<com.tjut.mianliao.black.MagicRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:background="@drawable/selector_bg_item_more" android:layout_height="80dp" android:layout_width="match_parent">
+
+    <com.tjut.mianliao.theme.ThemeImageView android:id="@+id/iv_enter" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_height="wrap_content" android:layout_marginRight="20dp" android:layout_width="wrap_content" android:src="@drawable/ic_enter" />
+
+    <com.tjut.mianliao.theme.ThemeImageView android:id="@+id/iv_checked_in" android:layout_centerVertical="true" android:layout_height="wrap_content" android:layout_marginRight="15dp" android:layout_toLeftOf="@id/iv_enter" android:layout_width="wrap_content" android:src="@drawable/ic_checked_in" />
+
+    <com.tjut.mianliao.component.AvatarView app:borderType="roundCorner" android:id="@+id/av_avatar" android:layout_centerVertical="true" android:layout_height="48dp" android:layout_marginLeft="20dp" android:layout_width="48dp" tools:ignore="ContentDescription" />
+
+    <com.tjut.mianliao.component.NameView android:drawablePadding="@dimen/mdl_name_spacing" android:id="@+id/tv_name" android:layout_alignTop="@+id/av_avatar" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="3dp" android:layout_toLeftOf="@+id/iv_enter" android:layout_toRightOf="@+id/av_avatar" android:layout_width="wrap_content" android:textColor="#000000" android:textSize="16sp" />
+
+    <com.tjut.mianliao.theme.ThemeTextView android:id="@+id/tv_account" android:layout_alignLeft="@+id/tv_name" android:layout_below="@+id/tv_name" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="#8b8b8b" android:textSize="12sp" />
+
+</com.tjut.mianliao.black.MagicRelativeLayout>

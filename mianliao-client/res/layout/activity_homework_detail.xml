@@ -1,0 +1,67 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.tjut.mianliao.black.MagicRelativeLayout
+        android:id="@+id/rl_hw_detail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:id="@+id/tv_subject"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:textSize="15sp"/>
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            android:id="@+id/rl_note_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_subject"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:paddingBottom="20dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="25dp"
+            app:color_magic="0">
+
+            <com.tjut.mianliao.component.EmotionTextView
+                android:id="@+id/tv_homework_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="10dp"
+                android:textSize="14sp"
+                app:emotionSize="@dimen/emo_size_small"/>
+
+            <com.tjut.mianliao.component.ExpandableGridView
+                android:id="@+id/mgv_gallery"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:layout_gravity="center"
+                android:horizontalSpacing="4dp"
+                android:listSelector="@color/white"
+                android:numColumns="4"
+                android:paddingRight="10dp"
+                android:paddingTop="15dp"
+                android:stretchMode="columnWidth"
+                android:verticalSpacing="4dp"/>
+        </com.tjut.mianliao.black.MagicLinearLayout>
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:id="@+id/tv_create_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/rl_note_detail"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#3C3C3C"
+            android:textSize="14sp"/>
+    </com.tjut.mianliao.black.MagicRelativeLayout>
+
+</ScrollView>

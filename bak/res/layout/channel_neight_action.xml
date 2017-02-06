@@ -1,0 +1,23 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical">
+
+    <View android:background="#CCCCCC" android:layout_height="1px" android:layout_width="match_parent" />
+
+    <com.tjut.mianliao.black.MagicLinearLayout android:layout_height="27dp" android:layout_width="match_parent" android:orientation="horizontal">
+
+        <com.tjut.mianliao.black.MagicLinearLayout android:background="@drawable/selector_btn_lightgray" android:gravity="center" android:layout_height="match_parent" android:layout_weight="1" android:layout_width="0dp">
+
+            <com.tjut.mianliao.theme.ThemeTextView android:drawableLeft="@drawable/ic_search" android:drawablePadding="6dp" android:gravity="center" android:id="@+id/tv_like" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="123" android:textColor="@color/txt_lightgray" android:textSize="9sp" />
+        </com.tjut.mianliao.black.MagicLinearLayout>
+
+        <View android:background="#CCCCCC" android:layout_height="match_parent" android:layout_width="1px" />
+
+        <com.tjut.mianliao.theme.ThemeImageView android:gravity="center" android:id="@+id/ll_dislike" android:layout_height="match_parent" android:layout_weight="1" android:layout_width="0dp" android:scaleType="center" android:src="@drawable/icon_share" />
+
+        <View android:background="#CCCCCC" android:layout_height="match_parent" android:layout_width="1px" />
+
+        <com.tjut.mianliao.theme.ThemeImageView android:gravity="center" android:id="@+id/ll_comments" android:layout_height="match_parent" android:layout_weight="1" android:layout_width="0dp" android:scaleType="center" android:src="@drawable/button_icon_comment" />
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+    <View android:background="#CCCCCC" android:layout_height="1px" android:layout_width="match_parent" />
+
+</com.tjut.mianliao.black.MagicLinearLayout>

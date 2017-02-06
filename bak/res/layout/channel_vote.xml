@@ -1,0 +1,154 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:baselineAligned="false"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="12dp"
+        android:paddingTop="12dp" >
+
+        <FrameLayout
+            android:layout_width="147dp"
+            android:layout_height="147dp"
+            android:layout_marginLeft="27dp"
+            android:layout_marginRight="11dp"
+            android:layout_weight="1"
+            android:background="@drawable/selector_group_operator"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center" >
+
+                <com.tjut.mianliao.component.ProImageView
+                    android:id="@+id/iv_photo1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:onClick="onClick"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/pic_face_01"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/ll_vote_num1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#7F000000"
+                    android:gravity="center"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:id="@+id/tv_vote_num1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/buttom_like"
+                        android:gravity="center"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/fl_vote1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@drawable/bg_pic_vote_add_photo"
+                android:clickable="true"
+                android:onClick="onClick" >
+
+                <TextView
+                    android:id="@+id/tv_vote1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:drawablePadding="10dp"
+                    android:drawableTop="@drawable/button_add"
+                    android:src="@drawable/button_add"
+                    android:text="@string/cf_add_picture"
+                    android:textColor="#34CED9" />
+            </FrameLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="147dp"
+            android:layout_height="147dp"
+            android:layout_marginRight="27dp"
+            android:layout_weight="1"
+            android:background="@drawable/selector_group_operator"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center" >
+
+                <com.tjut.mianliao.component.ProImageView
+                    android:id="@+id/iv_photo2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:onClick="onClick"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/pic_face_01"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/ll_vote_num2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#7F000000"
+                    android:gravity="center"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:id="@+id/tv_vote_num2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/buttom_like"
+                        android:gravity="center"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/fl_vote2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@drawable/bg_pic_vote_add_photo"
+                android:clickable="true"
+                android:onClick="onClick" >
+
+                <TextView
+                    android:id="@+id/tv_vote2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:drawablePadding="10dp"
+                    android:drawableTop="@drawable/button_add"
+                    android:src="@drawable/button_add"
+                    android:text="@string/cf_add_picture"
+                    android:textColor="#34CED9" />
+            </FrameLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_vs" />
+
+</FrameLayout>

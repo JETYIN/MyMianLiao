@@ -1,0 +1,107 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.tjut.mianliao.component.ProImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:padding="5dp"/>
+
+    <com.tjut.mianliao.black.MagicLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <com.tjut.mianliao.black.MagicRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp">
+
+            <com.tjut.mianliao.black.MagicLinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="15sp"
+                android:orientation="vertical">
+
+                <com.tjut.mianliao.theme.ThemeTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="5dp"
+                    android:drawableRight="@drawable/ic_news_ticket"
+                    android:textColor="#333"
+                    android:textSize="15sp"/>
+
+                <com.tjut.mianliao.theme.ThemeTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#333"
+                    android:textSize="14sp"/>
+            </com.tjut.mianliao.black.MagicLinearLayout>
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"
+                android:gravity="center_vertical"
+                android:textColor="#333"
+                android:textSize="25sp"/>
+        </com.tjut.mianliao.black.MagicRelativeLayout>
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="#45C018"
+            android:gravity="center"
+            android:padding="8dp"
+            android:textColor="@color/white"
+            android:textSize="15sp"/>
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:padding="5dp"
+        android:textColor="#333"
+        android:textSize="13sp"/>
+
+    <com.tjut.mianliao.black.MagicFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/line_dash_horizontal_gray"
+        android:layerType="software">
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:id="@+id/tv_emotion_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/bg_basic"
+            android:maxLines="1"
+            android:padding="4dp"
+            android:textColor="#C9C9C9"
+            android:textSize="12sp"/>
+    </com.tjut.mianliao.black.MagicFrameLayout>
+
+    <GridView
+        android:id="@+id/gv_emotions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </GridView>
+
+</com.tjut.mianliao.black.MagicLinearLayout>

@@ -1,0 +1,9 @@
+<com.tjut.mianliao.black.MagicRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_height="wrap_content" android:layout_width="match_parent">
+
+    <com.tjut.mianliao.component.ProgressButton app:drawableLeft="@drawable/button_icon_like" app:drawablePadding="6dp" app:textColor="@color/txt_lightgray" app:textSize="12sp" android:background="@drawable/selector_btn_lightgray" android:id="@+id/pb_like" android:layout_height="27dp" android:layout_width="wrap_content" android:paddingLeft="10dp" android:paddingRight="10dp" />
+
+    <com.tjut.mianliao.component.ProgressButton app:drawableLeft="@drawable/button_icon_comment" app:drawablePadding="6dp" app:textColor="@color/txt_lightgray" app:textSize="12sp" android:background="@drawable/selector_btn_lightgray" android:id="@+id/pb_comment" android:layout_height="27dp" android:layout_marginLeft="6dp" android:layout_toRightOf="@+id/pb_like" android:layout_width="wrap_content" android:paddingLeft="10dp" android:paddingRight="10dp" />
+
+    <com.tjut.mianliao.theme.ThemeImageView android:background="@drawable/selector_btn_lightgray" android:id="@+id/iv_menu" android:layout_alignParentRight="true" android:layout_height="27dp" android:layout_width="40dp" android:scaleType="center" android:src="@drawable/ic_dot" tools:ignore="ContentDescription" />
+
+</com.tjut.mianliao.black.MagicRelativeLayout>

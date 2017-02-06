@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sc_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="165dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/ll_title_tribe_chief"
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:background="@drawable/pic_tribe_master_bg"
+                android:onClick="onClick"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingRight="30dp">
+
+                <ImageView
+                    android:id="@+id/iv_tribe_chief_logo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/club_pic_chief"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/iv_tribe_chief_logo"
+                    android:text="@string/tribe_chief"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp"/>
+            </RelativeLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F9F9F9">
+
+                <com.tjut.mianliao.component.ExpandableGridView
+                    android:id="@+id/gv_tribe_chief"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@android:color/transparent"
+                    android:listSelector="@android:color/transparent"
+                    android:numColumns="2"
+                    android:stretchMode="columnWidth"/>
+
+                <com.tjut.mianliao.theme.ThemeImageView
+                    android:id="@+id/iv_no_content_chief"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/empty"/>
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="165dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/ll_title_charm_list"
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:background="@drawable/pic_tribe_charm_bg"
+                android:onClick="onClick"
+                android:paddingLeft="10dp"
+                android:paddingRight="30dp">
+
+                <ImageView
+                    android:id="@+id/iv_charm_list_logo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/club_pic_charm"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/iv_charm_list_logo"
+                    android:text="@string/tribe_charm_list_top50"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/tab_more"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"/>
+            </RelativeLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F9F9F9">
+
+                <com.tjut.mianliao.component.ExpandableGridView
+                    android:id="@+id/gv_charm_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@android:color/transparent"
+                    android:listSelector="@android:color/transparent"
+                    android:numColumns="2"
+                    android:stretchMode="columnWidth"/>
+
+                <com.tjut.mianliao.theme.ThemeImageView
+                    android:id="@+id/iv_no_content_charm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/empty"
+                    android:layout_gravity="center_horizontal"/>
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="165dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/ll_title_power_list"
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:background="@drawable/pic_tribe_contrubution_bg"
+                android:onClick="onClick"
+                android:paddingLeft="10dp"
+                android:paddingRight="30dp">
+
+                <ImageView
+                    android:id="@+id/iv_power_list_logo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/club_pic_contribution"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/iv_power_list_logo"
+                    android:text="@string/tribe_power_list_top50"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/tab_more"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"/>
+            </RelativeLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F9F9F9">
+
+                <com.tjut.mianliao.component.ExpandableGridView
+                    android:id="@+id/gv_power_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@android:color/transparent"
+                    android:listSelector="@android:color/transparent"
+                    android:numColumns="2"
+                    android:stretchMode="columnWidth"/>
+
+                <com.tjut.mianliao.theme.ThemeImageView
+                    android:id="@+id/iv_no_content_up"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/empty"
+                    android:scaleType="centerInside"
+                    android:layout_gravity="center_horizontal"/>
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

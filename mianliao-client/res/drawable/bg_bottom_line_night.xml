@@ -1,0 +1,14 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape android:shape="rectangle">
+            <size android:height="2dp"/>
+            <solid android:color="@color/txt_tab_item_purple"/>
+        </shape>
+    </item>
+    <item android:bottom="2dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/txt_tab_item_forum_choosed_night"/>
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,877 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.tjut.mianliao"
+    android:versionCode="30400"
+    android:versionName="3.4.0">
+
+    <uses-sdk android:minSdkVersion="15"/>
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.SET_DEBUG_APP"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.RESTART_PACKAGES"/>
+    <uses-permission android:name="android.permission.BROADCAST_STICKY"/>
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT"/>
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BATTERY_STATS"/>
+    <uses-permission android:name="android.permission.BAIDU_LOCATION_SERVICE"/>
+    <uses-permission android:name="android.permission.ACCES_MOCK_LOCATION"/>
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="android.permission.ACCESS_GPS"/>
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS"/>
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true"/>
+    <uses-feature
+        android:name="android.hardware.autofocus"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.camera.flash"
+        android:required="false"/>
+
+    <application
+        android:name="com.tjut.mianliao.MianLiaoApp"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:taskAffinity="com.tjut.mianliao"
+        android:theme="@style/MianLiao"
+        tools:replace="android:icon, android:label, android:theme, android:name">
+        <service android:name="com.tjut.mianliao.MianLiaoService"/>
+        <service
+            android:name="com.tjut.mianliao.curriculum.widget.CourseWidgetViewsService"
+            android:permission="android.permission.BIND_REMOTEVIEWS"/>
+        <service android:name="com.tjut.mianliao.curriculum.widget.CourseWidgetUpdateService"/>
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote">
+        </service>
+        <service
+            android:name="com.tencent.android.tpush.service.XGPushService"
+            android:exported="true"
+            android:persistent="true"
+            android:process=":xg_service_v2"/>
+        <service
+            android:name="com.tencent.android.tpush.rpc.XGRemoteService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.tjut.mianliao.PUSH_ACTION"/>
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="TA_APPKEY"
+            android:value="Aqc101070455"/>
+        <meta-data
+            android:name="InstallChannel"
+            android:value="TJUT"/>
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="okz7DxcbtdxHkAuufc5D3u8z"/>
+        <!-- android:value="c3jS15ej6q0qF1oguabCja8r"/> -->
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="54360f5dfd98c5d8c007527b"/>
+        <meta-data
+            android:name="XG_V2_ACCESS_ID"
+            android:value="2100169532"/>
+        <!-- prod android:value="2100159096"/> -->
+        <meta-data
+            android:name="XG_V2_ACCESS_KEY"
+            android:value="A77XHH5T7W2D"/>
+        <!-- prod android:value="A89E7H89JREV"/> -->
+        
+        <!-- fir.im -->
+		<meta-data
+		    android:name="BUG_HD_SDK_GENERAL_KEY"
+		    android:value="13fbddecb4f5803837e15ca925473ccd"/>
+
+        <activity
+            android:name="com.tencent.android.tpush.XGPushActivity"
+            android:exported="true"
+            android:theme="@android:style/Theme.Translucent">
+            <intent-filter>
+                <action android:name="android.intent.action"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.unionpay.uppay.PayActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:excludeFromRecents="true"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:name="com.umeng.socialize.view.ShareActivity"
+            android:configChanges="orientation|keyboard"
+            android:launchMode="singleTask"
+            android:noHistory="true"
+            android:theme="@style/Theme.UMDialog"
+            android:windowSoftInputMode="stateVisible|adjustResize"/>
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+
+                <data android:scheme="tencent101070455"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity
+            android:name="com.renn.rennsdk.oauth.OAuthActivity"
+            android:configChanges="orientation|navigation|keyboardHidden"/>
+        <!-- tuSDK -->
+        <activity
+            android:name="org.lasque.tusdk.impl.activity.TuFragmentActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity
+            android:name="com.tjut.mianliao.SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tjut.mianliao.login.LoginRegistActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".IntroductionActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.tjut.mianliao.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity
+            android:name="com.tjut.mianliao.BrowserActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.DevelopingActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.chat.HighChatListActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.chat.GroupChooseActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.black.NightAnimActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.task.TaskActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.task.PopTaskActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyDialogStyle"/>
+        <activity
+            android:name="com.tjut.mianliao.DayNightNoticeDialog"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.login.LoginActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.chat.ChatActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateUnchanged"/>
+        <activity
+            android:name="com.tjut.mianliao.chat.GroupChatInfoActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateUnchanged"/>
+        <activity
+            android:name="com.tjut.mianliao.chat.AddFriendToGroupActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateUnchanged"/>
+        <activity
+            android:name="com.tjut.mianliao.chat.GroupReportActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateUnchanged"/>
+        <activity
+            android:name="com.tjut.mianliao.im.AvatarMarketActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".SimpleWebActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.im.ShareLocationActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateUnchanged"/>
+        <activity
+            android:name="com.tjut.mianliao.contact.AddContactActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.contact.NickSearchActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.contact.FaceMatchActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.contact.SystemNotifyInfoActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.contact.PersonAroundActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.main.FastEntranceActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/TransparentStyle"/>
+        <activity
+            android:name="com.tjut.mianliao.ChooseFastMenuActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.contact.ContactsBlacklistActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.curriculum.CourseActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.curriculum.CourseSettingsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.curriculum.CourseScoreActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.curriculum.EditCourseActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateUnchanged"/>
+        <activity
+            android:name="com.tjut.mianliao.curriculum.ClassmatesActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.curriculum.search.CourseSearchActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustUnspecified"/>
+        <activity
+            android:name="com.tjut.mianliao.curriculum.search.SpecificCourseSearchActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.news.NewsListActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.news.NewsDetailsActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateUnchanged"/>
+        <activity
+            android:name="com.tjut.mianliao.news.NewsCommentActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.news.NewsSourcesFollowedActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.news.NewsSourcesSearchActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.news.NewsSourceDetailsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.news.NewsSourceAboutActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.news.NewsSourceNewsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.news.NewsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.profile.ProfileActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing"/>
+        <activity
+            android:name="com.tjut.mianliao.profile.LatestVisitorActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.profile.PraiseUserActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.profile.SignInRecordActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.profile.EditProfileActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateUnchanged"/>
+        <activity
+            android:name="com.tjut.mianliao.profile.UpdatePasswordActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.profile.UpdateNickActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.profile.UpdateShortDescActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.question.QuestionActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.feedback.FeedbackActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateUnchanged"/>
+        <activity
+            android:name="com.tjut.mianliao.settings.SettingsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.settings.PrivacySettingsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.settings.AboutActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.settings.AccountSafeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.settings.MsgNotifySetActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.contact.NewContactActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.contact.ContactActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.scan.ScanActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.profile.UserQrCardActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.forum.ForumQrCardActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.forum.TopicPostActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.forum.nova.FormOtherSchoolActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.forum.nova.ForumChannelDetailActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.forum.nova.ForumPostDetailActivity"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity
+            android:name="com.tjut.mianliao.forum.nova.PictuteVotePostActivty"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.forum.nova.ChannelVoicePicturePostActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.forum.nova.CreateChannelActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.forum.nova.ChannelPostsListActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.forum.nova.StartCreateChannelActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.forum.nova.ChannelSearchActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.forum.nova.MyChannelActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.forum.nova.ChoseChannelAttrActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.forum.nova.PictureTextPostActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible|adjustPan"/>
+        <activity
+            android:name="com.tjut.mianliao.forum.ChooseTopicActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.forum.nova.ForumVideoRecordActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.forum.nova.ForumVideoPostActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.forum.nova.NormalPostActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.explore.DressUpMallActivty"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.explore.EmotionsDetailActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.explore.EmotionManagementActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.explore.BuyVipHomePageActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.explore.ChoosePaymentStyleActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.explore.VipCenterActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.explore.GoldDepositsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.explore.ExchargePointsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.explore.GoldRechangeConfirmActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.explore.FunnyGameActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.mycollege.MicroRecHomeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.mycollege.PraisemeUserActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.mycollege.MyVisitorActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.mycollege.AddJobTagActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.mycollege.IntelMatchActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.mycollege.EmployCalenderActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.mycollege.AddJobsInfoActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.mycollege.MatchingJobActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.mycollege.MoreTagJobsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.mycollege.RecruScanActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.mycollege.UpdateProfileImageActiivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.mycollege.TicketNewsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.mycollege.MyFavoriteActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.explore.TradeRecordActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.news.NewsSourceQrCardActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.news.wicket.WicketActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateUnchanged"/>
+        <activity
+            android:name="com.tjut.mianliao.qa.QaActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.qa.PostActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysVisible|adjustNothing"/>
+        <activity
+            android:name="com.tjut.mianliao.qa.QuestionActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.image.ImageActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.image.PreviewImageActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.image.VideoPlayActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.image.VideoPlayerActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"/>
+        <activity
+            android:name="com.tjut.mianliao.profile.MedalActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.profile.MyMedalsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.profile.AllMedalsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.notice.NoticeSummaryActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.notice.NoticeSysActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.notice.NoticeQaActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.notice.NoticeNewsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.notice.NoticeForumActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.notice.NoticeBountyActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".wxapi.WXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity
+            android:name="com.tjut.mianliao.forum.ForumSearchActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".forum.ForumSettingsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.forum.nova.MyPostsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.forum.nova.ForumRemindActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.forum.nova.ForumMyPostActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.forum.nova.UserPostActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.forum.nova.CollectedPostActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.forum.nova.HotTop5Activity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.forum.ForumMemberActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.forum.ForumInviteMemberActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.forum.NewForumMemberActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.forum.CourseForumActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.forum.ForumPostActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity
+            android:name="com.tjut.mianliao.forum.ForumPostShareActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.forum.ForumEventsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".forum.nova.TxtVotePostActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.curriculum.widget.CurriculumWidgetHintActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.register.ChooseSchoolActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.register.EduBackActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.register.ChooseDepartmentActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.register.ChooseStartYearActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.register.EduInfoActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.register.AccountBasicActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.register.ForgotPasswordActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.register.EmailActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.profile.IdVerifyActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.curriculum.CurriculumActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.forum.EditForumActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.profile.RemarkActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.promotion.PromotionActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.points.QuestsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.job.JobsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.job.RecruitCalendarActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.job.UploadResumeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.job.OfferActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.job.ResumeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.job.ChooseResumeActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan"/>
+        <activity
+            android:name="com.tjut.mianliao.job.JobDetailActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.forum.PostActorsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.forum.ReplyActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysVisible|adjustNothing"/>
+        <activity
+            android:name="com.tjut.mianliao.RefFriendActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.bounty.BountyListActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.bounty.BountyDetailsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.bounty.BountyRatingActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateUnchanged"/>
+        <activity
+            android:name="com.tjut.mianliao.bounty.BountyCreditsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.bounty.BountyMainActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.bounty.BountyPostActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.MapActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.profile.SignInActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".InactiveActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".mycollege.TakeNoticesActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".mycollege.HomeworkNotesActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".mycollege.WarmMemoActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".mycollege.HomeworkDetailActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".mycollege.MemoDetailActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="me.nereo.imagechoose.MultiImageSelectorActivity"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/AppThemeFixCrash"/>
+        <activity
+            android:name="me.nereo.imagechoose.ShowActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.tribe.TribeDetailActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.tribe.TribeCelebrityActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.tribe.EssentialPostActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".tribe.HotEssentialActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.tribe.TribeClassifyDetailActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.tribe.TribesListActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.tribe.TribeTypeHomeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.tribe.GameZoneActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.tribe.MiniGameListActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.tribe.TribeChatRoomActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.tribe.CreateRoomNameActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.tribe.ChooseRoomAvatarActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.tribe.FinishCreateRoomActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.tribe.TribeGroupInfoActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.tribe.TribeLatestPostsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.tribe.TribeLatestTopicActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.tribe.TribeInfoActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.tribe.MoreTribeCelebrityActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.tribe.AddFriendToTribeChatActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.tribe.TribeChatActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.tribe.TribeChatRoomUsersActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.SearchActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.common.MoreMusicActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.tjut.mianliao.videoplay.VideoPlayActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" 
+            android:screenOrientation="sensor"/>
+
+        <receiver android:name="com.tjut.mianliao.AlarmReceiver">
+            <intent-filter>
+                <action android:name="com.tjut.mianliao.action.ACTION_COURSE_ALARM"/>
+                <action android:name="com.tjut.mianliao.action.ACTION_MEMO_ALARM"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.tjut.mianliao.curriculum.widget.CourseWidgetProvider"
+            android:label="@string/course_wid_label">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_course_info"/>
+        </receiver>
+        <receiver
+            android:name="com.tencent.android.tpush.XGPushReceiver"
+            android:process=":xg_service_v2">
+            <intent-filter android:priority="0x7fffffff">
+                <action android:name="com.tencent.android.tpush.action.SDK"/>
+                <action android:name="com.tencent.android.tpush.action.INTERNAL_PUSH_MESSAGE"/>
+                <action android:name="android.intent.action.USER_PRESENT"/>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+                <action android:name="android.bluetooth.adapter.action.STATE_CHANGED"/>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+            </intent-filter>
+            <intent-filter android:priority="0x7fffffff">
+                <action android:name="android.intent.action.MEDIA_UNMOUNTED"/>
+                <action android:name="android.intent.action.MEDIA_REMOVED"/>
+                <action android:name="android.intent.action.MEDIA_CHECKING"/>
+                <action android:name="android.intent.action.MEDIA_EJECT"/>
+
+                <data android:scheme="file"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.tjut.mianliao.XGMessageReceiver">
+            <intent-filter>
+                <action android:name="com.tencent.android.tpush.action.PUSH_MESSAGE"/>
+                <action android:name="com.tencent.android.tpush.action.FEEDBACK"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.tjut.mianliao.black.CheckNightReceiver"/>
+    </application>
+
+</manifest>

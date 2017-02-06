@@ -1,0 +1,25 @@
+<com.tjut.mianliao.black.MagicRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:background="@drawable/bg_question" android:layout_height="match_parent" android:layout_width="match_parent">
+
+    <ScrollView android:background="@drawable/bg_card" android:id="@+id/sv_content" android:layout_height="124dp" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:layout_marginTop="120dp" android:layout_width="match_parent" android:overScrollMode="never" android:paddingBottom="10dp" android:paddingLeft="10dp" android:paddingRight="10dp" android:paddingTop="40dp" android:scrollbarStyle="outsideOverlay">
+
+        <com.tjut.mianliao.theme.ThemeTextView android:id="@+id/tv_content" android:layout_height="wrap_content" android:layout_width="match_parent" android:textColor="#353B3F" android:textIsSelectable="true" android:textSize="15sp" />
+    </ScrollView>
+
+    <com.tjut.mianliao.theme.ThemeTextView android:background="@drawable/bg_question_number" android:gravity="center_vertical" android:id="@+id/tv_number" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="127dp" android:layout_width="wrap_content" android:paddingLeft="8dp" android:textColor="#FFFFFF" android:textSize="15sp" />
+
+    <com.tjut.mianliao.theme.ThemeImageView android:id="@+id/iv_result" android:layout_alignBottom="@id/sv_content" android:layout_alignRight="@id/sv_content" android:layout_height="wrap_content" android:layout_width="wrap_content" android:visibility="gone" tools:ignore="ContentDescription" />
+
+    <ScrollView android:layout_alignLeft="@id/sv_content" android:layout_alignRight="@id/sv_content" android:layout_below="@id/sv_content" android:layout_height="94dp" android:layout_marginTop="20dp" android:layout_width="match_parent" android:overScrollMode="never" android:paddingLeft="10dp" android:paddingRight="10dp" android:scrollbarStyle="outsideOverlay">
+
+        <com.tjut.mianliao.theme.ThemeTextView android:id="@+id/tv_comment" android:layout_height="wrap_content" android:layout_width="match_parent" android:textColor="#0A4469" android:textIsSelectable="true" android:textSize="15sp" />
+    </ScrollView>
+
+    <Button android:background="@drawable/selector_question_btn_green" android:id="@+id/btn_wrong" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layout_height="47dp" android:layout_marginBottom="25dp" android:layout_width="257dp" android:text="@string/quest_wrong" android:textColor="#245C06" android:textSize="20sp" android:visibility="gone" />
+
+    <Button android:background="@drawable/selector_question_btn_yellow" android:id="@+id/btn_correct" android:layout_above="@id/btn_wrong" android:layout_centerHorizontal="true" android:layout_height="47dp" android:layout_marginBottom="25dp" android:layout_width="257dp" android:text="@string/quest_correct" android:textColor="#877310" android:textSize="20sp" android:visibility="gone" />
+
+    <Button android:background="@drawable/selector_question_btn_blue" android:id="@+id/btn_next" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layout_height="47dp" android:layout_marginBottom="60dp" android:layout_width="257dp" android:text="@string/quest_next" android:textColor="#FFFFFF" android:textSize="20sp" android:visibility="gone" />
+
+    <ProgressBar android:id="@+id/pb_loading" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layout_height="47dp" android:layout_marginBottom="60dp" android:layout_width="47dp" android:visibility="gone" />
+
+</com.tjut.mianliao.black.MagicRelativeLayout>

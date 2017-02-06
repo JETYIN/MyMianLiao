@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/srl_all_tribe"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.tjut.mianliao.component.MyScrollView
+        android:id="@+id/my_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/rl_all_tribe"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/ll_all_tribe"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <com.tjut.mianliao.component.CommonBanner
+                    android:id="@+id/vs_trieb_switcher"
+                    android:layout_width="match_parent"
+                    android:layout_height="109dp"
+                    app:banner_plate="13" />
+
+                <RelativeLayout
+                    android:id="@+id/rl_hot_post_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:background="@color/white"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="15dp"
+                        android:drawableLeft="@drawable/hot_card"
+                        android:drawablePadding="8dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/tribe_selection_post"
+                        android:textColor="#656565"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/tv_more_hot_post"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="15dp"
+                        android:drawablePadding="5dp"
+                        android:drawableRight="@drawable/botton_bg_chat_arrowright"
+                        android:text="@string/more"
+                        android:textColor="#D5D5D5"
+                        android:textSize="12sp" />
+                </RelativeLayout>
+
+                <com.tjut.mianliao.component.ExpandableGridView
+                    android:id="@+id/gv_selection_post"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:horizontalSpacing="17dp"
+                    android:listSelector="@android:color/transparent"
+                    android:numColumns="2"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:verticalSpacing="17dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="17dp"
+                    android:background="@color/white" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:background="@color/white"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp">
+
+                    <com.tjut.mianliao.theme.ThemeTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:drawableLeft="@drawable/hot_people"
+                        android:drawablePadding="8dp"
+                        android:gravity="center_vertical"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="10dp"
+                        android:text="@string/tribe_recommend_celebrity"
+                        android:textColor="#656565"
+                        android:textSize="14sp" />
+                    <TextView
+                        android:id="@+id/tv_change_radmen"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="15dp"
+                        android:drawablePadding="5dp"
+                        android:drawableRight="@drawable/button_next"
+                        android:text="@string/adc_change_recommend"
+                        android:textColor="#D5D5D5"
+                        android:textSize="12sp" />
+                </RelativeLayout>
+
+                <HorizontalScrollView
+                    android:id="@+id/hs_cele"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:paddingBottom="15dp"
+                    android:paddingLeft="15dp"
+                    android:scrollbars="none">
+
+                    <LinearLayout
+                        android:id="@+id/ll_recommend_celebrity"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:orientation="horizontal"></LinearLayout>
+                </HorizontalScrollView>
+
+
+                <RelativeLayout
+                    android:layout_below="@id/hs_cele"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:background="@color/white"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="15dp"
+                        android:drawableLeft="@drawable/blog"
+                        android:drawablePadding="8dp"
+                        android:gravity="center_vertical"
+                        android:text="推荐部落"
+                        android:textColor="#656565"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/tv_all_tribe"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="15dp"
+                        android:drawablePadding="5dp"
+                        android:drawableRight="@drawable/botton_bg_chat_arrowright"
+                        android:text="全部"
+                        android:textColor="#D5D5D5"
+                        android:textSize="12sp" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout01"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingTop="5dp">
+
+                    <HorizontalScrollView
+                        android:id="@+id/horizontalScrollView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fadingEdge="@null"
+                        android:scrollbars="none">
+
+                        <LinearLayout
+                            android:id="@+id/title_lay"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:id="@+id/lay"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"></LinearLayout>
+
+                            <ImageView
+                                android:id="@+id/img1"
+                                android:layout_width="14dp"
+                                android:layout_height="1dp"
+                                android:layout_gravity="bottom|center_horizontal"
+                                android:layout_marginLeft="10dp"
+                                android:background="#78A8E4" />
+                        </LinearLayout>
+                    </HorizontalScrollView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_tribe_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="vertical"
+                    android:paddingTop="3dp"></LinearLayout>
+
+                <com.tjut.mianliao.theme.ThemeTextView
+                    android:id="@+id/tv_type_tribe_more"
+                    android:layout_width="match_parent"
+                    android:layout_height="28dp"
+                    android:background="@color/white"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:text="@string/tab_more"
+                    android:textColor="#78A8E4"
+                    android:textSize="10sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout01_top"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="5dp">
+
+                <HorizontalScrollView
+                    android:id="@+id/horizontalScrollView_top"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:fadingEdge="@null"
+                    android:scrollbars="none">
+
+                    <LinearLayout
+                        android:id="@+id/title_lay_top"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/lay_top"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"></LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/img1_top"
+                            android:layout_width="14dp"
+                            android:layout_height="1dp"
+                            android:layout_gravity="bottom|center_horizontal"
+                            android:layout_marginLeft="10dp"
+                            android:background="#78A8E4" />
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </LinearLayout>
+        </RelativeLayout>
+
+    </com.tjut.mianliao.component.MyScrollView>
+</android.support.v4.widget.SwipeRefreshLayout>

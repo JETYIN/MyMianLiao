@@ -1,0 +1,176 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sv_task"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.tjut.mianliao.black.MagicLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+       <!-- <com.tjut.mianliao.black.MagicFrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/pic_bg_task_banner"/>
+
+            <com.tjut.mianliao.black.MagicLinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <com.tjut.mianliao.theme.ThemeImageView
+                    android:layout_width="17dp"
+                    android:layout_height="17dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="13dp"
+                    android:layout_marginRight="8dp"
+                    android:src="@drawable/task_pic_bg_kernel"/>
+
+                <com.tjut.mianliao.theme.ThemeTextView
+                    android:id="@+id/tv_show_my_kernel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="504"
+                    android:textColor="@color/white"
+                    android:textSize="32sp"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/task_pic_bg_frame"/>
+            </com.tjut.mianliao.black.MagicLinearLayout>
+        </com.tjut.mianliao.black.MagicFrameLayout>-->
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:paddingBottom="10dp"
+            app:color_magic="0">
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:id="@+id/tv_task_title1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/day_task"
+                android:textSize="17sp"/>
+
+            <com.jess.ui.TwoWayGridView
+                android:id="@+id/day_gridview"
+                android:layout_width="fill_parent"
+                android:layout_height="90dp"
+                android:layout_marginLeft="10dp"
+                android:background="@android:color/transparent"
+                android:scrollbars="none"
+                app:cacheColorHint="#E8E8E8"
+                app:columnWidth="150dp"
+                app:gravity="center"
+                app:horizontalSpacing="16dp"
+                app:numColumns="auto_fit"
+                app:numRows="1"
+                app:rowHeight="90dp"
+                app:scrollDirectionLandscape="horizontal"
+                app:scrollDirectionPortrait="horizontal"
+                app:stretchMode="spacingWidthUniform"
+                app:verticalSpacing="16dp"/>
+        </com.tjut.mianliao.black.MagicLinearLayout>
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:paddingBottom="10dp"
+            app:color_magic="0">
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                 android:id="@+id/tv_task_title2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/newbie_task"
+                android:textSize="17sp"/>
+
+            <com.jess.ui.TwoWayGridView
+                android:id="@+id/rookie_gridview"
+                android:layout_width="fill_parent"
+                android:layout_height="90dp"
+                android:layout_marginLeft="10dp"
+                android:background="@android:color/transparent"
+                android:scrollbars="none"
+                app:cacheColorHint="#E8E8E8"
+                app:columnWidth="150dp"
+                app:gravity="center"
+                app:horizontalSpacing="16dp"
+                app:numColumns="auto_fit"
+                app:numRows="1"
+                app:rowHeight="90dp"
+                app:scrollDirectionLandscape="horizontal"
+                app:scrollDirectionPortrait="horizontal"
+                app:stretchMode="spacingWidthUniform"
+                app:verticalSpacing="16dp"/>
+        </com.tjut.mianliao.black.MagicLinearLayout>
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="15dp"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:paddingBottom="10dp"
+            app:color_magic="0">
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                 android:id="@+id/tv_task_title3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/open_lock"
+                android:textSize="17sp"/>
+
+            <com.tjut.mianliao.black.MagicLinearLayout
+                android:id="@+id/ll_task_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"/>
+
+            <com.jess.ui.TwoWayGridView
+                android:id="@+id/college_gridview"
+                android:layout_width="fill_parent"
+                android:layout_height="90dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/transparent"
+                android:scrollbars="none"
+                app:cacheColorHint="#E8E8E8"
+                app:columnWidth="150dp"
+                app:gravity="center"
+                app:horizontalSpacing="16dp"
+                app:numColumns="auto_fit"
+                app:numRows="1"
+                app:rowHeight="90dp"
+                app:scrollDirectionLandscape="horizontal"
+                app:scrollDirectionPortrait="horizontal"
+                app:stretchMode="spacingWidthUniform"
+                app:verticalSpacing="16dp"/>
+        </com.tjut.mianliao.black.MagicLinearLayout>
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+</ScrollView>

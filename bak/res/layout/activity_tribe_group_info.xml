@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tjut.mianliao.black.MagicRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F2F2">
+
+    <com.tjut.mianliao.black.MagicLinearLayout
+        android:id="@+id/ll_avatar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        app:color_magic="0">
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.tjut.mianliao.component.AvatarView
+                android:id="@+id/iv_avatar"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/chat_botton_bg_faviconboy"/>
+        </com.tjut.mianliao.black.MagicLinearLayout>
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+    <com.tjut.mianliao.theme.ThemeLineView
+		android:id="@+id/line_avatar"        
+        android:layout_below="@id/ll_avatar"
+        android:layout_width="match_parent"
+        android:layout_height="1px"/>
+
+    <com.tjut.mianliao.black.MagicRelativeLayout
+        android:id="@+id/rl_master"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/white"
+        android:layout_below="@id/line_avatar"
+        android:onClick="onClick"
+        app:color_magic="0">
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:id="@+id/tv_group_master"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:text="@string/tribe_group_master"
+            android:textSize="16sp"/>
+
+        <com.tjut.mianliao.component.AvatarView
+            android:id="@+id/iv_master_avatar"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="55dp"
+            android:layout_toRightOf="@id/tv_group_master"
+            android:src="@drawable/chat_botton_bg_faviconboy"/>
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:id="@+id/tv_master_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/iv_master_avatar"
+            android:textSize="14sp"/>
+
+        <com.tjut.mianliao.theme.ThemeImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/botton_bg_chat_arrowright"/>
+    </com.tjut.mianliao.black.MagicRelativeLayout>
+
+    <com.tjut.mianliao.theme.ThemeLineView
+        android:id="@+id/line_master"
+        android:layout_below="@id/rl_master"
+        android:layout_width="match_parent"
+        android:layout_height="1px"/>
+
+    <com.tjut.mianliao.black.MagicLinearLayout
+		android:id="@+id/ll_group_member"
+		android:layout_below="@id/line_master"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        app:color_magic="0">
+
+        <com.tjut.mianliao.black.MagicRelativeLayout
+            android:id="@+id/rl_title_group_member"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:onClick="onClick">
+
+            <com.tjut.mianliao.black.MagicLinearLayout
+                android:id="@+id/ll_title_group_member"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:background="@android:color/transparent"
+                android:orientation="vertical">
+
+                <com.tjut.mianliao.theme.ThemeTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tribe_group_memeber"
+                    android:textSize="16sp"/>
+
+                <com.tjut.mianliao.theme.ThemeTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10sp"/>
+            </com.tjut.mianliao.black.MagicLinearLayout>
+
+            <GridView
+                android:id="@+id/gv_group_member"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="40dp"
+                android:layout_toRightOf="@id/ll_title_group_member"
+                android:listSelector="@color/white"
+                android:numColumns="5"/>
+
+            <com.tjut.mianliao.theme.ThemeImageView
+                android:id="@+id/iv_to_member_list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                android:onClick="onClick"
+                android:src="@drawable/botton_bg_chat_arrowright"/>
+        </com.tjut.mianliao.black.MagicRelativeLayout>
+
+        <com.tjut.mianliao.theme.ThemeLineView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="100dp"/>
+
+        <com.tjut.mianliao.black.MagicRelativeLayout
+            android:id="@+id/rl_invite_friend"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@color/white"
+            android:onClick="onClick"
+            app:color_magic="0">
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="100dp"
+                android:text="@string/forum_invite_title"
+                android:textSize="14sp"/>
+
+            <com.tjut.mianliao.theme.ThemeImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/botton_bg_chat_arrowright"/>
+        </com.tjut.mianliao.black.MagicRelativeLayout>
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+    <com.tjut.mianliao.theme.ThemeLineView
+        android:id="@+id/line_group_manager"
+        android:layout_below="@id/ll_group_member"
+        android:layout_width="match_parent"
+        android:layout_height="1px"/>
+
+    <com.tjut.mianliao.black.MagicRelativeLayout
+        android:id="@+id/rl_come_from"
+        android:layout_below="@id/line_group_manager"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/white"
+        app:color_magic="0">
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:id="@+id/tv_come_from"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:text="@string/tribe_come_from"
+            android:textSize="16sp"/>
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:id="@+id/tv_tribe_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="55dp"
+            android:layout_toRightOf="@id/tv_come_from"
+            android:textSize="14sp"/>
+    </com.tjut.mianliao.black.MagicRelativeLayout>
+
+    <com.tjut.mianliao.theme.ThemeLineView
+        android:id="@+id/line_come_from"
+        android:layout_below="@id/rl_come_from"
+        android:layout_width="match_parent"
+        android:layout_height="1px"/>
+
+    <com.tjut.mianliao.black.MagicRelativeLayout
+        android:id="@+id/rl_forum_intro"
+        android:layout_below="@id/line_come_from"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="@color/white"
+        android:paddingTop="15dp"
+        app:color_magic="0">
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:id="@+id/tv_forum_intro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="@string/ef_forum_intro"
+            android:textSize="16sp"/>
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:id="@+id/tv_room_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:layout_marginRight="30dp"
+            android:layout_toRightOf="@id/tv_forum_intro"
+            android:textSize="14sp"/>
+    </com.tjut.mianliao.black.MagicRelativeLayout>
+
+    <com.tjut.mianliao.theme.ThemeLineView
+        android:layout_below="@id/rl_forum_intro"
+        android:layout_width="match_parent"
+        android:layout_height="1px"/>
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_go_chat"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="22dp"
+        android:background="@drawable/bg_tv_blue"
+        android:clickable="true"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:text="@string/tribe_go_chat"/>
+
+</com.tjut.mianliao.black.MagicRelativeLayout>

@@ -1,0 +1,62 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:paddingBottom="5dp">
+
+    <com.tjut.mianliao.black.MagicLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <com.tjut.mianliao.theme.ThemeImageView
+            android:id="@+id/iv_isunclock"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/bg_bt_circle_yellow"
+            android:padding="2dp"
+            android:src="@drawable/img_unlock_yellow"/>
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:id="@+id/tv_college_class"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textColor="#32BBBC"
+            android:textSize="14sp"/>
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:id="@+id/tv_prompt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="@string/done_unlock"
+            android:textColor="#F1C010"
+            android:textSize="12sp"
+            android:visibility="gone"/>
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+    <com.tjut.mianliao.black.MagicLinearLayout
+        android:id="@+id/ll_yellow_point"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.tjut.mianliao.theme.ThemeImageView
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/bg_bt_circle_yellow"/>
+
+        <com.tjut.mianliao.theme.ThemeImageView
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/bg_bt_circle_yellow"/>
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+</com.tjut.mianliao.black.MagicLinearLayout>

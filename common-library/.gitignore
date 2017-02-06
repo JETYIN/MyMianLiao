@@ -1,0 +1,11 @@
+.classpath
+.project
+.settings
+bin/
+gen/
+out/
+*.class
+*.iml
+build.properties
+lint.xmlk
+.svn/

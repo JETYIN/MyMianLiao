@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.handmark.pulltorefresh.library.PullToRefreshGridView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ptgv_selection_post"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center"
+    android:horizontalSpacing="17dp"
+    android:listSelector="@android:color/transparent"
+    android:numColumns="2"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:verticalSpacing="17dp" />

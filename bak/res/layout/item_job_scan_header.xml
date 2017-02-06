@@ -1,0 +1,48 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_recru_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_job_head"
+    android:orientation="horizontal"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp" >
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/job_position"
+        android:textColor="@color/white" />
+
+    <View
+        android:layout_width="1px"
+        android:layout_height="match_parent"
+        android:background="#8ACEF3"
+        android:paddingBottom="2dp"
+        android:paddingTop="2dp" />
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/job_recru_corp"
+        android:textColor="@color/white" />
+
+    <View
+        android:layout_width="1px"
+        android:layout_height="match_parent"
+        android:background="#8ACEF3"
+        android:paddingBottom="2dp"
+        android:paddingTop="2dp" />
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/job_recru_invite_time"
+        android:textColor="@color/white" />
+
+</com.tjut.mianliao.black.MagicLinearLayout>

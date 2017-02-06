@@ -1,0 +1,32 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_medal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_apply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:clickable="true"
+        android:drawableLeft="@drawable/ic_tooltip"
+        android:drawablePadding="10dp"
+        android:onClick="onClick"
+        android:textColor="#707070"
+        android:textSize="13sp"/>
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/ptrlv_all_medals"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:dividerHeight="@dimen/card_item_spacing"
+        android:listSelector="@color/bg_basic"
+        android:scrollbarStyle="outsideOverlay"/>
+
+</com.tjut.mianliao.black.MagicLinearLayout>

@@ -1,0 +1,14 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/rl_wid_item" android:layout_height="52dp" android:layout_width="match_parent" android:orientation="vertical">
+
+    <TextView android:id="@+id/tv_color_mark" android:layout_height="match_parent" android:layout_width="6dp" />
+
+    <TextView android:gravity="center" android:id="@+id/tv_period" android:layout_centerVertical="true" android:layout_height="wrap_content" android:layout_marginLeft="3dp" android:layout_toRightOf="@id/tv_color_mark" android:layout_width="34dp" android:maxLines="1" android:singleLine="true" android:textColor="#A9A7A4" android:textSize="14dp" />
+
+    <TextView android:drawableLeft="@drawable/ic_widget_course" android:drawablePadding="6dp" android:id="@+id/tv_course_name" android:layout_height="wrap_content" android:layout_marginLeft="3dp" android:layout_marginRight="3dp" android:layout_marginTop="7dp" android:layout_toRightOf="@+id/tv_period" android:layout_width="wrap_content" android:maxLines="1" android:singleLine="true" android:textColor="#7B7B7B" android:textSize="14dp" />
+
+    <TextView android:drawableLeft="@drawable/ic_widget_location" android:drawablePadding="6dp" android:id="@+id/tv_location" android:layout_alignLeft="@id/tv_course_name" android:layout_below="@id/tv_course_name" android:layout_height="wrap_content" android:layout_marginRight="4dp" android:layout_marginTop="3dp" android:layout_toLeftOf="@id/tv_teacher" android:layout_width="wrap_content" android:maxLines="1" android:singleLine="true" android:textColor="#7B7B7B" android:textSize="12dp" />
+
+    <TextView android:drawableLeft="@drawable/ic_widget_teacher" android:drawablePadding="6dp" android:id="@+id/tv_teacher" android:layout_alignBaseline="@id/tv_location" android:layout_alignParentRight="true" android:layout_height="wrap_content" android:layout_marginRight="6dp" android:layout_width="wrap_content" android:maxLines="1" android:maxWidth="65dp" android:singleLine="true" android:textColor="#7B7B7B" android:textSize="12dp" />
+
+    <TextView android:background="#C9C7C4" android:layout_alignParentBottom="true" android:layout_height="1px" android:layout_width="match_parent" />
+</RelativeLayout>

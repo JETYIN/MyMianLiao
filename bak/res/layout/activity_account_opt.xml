@@ -1,0 +1,236 @@
+<com.tjut.mianliao.black.MagicRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.tjut.mianliao.black.MagicRelativeLayout
+        android:id="@+id/rl_tab_logo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <com.tjut.mianliao.theme.ThemeImageView
+            android:id="@+id/iv_tab_icon1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher_about"/>
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:id="@+id/tv_tab_chat1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@id/iv_tab_icon1"
+            android:text="@string/tab_chat"
+            android:textSize="20sp"/>
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_tab_chat1"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/iv_tab_icon1"
+            android:text="@string/tab_slogan"/>
+    </com.tjut.mianliao.black.MagicRelativeLayout>
+
+    <com.tjut.mianliao.black.MagicRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl_tab_logo1"
+        android:layout_margin="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp">
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            android:id="@+id/ll_username1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lgi_user_title"
+                android:textColor="#000000"/>
+
+            <EditText
+                android:id="@+id/et_user_name1"
+                style="@style/MianLiao.EditText.InCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="@null"
+                android:hint="@string/input_username"
+                android:maxLength="32"
+                android:maxLines="1"
+                android:singleLine="true"/>
+        </com.tjut.mianliao.black.MagicLinearLayout>
+
+        <View
+            android:id="@+id/view_lin11"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_below="@id/ll_username1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#C9C9C9"/>
+
+        <com.tjut.mianliao.black.MagicRelativeLayout
+            android:id="@+id/rl_password1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/view_lin11"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1">
+
+            <com.tjut.mianliao.black.MagicLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.tjut.mianliao.theme.ThemeTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/reg_password"
+                    android:textColor="#000000"/>
+
+                <EditText
+                    android:id="@+id/et_pass_word1"
+                    style="@style/MianLiao.EditText.InCard"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:background="@null"
+                    android:hint="@string/input_passward"
+                    android:maxLength="32"
+                    android:maxLines="1"
+                    android:password="true"
+                    android:singleLine="true"/>
+            </com.tjut.mianliao.black.MagicLinearLayout>
+
+            <com.tjut.mianliao.theme.ThemeImageView
+                android:id="@+id/iv_password_check1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:onClick="onClick"
+                android:src="@drawable/pic_bt_check"/>
+        </com.tjut.mianliao.black.MagicRelativeLayout>
+
+        <View
+            android:id="@+id/view_lin21"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_below="@id/rl_password1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#C9C9C9"/>
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            android:id="@+id/ll_email1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/view_lin21"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rsm_email"
+                android:textColor="#000000"/>
+
+            <EditText
+                android:id="@+id/et_emails1"
+                style="@style/MianLiao.EditText.InCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="@null"
+                android:hint="@string/reg_email_hint"
+                android:maxLength="32"
+                android:maxLines="1"
+                android:singleLine="true"/>
+        </com.tjut.mianliao.black.MagicLinearLayout>
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            android:id="@+id/ll_nickname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ll_email1"
+            android:layout_marginTop="40dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/prof_nick_name"
+                android:textColor="#000000"/>
+
+            <EditText
+                android:id="@+id/et_nick_name"
+                style="@style/MianLiao.EditText.InCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="@null"
+                android:hint="@string/reg_email_hint"
+                android:maxLength="32"
+                android:maxLines="1"
+                android:singleLine="true"/>
+        </com.tjut.mianliao.black.MagicLinearLayout>
+
+        <View
+            android:id="@+id/view_lin31"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_below="@id/ll_nickname"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#C9C9C9"/>
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            android:id="@+id/ll_sex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/view_lin31"
+            android:layout_marginBottom="60dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/prof_gender"
+                android:textColor="#000000"/>
+
+            <EditText
+                android:id="@+id/et_sex"
+                style="@style/MianLiao.EditText.InCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="@null"
+                android:hint="@string/reg_email_hint"
+                android:maxLength="32"
+                android:maxLines="1"
+                android:singleLine="true"/>
+        </com.tjut.mianliao.black.MagicLinearLayout>
+
+        <com.tjut.mianliao.theme.ThemeImageView
+            android:id="@+id/iv_bt_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ll_sex"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="65dp"
+            android:onClick="onClick"/>
+    </com.tjut.mianliao.black.MagicRelativeLayout>
+
+</com.tjut.mianliao.black.MagicRelativeLayout>

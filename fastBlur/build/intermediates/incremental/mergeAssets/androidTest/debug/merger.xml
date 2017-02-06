@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="debug"><source path="D:\workSpace\MianLiao\fastBlur\build\intermediates\bundles\debug\assets"><file name="ic_launcher.png" path="D:\workSpace\MianLiao\fastBlur\build\intermediates\bundles\debug\assets\ic_launcher.png"/></source></dataSet><dataSet config="main"><source path="D:\workSpace\MianLiao\fastBlur\src\androidTest\assets"/></dataSet></merger>

@@ -1,0 +1,61 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_channel_post"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:color_magic="0">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"/>
+
+    <com.tjut.mianliao.black.MagicLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_bg_news_item"
+        android:orientation="vertical"
+        app:color_magic="0">
+
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/channel_user"/>
+
+        <com.tjut.mianliao.component.RichEmotionTextView
+            android:id="@+id/tv_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="27dp"
+            android:ellipsize="end"
+            android:lineSpacingExtra="3dp"
+            android:maxLines="3"
+            android:textColor="#2F2F2F"
+            android:textSize="15sp"/>
+
+        <com.tjut.mianliao.component.nova.PicVoteView
+            android:id="@+id/channel_vote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="-10dp"
+            android:layout_marginRight="-10dp"
+            android:layout_marginTop="10dp"/>
+
+        <include
+            android:id="@+id/vote_action"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            layout="@layout/channel_vote_action"/>
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+    <com.tjut.mianliao.theme.ThemeImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/img_solid_split_down"
+        android:contentDescription="@null"/>
+
+</com.tjut.mianliao.black.MagicLinearLayout>

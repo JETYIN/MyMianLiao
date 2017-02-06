@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values-v19/qupai_common_themes.xml -->
+    <eat-comment/>
+    <style name="Theme.Dialog.Overlay.Fullscreen">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values-v19/themes.xml -->
+    <eat-comment/>
+    <style name="Theme.Qupai.Video" parent="android:Theme.Holo.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+</resources>

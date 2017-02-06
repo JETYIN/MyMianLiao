@@ -1,0 +1,58 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <com.tjut.mianliao.black.MagicFrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/cht_recording_circle">
+
+        <ProgressBar
+            android:id="@+id/pb_circle"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:indeterminateBehavior="repeat"
+            android:indeterminateDrawable="@drawable/progressbar_ratate"
+            android:indeterminateOnly="true"/>
+
+        <ProgressBar
+            android:id="@+id/pb_circle_red"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:indeterminateBehavior="repeat"
+            android:indeterminateDrawable="@drawable/progressbar_ratate_cancle"
+            android:indeterminateOnly="true"
+            android:visibility="gone"/>
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:id="@+id/tv_show_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawablePadding="12dp"
+            android:drawableTop="@drawable/circle_icon_talking"
+            android:gravity="center"
+            android:text="@string/cht_unpressed_to_cancle"
+            android:textColor="#878a88"
+            android:textSize="12sp"/>
+    </com.tjut.mianliao.black.MagicFrameLayout>
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_record_time"
+        android:layout_width="wrap_content"
+        android:layout_height="27dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/circle_cht_showtime_bg"
+        android:drawableLeft="@drawable/circle_cht_time_drawleft"
+        android:drawablePadding="13dp"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="13dp"
+        android:textColor="@color/white"
+        android:textSize="12sp"/>
+
+</com.tjut.mianliao.black.MagicLinearLayout>

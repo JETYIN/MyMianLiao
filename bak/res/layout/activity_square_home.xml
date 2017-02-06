@@ -1,0 +1,41 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/post_type_tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        layout="@layout/forum_choice_tab"/>
+
+    <com.tjut.mianliao.theme.ThemeLineView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        app:read_attr_color="true"/>
+
+    <FrameLayout
+        android:id="@+id/fl_ptr_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.handmark.pulltorefresh.library.PullToRefreshListView
+            android:id="@+id/ptrlv_post_stream"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:divider="@null"
+            android:dividerHeight="0px"
+            android:listSelector="@android:color/transparent"
+            android:scrollbarStyle="outsideOverlay"/>
+    </FrameLayout>
+
+    <com.tjut.mianliao.forum.RoamCollegeView
+        android:id="@+id/roaming_colleages"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+</com.tjut.mianliao.black.MagicLinearLayout>

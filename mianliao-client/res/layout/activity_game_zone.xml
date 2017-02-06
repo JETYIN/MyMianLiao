@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.tjut.mianliao.component.CommonBanner
+        android:id="@+id/vs_switcher"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        app:banner_plate="14"/>
+
+    <com.tjut.mianliao.black.MagicRelativeLayout
+        android:id="@+id/rl_go_mini_game"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center_vertical"
+        android:background="@color/white"
+        android:onClick="onClick"
+        app:color_magic="0">
+
+        <com.tjut.mianliao.component.ProImageView
+            android:id="@+id/iv_mini_game_logo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/icon_pic_game"/>
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/iv_mini_game_logo"
+            android:orientation="vertical"
+            app:color_magic="0">
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:id="@+id/tv_mini_game_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tribe_mini_game"
+                android:textSize="17sp"/>
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:id="@+id/tv_mini_game_people_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#9B9A9A"
+                android:textSize="12sp"/>
+        </com.tjut.mianliao.black.MagicLinearLayout>
+
+        <com.tjut.mianliao.theme.ThemeImageView
+            android:id="@+id/iv_go_mini_game"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:onClick="onClick"
+            android:src="@drawable/botton_bg_chat_arrowright"/>
+    </com.tjut.mianliao.black.MagicRelativeLayout>
+
+    <com.tjut.mianliao.black.MagicLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:color_magic="0">
+
+        <com.tjut.mianliao.component.ProImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"/>
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:drawableLeft="@drawable/club_bg_pic_game"
+            android:text="@string/tribe_name_game"
+            android:textColor="#868585"
+            android:textSize="12sp"/>
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/ptlv_game_tribes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:divider="@null"/>
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_tribe_more"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:drawablePadding="5dp"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:text="@string/tab_more"
+        android:textColor="#78A8E4"
+        android:textSize="10sp"/>
+
+</com.tjut.mianliao.black.MagicLinearLayout>

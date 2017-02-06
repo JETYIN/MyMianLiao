@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FindBugsFilter>
+
+    <Match>
+        <Class name="~.*\.R\$.*" />
+        <Bug code="Nm,MS" />
+    </Match>
+
+    <Match>
+        <Class name="com.tjut.mianliao.BaseTask" />
+        <Field name="mLimit" />
+        <Bug code="UrF" />
+    </Match>
+
+    <Match>
+        <Field name="id" />
+        <Bug code="UrF" />
+    </Match>
+
+    <Match>
+        <Class name="com.tjut.mianliao.xmpp.XmppConnector" />
+        <Method name="prepareStoreFile" />
+        <Bug code="RV" />
+    </Match>
+
+    <Match>
+        <Class name="com.tjut.mianliao.scan.Scanner" />
+        <Method name="onPreviewFrame" />
+        <Bug code="VA" />
+    </Match>
+
+    <Match>
+        <Class name="com.tjut.mianliao.data.Course" />
+        <Field name="authed" />
+        <Bug code="UrF" />
+    </Match>
+
+    <Match>
+        <Class name="com.tjut.mianliao.data.ChatRecord" />
+        <Field name="picture" />
+        <Bug code="UwF" />
+    </Match>
+
+    <Match>
+        <Class name="com.tjut.mianliao.data.Medal" />
+        <Field name="imageKey" />
+        <Bug code="UrF" />
+    </Match>
+
+    <Match>
+        <Class name="com.tjut.mianliao.data.NewsComment" />
+        <Or>
+            <Field name="uid" />
+            <Field name="target_uid" />
+        </Or>
+        <Bug code="UrF" />
+    </Match>
+
+    <Match>
+        <Class name="com.tjut.mianliao.promotion.Promotion" />
+        <Field name="hasInfo" />
+        <Bug code="UrF" />
+    </Match>
+
+    <Match>
+        <Class name="com.tjut.mianliao.util.MsResponse" />
+        <Field name="request" />
+        <Bug code="UrF" />
+    </Match>
+
+    <Match>
+        <Class name="com.tjut.mianliao.contact.AvatarManager" />
+        <Or>
+            <Method name="&lt;init&gt;" />
+            <Method name="deleteAvatar" />
+        </Or>
+        <Bug code="RV" />
+    </Match>
+
+    <Match>
+        <Class name="com.tjut.mianliao.util.FileDownloader" />
+        <Method name="&lt;init&gt;" />
+        <Bug code="RV" />
+    </Match>
+
+    <Match>
+        <Class name="com.tjut.mianliao.util.HttpUtil" />
+        <Method name="downLoad" />
+        <Bug code="RV" />
+    </Match>
+
+    <Match>
+        <Class name="com.tjut.mianliao.util.Utils" />
+        <Method name="renameFile" />
+        <Bug code="RV" />
+    </Match>
+
+</FindBugsFilter>

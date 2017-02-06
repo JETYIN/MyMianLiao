@@ -1,0 +1,12 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="center" android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="vertical">
+
+    <com.tjut.mianliao.black.MagicLinearLayout android:background="@drawable/pic_bg_jobmatching" android:layout_gravity="center" android:layout_height="wrap_content" android:layout_marginTop="25dp" android:layout_width="match_parent" android:orientation="vertical">
+
+        <com.tjut.mianliao.theme.ThemeTextView android:id="@+id/tv_tag" android:layout_gravity="center" android:layout_height="wrap_content" android:layout_width="wrap_content" android:padding="10dp" android:textColor="@color/white" android:textSize="12sp" />
+
+        <com.tjut.mianliao.theme.ThemeTextView android:gravity="left" android:id="@+id/tv_position_desc" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_marginTop="5dp" android:layout_width="wrap_content" android:textColor="#747474" android:textSize="14sp" />
+
+        <com.tjut.mianliao.theme.ThemeTextView android:gravity="left" android:id="@+id/tv_crop_name" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_width="wrap_content" android:paddingBottom="10dp" android:textColor="#A6A6A6" android:textSize="10sp" />
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+</com.tjut.mianliao.black.MagicLinearLayout>

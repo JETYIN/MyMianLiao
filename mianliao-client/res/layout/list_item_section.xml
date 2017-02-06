@@ -1,0 +1,11 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:background="@drawable/selector_bg_item" android:gravity="center_vertical" android:layout_height="54dp" android:layout_width="match_parent" android:orientation="horizontal">
+
+    <com.tjut.mianliao.component.AvatarView android:id="@+id/iv_icon" android:layout_height="@dimen/section_menu_icon_size" android:layout_marginLeft="10dp" android:layout_width="@dimen/section_menu_icon_size" tools:ignore="ContentDescription" />
+
+    <com.tjut.mianliao.theme.ThemeTextView android:id="@+id/tv_name" android:layout_height="wrap_content" android:layout_marginLeft="14dp" android:layout_weight="1" android:layout_width="0dp" android:textColor="#5B5654" android:textSize="15sp" />
+
+    <com.tjut.mianliao.theme.ThemeTextView android:background="@drawable/btn_red" android:gravity="center" android:id="@+id/tv_count" android:layout_height="20dp" android:layout_marginRight="10dp" android:layout_width="wrap_content" android:paddingLeft="8dp" android:paddingRight="8dp" android:textColor="@color/white" android:textSize="14sp" />
+
+    <com.tjut.mianliao.theme.ThemeImageView android:layout_height="wrap_content" android:layout_marginRight="24dp" android:layout_width="wrap_content" android:src="@drawable/ic_enter" tools:ignore="ContentDescription" />
+
+</com.tjut.mianliao.black.MagicLinearLayout>

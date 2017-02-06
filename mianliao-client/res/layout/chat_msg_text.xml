@@ -1,0 +1,5 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/ll_msg_text" android:layout_height="wrap_content" android:layout_width="wrap_content">
+
+    <com.tjut.mianliao.component.EmotionTextView app:emotionSize="@dimen/emo_size_large" android:autoLink="all" android:id="@+id/tv_msg_text" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="15sp" />
+
+</com.tjut.mianliao.black.MagicLinearLayout>

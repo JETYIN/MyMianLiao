@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_rad_men"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingTop="5dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <com.tjut.mianliao.component.AvatarView
+        android:id="@+id/av_avatar"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/pic_face_01"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:maxLength="8"
+        android:textColor="#797979"
+        android:layout_marginTop="7dp"/>
+
+    <TextView
+        android:id="@+id/tv_school"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#C8C8C8"
+        android:textSize="9sp"/>
+
+    <TextView
+        android:id="@+id/tv_attention_count"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:textColor="#FF9393"
+        android:textSize="15sp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:gravity="center"
+        android:background="@drawable/bg_tv_rad_circle"
+        android:layout_marginTop="12dp"/>
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+<com.tjut.mianliao.black.MagicRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="#E5E5E5" android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal">
+
+    <com.tjut.mianliao.theme.ThemeTextView android:clickable="true" android:id="@+id/tv_more_chats" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:layout_height="match_parent" android:layout_width="wrap_content" android:onClick="onClick" android:padding="12dp" android:text="@string/more" android:textSize="14sp" android:visibility="gone" />
+
+</com.tjut.mianliao.black.MagicRelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_tribe_from"
+    android:layout_width="match_parent"
+    android:layout_height="20dp"
+    android:layout_marginTop="15dp"
+    android:paddingLeft="15dp"
+    android:clickable="true">
+
+    <TextView
+        android:id="@+id/tv_from_where"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tribe_footer_from_tribe"
+        android:textColor="#9b9a9a"
+        android:textSize="10sp"/>
+
+    <TextView
+        android:id="@+id/tv_tribe_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:paddingBottom="2dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="2dp"
+        android:background="@drawable/bg_tv_purple"
+        android:textColor="#ffffff"
+        android:textSize="10sp"/>
+
+</LinearLayout>

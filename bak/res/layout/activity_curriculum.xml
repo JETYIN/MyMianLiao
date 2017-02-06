@@ -1,0 +1,123 @@
+<com.tjut.mianliao.component.ThemeFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fl_curriculum"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/course_bg_default">
+
+    <com.tjut.mianliao.black.MagicRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            android:id="@+id/ll_weekday"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/cur_header_height"
+            android:background="@color/cur_cell_a"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/cur_first_col_width">
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                style="@style/MianLiao.Title.Curriculum"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/cur_week_mon"/>
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                style="@style/MianLiao.Title.Curriculum"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/cur_week_tue"/>
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                style="@style/MianLiao.Title.Curriculum"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/cur_week_wed"/>
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                style="@style/MianLiao.Title.Curriculum"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/cur_week_thu"/>
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                style="@style/MianLiao.Title.Curriculum"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/cur_week_fri"/>
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                style="@style/MianLiao.Title.Curriculum"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/cur_week_sat"/>
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                style="@style/MianLiao.Title.Curriculum"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/cur_week_sun"/>
+        </com.tjut.mianliao.black.MagicLinearLayout>
+        
+        <View
+            android:id="@+id/v_line_hor"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginTop="@dimen/cur_header_height"
+            android:background="#0DFFFFFF"/>
+
+        <ScrollView
+            android:id="@+id/sv_course_body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/v_line_hor"
+            android:overScrollMode="never"
+            android:scrollbars="none">
+
+            <com.tjut.mianliao.black.MagicRelativeLayout
+                android:id="@+id/rl_course_body"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.tjut.mianliao.black.MagicLinearLayout
+                    android:id="@+id/ll_period"
+                    android:layout_width="@dimen/cur_first_col_width"
+                    android:layout_height="match_parent"
+                    android:layout_alignBottom="@+id/cl_course_content"
+                    android:layout_alignTop="@+id/cl_course_content"
+                    android:background="@android:color/transparent"
+                    android:orientation="vertical"/>
+                
+                <View
+                    android:id="@+id/v_line_ver"
+                    android:layout_width="1px"
+                    android:layout_height="match_parent"
+                    android:layout_alignBottom="@+id/cl_course_content"
+                    android:layout_marginLeft="@dimen/cur_first_col_width"
+                    android:background="#0DFFFFFF"/>
+
+                <com.tjut.mianliao.curriculum.cell.CellLayout
+                    android:id="@+id/cl_course_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/v_line_ver"/>
+            </com.tjut.mianliao.black.MagicRelativeLayout>
+        </ScrollView>
+    </com.tjut.mianliao.black.MagicRelativeLayout>
+
+    <com.tjut.mianliao.black.MagicFrameLayout
+        android:id="@+id/fl_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+
+</com.tjut.mianliao.component.ThemeFrameLayout>

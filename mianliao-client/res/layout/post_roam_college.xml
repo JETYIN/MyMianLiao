@@ -1,0 +1,148 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fl_roam_college"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/fl_roam_college_top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/pic_bg_roam_college">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/search_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <com.tjut.mianliao.component.SearchView
+                    android:id="@+id/planet_search"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    app:change_bg="false"
+                    app:search_view_bg="@drawable/bg_search_view"
+                    app:search_view_height="40dp"/>
+
+                <com.tjut.mianliao.theme.ThemeImageView
+                    android:id="@+id/bt_collect_school"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/bottom_collect_full"/>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/search_layout">
+
+                <com.tjut.mianliao.forum.components.PlanetCollegeView
+                    android:id="@+id/planet_star1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="35dp"
+                    app:planet_star_img="@drawable/pic_star_brown_lock"
+                    app:planet_view_width="40dp"
+                    app:search_unlock_marginLeft="6dp"
+                    app:search_view_tip_textsize="9sp"/>
+
+                <com.tjut.mianliao.forum.components.PlanetCollegeView
+                    android:id="@+id/planet_star2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    app:planet_star_img="@drawable/pic_star_purple_lock"
+                    app:planet_title_magintop="-5dp"
+                    app:planet_view_width="60dp"
+                    app:search_unlock_marginLeft="7dp"
+                    app:search_view_tip_textsize="10sp"/>
+
+                <com.tjut.mianliao.forum.components.PlanetCollegeView
+                    android:id="@+id/planet_star3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:paddingBottom="35dp"
+                    app:planet_star_img="@drawable/pic_star_blue"
+                    app:planet_title_magintop="-30dp"
+                    app:planet_view_width="160dp"
+                    app:search_unlock_marginLeft="9dp"
+                    app:search_view_tip_textsize="12sp"/>
+
+                <com.tjut.mianliao.forum.components.PlanetCollegeView
+                    android:id="@+id/planet_star4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="100dp"
+                    app:planet_star_img="@drawable/pic_star_yellow_lock"
+                    app:planet_title_magintop="-5dp"
+                    app:planet_view_width="80dp"
+                    app:search_unlock_marginLeft="6dp"
+                    app:search_view_tip_textsize="10sp"/>
+
+                <com.tjut.mianliao.forum.components.PlanetCollegeView
+                    android:id="@+id/planet_star5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="50dp"
+                    android:layout_marginLeft="50dp"
+                    app:planet_star_img="@drawable/pic_star_pink_lock"
+                    app:planet_view_width="100dp"
+                    app:search_unlock_marginLeft="6dp"
+                    app:search_view_tip_textsize="10sp"/>
+            </RelativeLayout>
+
+            <ListView
+                android:id="@+id/lv_search"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/search_layout"
+                android:background="@color/college_search_list_bg"
+                android:cacheColorHint="#00000000"
+                android:divider="#1AFFFFFF"
+                android:dividerHeight="1px"
+                android:visibility="gone">
+            </ListView>
+        </RelativeLayout>
+
+        <com.tjut.mianliao.forum.components.SchoolListDialog
+            android:id="@+id/school_list_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"/>
+
+        <com.tjut.mianliao.forum.components.SchoolListDialog
+            android:id="@+id/school_collection_list_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"/>
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/ll_lock_prompt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#B3000000"
+        android:gravity="center"
+        android:visibility="invisible">
+
+        <include layout="@layout/item_roam_unlock"/>
+    </RelativeLayout>
+
+</FrameLayout>

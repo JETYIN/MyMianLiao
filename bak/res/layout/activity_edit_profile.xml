@@ -1,0 +1,46 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:fillViewport="true" android:layout_height="match_parent" android:layout_marginTop="@dimen/title_bar_height" android:layout_width="match_parent">
+
+    <com.tjut.mianliao.black.MagicLinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="vertical" android:paddingBottom="10dp">
+
+        <include layout="@layout/profile_basic" />
+
+        <com.tjut.mianliao.black.MagicLinearLayout android:background="@drawable/bg_card" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/card_margin_horizontal" android:layout_marginRight="@dimen/card_margin_horizontal" android:layout_marginTop="@dimen/card_item_spacing" android:layout_width="match_parent" android:orientation="vertical">
+
+            <com.tjut.mianliao.component.CardItemBase app:cardTitle="@string/prof_nick_name" android:layout_height="wrap_content" android:layout_width="match_parent">
+
+                <EditText style="@style/MianLiao.EditText.InCard" android:hint="@string/prof_nick_name" android:id="@+id/et_nickname" android:layout_height="wrap_content" android:layout_marginRight="@dimen/card_margin_horizontal" android:layout_width="match_parent" android:maxLength="50" android:singleLine="true" />
+            </com.tjut.mianliao.component.CardItemBase>
+
+            <include layout="@layout/hr_divider_with_margin" />
+
+            <com.tjut.mianliao.component.CardItemBase app:cardTitle="@string/prof_phone" android:layout_height="wrap_content" android:layout_width="match_parent">
+
+                <EditText style="@style/MianLiao.EditText.InCard" android:hint="@string/prof_phone" android:id="@+id/et_phone" android:inputType="phone" android:layout_height="wrap_content" android:layout_width="match_parent" android:maxLength="16" android:maxLines="1" />
+            </com.tjut.mianliao.component.CardItemBase>
+
+            <include layout="@layout/hr_divider_with_margin" />
+
+            <com.tjut.mianliao.component.CardItemBase app:cardTitle="@string/prof_email" android:layout_height="wrap_content" android:layout_width="match_parent">
+
+                <EditText style="@style/MianLiao.EditText.InCard" android:hint="@string/prof_email" android:id="@+id/et_email" android:inputType="textEmailAddress" android:layout_height="wrap_content" android:layout_marginRight="@dimen/card_margin_horizontal" android:layout_weight="1" android:layout_width="0dp" android:maxLength="100" android:maxLines="1" />
+
+                <com.tjut.mianliao.theme.ThemeTextView android:background="@drawable/btn_gray" android:gravity="center" android:id="@+id/tv_email_verified" android:layout_gravity="center_vertical" android:layout_height="26dp" android:layout_width="54dp" android:text="@string/prof_email_verified" android:textColor="@color/white" android:textSize="13sp" android:visibility="gone" />
+            </com.tjut.mianliao.component.CardItemBase>
+
+            <include layout="@layout/hr_divider_with_margin" />
+
+            <com.tjut.mianliao.component.CardItemBase app:cardTitle="@string/prof_short_desc" android:layout_height="wrap_content" android:layout_width="match_parent">
+
+                <EditText style="@style/MianLiao.EditText.InCard" android:hint="@string/prof_short_desc" android:id="@+id/et_short_desc" android:imeOptions="actionDone" android:layout_height="wrap_content" android:layout_marginRight="@dimen/card_margin_horizontal" android:layout_width="match_parent" android:maxLength="100" android:singleLine="true" />
+            </com.tjut.mianliao.component.CardItemBase>
+
+            <com.tjut.mianliao.black.MagicRelativeLayout android:background="@drawable/selector_bg_card_item" android:id="@+id/rl_edit_pwd" android:layout_height="wrap_content" android:layout_width="match_parent" android:visibility="gone">
+
+                <include layout="@layout/hr_divider_with_margin" />
+
+                <com.tjut.mianliao.component.CardItemConf app:cardTitle="@string/prof_update_password" android:id="@+id/cic_update_password" android:layout_height="wrap_content" android:layout_width="match_parent" android:onClick="onClick" />
+            </com.tjut.mianliao.black.MagicRelativeLayout>
+        </com.tjut.mianliao.black.MagicLinearLayout>
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+</ScrollView>

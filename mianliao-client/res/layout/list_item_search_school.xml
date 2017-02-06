@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tjut.mianliao.black.MagicRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_search_school"
+    android:layout_width="match_parent"
+    android:layout_height="40dp">
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_school_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:textColor="#515151"
+        android:textSize="15sp"/>
+
+    <com.tjut.mianliao.theme.ThemeImageView
+        android:id="@+id/iv_is_lock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="25dp"
+        android:src="@drawable/icon_search_lock"/>
+
+    <com.tjut.mianliao.theme.ThemeLineView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_alignParentBottom="true"/>
+
+</com.tjut.mianliao.black.MagicRelativeLayout>

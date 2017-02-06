@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@+id/fl_avatar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true">
+
+                <ImageView
+                    android:id="@+id/iv_vip_bg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@null"
+                    android:src="@drawable/forum_avatar_bg"
+                    android:visibility="gone"/>
+
+                <com.tjut.mianliao.component.AvatarView
+                    android:id="@+id/av_avatar"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:padding="1dp"
+                    android:src="@drawable/chat_botton_bg_faviconboy"
+                    android:scaleType="fitXY"
+                    app:borderType="circle"/>
+
+                <ImageView
+                    android:id="@+id/iv_type_icon"
+                    android:layout_width="13dp"
+                    android:layout_height="13dp"
+                    android:layout_gravity="bottom|right"
+                    android:contentDescription="@null"
+                    android:padding="1dp"
+                    android:visibility="gone"/>
+            </FrameLayout>
+
+            <com.tjut.mianliao.black.MagicLinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <com.tjut.mianliao.theme.ThemeTextView
+                    android:id="@+id/tv_user_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="秦文马"
+                    android:textColor="#515151"
+                    android:textSize="12sp"/>
+
+                <com.tjut.mianliao.component.ProImageView
+                    android:id="@+id/iv_user_gender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:src="@drawable/ic_female"/>
+            </com.tjut.mianliao.black.MagicLinearLayout>
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:id="@+id/tv_school_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="电子科技大学"
+                android:textColor="#9B9A9A"
+                android:textSize="10sp"/>
+
+            <com.tjut.mianliao.black.MagicLinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <com.tjut.mianliao.component.ProImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon_muster_section"/>
+
+                <com.tjut.mianliao.component.ProImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/icon_medal"/>
+
+                <com.tjut.mianliao.component.ProImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/icon_medal"/>
+
+                <com.tjut.mianliao.component.ProImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/icon_medal"/>
+            </com.tjut.mianliao.black.MagicLinearLayout>
+        </LinearLayout>
+
+        <com.tjut.mianliao.theme.ThemeLineView
+            android:id="@+id/line_right"
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+    <com.tjut.mianliao.theme.ThemeLineView
+        android:id="@+id/line_horizontal_left"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="35dp"
+        android:visibility="gone"/>
+
+    <com.tjut.mianliao.theme.ThemeLineView
+        android:id="@+id/line_horizontal_right"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="35dp"
+        android:visibility="gone"/>
+
+    <com.tjut.mianliao.theme.ThemeLineView
+        android:id="@+id/line_vertical_top"
+        android:layout_width="1px"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="25dp"
+        android:visibility="gone"/>
+
+    <com.tjut.mianliao.theme.ThemeLineView
+        android:id="@+id/line_vertical_bottom"
+        android:layout_width="1px"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="25dp"
+        android:visibility="gone"/>
+
+</RelativeLayout>

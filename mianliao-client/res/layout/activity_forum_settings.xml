@@ -1,0 +1,9 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/white" android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical">
+
+    <com.tjut.mianliao.theme.ThemeTextView android:drawableLeft="@drawable/icon_notice" android:drawablePadding="8dp" android:layout_gravity="center" android:layout_height="wrap_content" android:layout_width="wrap_content" android:padding="16dp" android:text="@string/fs_description" android:textColor="#888888" android:textSize="12sp" />
+
+    <include layout="@layout/hr_divider" />
+
+    <android.support.v4.view.ViewPager android:id="@+id/vp_forum_pager" android:layout_height="match_parent" android:layout_width="match_parent" />
+
+</com.tjut.mianliao.black.MagicLinearLayout>

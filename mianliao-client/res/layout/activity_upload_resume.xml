@@ -1,0 +1,7 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical">
+
+    <ListView android:cacheColorHint="@color/bg_basic" android:divider="@color/hr_divider" android:dividerHeight="1px" android:id="@+id/lv_resume" android:layout_height="wrap_content" android:layout_width="match_parent" android:listSelector="@color/bg_basic" android:overScrollFooter="@null" android:overScrollHeader="@null" />
+
+    <include layout="@layout/hr_divider" />
+
+</com.tjut.mianliao.black.MagicLinearLayout>

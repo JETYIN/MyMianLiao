@@ -1,0 +1,7 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.tjut.mianliao.component.AvatarView app:borderType="roundCorner" app:cornerRadius="4dp" android:id="@+id/piv_map" android:layout_height="match_parent" android:layout_width="match_parent" />
+
+    <com.tjut.mianliao.theme.ThemeImageView android:id="@+id/iv_smv_marker" android:layout_gravity="center" android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/map_ic_small_place" />
+
+</merge>

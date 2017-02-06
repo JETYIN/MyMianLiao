@@ -1,0 +1,178 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sv_verify"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.tjut.mianliao.black.MagicLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.tjut.mianliao.theme.ThemeImageView
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/pic_auth_head"
+            tools:ignore="ContentDescription"/>
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/ic_tooltip"
+            android:drawablePadding="10dp"
+            android:text="@string/iv_upload_hint"
+            android:textColor="#707070"
+            android:textSize="12sp"/>
+
+        <com.tjut.mianliao.black.MagicRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card_margin_horizontal"
+            android:layout_marginRight="@dimen/card_margin_horizontal"
+            android:layout_marginTop="10dp"
+            app:color_magic="0">
+
+            <EditText
+                android:id="@+id/et_stu_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusableInTouchMode="true"
+                android:hint="@string/iv_stu_number_input_hint"
+                android:inputType="text"
+                android:maxLength="50"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="#585858"
+                android:textSize="16sp"
+                android:typeface="normal"/>
+        </com.tjut.mianliao.black.MagicRelativeLayout>
+
+        <com.tjut.mianliao.black.MagicRelativeLayout
+            android:id="@+id/rl_stu_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card_margin_horizontal"
+            android:layout_marginRight="@dimen/card_margin_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/selector_bg_card"
+            android:onClick="onClick"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            app:color_magic="0">
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:id="@+id/tv_uld_stu_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="12dp"
+                android:text="@string/iv_upload_stu_card"
+                android:textColor="#5E5E5E"
+                android:textSize="16sp"/>
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tv_uld_stu_number"
+                android:layout_below="@+id/tv_uld_stu_number"
+                android:text="@string/iv_keep_stu_card_clear"
+                android:textColor="#aaaaaa"
+                android:textSize="11sp"/>
+
+            <com.tjut.mianliao.theme.ThemeImageView
+                android:id="@+id/ic_enter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/ic_enter"
+                tools:ignore="ContentDescription"/>
+
+            <com.tjut.mianliao.theme.ThemeImageView
+                android:id="@+id/iv_stu_card"
+                android:layout_width="88dp"
+                android:layout_height="60dp"
+                android:layout_marginRight="14dp"
+                android:layout_toLeftOf="@+id/ic_enter"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pic_stu_card"
+                tools:ignore="ContentDescription"/>
+        </com.tjut.mianliao.black.MagicRelativeLayout>
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card_margin_horizontal"
+            android:layout_marginRight="@dimen/card_margin_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/selector_btn_blue"
+            android:onClick="onClick"
+            android:text="@string/iv_submit"/>
+
+        <com.tjut.mianliao.black.MagicRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="24dp">
+
+            <com.tjut.mianliao.theme.ThemeImageView
+                android:id="@+id/iv_id_student"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_id_student"
+                tools:ignore="ContentDescription"/>
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="@string/iv_desc_id_student"
+                android:textColor="#707070"
+                android:textSize="12sp"/>
+        </com.tjut.mianliao.black.MagicRelativeLayout>
+
+        <com.tjut.mianliao.black.MagicRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="24dp">
+
+            <com.tjut.mianliao.theme.ThemeImageView
+                android:id="@+id/iv_id_teacher"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_id_teacher"
+                tools:ignore="ContentDescription"/>
+
+            <com.tjut.mianliao.theme.ThemeImageView
+                android:id="@+id/iv_id_business"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_id_teacher"
+                android:layout_marginTop="4dp"
+                android:src="@drawable/ic_id_business"
+                tools:ignore="ContentDescription"/>
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="30dp"
+                android:text="@string/iv_desc_id_teacher_business"
+                android:textColor="#707070"
+                android:textSize="12sp"/>
+        </com.tjut.mianliao.black.MagicRelativeLayout>
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+</ScrollView>

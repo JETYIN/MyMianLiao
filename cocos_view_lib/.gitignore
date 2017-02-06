@@ -1,0 +1,32 @@
+#Android generated
+proj.android/bin
+proj.android/gen
+cocos2d
+
+#Eclipse
+.project
+.classpath
+.settings
+
+#IntelliJ IDEA
+.idea
+*.iml
+*.ipr
+*.iws
+out
+
+#Maven
+target
+release.properties
+pom.xml.*
+
+#Ant
+proguard.cfg
+
+#OSX
+.DS_Store
+
+build
+obj
+library/build/*
+libs/armeabi/gdb*

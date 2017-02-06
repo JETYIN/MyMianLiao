@@ -1,0 +1,1450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="zh">
+
+    <!-- Generic -->
+    <string name="app_name">MianLiao</string>
+    <string name="version">Version</string>
+    <string name="check_for_update">Check for update</string>
+    <string name="clip_board_clipped">The text has been copied to the clipboard</string>
+    <string name="field_no_info">not set</string>
+    <string name="delete">Delete</string>
+    <string name="create">Create</string>
+    <string name="view">View</string>
+    <string name="edit">Edit</string>
+    <string name="share">Share</string>
+    <string name="contacts">Contacts (%1$d)</string>
+    <string name="loading">Loading&#8230;</string>
+    <string name="storage_not_available">Storage not available</string>
+    <string name="crop_image">Crop Image</string>
+    <string name="user_agreement">User Agreement</string>
+    <string name="change_log">Change Log</string>
+    <string name="help">Help</string>
+    <string name="invite_friends">Invite Friends</string>
+    <string name="invite_friends_desc">Your friend invited you to join MianLiao, click to download:&#160;</string>
+    <string name="please_choose">Please Choose</string>
+    <string name="handling_last_task">Handling last task</string>
+    <string name="reply">Reply</string>
+    <string name="like">Like</string>
+    <string name="liked">Liked</string>
+    <string name="cancel_like">Cancel like</string>
+    <string name="ms_failure_template">%1$s (%2$s)</string>
+    <string name="choose_local_picture">Local Pictures</string>
+    <string name="take_a_photo">Take a Photo</string>
+    <string name="question_mark">\&#063;</string>
+    <string name="finish">Finish</string>
+    <string name="set_avatar">Set Avatar</string>
+    <string name="set_scene_image">Set Scene</string>
+    <string name="confirm">Confirm</string>
+    <string name="invite">Invite</string>
+    <string name="check_all">Check All</string>
+    <string name="uncheck_all">Uncheck All</string>
+    <string name="agree">Agree</string>
+    <string name="refuse">Refuse</string>
+    <string name="back">Back</string>
+    <string name="post">Post</string>
+    <string name="year">Year</string>
+    <string name="month">Month</string>
+    <string name="day">Day</string>
+    <string name="hour">Hour</string>
+    <string name="minute">Minute</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="field_tbd">TBD</string>
+    <string name="report">Report</string>
+    <string name="ref_friends">"@friends"</string>
+    <string name="map">Map</string>
+    <string name="field_required">Required</string>
+    <string name="manage">Manage</string>
+    <string name="send">Send</string>
+    <string name="voice_message">[Voice]</string>
+    <string name="picture_message">[Picture]</string>
+    <string name="location_message">[Location]</string>
+    <string name="share_location_message">[Share location]</string>
+    <string name="share_location_over">[Share location is over]</string>
+    <string name="share_location_no_result">I am sorry, but did not check to results</string>
+    <string name="add_friends_to_group">Add to group chat</string>
+    <string name="group_chat_title">Group chat</string>
+    <string name="get_members_info_failed">Group members information acquisition fail</string>
+    <string name="group_chat_info_title">Chat infomation</string>
+    <string name="group_chat_start_message">I started the group chat</string>
+    <string name="group_chat_not_support">Sorry, this feature is not support group chat!</string>
+    <string name="group_chat_toast_text">The function development, stay tuned!</string>
+    <string name="group_chat_delete_chatrecord_success">Delete chat records successful</string>
+    <string name="update_gorup_name">Update group name</string>
+    <string name="chose_report_reason">Choose to report reason</string>
+    <string name="chose_report_reason_toast">Please select a report content</string>
+    <string name="report_success_toast"> Report success</string>
+    <string name="report_failed_toast">Failure to report</string>
+    <string name="third_party_login">Third party_login</string>
+    <string name="login_loading_txt">Log in, please later</string>
+    <string name="other_party_login">Other party_login</string>
+    <string name="Group_management">Group management</string>
+
+    <!-- Police Report -->
+    <string name="pr_success">Thanks for your report</string>
+    <string name="pr_failed">Report failed</string>
+
+    <!-- network -->
+    <string name="connecting">Connecting&#8230;</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="no_network">No Network</string>
+    <string name="connect_timeout">Timeout</string>
+    <string name="network_error">Network Error</string>
+    <string name="invalid_url">Invalid Url</string>
+
+    <!-- foot bar -->
+    <string name="tab_chat">Chat</string>
+    <string name="tab_my_college">My College</string>
+    <string name="tab_tribe">Go College</string>
+    <string name="tab_forum">Forum</string>
+    <string name="tab_explore">Explore</string>
+    <string name="tab_more">More</string>
+    <string name="tab_slogan">Go, and interesting discovery</string>
+    <string name="fun_game_title">The easier to challenge discrimination of small game, yo, come!</string>
+    <string name="fun_game_buttom_tit">Good afternoon funny games plate is small game park, interesting, and occasionally walk is good for health of body and mind</string>
+
+    <!-- Chat -->
+    <string name="me">me:&#160;</string>
+    <string name="more">More</string>
+    <string name="call_checking_availability">Checking availability&#8230;</string>
+    <string name="call_starting">Starting&#8230;</string>
+    <string name="call_failed">Call failed, please try again later</string>
+    <string name="call_voice_no_phone">He/She have\'t set a phone number</string>
+    <string name="cht_chat_with_friends">Chat with friends</string>
+    <string name="cht_open_contacts">Open Contacts</string>
+    <string name="cht_no_chat_recently">You haven\'t chat with your friends recently. Click "Contacts" at top right to
+        start a chat with your friend!</string>
+    <string name="cht_no_contact">Haven\'t got a contact? Find one!</string>
+    <string name="cht_find_contacts">Find Contacts</string>
+    <string name="cht_choose_call">Choose Call Type</string>
+    <string name="cht_clip_board_label">MianLiao - Chat</string>
+    <string name="cht_multi_send_title">Multi-Send Message</string>
+    <string name="cht_multi_send_tst_no_msg">No message</string>
+    <string name="cht_multi_send_tst_failed">Failed to multi-send message</string>
+    <string name="cht_multi_send_tst_success">Message send to friends successful</string>
+    <string name="cht_pressed_to_record">Press and hold to record</string>
+    <string name="cht_unpressed_to_end">Unpress to end</string>
+    <string name="cht_unpressed_to_finish">Unpress to finish</string>
+    <string name="cht_move_up_to_cancle">Move up to cancle</string>
+    <string name="cht_unpressed_to_cancle">Unpress to cancle</string>
+    <string name="cht_input_hint">Input : to trigger actions</string>
+    <string name="cht_input_hint_group">Please input content</string>
+    <string name="cht_share_location_title">Location sharing</string>
+    <string name="cht_request_dialog_title">Location sharing</string>
+    <string name="cht_request_dialog_content">Join the location sharing, chat in the others will see your position, determine to join?</string>
+    <string name="cht_sharelication_dialog_title">Quit share location</string>
+    <string name="cht_sharelication_dialog_content">Do you want quit share location?</string>
+    <string name="cht_share_location_text">I started the location sharing</string>
+    <string name="cht_share_location_persons">%1$d sharing location</string>
+    <string name="cht_share_location_distance">(distance: %1$s)</string>
+    <string name="cht_share_location_over_txt">Share location is over</string>
+    <string name="cht_group_name_txt">Name of the group-chat</string>
+    <string name="cht_group_size">Group size</string>
+    <string name="cht_group_chat_top">Top chat</string>
+    <string name="cht_group_chat_picture">Chat pictures</string>
+    <string name="cht_group_set_backgroud">Set backgroud</string>
+    <string name="cht_group_my_nickname">My nickname</string>
+    <string name="cht_group_delete_record">Empty the chat record </string>
+    <string name="cht_report_group">Report</string>
+    <string name="cht_group_del_quit">Delete and quit</string>
+    <string name="cht_group_quit_message">Delete and exit, will no longer receive the group chat information</string>
+    <string name="cht_group_del_records_message">Sure to delete group chat records?</string>
+    <string name="please_input_gorup_name">Please input group name</string>
+    <string name="cht_no_picture">No pictures information</string>
+
+    <string-array name="cht_report_reasons">
+        <item>Pornographic vulgarity</item>
+        <item>The ads</item>
+        <item>Politically sensitive</item>
+        <item>The rumor</item>
+        <item>Swindled</item>
+        <item>Illegal and violence</item>
+        <item>Copying and using</item>
+    </string-array>
+    <string-array name="cht_share_location">
+        <item>Send location</item>
+        <item>Share real-time location</item>
+    </string-array>
+    <string-array name="cht_long_press_menu">
+        <item>Delete Chat Record</item>
+    </string-array>
+    <string-array name="cht_call_choices">
+        <item>Phone Call</item>
+        <item>(Wifi) Video</item>
+    </string-array>
+
+    <!-- Chat Extention -->
+    <string name="cht_ext_picture">Picture</string>
+    <string name="cht_ext_location">Location</string>
+    <string name="cht_ext_emotion">Emotion</string>
+    <string name="cht_ext_bubble">Bubble</string>
+    <string name="cht_ext_background">Background</string>
+    <string name="cht_ext_character">Character</string>
+
+    <!-- Notification -->
+    <string name="notify_chat">New Chat Message (%1$d)</string>
+    <string name="notify_course">Course Remind</string>
+
+    <!-- News -->
+    <string name="news_details_title">Body</string>
+    <string name="news_category_all">All News</string>
+    <string name="news_category_hot">Hot News</string>
+    <string name="news_category_fav">My Favorite</string>
+    <string name="news_tab1">Recommended</string>
+    <string name="news_tab2">School</string>
+    <string name="news_favorite">Favorite</string>
+    <string name="news_favorited">Favorited</string>
+    <string name="news_liked">%1$d liked</string>
+    <string name="news_liked_count">Liked(%1$d)</string>
+    <string name="news_comment_title">All Comments</string>
+    <string name="news_comment_hint">Say something, dear</string>
+    <string name="news_commented_count">%1$d comments</string>
+    <string name="news_commented_count_num">%1$dComments</string>
+    <string name="news_comment_reply">Reply to&#160;%1$s</string>
+    <string name="news_comment_content">Reply %1$s&#160;:&#160;%2$s</string>
+    <string name="news_published_on">Published on&#160;%1$s</string>
+    <string name="news_ticket_congrats">Congratulations, you have got the ticket!</string>
+    <string name="news_tst_not_found">News not found</string>
+    <string name="news_tst_fetch_list_failed">News list update failed</string>
+    <string name="news_tst_fetch_cmt_failed">Failed to get the news comments</string>
+    <string name="news_tst_favorite_failed">News favorite failed</string>
+    <string name="news_tst_favorite_success">News favorite successful</string>
+    <string name="news_tst_unfavorite_failed">News favorite cancel failed</string>
+    <string name="news_tst_unfavorite_success">News favorite cancelled</string>
+    <string name="news_tst_like_failed">News like failed</string>
+    <string name="news_tst_like_success">News liked</string>
+    <string name="news_tst_unlike_failed">News unlike failed</string>
+    <string name="news_tst_unlike_success">News unliked</string>
+    <string name="news_tst_comment_failed">News comment failed</string>
+    <string name="news_tst_comment_success">News comment successful</string>
+    <string name="news_tst_ticket_failed">News ticket failed</string>
+    <string name="news_details_write_comment">Write a comment</string>
+
+    <!-- News Source -->
+    <string name="news_source_details">Details</string>
+    <string name="news_source_authed">Authorized by MianLiao</string>
+    <string name="news_source_followed_count">%1$d Followed</string>
+    <string name="news_source_follow">Follow</string>
+    <string name="news_source_unfollow">Unfollow</string>
+    <string name="news_source_more">View more&#8230;</string>
+    <string name="news_source_qrcode">Our QR Code</string>
+    <string name="news_source_about">About us</string>
+    <string name="news_source_phone">Phone</string>
+    <string name="news_source_email">Email</string>
+    <string name="news_source_web">Website</string>
+    <string name="news_source_address">Address</string>
+    <string name="news_source_tst_not_found">News source not found</string>
+    <string name="news_source_tst_profile_failed">Failed to get the details</string>
+    <string name="news_source_tst_follow_failed">Failed to follow</string>
+    <string name="news_source_tst_news_failed">Failed to get the news list</string>
+
+    <!-- News Sources -->
+    <string name="news_sources_title">Sources</string>
+    <string name="news_sources_followed">Followed</string>
+    <string name="news_sources_search_hint">What do you interest in?</string>
+    <string name="news_sources_search_info">Do not miss these excellent sources~</string>
+    <string name="news_sources_tst_fetch_error">Failed to get the source list</string>
+
+    <!-- Login -->
+    <string name="lgi_login">Login</string>
+    <string name="lgi_hint_account">Please input your MianLiao account</string>
+    <string name="lgi_hint_password">Pleaes input your password</string>
+    <string name="lgi_login_failed">Login failed</string>
+    <string name="lgi_account_too_short">Account too short!</string>
+    <string name="lgi_password_too_short">Password too short!</string>
+    <string name="lgi_logging_in">Logging into system, please wait.</string>
+    <string name="lgi_wrong_login_info">Account or password is not correct!</string>
+    <string name="lgi_network_unavailable">Network not available.</string>
+    <string name="lgi_login_expired">Login Expired</string>
+    <string name="lgi_login_expired_desc">Please re-login</string>
+    <string name="lgi_failed_too_frequent">Login too frequently, please try again later.</string>
+    <string name="lgi_failed_ids_error">IDS server error</string>
+    <string name="lgi_failed_version_too_old">MianLiao Outdated</string>
+    <string name="lgi_failed_version_too_old_desc">Your MianLiao is outdated, click OK to get the latest MianLiao</string>
+    <string name="lgi_new_user">New user?&#160;</string>
+    <string name="lgi_register"><u>Register</u></string>
+    <string name="lgi_forgot_password"><u>Forgot Password</u></string>
+    <string name="lgi_success_submit">Submitted successfully！</string>
+    <string name="lgi_prompt_mess">Later you will receive an email, please according to the mail inside tips to reset the password.</string>
+    <string name="input_username">Please enter begin with a letter of 6 - 16 account</string>
+    <string name="input_passward">Please set 6-16 password</string>
+    <string name="lgi_to_email">To the email</string>
+    <string name="lgi_show_error_school">Please select a school</string>
+
+    <!-- Curriculum -->
+    <string name="cur_title_num_week" formatted="false">Week %d</string>
+    <string name="cur_current_week" formatted="false">Week %d (Current)</string>
+    <string name="cur_week_mon">Mon</string>
+    <string name="cur_week_tue">Tue</string>
+    <string name="cur_week_wed">Wed</string>
+    <string name="cur_week_thu">Thu</string>
+    <string name="cur_week_fri">Fri</string>
+    <string name="cur_week_sat">Sat</string>
+    <string name="cur_week_sun">Sun</string>
+    <string name="cur_choose_course">Choose Course</string>
+    <string name="cur_edit_course">Edit Course</string>
+
+    <!-- Course widget hint -->
+    <string name="cur_widget_hint_title">Add a Desktop Widget</string>
+    <string name="cur_widget_hint">Dear, you can add a "Curriculum Widget" on to desktop of you mobile device. Then you can view today\'s courses without open "MianLiao".</string>
+
+    <!-- Course Settings -->
+    <string name="cs_title">Course Settings</string>
+    <string name="cs_cur_semester">Current Semester</string>
+    <string name="cs_cur_week">Current Week</string>
+    <string name="cs_query_score">Query Score</string>
+    <string name="cs_desktop_widget">Desktop Widget</string>
+    <string name="cs_refresh_course">Refresh Course</string>
+
+    <!-- Course Query Score -->
+    <string name="course_score_info">Your score (%1$s)</string>
+    <string name="course_credit">Credit</string>
+    <string name="course_score">Pt.</string>
+    <string name="course_query_score_failed">Query score failed</string>
+
+    <!-- Course Search -->
+    <string name="course_search_title">Quick Add</string>
+    <string name="course_search_hint">Please input course name or teacher name</string>
+    <string name="course_search_info">Your possible courses (%1$s)</string>
+    <string name="course_time_clear">Info</string>
+    <string name="course_time_clear_desc">Are you sure to remove the time condition?</string>
+    <string name="course_manual_add">Manual add this course</string>
+    <string name="course_classmates_count">%1$d Persons</string>
+    <string name="course_classmates">Classmates</string>
+    <string name="course_teacher">Teacher</string>
+    <string name="course_entry">Details</string>
+    <string name="course_join">Join</string>
+    <string name="course_leave">Exit</string>
+    <string name="course_rating">Rating</string>
+    <string name="course_rating_desc">%1$.1f/5 (%2$s ratings in total)</string>
+    <string name="course_rating_failed">Rating failed!</string>
+    <string name="course_checkin">Sign</string>
+    <string name="course_checkin_desc">%1$s classmates signed</string>
+    <string name="course_checkin_me">Sign</string>
+    <string name="course_checkin_failed">Sign failed!</string>
+    <string name="course_tst_search_error">Search error</string>
+    <string name="course_tst_join_success">Course join successful</string>
+    <string name="course_tst_join_failed">Course join failed</string>
+    <string name="course_tst_join_already_joint">You have already joint this course</string>
+    <string name="course_tst_leave_success">Course leave successful</string>
+    <string name="course_tst_leave_failed">Course leave failed</string>
+    <string name="course_tst_leave_hasnt_joint">You have not join this course</string>
+    <string name="course_leave_confirm">Are you sure to leave: %1$s?</string>
+
+    <!-- Course Classmates -->
+    <string name="classmates_title">Classmates</string>
+    <string name="classmates_user_not_activated">User is offline</string>
+
+    <!-- Course -->
+    <string name="course_description">@string/course_entry</string>
+    <string name="course_name_head">Course</string>
+    <string name="course_classroom_head">Room</string>
+    <string name="course_teacher_head">Teacher</string>
+    <string name="course_period_head">Period</string>
+    <string name="course_weeks_head">Weeks</string>
+    <string name="course_choose_weeks">Please Choose Weeks</string>
+    <string name="course_choose_periods">Please Choose Periods</string>
+    <string name="course_delete_period">Delete</string>
+    <string name="course_input_classroom">Please Input Classroom</string>
+    <string name="course_add_period">Add Period</string>
+    <string name="course_delete">Delete</string>
+    <string name="course_input_name">Please Input Name</string>
+    <string name="course_input_teacher">Please Input Teacher</string>
+    <string name="course_semester_desc">Semester %3$d, Year %1$d~%2$d</string>
+    <string name="course_week_desc">Week %1$s</string>
+    <string name="course_odd_week_desc">Odd Weeks %1$s~%2$s</string>
+    <string name="course_even_week_desc">Even Weeks %1$s~%2$s</string>
+    <string name="course_weekday_desc">%1$s.</string>
+    <string name="course_period_desc">P%1$s</string>
+    <string name="course_entry_desc">%1$s, %2$s@%3$s</string>
+    <string name="course_total_classmates">%1$s classmate(s) in total</string>
+    <string name="course_hint_loading">Loading</string>
+    <string name="course_tst_failed_get_info">Failed to delete course</string>
+    <string name="course_tst_get_init_data">Getting course init data from server</string>
+    <string name="course_tst_failed_get_init_data">Failed to get course init data</string>
+    <string name="course_tst_fill_all_field">Please fill all field</string>
+    <string name="course_tst_period_overlapped">Period overlapped!</string>
+    <string name="course_tst_course_updated">Course updated!</string>
+    <string name="course_tst_course_joint">Course joint!</string>
+    <string name="course_tst_failed_join_course">Failed to join course(%1$s), please try again!</string>
+
+    <!-- Course Widget -->
+    <string name="course_wid_not_logged_in">You haven\'t logged in, yet.</string>
+    <string name="course_wid_no_lesson">No lessons today, have fun!</string>
+    <string name="course_wid_unknown_location">Unknown Location</string>
+    <string name="course_wid_unknown">Unknown</string>
+    <string name="course_wid_label">MianLiao Curriculum</string>
+
+    <!-- Course Forum -->
+    <string name="cf_post_stream">My Homepage</string>
+    <string name="cf_post_campus">Campus</string>
+    <string name="cf_post_hots">Post Channel</string>
+    <string name="cf_post_mine">My Posts</string>
+    <string name="cf_title">Course Forum</string>
+    <string name="cf_join">Join the discussion</string>
+    <string name="cf_failed_to_get_post">Failed to get posts</string>
+    <string name="cf_failed_to_get_reply">Failed to get replies</string>
+    <string name="cf_menu_all">Current Forum</string>
+    <string name="cf_like_failed">Like failed</string>
+    <string name="cf_reply_failed">Reply failed</string>
+    <string name="cf_delete_failed">Delete failed</string>
+    <string name="cf_post_title">Thread Details</string>
+    <string name="cf_up">Up</string>
+    <string name="cf_liked_users">%1$s liked</string>
+    <string name="cf_liked_users_more">%1$s liked (Total %2$d)</string>
+    <string name="cf_quote_empty">Empty</string>
+    <string name="cf_quote_post">%1$s posted: %2$s</string>
+    <string name="cf_quote_reply_post">%1$s replied %2$s\'s post: %3$s</string>
+    <string name="cf_quote_reply_reply">%1$s replied %2$s: %3$s</string>
+    <string name="cf_post">Post</string>
+    <string name="cf_delete_success">Delete Success</string>
+    <string name="cf_reply_success">Reply Success</string>
+    <string name="cf_forum_not_exist">Forum not exist</string>
+    <string name="cf_post_not_exist">Post not exist</string>
+    <string name="cf_reply_not_exist">Reply not exist</string>
+    <string name="cf_not_authed">Not authed</string>
+    <string name="cf_banned">Banned</string>
+    <string name="cf_post_locked">Thread locked</string>
+    <string name="cf_too_frequent">Post too frequently</string>
+    <string name="cf_list_empty">There\'s no content here</string>
+    <string name="cf_show_post">Show Post</string>
+    <string name="cf_show_forum">Show Forum</string>
+    <string name="cf_get_forum_list_failed">Get forum list failed</string>
+    <string name="cf_school_section">School Only</string>
+    <string name="cf_school_myschool">On campus</string>
+    <string name="cf_public_section">Public</string>
+    <string name="cf_event_section">Event</string>
+    <string name="cf_add_more">Add more</string>
+    <string name="cf_stick_thread">Stick</string>
+    <string name="cf_stick_thread_failed">Stick failed</string>
+    <string name="cf_unstick_thread">Unstick</string>
+    <string name="cf_unstick_thread_confirm">Are your sure to unstick this post?</string>
+    <string name="cf_posts_today">Today\'s Posts&#160;</string>
+    <string name="cf_image_count">Total %1$d</string>
+    <string name="cf_pop_post">POP</string>
+    <string name="cf_delete_post_confirm">Are you sure to delete this post?</string>
+    <string name="cf_delete_reply_confirm">Are you sure to delete this reply?</string>
+    <string name="cf_fetch_actors_failed">Failed to fetch participators</string>
+    <string name="cf_add_picture">Add Picture</string>
+
+    <!-- Forum Post -->
+    <string name="fp_hint_content">Content (Nonempty)</string>
+    <string name="fp_post">Post</string>
+    <string name="fp_tst_content_empty">Please input content</string>
+    <string name="fp_hint_vote_input">Option</string>
+    <string name="fp_post_type">Post Type</string>
+    <string name="fp_post_type_normal">Normal</string>
+    <string name="fp_post_type_vote">Vote</string>
+    <string name="fp_post_type_event">Event</string>
+    <string name="fp_post_type_recommend">Recommend</string>
+    <string name="fp_vote_expire_on">Expire On</string>
+    <string name="fp_vote_add_more">Add</string>
+    <string name="fp_vote_add_more_max">Hit Cap</string>
+    <string name="fp_vote_type">Vote Type</string>
+    <string name="fp_vote_type_normal">Normal</string>
+    <string name="fp_vote_type_anony">Anonymous</string>
+    <string name="fp_tst_vote_option_less">Please fill all options</string>
+    <string name="fp_tst_vote_endtime_empty">Please set expire on</string>
+
+    <!-- Edit forum -->
+    <string name="ef_title">Edit Forum</string>
+    <string name="ef_create_forum">Create Forum</string>
+    <string name="ef_forum_name">Name</string>
+    <string name="ef_hint_title">Name (can\'t be changed later)</string>
+    <string name="ef_forum_intro">Intro</string>
+    <string name="ef_hint_intro">Short Introduction</string>
+    <string name="ef_privacy">Privacy</string>
+    <string name="ef_privacy_open">Open (Guest browse and post)</string>
+    <string name="ef_privacy_open_read_only">Open (Guest browse only)</string>
+    <string name="ef_privacy_private">Private (Members Only)</string>
+    <string name="ef_members">Members</string>
+    <string name="ef_posts">Posts</string>
+    <string name="ef_disband"><u>Disband</u></string>
+    <string name="ef_disband_confirm">Are you sure to disband this forum, it can\'t be recovered!</string>
+    <string name="ef_change_unsaved">You have unsaved changes</string>
+    <string name="ef_name_invalid">Forum name should have at least 3 characters without spaces</string>
+    <string name="ef_intro_empty">Introduction can\'t be empty</string>
+    <string name="ef_act_join">Join</string>
+    <string name="ef_act_view">View</string>
+    <string name="ef_act_quit">Quit</string>
+    <string name="ef_act_quit_confirm">Are you sure to quit this forum?</string>
+    <string name="ef_act_manage">Manage</string>
+    <string name="ef_act_join_failed">Join forum failed</string>
+    <string name="ef_act_join_success">Request submitted, please wait for approval</string>
+    <string name="ef_act_join_success_joint">Joint Forum</string>
+    <string name="ef_act_quit_success">You\'ve quited this forum</string>
+    <string name="ef_act_quit_failed">Failed to quit forum, please try again later</string>
+    <string name="ef_create_forum_success">Create forum succeeded</string>
+    <string name="ef_create_forum_failed">Create forum failed</string>
+    <string name="ef_edit_forum_success">Update forum succeeded</string>
+    <string name="ef_edit_forum_failed">Update forum failed</string>
+    <string name="ef_disband_forum_success">This forum has been disbanded</string>
+    <string name="ef_disband_forum_failed">Failed to disband this forum</string>
+    <string name="ef_new_member_requests">%1$d (New requests: %2$d)</string>
+    <string name="ef_admin">Admin</string>
+
+    <!-- Forum recommended/Search -->
+    <string name="forum_member_count">Members : %1$d</string>
+    <string name="forum_thread_count">Threads : %1$d</string>
+    <string name="forum_recommended_hint">You may be interested in these forums</string>
+    <string name="forum_recommended_tst_failed">Failed to get recommended forums</string>
+    <string name="forum_search">Forum Search</string>
+    <string name="forum_search_hint">Forums found for you</string>
+    <string name="forum_search_input_hint">Input keyword to search forums</string>
+    <string name="forum_search_tst_failed">Failed to search forum</string>
+
+    <!-- Forum member -->
+    <string name="forum_member_title">Forum Members</string>
+    <string name="forum_member_input_hint">Please input member nick to search</string>
+    <string name="forum_member_tst_members_failed">Failed to fetch forum member list</string>
+    <string name="forum_member_tst_requests_failed">Failed to fetch new request list</string>
+    <string name="forum_member_tst_remove_failed">Failed to remove member</string>
+
+    <string-array name="forum_member_menu">
+        <item>Remove</item>
+    </string-array>
+
+    <!-- Forum new request -->
+    <string name="forum_new_request_title">New requests</string>
+    <string name="forum_new_request_desc">Request for membership</string>
+    <string name="forum_new_request_tst_failed">Failed to operate new requests</string>
+
+    <!-- Forum invite -->
+    <string name="forum_invite_title">Invite friends</string>
+    <string name="forum_invite_tst_failed">Failed to invite friends</string>
+    <string name="forum_invite_tst_success">Successfully sent invite message to friends</string>
+
+    <!-- Forum post share -->
+    <string name="fp_share_title">Share to friends</string>
+    <string name="fp_share_tst_failed_privacy">Sorry, you can\'t share post in private forum</string>
+    <string name="fp_share_tst_failed">Failed to share to friends</string>
+    <string name="fp_share_tst_success">Successfully shared post to friends</string>
+
+    <!-- Contacts -->
+    <string name="contacts_search_hint">Please input contact name</string>
+    <string name="contacts_check_hint">Please check one contact at least</string>
+
+    <!-- New Contact -->
+    <string name="nc_title">New Friends</string>
+    <string name="nc_reject">Reject</string>
+    <string name="nc_agree">Agree</string>
+    <string name="nc_request_desc">New friend request</string>
+    <string name="nc_handling_last_request">Still handling last request</string>
+
+    <!-- Add contact -->
+    <string name="adc_add_contact">Add Contact</string>
+    <string name="adc_input_hint">Input your friend\'s nickname.</string>
+    <string name="adc_search_hint">Click to view detail user info.</string>
+    <string name="adc_search_failed">Search user failed</string>
+    <string name="adc_request_sent">Request sent</string>
+    <string name="adc_request_sent_failed">Request sent failed</string>
+    <string name="adc_response_sent_failed">Failed to send response</string>
+    <string name="adc_nick_search">Nick Search</string>
+    <string name="adc_face_match">Face Match</string>
+    <string name="adc_face_match_desc">Find friends by face</string>
+    <string name="adc_person_around">Person Around</string>
+    <string name="adc_person_around_desc">Say hello to persons around</string>
+    <string name="adc_friend_recommend">Friend Recommend</string>
+    <string name="adc_change_recommend">Change</string>
+    <string name="adc_view_photo">View</string>
+    <string name="adc_tst_friend_recommend_failed">Friend recommend failed</string>
+
+    <!-- Person Around -->
+    <string name="around_waiting_title">Wait a moment</string>
+    <string name="around_waiting_desc">Dear, don\'t worry. We\'re trying to locate you that won\'t take too long&#8230;&#8230;</string>
+    <string name="around_distance_desc">At about %1$s</string>
+    <string name="around_distance_meter">%1$d m</string>
+    <string name="around_distance_km">%1$f km</string>
+    <string name="around_gps_hint_title">Improve my location accuracy</string>
+    <string name="around_gps_hint_desc">To obtain more accurate location services, please open the GPS settings when outdoors</string>
+    <string name="around_tst_search_failed">Search person around failed</string>
+
+    <!-- Face match -->
+    <string name="face_set_picture">Set a photo</string>
+    <string name="face_set_category">Set a category</string>
+    <string name="face_category_couple">Couple face</string>
+    <string name="face_category_male">Male face</string>
+    <string name="face_category_female">Female face</string>
+    <string name="face_search_start">Start Search</string>
+    <string name="face_search_continue">Continue Search</string>
+    <string name="face_similar_desc">This person has a similar face with you</string>
+    <string name="face_searching_desc">Searching, please wait&#8230;</string>
+    <string name="face_result_desc">Similarity %1$s\nClick the picture to see the details</string>
+    <string name="face_error_parse">Face match parse error</string>
+    <string name="face_error_no_face">Can\'t find face in your avatar (maybe too small or too obscure), please change a photo to try again</string>
+    <string name="face_error_get_facesets">Failed to get categories, please retry later</string>
+    <string name="face_error_search_face">Failed to search face, please retry later</string>
+    <string name="face_error_obtain_my_face">Failed to obtain user face, please retry later</string>
+    <string name="face_error_obtain_similar_face">Failed to obtain similar face, please retry later</string>
+    <string name="face_error_set_pic">Failed to set picture, please retry later</string>
+    <string name="face_error_detect_face">Failed to detect face, please retry later</string>
+    <string name="face_error_add_face">Failed to add face, please retry later</string>
+    <string name="face_error_remove_face">Failed to remove face, please retry later</string>
+
+    <!-- Update -->
+    <string name="upd_no_new_version">Your MianLiao is the latest one!</string>
+    <string name="upd_failed_check_new_version">Failed to check for new update, please try again later.</string>
+    <string name="upd_has_update">New Version: %1$s</string>
+    <string name="upd_has_update_major">New Version (Important): %1$s</string>
+    <string name="upd_update">Update</string>
+
+    <!-- More tab -->
+    <string name="more_bounty">Bounty</string>
+    <string name="more_quit">Quit</string>
+    <string name="more_quit_desc">You can\'t receive messages from your friends if you quit. Are you sure?</string>
+    <string name="more_description_logout">Logout will clear all local data!</string>
+    <string name="more_settings">Settings</string>
+    <string name="more_qa">QA Board</string>
+    <string name="more_check_in">Check In</string>
+    <string name="more_question">Questions</string>
+    <string name="more_jobs">Jobs</string>
+    <string name="more_curriculum">Curriculum</string>
+    <string name="more_scan">Scan</string>
+    <string name="more_notice">Notice</string>
+
+    <!-- Checkin -->
+    <string name="checkin_successful">Checkin Succeeded</string>
+    <string name="checkin_failed">Checkin failed</string>
+
+    <!-- Profile -->
+    <string name="prof_edit">Edit</string>
+    <string name="prof_short_desc">Intro</string>
+    <string name="prof_gender">Gender</string>
+    <string name="prof_real_name">Real Name</string>
+    <string name="prof_nick_name">Nick Name</string>
+    <string name="prof_email">Email</string>
+    <string name="prof_phone">Phone</string>
+    <string name="prof_account">Account</string>
+    <string name="prof_update_avatar">Update Avatar</string>
+    <string name="prof_edit_profile">Edit Profile</string>
+    <string name="prof_change_not_saved">Modification not saved</string>
+    <string name="prof_change_not_saved_desc">Modification not saved, press "Discard" to quit.</string>
+    <string name="prof_discard">Discard</string>
+    <string name="prof_save">Save</string>
+    <string name="prof_email_malformed">Please fill valid email address!</string>
+    <string name="prof_failed_save_picture">Failed to save picture!</string>
+    <string name="prof_failed_update_profile">Failed to update profile</string>
+    <string name="prof_not_connected">Not connected to server!</string>
+    <string name="prof_old_password_wrong">Password incorrect!</string>
+    <string name="prof_new_password_too_short">The new password is too short!</string>
+    <string name="prof_password_dont_match">The two new password don\'t match!</string>
+    <string name="prof_update_password_failed">Update password failed!</string>
+    <string name="prof_update_password_success">Update password successful!</string>
+    <string name="prof_update_password">Update Password</string>
+    <string name="prof_old_password">Old Password</string>
+    <string name="prof_new_password">New Password</string>
+    <string name="prof_password_again">New Password Again</string>
+    <string name="prof_no_medal">No medal</string>
+    <string name="prof_my_medal">My medal(s)</string>
+    <string name="prof_cant_get_medal_info">Can\'t get medal info!</string>
+    <string name="prof_getting_medal">Getting medal info from server&#8230;</string>
+    <string name="prof_no_short_desc">He/She\'s lazy, and left nothing.</string>
+    <string name="prof_male">Male</string>
+    <string name="prof_female">Female</string>
+    <string name="prof_log_out">Logout</string>
+    <string name="prof_send_email">Send Email</string>
+    <string name="prof_desc_grade">gr.%1$s</string>
+    <string name="prof_my_qrcode">My QR Code</string>
+    <string name="prof_user_not_exist">User not found</string>
+    <string name="prof_user_fetch_failed">Failed to fetch user info</string>
+    <string name="prof_update_photo">Update</string>
+    <string name="prof_delete_photo">Delete</string>
+    <string name="prof_set_as_avatar">Set as Avatar</string>
+    <string name="prof_blacklist_add">Add to Blacklist</string>
+    <string name="prof_blacklist_add_success">Contact blocked</string>
+    <string name="prof_blacklist_add_failed">Failed to block contact, please try again later.</string>
+    <string name="prof_blacklist_add_desc">Block the contact will prevent you from receiving messages from this person.</string>
+    <string name="prof_blacklist_remove">Remove from Blacklist</string>
+    <string name="prof_blacklist_remove_success">Contact unblocked</string>
+    <string name="prof_blacklist_remove_failed">Failed to unblock contact, please try again later.</string>
+    <string name="prof_contact_add">Add to Contact</string>
+    <string name="prof_contact_remove">Remove Contact</string>
+    <string name="prof_contact_remove_success">Contact removed</string>
+    <string name="prof_contact_remove_failed">Failed to remove contact, please try again later.</string>
+    <string name="prof_contact_remove_desc">Remove the contact will also remove chat records with this contact.</string>
+    <string name="prof_chat">Chat</string>
+    <string name="prof_remark">Remark</string>
+    <string name="prof_remark_updated">Remark updated</string>
+    <string name="prof_remark_update_failed">Failed to update remark</string>
+    <string name="prof_email_verify">Verify</string>
+    <string name="prof_email_verified">Verified</string>
+    <string name="prof_email_input_code">Please input code</string>
+    <string name="prof_email_verify_failed">Failed to verify email</string>
+    <string name="prof_sign_in_center">Sign in center</string>
+    <string name="prof_sign_kernel">2 grains</string>
+    <string name="prof_day_interactive">During the dynamic</string>
+    <string name="prof_got_up">Won Praise</string>
+    <string name="prof_visitor">Visitor</string>
+    <string name="prof_got_up_num">Won Praise Num</string>
+	<string name="prof_visitor_latest">Latest Visitor</string>
+
+    <!-- Points -->
+    <string name="points_count">%1$s Points</string>
+    <string name="points_mine">My Points</string>
+    <string name="points_desc">I want to do tasks to make more points</string>
+    <string name="points_info">Points Description</string>
+    <string name="points_quest_desc">%1$s (%2$d/%3$d)</string>
+    <string name="points_quest_desc_points">+%1$d Points</string>
+    <string name="points_see_points_intro">See points intro</string>
+    <string name="points_my_quests">My Quests</string>
+    <string name="points_get_quests_failed">Failed to get quests</string>
+
+    <!-- Question -->
+    <string name="quest_begin">Begin</string>
+    <string name="quest_next">Next</string>
+    <string name="quest_exit">Exit</string>
+    <string name="quest_correct">Correct</string>
+    <string name="quest_wrong">Wrong</string>
+    <string name="quest_number">No. %1$d</string>
+    <string name="quest_no_more">No more questions</string>
+    <string name="quest_congrat">Congratulations!</string>
+
+    <!-- Feedback -->
+    <string name="fbk_title">Feedback</string>
+    <string name="fbk_success">Feedback success!</string>
+    <string name="fbk_fail">Feedback failed!</string>
+    <string name="fbk_list_fail">Failed to get history</string>
+
+    <!-- Developing -->
+    <string name="dvp_developing">We\'re working on it!</string>
+    <string name="dvp_description">Sorry, our developer is working hard on it. Please look forward for our new version!</string>
+
+    <!-- Settings -->
+    <string name="setting_title">Settings</string>
+    <string name="setting_new_message_sound">New Message Sound</string>
+    <string name="setting_new_message_vibrate">New Message Vibrate</string>
+    <string name="setting_night_mode">No Disturb from 23:00 to 8:00</string>
+    <string name="setting_only_download_pictures_with_wifi">Only download pictures with WIFI</string>
+    <string name="setting_enter_send_message">Enter to send message</string>
+    <string name="setting_default_tab">Default tab</string>
+    <string name="setting_daily_course_alarm">Daily course alarm</string>
+    <string name="setting_daily_course_alarm_time">Daily alarm time</string>
+    <string name="setting_daily_course_alarm_time_summary">%2$02d:%3$02d, %1$s</string>
+
+    <string-array name="setting_daily_course_alarm_day">
+        <item>Prev. Day</item>
+        <item>Curr. Day</item>
+    </string-array>
+    <string-array name="setting_daily_course_remind">
+        <item>You have %1$d courses tomorrow</item>
+        <item>You have %1$d courses today</item>
+    </string-array>
+
+    <string name="setting_daily_course_alarm_hour">%1$02d Hour</string>
+    <string name="setting_daily_course_alarm_minute">%1$02d Min.</string>
+    <string name="setting_privacy">Privacy</string>
+    <string name="setting_about">About MianLiao</string>
+    <string name="setting_no_hint">No hint</string>
+    <string name="setting_set_now">Set now</string>
+    <string name="setting_nick_hint">Nickname hint</string>
+    <string name="setting_nick_hint_msg">You haven\'t a nickname, set it now!\n\nIf not set now, your real name will be used and later you can set through Profile.</string>
+
+    <!-- Privacy settings -->
+    <string name="setting_contacts_blacklist">Contacts blacklist</string>
+    <string name="setting_temporary_chat">Allow temporary chat</string>
+    <string name="setting_hide_contact_info">Allow friends to view your contact info</string>
+    <string name="setting_update_failed">Update failed</string>
+
+    <!-- Scanner -->
+    <string name="scan_hint">Please put the BarCode/QRCode in the box above to make a scan</string>
+    <string name="scan_camera_not_available">Camera not available</string>
+    <string name="scan_result">Scan Result</string>
+    <string name="scan_copy">Copy</string>
+    <string name="scan_clip_board_label">MianLiao - Scan</string>
+    <string name="scan_send_email">@string/prof_send_email</string>
+    <string name="scan_open">Open</string>
+    <string name="scan_call">Call</string>
+    <string name="scan_handling">Handling&#8230;</string>
+
+    <!-- QR code -->
+    <string name="qrc_title">QR Code</string>
+    <string name="qrc_failed_gen_qrcode">Failed to make QR code</string>
+    <string name="qrc_desc_user">Scan the QR code to add me as a contact.\n(Click to save the image)</string>
+    <string name="qrc_desc_forum">Scan the QR code to join forum.\n(Click to save the image)</string>
+    <string name="qrc_desc_news_source">Scan the QR code to follow news source.\n(Click to save the image)</string>
+    <string name="qrc_qrcode_saved">QR code saved to:&#160;</string>
+    <string name="qrc_qrcode_save_failed">Failed to save QR code</string>
+    <string name="qrc_view">View</string>
+
+    <!-- Ticket -->
+    <string name="tic_title">Wicket</string>
+    <string name="tic_ticket">Ticket:&#160;</string>
+    <string name="tic_wicket_success">Wicket Success</string>
+    <string name="tic_wicket_failed">Wicket Failure</string>
+    <string name="tic_desc_success">Ticket: %1$s\nNews: %2$s</string>
+    <string name="tic_desc_failed">Ticket: %1$s\nNews: %2$s\nReason: %3$s</string>
+    <string name="tic_view_records">Records</string>
+    <string name="tic_continue">Continue</string>
+    <string name="tic_fail_checked_on">The ticket was checked on:&#160;</string>
+    <string name="tic_fail_invalid">Invalid ticket</string>
+    <string name="tic_fail_not_authed">You are not authorized to handle this ticket</string>
+    <string name="tic_fail_other">Other:&#160;</string>
+    <string name="tic_input_hint">Please input ticket number</string>
+    <string name="tic_input_correct_ticket">Please input correct ticket number</string>
+    <string name="tic_manual_check">Check</string>
+    <string name="tic_recent_wicket_records">Recent wicket records</string>
+
+    <!-- QA -->
+    <string name="qa_ask">Ask</string>
+    <string name="qa_question">Question</string>
+    <string name="qa_answer">Answer</string>
+    <string name="qa_solved">Solved</string>
+    <string name="qa_choose_image">Choose Image</string>
+
+    <string-array name="qa_image_choices">
+        <item>Preview</item>
+        <item>Delete</item>
+    </string-array>
+
+    <string name="qa_discard_title">Discard</string>
+    <string name="qa_discard_message">Discard current message?</string>
+    <string name="qa_discard_continue">Continue</string>
+    <string name="qa_discard_quit">Discard</string>
+    <string name="qa_upload_title">Still Uploading</string>
+    <string name="qa_upload_message">Cancel uploading?</string>
+    <string name="qa_upload_wait">Wait</string>
+    <string name="qa_upload_quit">Stop &amp; Quit</string>
+    <string name="qa_upload_failed">Upload failed</string>
+    <string name="qa_get_data_failed">Get data failed</string>
+    <string name="qa_choose_answer_success">Choose answer successful</string>
+    <string name="qa_choose_answer_failed">Choose answer failed</string>
+    <string name="qa_submit">Submit</string>
+    <string name="qa_post_hint_question">Please input a question</string>
+    <string name="qa_post_hint_answer">Please input an answer</string>
+    <string name="qa_desc_empty">Please at least input something</string>
+    <string name="qa_create_an_answer">Answer</string>
+    <string name="qa_invalid_question">Invalid Question</string>
+    <string name="qa_handle_image_failed">Failed to handle image</string>
+    <string name="qa_menu_all">All</string>
+    <string name="qa_menu_asked">Asked</string>
+    <string name="qa_menu_answered">Answered</string>
+    <string name="qa_choose_answer">Choose Answer</string>
+    <string name="qa_choose_answer_desc">Choose this answer as the best answer? Once chosen, you can\'t change it.</string>
+
+    <!-- Image Activity -->
+    <string name="ia_title">View Image</string>
+    <string name="ia_invalid_image_uri">Invalid Image Uri</string>
+    <string name="ia_open_file_failed">Open file failed</string>
+    <string name="ia_downloading">Downloading</string>
+    <string name="ia_image_saved">Image saved at: %1$s</string>
+    <string name="ia_image_save_failed">Failed to save image</string>
+
+    <!-- MsResponse -->
+    <string name="msr_cancelled">Cancelled</string>
+    <string name="msr_parse_failed">Parse response failed</string>
+    <string name="msr_missing_parameter">Missing Parameter</string>
+    <string name="msr_database_error">Database Error</string>
+    <string name="msr_attachment_error">Attachement Error</string>
+    <string name="msr_mail_error">Mail Error</string>
+    <string name="msr_maintaining">System Maintaining</string>
+    <string name="msr_failed_not_authed">Not Authed</string>
+    <string name="msr_failed_invalid_status">Invalid Status</string>
+    <string name="msr_failed_101">Unknown request</string>
+    <string name="msr_failed_102">Invalid request</string>
+    <string name="msr_failed_104">Invalid parameter</string>
+    <string name="msr_failed_214">The stu number has already been Authed</string>
+    <string name="msr_failed_215">Already checked in today</string>
+    <string name="msr_failed_216">Invalid nick</string>
+    <string name="msr_failed_217">Verification failed</string>
+    <string name="msr_failed_508">Comment not exist</string>
+    <string name="msr_failed_601">Semester not set</string>
+    <string name="msr_failed_908">Members Only</string>
+    <string name="msr_failed_909">User haven\'t made a request</string>
+    <string name="msr_failed_910">Already Requested</string>
+    <string name="msr_failed_911">User is not a member</string>
+    <string name="msr_failed_912">You are already a member</string>
+    <string name="msr_failed_913">Forum already existed</string>
+    <string name="msr_failed_914">You\'ve create too many forums today</string>
+    <string name="msr_failed_1001">Promotion not exist</string>
+    <string name="msr_failed_1101">Activity not exist</string>
+    <string name="msr_failed_1207">Job not exist</string>
+    <string name="msr_failed_1211">no resume yet</string>
+    <string name="msr_failed_1212">Resume already exist</string>
+    <string name="msr_failed_1215">offer not exist</string>
+    <string name="msr_failed_1216">already applied</string>
+    <string name="msr_failed_1301">Your are banned to post</string>
+    <string name="msr_failed_1302">Account Inactive</string>
+    <string name="msr_failed_1401">Task not exist</string>
+    <string name="msr_failed_1404">Can\'t post more task today</string>
+    <string name="msr_failed_1405">Record not found</string>
+    <string name="msr_failed_1408">You finished too many task today</string>
+    <string name="msr_failed_1409">You\'d better finish your current tasks</string>
+
+    <!-- Medal -->
+    <string name="mdl_title">Medals of %1$s</string>
+    <string name="mdl_no_medal">No Medal</string>
+    <string name="mdl_set_hint">Hint: Click the eye icon to set primary medal. You can set at most %1$d medals.</string>
+    <string name="mdl_set_confirm">Confirm</string>
+    <string name="mdl_unset_hint">Are you sure to unset primary medal?</string>
+    <string name="mdl_set_tst_max_num">You can set at most %1$d primary medals</string>
+    <string name="mdl_set_tst_failed">Failed to set primary medal</string>
+    <string name="mdl_all_medals">All Medals</string>
+    <string name="mdl_all_medals_tst_failed">Failed to fetch all medals</string>
+    <string name="mdl_apply_hint">Hint: Please contact our custom service if you satisfy the condition.\ <Data><![CDATA[ <u><font color="#34CED9">Click here to enter.</font></u> ]]></Data></string>
+
+    <!-- SNS -->
+    <string name="sns_share_title">Share on Social Platform</string>
+
+    <!-- Notice -->
+    <string name="ntc_title">@string/more_notice</string>
+    <string name="ntc_sys_msg">System Message</string>
+    <string name="ntc_tst_summary_failed">Get notice count failed</string>
+    <string name="ntc_tst_list_failed">Get notice list failed</string>
+
+    <!-- Register -->
+    <string name="reg_choose_school">Choose School</string>
+    <string name="reg_choose_school_hint">Select your school</string>
+    <string name="reg_choose_school_search_hint">School name</string>
+    <string name="reg_choose_department">Choose Department</string>
+    <string name="reg_choose_department_hint">Select your department</string>
+    <string name="reg_choose_department_search_hint">Department name</string>
+    <string name="reg_choose_start_year">Choose Start Year</string>
+    <string name="reg_choose_edu_back">Choose education background</string>
+    <string name="reg_education_back">Education background</string>
+    <string name="reg_start_year_desc">%1$d</string>
+    <string name="reg_edu_info">Education Info</string>
+    <string name="reg_school">School</string>
+    <string name="reg_department">Department</string>
+    <string name="reg_start_year">Start Year</string>
+    <string name="reg_next">Next</string>
+    <string name="reg_account_info">Account Info</string>
+    <string name="reg_login_name">Account</string>
+    <string name="reg_login_name_hint">Your login account</string>
+    <string name="reg_password">Password</string>
+    <string name="reg_password_hint">Password</string>
+    <string name="reg_password_again">Pwd Again</string>
+    <string name="reg_password_again_hint">Password again</string>
+    <string name="reg_nick_name">Nickname</string>
+    <string name="reg_nick_name_hint">Please enter 2 ~ 8 nickname</string>
+    <string name="reg_format_user_name">User name should be 6~32 characters including letters (case insensitive), numbers and underline, and start with a letter.</string>
+    <string name="reg_format_password">Password must be 6~32 characters. (case sensitive)</string>
+    <string name="reg_format_password_inconsistent">Password inconsistent</string>
+    <string name="reg_format_nickname">Nick Name should be at least 2 letters without spaces.</string>
+    <string name="reg_optional_info">Optional Info</string>
+    <string name="reg_avatar">Setup your avatar</string>
+    <string name="reg_avatar_confirmation">Are you sure you don\'t want to set up an avatar? You can
+        do it later.</string>
+    <string name="reg_email_hint">Please input your email</string>
+    <string name="reg_email_invalid">Please input a valid email.</string>
+    <string name="reg_setup_now">Setup Now</string>
+    <string name="reg_finish">Finish</string>
+    <string name="reg_username_not_available">Username not available</string>
+    <string name="reg_existing_username">Username already exists</string>
+    <string name="reg_other_school">Other School</string>
+    <string name="reg_other_department">Other Department</string>
+    <string name="reg_failed">Register failed</string>
+    <string name="regist">Register</string>
+
+    <!-- Forgot Password -->
+    <string name="fpwd_title">Forgot Password?</string>
+    <string name="fpwd_submit">Submit</string>
+    <string name="fpwd_reset_success">You\'ll receive an email shortly, please follow instructions in the email to reset your password.</string>
+    <string name="fpwd_reset_failed">Submit failed</string>
+    <string name="fpwd_ids_not_allowed">Please update school account in school system</string>
+    <string name="fpwd_contact_us">Contact Us:&#160;</string>
+    <string name="fpwd_login_name_invalid">Please enter a valid login name</string>
+    <string name="fpwd_login_name_email_not_match">Login name and Email doesn\'t match</string>
+
+    <!-- Identity Verification -->
+    <string name="iv_title">Identity Verify</string>
+    <string name="iv_upload_hint">Hint: Please correctly upload your student number and card photo</string>
+    <string name="iv_stu_number_input_hint">Input your student number</string>
+    <string name="iv_upload_stu_card">Take a photo of your student card</string>
+    <string name="iv_keep_stu_card_clear">Make sure the photo is clear</string>
+    <string name="iv_submit">Submit</string>
+    <string name="iv_upload_succeeded">Upload auth data succeeded, please wait for manual confirmation</string>
+    <string name="iv_upload_failed">Upload auth data failed</string>
+    <string name="iv_stu_number_invalid">Please input your student number</string>
+    <string name="iv_missing_stu_card">Please upload a photo of you student card</string>
+    <string name="iv_desc_id_student">After verification, this icon will appear in your profile page</string>
+    <string name="iv_desc_id_teacher_business">Teacher and business users please contact us to verify your account</string>
+
+    <!-- Promotion -->
+    <string name="prom_take_a_look">Take a look</string>
+    <string name="prom_get_info_failed">Get info failed</string>
+    <string name="prom_no_promotion_found">No promotion found</string>
+
+    <!-- Jobs -->
+    <string name="job_title">Recruitment query</string>
+    <string name="job_my_jobs">My Jobs</string>
+    <string name="job_work_location">Location</string>
+    <string name="job_work_category">Category</string>
+    <string name="job_work_type">Type</string>
+    <string name="job_apply_resume">Apply</string>
+    <string name="job_applied_resume">Applied</string>
+    <string name="job_apply_failed">Failed to apply the job</string>
+    <string name="job_applied_job">Applied job:&#160;</string>
+    <string name="job_list_job_failed">Failed to get job list</string>
+    <string name="job_filter_any">Any</string>
+    <string name="job_detail_title">Job Detail</string>
+    <string name="job_info">Job Info</string>
+    <string name="job_corp_info">Corp Info</string>
+    <string name="job_not_found">Job not found</string>
+    <string name="job_apply_now">Apply Now</string>
+    <string name="job_get_corp_info_failed">Failed to get corp info</string>
+    <string name="job_other_jobs">Other Jobs</string>
+    <string name="job_take_a_look">Detail</string>
+    <string name="job_not_verified">Please verify your account first</string>
+    <string name="job_download_form">Download Form</string>
+    <string name="job_invited">Invited</string>
+    <string name="job_invited_desc">You got a invitation to this job. Do you want to show your contact info to the company?</string>
+    <string name="job_invite_accepted">Accepted Invitation</string>
+    <string name="job_invite_refused">Refused Invitation</string>
+    <string name="job_invite_accept_failed">Accept invitation failed</string>
+    <string name="job_invite_refuse_failed">Refuse invitation failed</string>
+    <string name="job_forum">Job Forum</string>
+    <string name="job_forum_join">I want join</string>
+    <string name="job_search_hint">Input job keyword to search</string>
+    <string name="job_position">Position</string>
+    <string name="job_recru_corp">Company</string>
+    <string name="job_recru_invite_time">Invite time</string>
+    <string name="job_recru_scan_title">Recruitment Scan</string>
+
+    <!-- Offer -->
+    <string name="offer_view_details">View Details ></string>
+    <string name="offer_title_receive">Invitation from %1$s</string>
+    <string name="offer_title_send">Application to %1$s</string>
+    <string name="offer_desc_100">%1$s viewed your resume and invite you for %2$s</string>
+    <string name="offer_desc_101">You\'ve accepted %1$s\'s job %2$s</string>
+    <string name="offer_desc_102">You\'ve refused %1$s\'s job %2$s</string>
+    <string name="offer_desc_200">You applied for %1$s\'s job %2$s, please be patient and wait for reply</string>
+    <string name="offer_desc_201">%1$s\'ve accepted your apply for job %2$s</string>
+    <string name="offer_desc_202">%1$s\'ve refused your apply for job %2$s</string>
+    <string name="offer_tst_failed">Get request list failed</string>
+
+    <!-- Resume -->
+    <string name="rsm_title">Resume of %1$s</string>
+    <string name="rsm_title_mine">Resume</string>
+    <string name="rsm_photo">Set a clear life photo</string>
+    <string name="rsm_real_name">Name</string>
+    <string name="rsm_real_name_hint">Please input your real name</string>
+    <string name="rsm_birth_year">Birth Year</string>
+    <string name="rsm_phone">Phone</string>
+    <string name="rsm_phone_hint">Please input your phone number</string>
+    <string name="rsm_qq">QQ</string>
+    <string name="rsm_qq_hint">please input your QQ number</string>
+    <string name="rsm_email">Email</string>
+    <string name="rsm_email_hint">Please input your email address</string>
+    <string name="rsm_intro">Intro</string>
+    <string name="rsm_intro_hint">Please input your skill or interest</string>
+    <string name="rsm_category">Job Category</string>
+    <string name="rsm_type">Job Type</string>
+    <string name="rsm_user_status">Status</string>
+    <string name="rsm_user_status_0">Do not want a job</string>
+    <string name="rsm_user_status_1">Want a job</string>
+    <string name="rsm_user_status_2">Already found a job</string>
+    <string name="rsm_save">Save Resume</string>
+    <string name="rsm_tst_load_failed">Get resume failed</string>
+    <string name="rsm_tst_save_failed">Save resume failed</string>
+    <string name="rsm_tst_delete_failed">Delete resume failed</string>
+    <string name="rsm_tst_upload_failed">Upload resume failed</string>
+    <string name="rsm_tst_incorrect_real_name">Please input correct name</string>
+    <string name="rsm_tst_empty_birth_year">Please choose your birth year</string>
+    <string name="rsm_tst_emtpy_contact_method">Please input one contact method (phone, qq or email) at least</string>
+    <string name="rsm_tst_incorrect_phone">Please input correct phone number</string>
+    <string name="rsm_tst_incorrect_qq">Please input correct QQ number</string>
+    <string name="rsm_tst_incorrect_email">Please input correct email address</string>
+    <string name="rsm_tst_empty_category">Please choose one job category at least</string>
+    <string name="rsm_tst_exceeded_category">Please choose three job categories at most</string>
+    <string name="rsm_menu_normal_resume">Normal Resume</string>
+    <string name="rsm_menu_upload_resume">Upload Resume</string>
+    <string name="rsm_upload_resume_title">Upload Resume</string>
+    <string name="rsm_uploaded_resume_lable"></string>
+    <string name="rsm_add_resume_lable"></string>
+    <string name="rsm_upload_resume_hint">Click here to upload. You can upload at most 3 resumes with 5MB size limitation each.</string>
+    <string name="rsm_menu_download_resume">Download</string>
+    <string name="rsm_menu_delete_resume">Delete</string>
+    <string name="rsm_menu_retry_upload">Retry Uploading</string>
+    <string name="rsm_tst_resume_uploading">Uploading, please wait</string>
+    <string name="rsm_tst_choose_resume">Choose Resume</string>
+    <string name="rsm_tst_deliver_resume">Deliver</string>
+    <string name="rsm_tst_postscript_hint">Say something…</string>
+    <string name="rsm_tst_normal_resume">Mianliao Resume</string>
+
+    <!-- Forum Vote -->
+    <string name="fv_vote_desc_format">%1$s (%2$d Votes %3$s)</string>
+    <string name="fv_vote_desc_format_zero">%1$s (0 Vote)</string>
+    <string name="fv_vote_failed">Vote failed</string>
+    <string name="fv_view_voters"><u>View Voters</u></string>
+    <string name="fv_vote_btn_text">Vote (Expire On: %1$s)</string>
+    <string name="fv_tst_choice_not_made">Please make a choice</string>
+    <string name="fv_voted">Voted: %1$s</string>
+    <string name="fv_voters">Voters</string>
+    <string name="fv_vote_confirm">Confirmation</string>
+    <string name="fv_vote_confirm_desc">Vote post can\'t be modified after posted, please make sure you\'ve entered correct info.</string>
+    <string name="fv_vote_not_editable">Vote can\'t be edited</string>
+
+    <!-- Forum Event -->
+    <string name="fe_feature">Feature</string>
+    <string name="fe_feature_hint">feature</string>
+    <string name="fe_location">Location</string>
+    <string name="fe_location_hint">location</string>
+    <string name="fe_start_at">Start At</string>
+    <string name="fe_reg_deadline">Reg Deadline</string>
+    <string name="fe_contact">Contact</string>
+    <string name="fe_contact_hint">contact information</string>
+    <string name="fe_quota">Limit</string>
+    <string name="fe_quota_hint">empty or 0 for unlimited</string>
+    <string name="fe_cost">Cost</string>
+    <string name="fe_cost_hint">cost per person</string>
+    <string name="fe_register">Register</string>
+    <string name="fe_reg_count_desc">%1$d out of %2$s people registered</string>
+    <string name="fe_reg_count_desc_unlimited">%1$d people registered</string>
+    <string name="fe_event_participants">Participants</string>
+    <string name="fe_view_participants"><u>View Participants</u></string>
+    <string name="fe_tst_register_failed">Register Failed</string>
+
+    <!-- Forum Event List -->
+    <string name="fe_list">Event List</string>
+    <string name="fe_list_latest">Latest</string>
+    <string name="fe_list_attended">Attended</string>
+    <string name="fe_list_owned">Owned</string>
+    <string name="fe_list_tst_fetch_failed">Fetch event list failed</string>
+
+    <!-- Reply -->
+    <string name="rpl_title">Reply</string>
+    <string name="rpl_title_comment">Comment</string>
+    <string name="rpl_tst_content_empty">Please input something</string>
+    <string name="rpl_hint_reply">say something</string>
+
+    <!-- bounty -->
+    <string name="bty_my_task">My Task</string>
+    <string name="bty_my_task_published">Published</string>
+    <string name="bty_my_task_accepted">Accepted</string>
+    <string name="bty_my_task_favorited">Favorited</string>
+    <string name="bty_get_task_list_failed">Failed to get task list</string>
+    <string name="bty_credit_level">Lv%1$s</string>
+    <string name="bty_new_task">New Task</string>
+    <string name="bty_menu_sort_date">By Date</string>
+    <string name="bty_menu_sort_distance">By Distance</string>
+    <string name="bty_checkbox_ongoing">Ongoing</string>
+    <string name="bty_reward">Reward</string>
+    <string name="bty_deadline">Deadline</string>
+    <string name="bty_contact">Contact</string>
+    <string name="bty_location">Location</string>
+    <string name="bty_desc_hint">Description</string>
+    <string name="bty_tst_desc_empty">Description can not be empty</string>
+    <string name="bty_tst_reward_empty">Reward can not be empty</string>
+    <string name="bty_tst_not_exist">Task not exist</string>
+    <string name="bty_tst_fav_failed">Fav task failed</string>
+    <string name="bty_tst_cancel_failed">Cancel task failed</string>
+    <string name="bty_tst_apply_failed">Apply task failed</string>
+    <string name="bty_state_ongoing">Ongoing</string>
+    <string name="bty_state_expired">Expired</string>
+    <string name="bty_state_claimed">Claimed</string>
+    <string name="bty_tst_post_failed">Post task failed</string>
+    <string name="bty_help">Help</string>
+    <string name="bty_task_type">Type</string>
+    <string name="bty_task_type_single">Single</string>
+    <string name="bty_task_type_multiple">Repeat</string>
+    <string name="bty_task_quota_hint">Please input repeat count</string>
+    <string name="bty_tst_quota_invalid">Repeat count is invalid</string>
+    <string name="bty_tst_please_set_deadline">Please set up deadline</string>
+    <string name="bty_clear_map">Clear</string>
+    <string name="bty_no_location_info">No location info, please try again later</string>
+
+    <!-- bounty contract -->
+    <string name="btyct_title">Details</string>
+    <string name="btyct_status_applying">Applying</string>
+    <string name="btyct_status_ongoing">Ongoing</string>
+    <string name="btyct_status_rated">Rated</string>
+    <string name="btyct_status_finished">Finished</string>
+    <string name="btyct_action_cancel">Cancel</string>
+    <string name="btyct_action_apply">Apply</string>
+    <string name="btyct_action_finish">Finish</string>
+    <string name="btyct_cancel_confirm">Are you sure to cancel this task?</string>
+    <string name="btyct_disclaimer_title">Disclaimer</string>
+    <string name="btyct_applyed">Applied on %1$s</string>
+    <string name="btyct_reward">Reward: %1$s</string>
+    <string name="btyct_deadline">Deadline: %1$s</string>
+    <string name="btyct_contact">Phone: %1$s</string>
+    <string name="btyct_place">Location: %1$s</string>
+    <string name="btyct_tst_fetch_failed">Get contract list failed</string>
+    <string name="btyct_tst_not_exist">Contract not exist</string>
+
+    <!-- bounty rating -->
+    <string name="bty_rating_title">Rating</string>
+    <string name="bty_rating_desc">Please rating:</string>
+    <string name="bty_rating_hint">Your description helps more people</string>
+    <string name="bty_rating_submit">Submit</string>
+    <string name="bty_rating_good">Good</string>
+    <string name="bty_rating_normal">Normal</string>
+    <string name="bty_rating_bad">Bad</string>
+    <string name="bty_rating_tst_bad_reason">Please explain why rating bad</string>
+    <string name="bty_rating_tst_success">Rating success</string>
+    <string name="bty_rating_tst_failed">Rating failed</string>
+
+    <!-- bounty credits -->
+    <string name="bty_credits_title">Credits</string>
+    <string name="bty_credits_host">Host Credits</string>
+    <string name="bty_credits_guest">Guest Credits</string>
+    <string name="bty_credits_ratings">The ratings</string>
+    <string name="bty_credits_good">Good %1$d</string>
+    <string name="bty_credits_normal">Normal %1$d</string>
+    <string name="bty_credits_bad">Bad %1$d</string>
+    <string name="bty_credits_tst_not_exist">Credits not exist</string>
+    <string name="bty_credits_tst_failed">Get credits failed</string>
+    <string name="bty_credits_tst_ratings_failed">Get rating list failed</string>
+
+    <!-- User State -->
+    <string name="us_inactive_title">Account Inactive</string>
+    <string name="us_inactive_hint">Your account is not active. Please wait for approval.</string>
+    <string name="us_try_active">Try Again</string>
+
+    <!-- Emotion picker -->
+    <string name="emo_picker_default">Default</string>
+    <string name="emo_picker_emoji">Emoji</string>
+    <string name="emo_recharge_warm_reminder">dont user..</string>
+    <string name="emo_recharge_my_balance">My balance</string>
+    <string name="emo_recharge_balance_style"> %1$dMLB</string>
+    <string name="emo_recharge_record">Transaction records</string>
+    <string name="emo_recharge_chose_money">Chose recharge amount</string>
+    <string name="emo_recharge_pay_way">Chosing payment</string>
+    <string name="emo_recharge_pay_flag">Chosed:</string>
+    <string name="emo_recharge_waring">Warning</string>
+    <string name="emo_recharge_rmb">30RMB</string>
+    <string name="emo_recharge_sale">30%sale</string>
+    <string name="emo_recharge_exchangepoint">Exchange of wheat</string>
+    <string name="emo_recharge_mygold">My gold</string>
+    <string name="emo_recharge_balance">Balance:</string>
+    <string name="emo_recharge_localkernel">My kernel</string>
+    <string name="emo_recharge_exchangenum">Please enter the exchange value of gold</string>
+    <string name="emo_recharge_gold">Gold</string>
+    <string name="emo_recharge_kernel">Kernel</string>
+    <string name="emo_recharge_exchangeable">Exchangeable</string>
+    <string name="emo_recharge_changerule">Change rule</string>
+    <string name="emo_recharge_wantchange">I want change</string>
+
+    <!-- Attachment Picker -->
+    <string name="att_label">Att:  </string>
+    <string name="att_information"><Data><![CDATA[ <u><font color="#34CED9">%1$s</font></u> ]]></Data> %2$s</string>
+    <string name="att_replace">Replace Attachment</string>
+    <string name="att_install_file_picker">Please install Astro File Explore</string>
+    <string name="att_limit_dialog_title">Notice</string>
+    <string name="att_limit_dialog_message">The size limitation of attachment is 5MB</string>
+    <string name="att_limit_dialog_confirm">OK</string>
+    <string name="att_error_reach_limit">The size of attachment reached limitation 5MB, cannot be attached</string>
+    <string name="att_error_invalid">Invalid attachment</string>
+    <string name="att_download_dialog_title">Download</string>
+    <string name="att_download_dialog_message">Do you want to download this attachment?</string>
+
+    <!-- Channel -->
+    <string name="channel_click_start_record">Click to start recording</string>
+    <string name="channel_click_stop_record">Click to stop recording</string>
+    <string name="channel_like">Like</string>
+    <string name="channel_hate">Hate</string>
+    <string name="channel_send_flower">Send flowers</string>
+    <string name="channel_throw_eggs">Throw aggs</string>
+    <string name="channel_barrage">Barrage</string>
+    <string name="channel_comment">Comment</string>
+    <string name="channel_official_recom">Official recommendation</string>
+    <string name="channel_user_recom">Users to recommend</string>
+    <string name="channel_voice_time_style">%1$s/%2$s</string>
+    <string name="channel_voice_time_remind">The longest recorded for 15 minutes</string>
+    <string name="forun_roam_college">Roaming in colleges</string>
+    <string name="post_reply_content">%1$s reply %2$s: %3$s</string>
+    <string name="post_more_reply">More %1$s replies</string>
+    <string name="post_copy_content">Copy content</string>
+    <string name="post_reply_hit">Dare not to reply?</string>
+    <string name="channel_post_flowers_group">Flowers group</string>
+    <string name="channel_post_scan_count">Views</string>
+    <string name="channel_recommend">Recommended channel</string>
+    <string name="channel_latest">Latest channel</string>
+    <string name="channel_create">Create channel</string>
+    <string name="channel_search">Search channel</string>
+    <string name="channel_mine">My channel</string>
+    <string name="channel_emotion_tree_hole">Emotion tree hole</string>
+    <string name="channel_interest_in_anime">Interest in anime</string>
+    <string name="channel_pet_whimsy">Pet whimsy</string>
+    <string name="channel_food">About food</string>
+    <string name="channel_photography_world">Photography world</string>
+    <string name="channel_music_movie">Music and movie</string>
+    <string name="channel_can_edit">Editable</string>
+    <string name="channel_search_by_attr">Search by channel property</string>
+    <string name="channel_search_by_tag">Search by channel tag</string>
+    <string name="channel_voice">Voice</string>
+    <string name="channel_picture">Picture</string>
+    <string name="channel_text">Text</string>
+    <string name="channel_create_qus">Channel can do what?</string>
+    <string name="channel_create_intro">Record and analysis of the most important is the heart and heart together</string>
+    <string name="channel_create_get_userinfo_success">Has the authentication</string>
+    <string name="channel_create_remind">24 hours can only create a channel</string>
+    <string name="channel_create_show_chose_attr">Select the channel you want to create properties</string>
+    <string name="channel_create_input_channel_name">Please enter the channel name</string>
+    <string name="channel_create_input_channel_intro">Please enter your channel profile (10 ~ 50 words)</string>
+    <string name="channel_create_chose_channel_type">Please select a channel type</string>
+    <string name="channel_start_create_channel">Through creating</string>
+    <string name="channel_my_created">I created channel</string>
+    <string name="channel_my_collect">I collected channel</string>
+    <string name="channel_my_created_des">Have%1$sfriend to post</string>
+    <string name="channel_my_collected_des">I hava %1$s post</string>
+    <string name="channel_click_to_change_pic">Click to change picture</string>
+    <string name="channel_click_to_playing">Playing</string>
+    <string name="channel_click_to_stop_playing">Stop</string>
+    <string name="channel_search_by_name">Search by name..</string>
+    <string name="channel_comment_floor">%1$sfloor</string>
+    <string name="channel_collect">Collect channel</string>
+    <string name="channel_collect_cancle">Cancel the collection</string>
+    <string name="channel_intro">Channel profile</string>
+    <string name="channel_collected_success">Collect success</string>
+    <string name="channel_all_comments">All comments</string>
+
+    <!-- Explore -->
+    <string name="explore_title">Explore</string>
+    <string name="explore_gold_deposits">Gold deposits</string>
+    <string name="explore_activity_zone">Activity zone</string>
+    <string name="explore_vip_intro">Open the massive amounts of exclusive membership is dressed up</string>
+    <string name="explore_vip_open">Immediately opened</string>
+    <string name="explore_chat_emotion">Emoticons</string>
+    <string name="explore_chat_bubble">Chat bubble</string>
+    <string name="explore_avatar_dress">Avatars</string>
+    <string name="explore_avatar_dress_intro">Let chat face cartoon figures more rocks ~</string>
+    <string name="explore_chat_bg">Chat background</string>
+    <string name="explore_chat_bg_intro">Talking is not lonely anymore</string>
+    <string name="explore_cource_bg">The curriculum background</string>
+    <string name="explore_cource_bg_intro">Lovely background to make the curriculum more rocks ~</string>
+    <string name="explore_dressup_mall">Dress up mall</string>
+    <string name="explore_task_bar">Task bar</string>
+    <string name="explore_funny_games">Funny games</string>
+    <string name="explore_more_funny_plate">More interesting plate</string>
+    <string name="explore_intrest_game_intro">Want to easily, hurriedly to arise</string>
+
+    <!-- Payment -->
+    <string name="pay_vip_month">%1$d month</string>
+    <string name="pay_method">The payment channel</string>
+    <string name="pay_total">Pay acount</string>
+    <string name="pay_alipay">Alipay</string>
+    <string name="pay_vip_agreed">As a member that is agreed</string>
+    <string name="pay_confirm">Confirm the payment</string>
+    <string name="pay_payment_detail">Payment details</string>
+    <string name="pay_order_info">Order information</string>
+    <string name="pay_alipay_account">Alipay account</string>
+    <string name="pay_paytemt_terms">Terms of payment</string>
+    <string name="pay_money_total">Need pay</string>
+    <string name="pay_vip_function">Vip function</string>
+    <string name="pay_vip_hot_function">Hot vip function</string>
+
+    <!-- TakeNotes -->
+    <string name="take_notes_title">Take notes</string>
+    <string name="take_notes_lable_time">TOday</string>
+    <string name="take_notes_lable_memo">Warm stick</string>
+    <string name="take_notes_lable_notes">Photo notes</string>
+    <string name="take_notes_lable_homework">Homewoork rember</string>
+    <string name="take_notes_new">New construction</string>
+    <string name="take_note_remindtime">Set the reminder time</string>
+    <string name="take_note_isdelate">Whether to delete this note</string>
+    <string name="take_note_create"> Created at</string>
+    <string name="take_note_choose_sub">Click here to choose course classification</string>
+    <string name="note_content_length">%1$dWord</string>
+
+    <!-- Campus -->
+    <string name="campus_hot_top_five_title">Popular Top5 on campus</string>
+    <string name="campus_hot_champion">Champion</string>
+    <string name="campus_hot_runner_up">Runner-Up</string>
+    <string name="campus_hot_second_runner_up">Second Runner-Up</string>
+    <string name="campus_hot_fourth">NO.4</string>
+    <string name="campus_hot_fifth">NO.5</string>
+
+    <!-- Tribe -->
+    <string name="tribe_detail_follow_count">Follow with:%1$d</string>
+    <string name="tribe_detail_post_count">Posts:%1$d</string>
+    <string name="tribe_hot_post">Hot post</string>
+    <string name="tribr_all_item">All items</string>
+    <string name="tribe_fresh_topic">Fresh topic</string>
+    <string name="tribe_game_zone">Game zone</string>
+    <string name="tribe_newest_post">Newest post</string>
+    <string name="tribe_newest_tribe">Newest tribe</string>
+    <string name="tribe_hot_tribe">Hot tribe</string>
+    <string name="tribe_celbrity">Tribe celbrity</string>
+    <string name="tribe_chief">Chief of tribe</string>
+    <string name="tribe_charm_list_top50">Charm list Top 50</string>
+    <string name="tribe_power_list_top10">Power list Top 10</string>
+    <string name="tribe_title_all">All</string>
+    <string name="tribe_title_collect">Collected</string>
+    <string name="tribe_title_latest">Latest</string>
+    <string name="tribe_title_suggest">Suggest</string>
+    <string name="tribe_essential_post">Essential Post</string>
+    <string name="tribe_footer_from">From Tribe</string>
+    <string name="tribe_mini_game">Mini game</string>
+    <string name="mini_game">Mini game</string>
+    <string name="tribe_chat_room">Tribe chat rooms</string>
+    <string name="tribe_create_chat_room">Create the tribe chat rooms</string>
+    <string name="tribe_already_have_chat_room">The tribe already have chat rooms</string>
+    <string name="tribe_create_name_prompt">An interesting name, let your group more attractive！</string>
+    <string name="tribe_create_name_hint">Group name (2 ~ 10 words)！</string>
+    <string name="tribe_full_chat_room_name">Fill in the group name</string>
+    <string name="tribe_upload_avatar_prompt">Upload a nice group of face, let you have a bunch of times face!</string>
+    <string name="tribe_upload_avatar">Upload avatar</string>
+    <string name="tribe_upload_group_avatar">Upload group avatar</string>
+    <string name="tribe_come_from">Come from</string>
+    <string name="tribe_room_desc_limit">(30 characters)</string>
+    <string name="tribe_group_master">Group master</string>
+    <string name="tribe_group_memeber">Group member</string>
+    <string name="tribe_go_chat">Go chat</string>
+    <string name="tribe_create_successful">Create successful</string>
+    <string name="tribe_my_concern">I focus on tribal (according to the new post sorting)</string>
+    <string name="tribe_concern">Concern</string>
+    <string name="tribe_type_game">Game</string>
+    <string name="tribe_type_emotion">Emotion</string>
+    <string name="tribe_type_study">Study</string>
+    <string name="tribe_type_cartoon">Cartoon</string>
+    <string name="tribe_type_funny">Funny</string>
+    <string name="tribe_type_movement">Movement</string>
+    <string name="tribe_type_travel">Travel</string>
+    <string name="tribe_type_music">Music</string>
+    <string name="tribe_type_movie">Movie</string>
+    <string name="tribe_type_read">Read</string>
+    <string name="tribe_type_digital">Digital</string>
+    <string name="tribe_type_photo">Photographer</string>
+    <string name="tribe_type_other">Other</string>
+    <string name="tribe_latest_post_title">Latest Posts</string>
+    <string name="tribe_topic">Topic</string>
+    <string name="tribe_name">Tribe name</string>
+    <string name="tribe_desc">Introduction of tribe</string>
+    <string name="tribe_type">Tribe type</string>
+    <string name="tribe_rule">Tribe rule</string>
+    <string name="tribe_info">Tribe info</string>
+    <string name="tribe_is_followed_count_people">%1$dPerson</string>
+    <string name="tribe_is_followed_count_post">%1$dPost</string>
+    <string name="tribe_name_game">Game tribe</string>
+    <string name="tribe_campus_post">Campus post</string>
+    <string name="tribe_classify">Tribe Classify</string>
+    <string name="tribe_add_friend_to_chat">Add Friend to chat room</string>
+    <string name="tribe_member_list">Member list</string>
+    <string name="tribe_people_too_much">Chat room number too much (100 people per room)</string>
+    <string name="tribe_add_success">Add success</string>
+
+    <!-- Post -->
+    <string name="post_pic_vote_title">PK</string>
+    <string name="post_txt_vote_title">Vote</string>
+    <string name="post_video_nocontent_desc">From%1$s,Carefully modulated Video</string>
+    <string name="post_voice_nocontent_desc">%1$s,Your voice was sexy</string>
+    <string name="post_normal_nocontent_desc">From%1$s,Show you to me</string>
+    <string name="post_collected_post">Collected Posts</string>
+    <string name="post_account_exit">Exit The Current Account</string>
+
+    <!-- Mian -->
+    <string name="main_account_str">ML:%1$s</string><!-- Search -->
+    
+     <!--  Search -->
+    <string name="search">Serach</string>
+    <string name="search_history">Serach history</string>
+    <string name="search_clear_history">Clear search history</string>
+    <string name="search_cancel">Cancel</string>
+    <string name="search_hint">Click Search</string>
+    <string name="search_school_is_lock">The school has not been unlocked</string>
+    <string name="forum_search_ing">Searching...</string>
+    <string name="search_result_null">search result is null</string>
+    
+    <!--  Task -->
+     <string name="task_day_sign">Signing day</string>
+     <string name="task_school_post">The campus post</string>
+     <string name="task_tribe_post">Tribal Posting</string>
+     <string name="task_day_tribe_post">Day tribal Posting</string>
+     <string name="task_night_tribe_post">Night tribal Posting</string>
+     <string name="task_roam_school_post">Roam school Posting</string>
+     <string name="task_add_friend">Add friend</string>
+     <string name="task_interactive_cartoon">Interactive cartoon</string>
+     <string name="task_shopping">Buy Item</string>
+
+</resources>

@@ -1,0 +1,228 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sv_explore"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="none">
+
+    <com.tjut.mianliao.black.MagicLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.tjut.mianliao.component.CommonBanner
+            android:id="@+id/vs_switcher"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            app:banner_plate="3"/>
+
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/explore_button_view"/>
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/transparent"
+            android:gravity="center">
+
+            <com.tjut.mianliao.black.MagicLinearLayout
+                android:id="@+id/ll_active"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:paddingTop="20dp"
+                android:background="@drawable/pic_bg_activity_center"
+                android:orientation="horizontal">
+
+                <com.tjut.mianliao.theme.ThemeTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/explore_activity_zone"
+                    android:textSize="17sp"/>
+
+                <com.tjut.mianliao.black.MagicLinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <com.tjut.mianliao.theme.ThemeTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/explore_activity_zone"
+                        android:textColor="#434343"
+                        android:textSize="15sp"/>
+
+                    <com.tjut.mianliao.theme.ThemeTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="9dp"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/explore_inter_active_intro"
+                        android:textColor="#8C8C8C"
+                        android:textSize="9sp"/>
+                </com.tjut.mianliao.black.MagicLinearLayout>
+            </com.tjut.mianliao.black.MagicLinearLayout>
+
+            <com.tjut.mianliao.black.MagicLinearLayout
+                android:id="@+id/ll_dressup"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:paddingTop="20dp"
+                android:background="@drawable/pic_bg_dress_up"
+                android:orientation="horizontal">
+
+                <com.tjut.mianliao.theme.ThemeTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/explore_dressup_mall"
+                    android:textSize="17sp"/>
+
+                <com.tjut.mianliao.black.MagicLinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="left"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <com.tjut.mianliao.theme.ThemeTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/explore_dressup_mall"
+                        android:textColor="#434343"
+                        android:textSize="15sp"/>
+
+                    <com.tjut.mianliao.theme.ThemeTextView
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/explore_dress_mall_intro"
+                        android:textColor="#8C8C8C"
+                        android:textSize="9sp"/>
+                </com.tjut.mianliao.black.MagicLinearLayout>
+            </com.tjut.mianliao.black.MagicLinearLayout>
+        </com.tjut.mianliao.black.MagicLinearLayout>
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/transparent"
+            android:gravity="center">
+
+            <com.tjut.mianliao.black.MagicLinearLayout
+                android:id="@+id/ll_vip_center"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:paddingTop="20dp"
+                android:background="@drawable/pic_bg_vip_center"
+                android:orientation="horizontal">
+
+                <com.tjut.mianliao.theme.ThemeTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pay_vip_center"
+                    android:textSize="17sp"/>
+
+                <com.tjut.mianliao.black.MagicLinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <com.tjut.mianliao.theme.ThemeTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/pay_vip_center"
+                        android:textColor="#434343"
+                        android:textSize="15sp"/>
+
+                    <com.tjut.mianliao.theme.ThemeTextView
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/explore_vip_center_intro"
+                        android:textColor="#8C8C8C"
+                        android:textSize="9sp"/>
+                </com.tjut.mianliao.black.MagicLinearLayout>
+            </com.tjut.mianliao.black.MagicLinearLayout>
+
+            <com.tjut.mianliao.black.MagicLinearLayout
+                android:id="@+id/ll_funny_game"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:paddingTop="20dp"
+                android:background="@drawable/pic_bg_game_center"
+                android:orientation="horizontal">
+
+                <com.tjut.mianliao.theme.ThemeTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/explore_funny_games"
+                    android:textSize="17sp"/>
+
+                <com.tjut.mianliao.black.MagicLinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <com.tjut.mianliao.theme.ThemeTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/explore_funny_games"
+                        android:textColor="#434343"
+                        android:textSize="15sp"/>
+
+                    <com.tjut.mianliao.theme.ThemeTextView
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:maxWidth="60dp"
+                        android:text="@string/explore_intrest_game_intro"
+                        android:textColor="#8C8C8C"
+                        android:textSize="9sp"/>
+                </com.tjut.mianliao.black.MagicLinearLayout>
+            </com.tjut.mianliao.black.MagicLinearLayout>
+        </com.tjut.mianliao.black.MagicLinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginTop="15dp"/>
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+</ScrollView>

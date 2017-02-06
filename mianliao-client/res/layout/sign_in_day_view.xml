@@ -1,0 +1,615 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_signin_form"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/sign_layout1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/ll_sign_info1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/img_bg_sign"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_title1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="12dp"
+                        android:text="@string/is_yi"
+                        android:textColor="#9A000000"
+                        android:textSize="8sp"/>
+
+                    <com.tjut.mianliao.component.ProImageView
+                        android:id="@+id/iv_gift_1"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/img_sign_kernel"/>
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/iv_today_signin1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/img_bg_sign_choose"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/iv_is_continue1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="9dp"
+                    android:layout_marginTop="9dp"
+                    android:src="@drawable/img_bg_sign_continue"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/iv_is_sign1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|bottom"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginRight="2dp"
+                    android:src="@drawable/img_bg_sign_up"
+                    android:visibility="gone"/>
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/tv_get_kernel1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gain_four"
+                android:textColor="#D9A447"
+                android:visibility="invisible"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/sign_layout2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/ll_sign_info2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/img_bg_sign"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_title2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="12dp"
+                        android:text="@string/is_er"
+                        android:textColor="#9A000000"
+                        android:textSize="8sp"/>
+
+                    <com.tjut.mianliao.component.ProImageView
+                        android:id="@+id/iv_gift_2"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/img_sign_kernel"/>
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/iv_today_signin2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/img_bg_sign_choose"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/iv_is_continue2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="9dp"
+                    android:layout_marginTop="9dp"
+                    android:src="@drawable/img_bg_sign_continue"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/iv_is_sign2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|bottom"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginRight="2dp"
+                    android:src="@drawable/img_bg_sign_up"
+                    android:visibility="gone"/>
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/tv_get_kernel2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gain_four"
+                android:textColor="#D9A447"
+                android:visibility="invisible"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/sign_layout3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/ll_sign_info3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/img_bg_sign"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_title3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="12dp"
+                        android:text="@string/is_san"
+                        android:textColor="#9A000000"
+                        android:textSize="8sp"/>
+
+                    <com.tjut.mianliao.component.ProImageView
+                        android:id="@+id/iv_gift_3"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/img_sign_kernel"/>
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/iv_today_signin3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/img_bg_sign_choose"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/iv_is_continue3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="9dp"
+                    android:layout_marginTop="9dp"
+                    android:src="@drawable/img_bg_sign_continue"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/iv_is_sign3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|bottom"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginRight="2dp"
+                    android:src="@drawable/img_bg_sign_up"
+                    android:visibility="gone"/>
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/tv_get_kernel3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gain_four"
+                android:textColor="#D9A447"
+                android:visibility="invisible"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/sign_layout4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/ll_sign_info4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/img_bg_sign"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_title4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="12dp"
+                        android:text="@string/is_si"
+                        android:textColor="#9A000000"
+                        android:textSize="8sp"/>
+
+                    <com.tjut.mianliao.component.ProImageView
+                        android:id="@+id/iv_gift_4"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/img_sign_kernel"/>
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/iv_today_signin4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/img_bg_sign_choose"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/iv_is_continue4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="9dp"
+                    android:layout_marginTop="9dp"
+                    android:src="@drawable/img_bg_sign_continue"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/iv_is_sign4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|bottom"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginRight="2dp"
+                    android:src="@drawable/img_bg_sign_up"
+                    android:visibility="gone"/>
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/tv_get_kernel4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gain_four"
+                android:textColor="#D9A447"
+                android:visibility="invisible"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/sign_layout5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/ll_sign_info5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/img_bg_sign"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_title5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="12dp"
+                        android:text="@string/is_wu"
+                        android:textColor="#9A000000"
+                        android:textSize="8sp"/>
+
+                    <com.tjut.mianliao.component.ProImageView
+                        android:id="@+id/iv_gift_5"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/img_sign_kernel"/>
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/iv_today_signin5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/img_bg_sign_choose"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/iv_is_continue5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="9dp"
+                    android:layout_marginTop="9dp"
+                    android:src="@drawable/img_bg_sign_continue"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/iv_is_sign5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|bottom"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginRight="2dp"
+                    android:src="@drawable/img_bg_sign_up"
+                    android:visibility="gone"/>
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/tv_get_kernel5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gain_four"
+                android:textColor="#D9A447"
+                android:visibility="invisible"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/sign_layout6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/ll_sign_info6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/img_bg_sign"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_title6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="12dp"
+                        android:text="@string/is_lu"
+                        android:textColor="#9A000000"
+                        android:textSize="8sp"/>
+
+                    <com.tjut.mianliao.component.ProImageView
+                        android:id="@+id/iv_gift_6"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/img_sign_kernel"/>
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/iv_today_signin6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/img_bg_sign_choose"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/iv_is_continue6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="9dp"
+                    android:layout_marginTop="9dp"
+                    android:src="@drawable/img_bg_sign_continue"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/iv_is_sign6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|bottom"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginRight="2dp"
+                    android:src="@drawable/img_bg_sign_up"
+                    android:visibility="gone"/>
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/tv_get_kernel6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gain_four"
+                android:textColor="#D9A447"
+                android:visibility="invisible"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/sign_layout7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/ll_sign_info7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/img_bg_sign"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_title7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="12dp"
+                        android:text="@string/is_qi"
+                        android:textColor="#9A000000"
+                        android:textSize="8sp"/>
+
+                    <com.tjut.mianliao.component.ProImageView
+                        android:id="@+id/iv_gift_7"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/img_sign_kernel"/>
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/iv_today_signin7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/img_bg_sign_choose"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/iv_is_continue7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="9dp"
+                    android:layout_marginTop="9dp"
+                    android:src="@drawable/img_bg_sign_continue"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/iv_is_sign7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|bottom"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginRight="2dp"
+                    android:src="@drawable/img_bg_sign_up"
+                    android:visibility="gone"/>
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/tv_get_kernel7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gain_four"
+                android:textColor="#D9A447"
+                android:visibility="invisible"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/sign_layout8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:visibility="invisible">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/ll_sign_info8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/img_bg_sign"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_title8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="15dp"
+                        android:text="@string/is_monday"
+                        android:textColor="#9A000000"
+                        android:textSize="8sp"/>
+
+                    <com.tjut.mianliao.component.ProImageView
+                        android:id="@+id/iv_gift_8"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/img_sign_kernel"/>
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/iv_today_signin8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/img_bg_sign_choose"/>
+
+                <ImageView
+                    android:id="@+id/iv_is_continue8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="9dp"
+                    android:layout_marginTop="9dp"
+                    android:src="@drawable/img_bg_sign_continue"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/iv_is_sign8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|bottom"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginRight="2dp"
+                    android:src="@drawable/img_bg_sign_up"
+                    android:visibility="gone"/>
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/tv_get_kernel8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gain_four"
+                android:textColor="#D9A447"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/sign_in_progress"/>
+
+</LinearLayout>

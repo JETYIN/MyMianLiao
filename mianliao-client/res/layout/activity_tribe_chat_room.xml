@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.tjut.mianliao.black.MagicLinearLayout
+        android:id="@+id/ll_add_chat_room"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@color/white"
+        android:onClick="onClick"
+        android:orientation="horizontal"
+        app:color_magic="0">
+
+        <com.tjut.mianliao.theme.ThemeImageView
+            android:id="@+id/iv_add_chat_room"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:onClick="onClick"
+            android:src="@drawable/botton_bg_chat_add"/>
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:text="@string/tribe_create_chat_room"
+            android:textColor="#515151"
+            android:textSize="17sp"/>
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/tribe_already_have_chat_room"
+        android:textColor="#868686"
+        android:textSize="12sp"/>
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/ptlv_chat_rooms"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:divider="@null"/>
+
+</com.tjut.mianliao.black.MagicLinearLayout>

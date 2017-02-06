@@ -1,0 +1,31 @@
+<com.tjut.mianliao.black.MagicFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/danmaku_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <com.tjut.mianliao.component.EmotionTextView
+        android:id="@+id/dv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="18dp"
+        android:background="@drawable/danmu_text_bg"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:maxWidth="250dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="15dp"
+        android:paddingTop="5dp"
+        android:textColor="#FFFFFFFF" 
+        android:textSize="15sp"/>
+
+    <com.tjut.mianliao.component.AvatarView
+        android:id="@+id/dv_avatar"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/danmu_avatar_bg"
+        android:padding="2dp"/>
+
+</com.tjut.mianliao.black.MagicFrameLayout>

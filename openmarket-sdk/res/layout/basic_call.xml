@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <FrameLayout
+        android:id="@+id/basic_call_video_fragment_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/basic_call_accept"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onAcceptClick"
+            android:text="@string/om_accept" />
+
+        <Button
+            android:id="@+id/basic_call_reject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onRejectClick"
+            android:text="@string/om_reject" />
+
+        <Button
+            android:id="@+id/basic_call_end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onEndClick"
+            android:text="@string/om_end_call" />
+
+        <Button
+            android:id="@+id/basic_call_type_change"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onTypeChangeClick"
+            android:text="@string/om_change_type" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/basic_call_add_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:onClick="onAddUserClick"
+            android:text="@string/om_add_user" />
+
+        <ToggleButton
+            android:id="@+id/basic_call_speaker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:onClick="onSpeakerButtonClick"
+            android:textOff="@string/om_speaker"
+            android:textOn="@string/om_speaker" />
+
+        <ToggleButton
+            android:id="@+id/basic_call_mute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:onClick="onMuteButtonClick"
+            android:textOff="@string/om_mute"
+            android:textOn="@string/om_mute" />
+    </LinearLayout>
+
+</FrameLayout>

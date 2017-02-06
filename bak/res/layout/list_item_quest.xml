@@ -1,0 +1,9 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:background="@drawable/bg_card_middle_in_list" android:gravity="center_vertical" android:layout_height="60dp" android:layout_width="match_parent" android:orientation="horizontal">
+
+    <com.tjut.mianliao.theme.ThemeImageView android:id="@+id/iv_quest_icon" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_width="wrap_content" tools:ignore="ContentDescription" />
+
+    <com.tjut.mianliao.theme.ThemeTextView android:id="@+id/tv_name" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_weight="1" android:layout_width="0dp" android:textColor="#424242" android:textSize="15sp" />
+
+    <com.tjut.mianliao.theme.ThemeTextView android:id="@+id/tv_points" android:layout_height="wrap_content" android:layout_marginRight="16dp" android:layout_width="wrap_content" android:textColor="#979797" android:textSize="15sp" />
+
+</com.tjut.mianliao.black.MagicLinearLayout>

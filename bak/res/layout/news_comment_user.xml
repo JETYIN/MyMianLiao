@@ -1,0 +1,53 @@
+<com.tjut.mianliao.black.MagicRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent">
+
+    <com.tjut.mianliao.component.AvatarView
+        android:id="@+id/av_avatar"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:src="@drawable/chat_botton_bg_faviconboy"
+        app:borderType="roundCorner"
+        app:cornerRadius="3dp"/>
+
+    <com.tjut.mianliao.component.NameView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/av_avatar"
+        android:layout_marginLeft="12dp"
+        android:layout_toRightOf="@+id/av_avatar"
+        android:textColor="#45D2DC"
+        android:textSize="15sp"/>
+
+    <com.tjut.mianliao.black.MagicLinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/av_avatar"
+        android:layout_alignLeft="@+id/tv_name"
+        android:gravity="center_vertical">
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:id="@+id/tv_intro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:textColor="@color/txt_lightgray"
+            android:textSize="12sp"/>
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:id="@+id/tv_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="4dp"
+            android:background="@drawable/btn_orange_rectangle"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:textColor="@color/white"
+            android:textSize="10sp"
+            android:visibility="gone"/>
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+</com.tjut.mianliao.black.MagicRelativeLayout>

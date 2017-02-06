@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/fl_top_view"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+        <io.vov.vitamio.widget.VideoView
+            android:id="@+id/sv_video"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <RelativeLayout
+            android:id="@+id/rl_oper_group"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="bottom"
+            android:background="#4d000000">
+
+            <ImageView
+                android:id="@+id/iv_light_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:clickable="true"
+                android:contentDescription="@null"
+                android:onClick="onClick"
+                android:src="@drawable/icon_flashlight_off"/>
+
+            <ImageView
+                android:id="@+id/iv_camera_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/iv_light_btn"
+                android:clickable="true"
+                android:contentDescription="@null"
+                android:onClick="onClick"
+                android:src="@drawable/icon_camara_change"/>
+
+            <TextView
+                android:id="@+id/tv_preview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                android:clickable="true"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:text="@string/cf_post_video_preview"
+                android:textColor="#e4e4e4"
+                android:textSize="13sp"
+                android:visibility="gone"/>
+
+            <ImageView
+                android:id="@+id/iv_play_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                android:layout_toLeftOf="@id/tv_preview"
+                android:clickable="true"
+                android:contentDescription="@null"
+                android:onClick="onClick"
+                android:src="@drawable/icon_video_start"
+                android:visibility="gone"/>
+        </RelativeLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_pb_view"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:visibility="visible">
+
+        <ProgressBar
+            android:id="@+id/pb_record"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:max="100"
+            android:progressDrawable="@drawable/video_record_progressbar_color"/>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="100dp"
+            android:background="#bcc5e0"/>
+
+        <View
+            android:id="@+id/view_bg_preview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#1c1d20"
+            android:visibility="gone"/>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:background="#1c1d20"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iv_interview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="78dp"
+                android:layout_marginTop="4dp"
+                android:contentDescription="@null"/>
+
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/pic_bg_time"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:textSize="12sp"
+                android:visibility="gone"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp">
+
+            <ImageView
+                android:id="@+id/iv_video_del"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="35dp"
+                android:clickable="true"
+                android:contentDescription="@null"
+                android:onClick="onClick"
+                android:src="@drawable/icon_delete_index"
+                android:visibility="gone"/>
+
+            <FrameLayout
+                android:id="@+id/fl_record_start"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center_horizontal">
+
+                <ProgressBar
+                    android:id="@+id/pb_record_roate"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/bg_pb_video_record"
+                    android:clickable="true"
+                    android:indeterminateBehavior="repeat"
+                    android:indeterminateDrawable="@drawable/video_record_progressbar_ratate"
+                    android:indeterminateOnly="true"
+                    android:onClick="onClick"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/iv_reset"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:contentDescription="@null"
+                    android:src="@drawable/pic_circle_rotate_stop"/>
+
+                <View
+                    android:id="@+id/view_record"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/bg_video_record_center"
+                    android:clickable="true"
+                    android:onClick="onClick"/>
+            </FrameLayout>
+
+            <ImageView
+                android:id="@+id/iv_video_local"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="35dp"
+                android:layout_toRightOf="@id/fl_record_start"
+                android:clickable="true"
+                android:contentDescription="@null"
+                android:onClick="onClick"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,90 @@
+<com.tjut.mianliao.black.MagicRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_root_layout"
+    android:layout_width="150dp"
+    android:layout_height="90dp"
+    android:background="@drawable/bg_bt_colorful"
+    android:orientation="vertical">
+
+    <com.tjut.mianliao.black.MagicLinearLayout
+        android:id="@+id/root_layout"
+        android:layout_width="150dp"
+        android:layout_height="90dp"
+        android:orientation="vertical">
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            android:gravity="center_vertical">
+
+            <com.tjut.mianliao.theme.ThemeImageView
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:src="@drawable/task_pic_bg_kernel"/>
+
+            <TextView
+                android:id="@+id/tv_credit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="@string/is_san_number"
+                android:textColor="@color/white"
+                android:textSize="12sp"/>
+        </com.tjut.mianliao.black.MagicLinearLayout>
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:gravity="center_vertical">
+
+            <com.tjut.mianliao.black.MagicFrameLayout
+                android:layout_width="40dp"
+                android:layout_height="40dp">
+
+                <com.tjut.mianliao.component.ProAvatarView
+                    android:id="@+id/iv_icon"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/bg_bt_circle_white"
+                    android:src="@drawable/icon_stream"
+                    app:borderType="roundCorner"
+                    app:cornerRadius="150dp"/>
+
+                <com.tjut.mianliao.component.ProAvatarView
+                    android:id="@+id/iv_status"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/pic_bg_sign_in_to_complete"
+                    app:borderType="roundCorner"
+                    android:visibility="gone"
+                    app:cornerRadius="150dp"/>
+            </com.tjut.mianliao.black.MagicFrameLayout>
+
+            <TextView
+                android:id="@+id/tv_task_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/day_sign"
+                android:textColor="@color/white"
+                android:textSize="15sp"/>
+        </com.tjut.mianliao.black.MagicLinearLayout>
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+    <TextView
+        android:id="@+id/tv_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/white"
+        android:textSize="12sp"/>
+
+</com.tjut.mianliao.black.MagicRelativeLayout>

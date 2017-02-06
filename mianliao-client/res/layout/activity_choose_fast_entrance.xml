@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tjut.mianliao.black.MagicRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mrl_choose_fast_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:color_magic="0">
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_choose_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/fast_menu_choose_info"
+        android:textColor="#919090"
+        android:textSize="14sp"/>
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_choose_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/tv_choose_info"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/tv_choose_info"
+        android:paddingBottom="2dp"
+        android:textColor="#33badb"
+        android:textSize="10sp"/>
+
+    <com.tjut.mianliao.theme.ThemeImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@null"
+        android:src="@drawable/icon_mark"/>
+
+    <com.tjut.mianliao.theme.ThemeLineView
+        android:id="@+id/view_line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@id/tv_choose_info"
+        android:background="#e6e6e6"/>
+
+    <ListView
+        android:id="@+id/lv_fast_entrances"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view_line"
+        android:layout_marginTop="5dp"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:listSelector="@android:color/transparent"
+        android:overScrollFooter="@null"
+        android:overScrollHeader="@null"/>
+
+</com.tjut.mianliao.black.MagicRelativeLayout>

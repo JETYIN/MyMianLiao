@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll_notice_end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="315dp"
+            android:layout_height="1px"
+            android:layout_gravity="center_horizontal|top"
+            android:background="@color/white" />
+
+        <TextView
+            android:id="@+id/tv_end_notice"
+            android:layout_width="match_parent"
+            android:layout_height="108dp"
+            android:gravity="center"
+            android:text="@string/living_no_singe"
+            android:textColor="#3DA2FF"
+            android:textSize="30sp" />
+
+        <View
+            android:layout_width="315dp"
+            android:layout_height="1px"
+            android:layout_gravity="center_horizontal|bottom"
+            android:background="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_exit"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_tv_circle_blue"
+            android:gravity="center"
+            android:text="@string/back_home"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_bg_search_generic"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.tjut.mianliao.component.SearchView
+        android:id="@+id/sv_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        app:change_bg="false"/>
+
+    <com.tjut.mianliao.black.MagicFrameLayout
+        android:id="@+id/fl_search_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/line_dash_horizontal"
+        android:layerType="software">
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:id="@+id/tv_search_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/bg_basic"
+            android:maxLines="1"
+            android:padding="2dp"
+            android:textColor="#32BBBC"
+            android:textSize="12sp"/>
+    </com.tjut.mianliao.black.MagicFrameLayout>
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/lv_search_result"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/hr_divider"
+        android:dividerHeight="1px"
+        android:listSelector="@null"/>
+
+</LinearLayout>

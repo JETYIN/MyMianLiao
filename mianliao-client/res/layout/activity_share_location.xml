@@ -1,0 +1,63 @@
+<com.tjut.mianliao.black.MagicFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/mv_map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <com.tjut.mianliao.black.MagicRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#99000000"
+        android:gravity="top">
+
+        <com.tjut.mianliao.theme.ThemeImageView
+            android:id="@+id/iv_sharelocation_over"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/sharelocation_cancel"/>
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal">
+
+            <com.tjut.mianliao.component.AvatarView
+                android:id="@+id/iv_avatar_me"
+                android:layout_width="@dimen/chat_avatar_size"
+                android:layout_height="@dimen/chat_avatar_size"
+                android:src="@drawable/chat_botton_bg_faviconboy"
+                app:borderType="roundCorner"
+                app:cornerRadius="3dp"/>
+
+            <com.tjut.mianliao.component.AvatarView
+                android:id="@+id/iv_avatar_other"
+                android:layout_width="@dimen/chat_avatar_size"
+                android:layout_height="@dimen/chat_avatar_size"
+                android:layout_marginLeft="30dp"
+                android:src="@drawable/chat_botton_bg_faviconboy"
+                android:visibility="gone"
+                app:borderType="roundCorner"
+                app:cornerRadius="3dp"/>
+        </com.tjut.mianliao.black.MagicLinearLayout>
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:id="@+id/tv_show_distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/white"
+            android:textSize="15sp"/>
+    </com.tjut.mianliao.black.MagicRelativeLayout>
+
+</com.tjut.mianliao.black.MagicFrameLayout>

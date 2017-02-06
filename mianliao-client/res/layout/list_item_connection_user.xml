@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_connection_user"
+    android:orientation="vertical"
+    android:layout_width="40dp"
+    android:layout_height="60dp"
+    android:gravity="center_horizontal">
+    <com.tjut.mianliao.component.AvatarView
+        android:id="@+id/iv_avatar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/pic_face_01"
+        />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="哒哒哒"
+        android:textColor="@color/white"/>
+</LinearLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        >
+
+        <TextView
+            android:id="@+id/tv_my_kernel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:drawableLeft="@drawable/task_pic_bg_kernel"
+            android:drawablePadding="20dp"
+            android:text="66"
+            android:textColor="#fbc51f"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tv_entry_shop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:text="进入装扮商城"
+            android:textColor="#99ffffff"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_rechage_kernal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginTop="12dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="兑换麦粒"
+            android:textColor="#515151" />
+
+        <TextView
+            android:id="@+id/tv_my_coins"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="1232"
+            android:textColor="#ababab"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <ListView
+
+        android:id="@+id/lv_incharge_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:background="@color/white"
+        android:divider="@null"
+        android:dividerHeight="0px"
+        android:listSelector="@null" />
+
+    <com.tjut.mianliao.theme.ThemeImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/img_solid_split_down" />
+
+    <TextView
+        android:id="@+id/tv_gain_free"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:gravity="right"
+        android:onClick="onClick"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:text="免费获得麦粒"
+        android:textColor="#a8c3e5" />
+</LinearLayout>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_live_info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_live_cove"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/pic_cover_girl_mid" />
+
+        <ImageView
+            android:id="@+id/iv_hot_live"
+            android:layout_width="28dp"
+            android:layout_height="8dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/hot_hover" />
+
+        <TextView
+            android:id="@+id/tv_live"
+            android:layout_width="30dp"
+            android:layout_height="16dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="7dp"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/bg_tv_circle_write"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="9sp" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="15dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginRight="7dp"
+                android:paddingBottom="11dp" />
+
+            <ImageView
+                android:layout_width="11dp"
+                android:layout_height="11dp"
+                android:layout_toLeftOf="@+id/tv_school_name"
+                android:src="@drawable/button_location" />
+
+            <TextView
+                android:id="@+id/tv_school_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:scaleY="1"
+                android:shadowColor="#66000000"
+                android:shadowDx="-1"
+                android:shadowRadius="1"
+                android:textColor="#eeeeee"
+                android:textSize="9sp" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:paddingLeft="9dp"
+        android:paddingRight="9dp">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textColor="#8C8C8C"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_spectator_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:textColor="#959595"
+            android:textSize="9sp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_live_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="22dp"
+        android:paddingLeft="9dp"
+        android:paddingRight="9dp"
+        android:text="fjhgsdjkfhs"
+        android:textColor="#959595"
+        android:textSize="12sp" />
+</LinearLayout>

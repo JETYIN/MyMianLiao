@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_channel_post_comment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_floor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:background="#dfe7ff"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textColor="#9b9a9a"/>
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/channel_comment_user"/>
+
+    <com.tjut.mianliao.component.RichEmotionTextView
+        android:id="@+id/tv_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="48dp"
+        android:layout_marginRight="15dp"
+        android:ellipsize="end"
+        android:lineSpacingExtra="3dp"
+        android:textColor="#2F2F2F"
+        android:textSize="15sp"
+        app:shouldMatchTopic="false"/>
+
+    <com.tjut.mianliao.component.forum.ReplyView
+        android:id="@+id/rv_comments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/bg_second_reply"/>
+
+    <TextView
+        android:id="@+id/tv_reply_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="10dp"
+        android:background="#F6F6F6"
+        android:clickable="true"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:visibility="gone"/>
+
+    <View
+        android:id="@+id/view_line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="5dp"
+        android:background="#EAEAEA"/>
+
+</LinearLayout>

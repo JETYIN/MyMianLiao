@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="qupai_recorder_timeline_time_indicator">true</bool>
+</resources>

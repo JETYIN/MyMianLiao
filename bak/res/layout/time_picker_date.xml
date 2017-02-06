@@ -1,0 +1,24 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="150dp" android:layout_width="match_parent" android:orientation="horizontal">
+
+    <com.tjut.mianliao.black.MagicLinearLayout android:layout_height="match_parent" android:layout_weight="1.5" android:layout_width="0dp" android:orientation="vertical">
+
+        <com.tjut.mianliao.theme.ThemeTextView android:layout_gravity="center_horizontal" android:layout_height="wrap_content" android:layout_marginBottom="3dp" android:layout_width="wrap_content" android:text="@string/year" />
+
+        <kankan.wheel.widget.WheelView android:id="@+id/wv_year" android:layout_height="match_parent" android:layout_width="match_parent" />
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+    <com.tjut.mianliao.black.MagicLinearLayout android:layout_height="match_parent" android:layout_weight="1.5" android:layout_width="0dp" android:orientation="vertical">
+
+        <com.tjut.mianliao.theme.ThemeTextView android:layout_gravity="center_horizontal" android:layout_height="wrap_content" android:layout_marginBottom="3dp" android:layout_width="wrap_content" android:text="@string/month" />
+
+        <kankan.wheel.widget.WheelView android:id="@+id/wv_month" android:layout_height="match_parent" android:layout_width="match_parent" />
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+    <com.tjut.mianliao.black.MagicLinearLayout android:layout_height="match_parent" android:layout_weight="1.5" android:layout_width="0dp" android:orientation="vertical">
+
+        <com.tjut.mianliao.theme.ThemeTextView android:layout_gravity="center_horizontal" android:layout_height="wrap_content" android:layout_marginBottom="3dp" android:layout_width="wrap_content" android:text="@string/day" />
+
+        <kankan.wheel.widget.WheelView android:id="@+id/wv_day" android:layout_height="match_parent" android:layout_width="match_parent" />
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+</com.tjut.mianliao.black.MagicLinearLayout>

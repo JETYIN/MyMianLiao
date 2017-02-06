@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="61dp"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="15dp"
+        >
+        
+        <com.tjut.mianliao.component.AvatarView
+        android:id="@+id/piv_tribe_logo"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/chat_botton_bg_faviconboy"
+        app:borderType="roundCorner"
+        app:cornerRadius="5dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:id="@+id/tv_tribe_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我想有个她"
+                android:textColor="#515151"
+                android:textSize="15sp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:orientation="horizontal">
+
+                <com.tjut.mianliao.theme.ThemeTextView
+                    android:id="@+id/tv_post_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/cicre_tribe"
+                    android:drawablePadding="5dp"
+                    android:text="1248贴"
+                    android:textColor="#9B9A9A"
+                    android:textSize="10sp"/>
+
+                <com.tjut.mianliao.theme.ThemeTextView
+                    android:id="@+id/tv_people_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:drawableLeft="@drawable/circle_small_blue"
+                    android:drawablePadding="5dp"
+                    android:text="1235人"
+                    android:textColor="#9B9A9A"
+                    android:textSize="10sp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.tjut.mianliao.theme.ThemeLineView
+            android:id="@+id/line_horizontal_left"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="35dp"
+            android:visibility="gone"/>
+
+        <com.tjut.mianliao.theme.ThemeLineView
+            android:id="@+id/line_horizontal_right"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="35dp"
+            android:visibility="gone"/>
+
+        <com.tjut.mianliao.theme.ThemeLineView
+            android:id="@+id/line_vertical_top"
+            android:layout_width="1px"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="25dp"
+            android:visibility="gone"/>
+
+        <com.tjut.mianliao.theme.ThemeLineView
+            android:id="@+id/line_vertical_bottom"
+            android:layout_width="1px"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="25dp"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+</FrameLayout>

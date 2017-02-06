@@ -1,0 +1,112 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_contact"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/contact_item_height"
+    android:background="@drawable/selector_bg_item"
+    app:color_magic="0">
+
+    <FrameLayout
+        android:id="@+id/fl_avatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/contact_spacing_left">
+
+        <ImageView
+            android:id="@+id/iv_vip_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:src="@drawable/chat_avatar_bg"
+            android:visibility="gone"/>
+
+        <com.tjut.mianliao.component.AvatarView
+            android:id="@+id/iv_contact_avatar"
+            android:layout_width="@dimen/contact_avatar_size"
+            android:layout_height="@dimen/contact_avatar_size"
+            android:layout_gravity="bottom|center_horizontal"
+            android:padding="1dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/chat_botton_bg_faviconboy"
+            app:borderType="roundCorner"
+            app:cornerRadius="100dp"/>
+
+        <ImageView
+            android:id="@+id/iv_type_icon"
+            android:layout_width="13dp"
+            android:layout_height="13dp"
+            android:layout_gravity="bottom|right"
+            android:contentDescription="@null"
+            android:padding="1dp"
+            android:visibility="gone"/>
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/v_connection_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/fl_avatar"
+        android:layout_marginBottom="-5dp"
+        android:layout_marginLeft="-8dp"
+        android:layout_toRightOf="@id/fl_avatar"
+        android:background="@drawable/ic_status_offline"
+        android:visibility="gone"
+        tools:ignore="ContentDescription"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/contact_name_margin_left"
+        android:layout_marginRight="@dimen/card_margin_horizontal"
+        android:layout_toRightOf="@+id/fl_avatar"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ll_user_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_contact_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="@dimen/mdl_name_spacing"
+                android:ellipsize="end"
+                android:maxLength="8"
+                android:singleLine="true"
+                android:textColor="@color/txt_darkgray"
+                android:textSize="@dimen/contact_name_size"/>
+
+            <ImageView
+                android:id="@+id/iv_medal"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:contentDescription="@null"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_short_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/prof_no_short_desc"
+            android:maxLines="1"
+            android:paddingRight="20dp"
+            android:singleLine="true"
+            android:textColor="@color/contact_info_color"
+            android:textSize="@dimen/contact_info_size"/>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view_line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="70dp"
+        android:background="#e6e6e6"/>
+
+</RelativeLayout>

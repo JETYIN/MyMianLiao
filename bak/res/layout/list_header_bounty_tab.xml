@@ -1,0 +1,20 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical">
+
+    <com.tjut.mianliao.component.ViewSwitcher android:id="@+id/vs_content" android:layout_height="135dp" android:layout_width="match_parent" />
+
+    <com.tjut.mianliao.black.MagicLinearLayout android:background="@color/white" android:gravity="center_vertical" android:layout_height="@dimen/tab_height" android:layout_width="match_parent" android:orientation="horizontal">
+
+        <com.tjut.mianliao.theme.ThemeTextView style="@style/MianLiao.TabItem" android:background="@drawable/selector_bg_card_item" android:id="@+id/tv_sort_date" android:layout_height="match_parent" android:layout_weight="1" android:layout_width="0dp" android:text="@string/bty_menu_sort_date" />
+
+        <View android:background="@color/hr_divider" android:layout_height="20dp" android:layout_width="1px" />
+
+        <com.tjut.mianliao.theme.ThemeTextView style="@style/MianLiao.TabItem" android:background="@drawable/selector_bg_card_item" android:id="@+id/tv_sort_distance" android:layout_height="match_parent" android:layout_weight="1" android:layout_width="0dp" android:text="@string/bty_menu_sort_distance" />
+
+        <View android:background="@color/hr_divider" android:layout_height="20dp" android:layout_width="1px" />
+
+        <CheckBox android:background="@drawable/selector_bg_card_item" android:button="@drawable/selector_checkbox_green" android:checked="false" android:id="@+id/cb_ongoing" android:layout_height="match_parent" android:layout_marginLeft="14dp" android:layout_width="wrap_content" android:paddingLeft="24dp" android:paddingRight="14dp" android:text="@string/bty_checkbox_ongoing" android:textColor="@color/txt_tab_item_grey" />
+
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+    <include layout="@layout/hr_divider" />
+</com.tjut.mianliao.black.MagicLinearLayout>

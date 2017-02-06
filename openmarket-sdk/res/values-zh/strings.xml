@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="om_add_user">添加用户</string>
+    <string name="om_enable_video">启用视频</string>
+    <string name="om_disable_video">禁用视频</string>
+    <string name="om_change_type">改变通话类型</string>
+    <string name="om_type_change_failed">改变通话类型失败</string>
+    <string name="om_change_call_to">"改用"</string>
+    <string name="om_video">视频</string>
+    <string name="om_voice">音频</string>
+    <string name="om_not_in_call">无通话</string>
+    <string name="om_connecting">连接中&#8230;</string>
+    <string name="om_ringing">等待接听&#8230;</string>
+    <string name="om_call_failed">通话失败</string>
+    <string name="om_reject">拒接</string>
+    <string name="om_accept">接听</string>
+    <string name="om_end_call">结束通话</string>
+    <string name="om_call_ended">通话结束</string>
+    <string name="om_return_back">返回</string>
+    <string name="om_call_back">回拨</string>
+    <string name="om_example_user">示例用户</string>
+    <string name="om_call_error">通话错误</string>
+    <string name="om_call_rejected">通话被拒接</string>
+    <string name="om_missed_call">未接电话</string>
+    <string name="om_user_busy">用户忙</string>
+    <string name="om_user_unavailable">用户不可用</string>
+    <string name="om_link_lost">连接丢失</string>
+    <string name="om_speaker">扬声器</string>
+    <string name="om_mute">静音</string>
+
+</resources>

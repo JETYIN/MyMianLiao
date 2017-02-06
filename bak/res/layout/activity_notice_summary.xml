@@ -1,0 +1,1 @@
+<com.handmark.pulltorefresh.library.PullToRefreshListView xmlns:android="http://schemas.android.com/apk/res/android" android:divider="@color/hr_divider" android:dividerHeight="1px" android:id="@+id/ptrlv_notice" android:layout_height="match_parent" android:layout_width="match_parent" android:listSelector="@drawable/selector_bg_item" android:scrollbarStyle="outsideOverlay" />

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/bg_card_bottom"
+    android:insetRight="@dimen/card_margin_horizontal"
+    android:insetLeft="@dimen/card_margin_horizontal"
+    android:insetBottom="@dimen/card_item_spacing"/>

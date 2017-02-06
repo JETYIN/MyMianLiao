@@ -1,0 +1,143 @@
+<com.tjut.mianliao.black.MagicFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pic_login_regist">
+
+    <com.tjut.mianliao.black.MagicRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical">
+
+            <com.tjut.mianliao.black.MagicLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/bt_log_register"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="6dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_bt_cyan"
+                    android:onClick="onClick"
+                    android:text="@string/regist"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"/>
+
+                <Button
+                    android:id="@+id/bt_log_login"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_bt_lucency"
+                    android:onClick="onClick"
+                    android:text="@string/lgi_login"
+                    android:textColor="#848585"
+                    android:textSize="15sp"/>
+            </com.tjut.mianliao.black.MagicLinearLayout>
+
+            <com.tjut.mianliao.black.MagicLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="21dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="77dp"
+                    android:layout_height="1px"
+                    android:background="#49A2C1"/>
+
+                <com.tjut.mianliao.theme.ThemeTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="28dp"
+                    android:layout_marginRight="28dp"
+                    android:text="@string/other_party_login"
+                    android:textColor="#49A2C1"
+                    android:textSize="12sp"/>
+
+                <View
+                    android:layout_width="77dp"
+                    android:layout_height="1px"
+                    android:background="#49A2C1"/>
+            </com.tjut.mianliao.black.MagicLinearLayout>
+
+            <com.tjut.mianliao.black.MagicLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <com.tjut.mianliao.theme.ThemeImageView
+                    android:id="@+id/iv_qq_login"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:clickable="true"
+                    android:onClick="onClick"
+                    android:src="@drawable/ext_qq"/>
+
+                <com.tjut.mianliao.theme.ThemeImageView
+                    android:id="@+id/iv_sina_login"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="24dp"
+                    android:clickable="true"
+                    android:onClick="onClick"
+                    android:src="@drawable/ext_weibo"/>
+
+                <com.tjut.mianliao.theme.ThemeImageView
+                    android:id="@+id/iv_renren_login"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="24dp"
+                    android:clickable="true"
+                    android:onClick="onClick"
+                    android:src="@drawable/ext_renren"/>
+            </com.tjut.mianliao.black.MagicLinearLayout>
+        </com.tjut.mianliao.black.MagicLinearLayout>
+    </com.tjut.mianliao.black.MagicRelativeLayout>
+
+    <com.tjut.mianliao.black.MagicLinearLayout
+        android:id="@+id/ll_loading_progress"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:background="@drawable/login_progress_bg"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:indeterminateBehavior="repeat"
+            android:indeterminateDrawable="@drawable/login_ext_loading_ratate"
+            android:indeterminateOnly="true"/>
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/login_loading_txt"
+            android:textColor="@color/btn_blue"
+            android:textSize="13sp"/>
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+</com.tjut.mianliao.black.MagicFrameLayout>

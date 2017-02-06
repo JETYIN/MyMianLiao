@@ -1,0 +1,33 @@
+<com.tjut.mianliao.black.MagicRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/rl_edit_period" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/card_margin_horizontal" android:layout_marginRight="@dimen/card_margin_horizontal" android:layout_marginTop="@dimen/card_item_spacing" android:layout_width="match_parent">
+
+    <com.tjut.mianliao.black.MagicLinearLayout android:background="@drawable/bg_card" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/btn_delete" android:layout_width="wrap_content" android:orientation="vertical">
+
+        <com.tjut.mianliao.black.MagicLinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal" android:paddingLeft="@dimen/card_margin_horizontal" android:paddingRight="@dimen/card_margin_horizontal">
+
+            <com.tjut.mianliao.theme.ThemeTextView style="@style/MianLiao.CardText" android:layout_height="wrap_content" android:layout_width="@dimen/edc_card_title_width" android:text="@string/course_classroom_head" />
+
+            <EditText style="@style/MianLiao.EditText.InCard" android:hint="@string/course_input_classroom" android:id="@+id/et_room" android:layout_height="wrap_content" android:layout_weight="1" android:layout_width="0dp" android:maxLength="100" android:maxLines="1" android:singleLine="true" />
+        </com.tjut.mianliao.black.MagicLinearLayout>
+
+        <include layout="@layout/hr_divider_with_margin" />
+
+        <com.tjut.mianliao.black.MagicLinearLayout android:background="@drawable/selector_bg_card_item" android:id="@+id/ll_weeks" android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal" android:paddingLeft="@dimen/card_margin_horizontal" android:paddingRight="@dimen/card_margin_horizontal">
+
+            <com.tjut.mianliao.theme.ThemeTextView style="@style/MianLiao.CardText" android:layout_height="wrap_content" android:layout_width="@dimen/edc_card_title_width" android:text="@string/course_weeks_head" />
+
+            <com.tjut.mianliao.theme.ThemeTextView style="@style/MianLiao.CardText.Light" android:hint="@string/course_choose_weeks" android:id="@+id/tv_weeks" android:layout_height="wrap_content" android:layout_width="wrap_content" />
+        </com.tjut.mianliao.black.MagicLinearLayout>
+
+        <include layout="@layout/hr_divider_with_margin" />
+
+        <com.tjut.mianliao.black.MagicLinearLayout android:background="@drawable/selector_bg_card_item" android:id="@+id/ll_period" android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal" android:paddingLeft="@dimen/card_margin_horizontal" android:paddingRight="@dimen/card_margin_horizontal">
+
+            <com.tjut.mianliao.theme.ThemeTextView style="@style/MianLiao.CardText" android:layout_height="wrap_content" android:layout_width="@dimen/edc_card_title_width" android:text="@string/course_period_head" />
+
+            <com.tjut.mianliao.theme.ThemeTextView style="@style/MianLiao.CardText.Light" android:hint="@string/course_choose_periods" android:id="@+id/tv_period" android:layout_height="wrap_content" android:layout_width="wrap_content" />
+        </com.tjut.mianliao.black.MagicLinearLayout>
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+    <Button style="@style/MianLiao.Button" android:background="@drawable/selector_btn_red" android:id="@+id/btn_delete" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/card_margin_horizontal" android:layout_width="wrap_content" android:text="@string/course_delete_period" />
+
+</com.tjut.mianliao.black.MagicRelativeLayout>

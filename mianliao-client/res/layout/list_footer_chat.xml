@@ -1,0 +1,1 @@
+<View xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="@dimen/cocos_avatar_height" android:layout_width="match_parent" />

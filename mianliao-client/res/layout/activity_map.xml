@@ -1,0 +1,7 @@
+<com.tjut.mianliao.black.MagicFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="match_parent" android:layout_width="match_parent">
+
+    <com.baidu.mapapi.map.MapView android:id="@+id/mv_map" android:layout_height="match_parent" android:layout_width="match_parent" />
+
+    <com.tjut.mianliao.theme.ThemeImageView android:id="@+id/iv_marker" android:layout_gravity="center" android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/ic_map_mark" android:visibility="gone" />
+
+</com.tjut.mianliao.black.MagicFrameLayout>

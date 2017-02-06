@@ -1,0 +1,57 @@
+<com.tjut.mianliao.black.MagicRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_medal_card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector_bg_card_item"
+    android:paddingBottom="12dp"
+    app:color_magic="0" >
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_medal"
+        style="@style/MianLiao.CardText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="@dimen/card_margin_horizontal"
+        android:text="@string/prof_my_medal" />
+
+    <com.tjut.mianliao.component.ProImageView
+        android:id="@+id/iv_sample_medal"
+        android:layout_width="@dimen/mdl_size"
+        android:layout_height="@dimen/mdl_size"
+        android:layout_below="@+id/tv_medal"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/ic_medal_default"
+        tools:ignore="ContentDescription" />
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_medal_info"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/mdl_size"
+        android:layout_alignTop="@+id/iv_sample_medal"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_toLeftOf="@+id/iv_enter_medal"
+        android:layout_toRightOf="@+id/iv_sample_medal"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:maxLines="2"
+        android:text="@string/prof_getting_medal"
+        android:textColor="#A27F5A"
+        android:textSize="14sp" />
+
+    <com.tjut.mianliao.theme.ThemeImageView
+        android:id="@+id/iv_enter_medal"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/iv_sample_medal"
+        android:layout_marginRight="14dp"
+        android:scaleType="center"
+        android:src="@drawable/ic_enter"
+        tools:ignore="ContentDescription" />
+
+</com.tjut.mianliao.black.MagicRelativeLayout>

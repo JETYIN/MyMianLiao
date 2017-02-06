@@ -1,0 +1,39 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_qr"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <com.tjut.mianliao.component.ProAvatarView
+        android:id="@+id/av_avatar"
+        android:layout_width="@dimen/prof_avatar_size"
+        android:layout_height="@dimen/prof_avatar_size"
+        android:layout_marginTop="22dp"
+        android:padding="@dimen/prof_avatar_border_size"/>
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textColor="#38D3A9"
+        android:textSize="20dp"/>
+
+    <com.tjut.mianliao.theme.ThemeImageView
+        android:id="@+id/iv_qrcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:onClick="onClick"/>
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center_horizontal"
+        android:textColor="#8A8A8A"
+        android:textSize="12dp"/>
+
+</com.tjut.mianliao.black.MagicLinearLayout>

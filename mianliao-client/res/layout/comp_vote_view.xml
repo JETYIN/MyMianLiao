@@ -1,0 +1,9 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.tjut.mianliao.black.MagicLinearLayout android:gravity="center" android:id="@+id/ll_votes" android:layout_height="wrap_content" android:layout_width="wrap_content" android:orientation="vertical" />
+
+    <com.tjut.mianliao.component.ProgressButton app:textColor="@color/white" android:background="@drawable/selector_btn_red" android:id="@+id/pb_vote" android:layout_height="40dp" android:layout_marginBottom="2dp" android:layout_marginLeft="24dp" android:layout_marginRight="24dp" android:layout_marginTop="10dp" android:layout_width="match_parent" />
+
+    <com.tjut.mianliao.theme.ThemeTextView android:id="@+id/tv_voters" android:layout_gravity="center_horizontal" android:layout_height="wrap_content" android:layout_marginBottom="5dp" android:layout_marginTop="4dp" android:layout_width="wrap_content" android:text="@string/fv_view_voters" android:textColor="#34ced9" android:textSize="15sp" android:visibility="gone" />
+
+</merge>

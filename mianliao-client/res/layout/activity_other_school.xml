@@ -1,0 +1,12 @@
+<com.tjut.mianliao.black.MagicFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_other_school"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:id="@+id/frag_square"
+        android:name="com.tjut.mianliao.forum.nova.SquareFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"/>
+
+</com.tjut.mianliao.black.MagicFrameLayout>

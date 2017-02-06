@@ -1,0 +1,5 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical">
+
+    <include layout="@layout/profile_points" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/card_margin_horizontal" android:layout_marginRight="@dimen/card_margin_horizontal" android:layout_marginTop="@dimen/card_item_spacing" android:layout_width="match_parent" />
+
+</com.tjut.mianliao.black.MagicLinearLayout>

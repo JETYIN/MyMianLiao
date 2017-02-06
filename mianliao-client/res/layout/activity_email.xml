@@ -1,0 +1,6 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical">
+    <com.tjut.mianliao.theme.ThemeTextView android:layout_height="wrap_content" android:layout_marginLeft="18dp" android:layout_marginTop="30dp" android:layout_width="match_parent" android:text="@string/lgi_success_submit" android:textSize="15sp" />
+    <com.tjut.mianliao.theme.ThemeTextView android:layout_height="wrap_content" android:layout_marginLeft="18dp" android:layout_marginRight="18sp" android:layout_marginTop="14dp" android:layout_width="match_parent" android:text="@string/lgi_prompt_mess" android:textSize="14sp" />
+    <com.tjut.mianliao.theme.ThemeTextView android:clickable="true" android:id="@+id/tv_to_email" android:layout_height="wrap_content" android:layout_marginLeft="18dp" android:layout_marginTop="10dp" android:layout_width="wrap_content" android:onClick="onClick" android:text="@string/lgi_to_email" android:textColor="#32bbbc" android:textSize="14sp" />
+
+</com.tjut.mianliao.black.MagicLinearLayout>

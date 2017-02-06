@@ -1,0 +1,30 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_recent_chat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <com.tjut.mianliao.theme.ThemeLineView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#b2b2b2"/>
+
+    <ListView
+        android:id="@+id/lv_recent_contacts"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="1dp"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:divider="@null"
+        android:dividerHeight="0px"
+        android:footerDividersEnabled="true"
+        android:headerDividersEnabled="false"
+        android:listSelector="@null"
+        android:overScrollFooter="@null"
+        android:overScrollHeader="@null"/>
+
+</com.tjut.mianliao.black.MagicLinearLayout>

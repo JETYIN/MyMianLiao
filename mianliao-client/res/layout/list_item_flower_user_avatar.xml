@@ -1,0 +1,7 @@
+<com.tjut.mianliao.component.AvatarView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/iv_avatar"
+    android:layout_width="24dp"
+    android:layout_height="24dp"
+    app:borderType="roundCorner"
+    app:cornerRadius="24dp"/>

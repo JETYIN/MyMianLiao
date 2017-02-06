@@ -1,0 +1,2287 @@
+[33mcommit 116cdc808153475e1ec3c60c24ffffd8079d9a6b[m
+Author: silva.zan@tjut.cc <silva.zan@tjut.cc>
+Date:   Thu Oct 29 13:33:50 2015 +0800
+
+    chatbackground change
+    
+    Change-Id: Ie999adcbf7b3af61a1d0f6f88bf4d5a460b1a803
+
+[33mcommit 288fb9478c126af0480cb5ef626131ff148277b1[m
+Author: silva.zan@tjut.cc <silva.zan@tjut.cc>
+Date:   Thu Oct 29 09:17:51 2015 +0800
+
+    Remand change
+    
+    Change-Id: Icff6730fbc25b3df940ac80b63aaad6a1f43ef09
+
+[33mcommit c710e25e25e00ca07ddec3795480e7aa0bae1b7d[m
+Author: nick wang <nick.wang@tjut.cc>
+Date:   Thu Oct 29 10:39:23 2015 +0800
+
+    Remove image clip function.
+    
+    Change-Id: Iad28bc41afd86857889c08dc0fe835736d6b4e76
+
+[33mcommit ef3f5f3d5e47fd0cef60712f6992e39a8aae89c3[m
+Author: silva.zan@tjut.cc <silva.zan@tjut.cc>
+Date:   Wed Oct 28 20:27:44 2015 +0800
+
+    GroupInfo change
+    
+    Change-Id: I266b26c3842ab561e81b6b8382c4bef524958a5e
+
+[33mcommit f592552725fe2ee58292b5b2f6c55f98eb46f0da[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Wed Oct 28 20:28:23 2015 +0800
+
+    Update groupchatinfo ,calendar info, recentchat..
+    
+    Change-Id: I5358971e62fa03869240683073b1636b781551a3
+
+[33mcommit c5623da5c2d29f060bd6e6d6c3fb2b22b4fe2e05[m
+Author: silva.zan@tjut.cc <silva.zan@tjut.cc>
+Date:   Tue Oct 27 19:02:21 2015 +0800
+
+    Icon change
+    
+    Change-Id: I6c80c5d0bb7c9108d23b1d1f9203a1d9072a61b3
+
+[33mcommit a4dd037234efd1866ef3a1e353a46b3c1aa9d67b[m
+Merge: a7f771f bec8e50
+Author: Yoop Wu <yoop.wu@tjut.cc>
+Date:   Tue Oct 27 19:09:34 2015 +0800
+
+    Merge "Avatar change"
+
+[33mcommit a7f771f4f7cdbac9ceea01fdb7667263e0416abb[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Tue Oct 27 18:47:18 2015 +0800
+
+    Update user avatar in profileactivity
+    
+    Change-Id: I3aea2f453a93739b265a5b1e80ef959743f1378e
+
+[33mcommit bec8e500cf64bc42ed21c2fcb27e6852503d1212[m
+Author: silva.zan@tjut.cc <silva.zan@tjut.cc>
+Date:   Tue Oct 27 14:11:59 2015 +0800
+
+    Avatar change
+    
+    Change-Id: I33c90a1123557ef18ffc6aa52b270834a6b9640e
+
+[33mcommit cbbd2d952ee82f224d8fa3229ec8aa8bb4289b4d[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Tue Oct 27 10:48:41 2015 +0800
+
+    Update remind, my post, roam college search issue
+    
+    Change-Id: I017e9ffa0506932fc48f0684e2ee003441a92dca
+
+[33mcommit 77df416346954afb2303a7b4061c947caaba4b1a[m
+Author: silva.zan@tjut.cc <silva.zan@tjut.cc>
+Date:   Tue Oct 27 13:48:44 2015 +0800
+
+    Roamcollege change	`
+    
+    Change-Id: I91eb3e89b6ce73c05a4d265439e3b3b72801bcda
+
+[33mcommit e23fac3ca5dbc7fb801cebe4f9ed062d9d562a20[m
+Author: nick wang <nick.wang@tjut.cc>
+Date:   Tue Oct 27 10:30:52 2015 +0800
+
+    Fix nullPointer exception while going back on post detail activity.
+    
+    Change-Id: Ie5b6d12f407ee26bbbc716279bf6655fa3f9aec6
+
+[33mcommit 636bd8faf3376d0d146c8801ed7d174ec96eebd0[m
+Author: silva.zan@tjut.cc <silva.zan@tjut.cc>
+Date:   Mon Oct 26 19:41:44 2015 +0800
+
+    New avatar change
+    
+    Change-Id: I86cc058e619ccca4c976ae76eaaddf33b6d8900a
+
+[33mcommit ca2f9b4049b3df6c09c2847b29e77df5166ac938[m
+Merge: 27e6935 1843002
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Mon Oct 26 19:36:59 2015 +0800
+
+    Merge "Fix nullpoint in systeminfo"
+
+[33mcommit 1843002faf41c74dc74265620e45ce44fbac5837[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Mon Oct 26 19:38:14 2015 +0800
+
+    Fix nullpoint in systeminfo
+    
+    Change-Id: I4eee7a414d74f25943d6a26fd4e8e6ce517926ce
+
+[33mcommit 27e6935865d97751d1180c7eef0cbb5363450b15[m
+Author: nick wang <nick.wang@tjut.cc>
+Date:   Mon Oct 26 19:20:32 2015 +0800
+
+    Fix nullPointer issue.
+    
+    Change-Id: I28518cde8a9817dda674ed77f19280a33f09c775
+
+[33mcommit e747c97ad415c3330b1f2eb73a543e348a9057da[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Mon Oct 26 18:45:43 2015 +0800
+
+    Fix nullpoint error in xiaomi
+    
+    Change-Id: If453f3863b443d6fcf81054ba81b1021d32d231b
+
+[33mcommit 2938dfffc93a5c4ab58d6dadfda36a9ec36faa8c[m
+Merge: 3623a88 f66d758
+Author: Yoop Wu <yoop.wu@tjut.cc>
+Date:   Mon Oct 26 17:36:17 2015 +0800
+
+    Merge "FormMyPostActivity change"
+
+[33mcommit 3623a886d416b9bdec25bef694c4742989b03198[m
+Author: nick wang <nick.wang@tjut.cc>
+Date:   Mon Oct 26 17:34:50 2015 +0800
+
+    Fix nullPointer Exception
+    
+    Change-Id: I1942bbb96691ed36cac340f2ff66f88bd3db75e7
+
+[33mcommit f6e7bacf57a62b450a56f0acf73e10f7871ef295[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Mon Oct 26 17:35:41 2015 +0800
+
+    Fix nullpoint error
+    
+    Change-Id: Ie85b510d3b3ce7517573302bbbef277a1031ae73
+
+[33mcommit f66d75878efb472f1e9d9c97fe4691fe37abdf1f[m
+Author: silva.zan@tjut.cc <silva.zan@tjut.cc>
+Date:   Mon Oct 26 17:33:00 2015 +0800
+
+    FormMyPostActivity change
+    
+    Change-Id: I6df94692474b88c61f7b407578d8e90cd3a1c216
+
+[33mcommit 7a0f36e5eb86dca4589ada55982bbbefdf7db9b0[m
+Author: nick wang <nick.wang@tjut.cc>
+Date:   Mon Oct 26 16:19:01 2015 +0800
+
+    Add day mode banner.
+    
+    Change-Id: I45c7b9b87b013dec77ac7ba550ab3fbd56975929
+
+[33mcommit 39d813f3bf0d0c2b55bc809abde0cdeebdadbec1[m
+Author: nick wang <nick.wang@tjut.cc>
+Date:   Sat Oct 24 17:24:01 2015 +0800
+
+    Add day mode countdown function.
+    
+    Change-Id: I6eafe11e753cd776eb87027147a21c818a61a441
+
+[33mcommit 0ce43aae622a43962ecd39b4f729ca2bf2d20dec[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Mon Oct 26 13:45:10 2015 +0800
+
+    Update emotionPicker,add daynight dialog..
+    
+    Change-Id: I882b4145c7819d006e2b9155eede3b5dd46b7eba
+
+[33mcommit ba4c7baefced9e505e28033ce74c2d65d7200c88[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Sat Oct 24 17:27:58 2015 +0800
+
+    Update emotionpicker and some crash bug
+    
+    Change-Id: I8b58f7cb1248bf32646c796aa2e7d9601b2786cc
+
+[33mcommit 40509367c6b6d14a7f97c71e9d76058430428126[m
+Author: silva.zan@tjut.cc <silva.zan@tjut.cc>
+Date:   Sat Oct 24 17:21:45 2015 +0800
+
+    NEW expolr change`:
+    
+    Change-Id: I278219eac24ab4683fa302661bd1ce6e97e5228d
+
+[33mcommit b0eed188a5fa04817543b9900ccc258957bd67e8[m
+Author: silva.zan@tjut.cc <silva.zan@tjut.cc>
+Date:   Sat Oct 24 13:29:42 2015 +0800
+
+    UI change
+    
+    Change-Id: I1a689181bb44bfbae23a744ee169fbf4b92a2901
+
+[33mcommit d65c69183668022e3fc982367f69933f0eadce3e[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Sat Oct 24 10:18:55 2015 +0800
+
+    Add version in requst params
+    
+    Change-Id: I396447fe9c75b60adaa50d8dd409951ff7e3a462
+
+[33mcommit 8f28a838e7789f1f5fee19399fd0979ac2b00f10[m
+Merge: d52d9ff 69c9146
+Author: nick wang <nick.wang@tjut.cc>
+Date:   Sat Oct 24 10:11:35 2015 +0800
+
+    Merge "Fix advtask issue."
+
+[33mcommit 69c9146add8fc8a1e542120c723de5fe97a97756[m
+Author: nick wang <nick.wang@tjut.cc>
+Date:   Fri Oct 23 18:33:40 2015 +0800
+
+    Fix advtask issue.
+    
+    Change-Id: Idb3f1dc5a234b30876489c25154dc9665b15d45f
+
+[33mcommit d52d9ffa3fd9b64abb0c9b85e4289fcda314e529[m
+Author: silva.zan@tjut.cc <silva.zan@tjut.cc>
+Date:   Fri Oct 23 18:25:37 2015 +0800
+
+    Chak id change
+    
+    Change-Id: I1a0c30628fb4674fc684b9d7f890c601966d2be1
+
+[33mcommit 461f3b622b4d9c8c8ea489c2ad6777b6f0e389fd[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Fri Oct 23 18:24:14 2015 +0800
+
+    update roam unlock view and other UI
+    
+    Change-Id: I35cb721c161606acaebe6d1e3fc4fbfe757d0835
+
+[33mcommit 05ab3cb36c854a0e0efb75bf4cc29127c2b4417f[m
+Author: nick wang <nick.wang@tjut.cc>
+Date:   Fri Oct 23 16:54:33 2015 +0800
+
+    Fix customer emo issue.
+    
+    Change-Id: I85508b1dad91304396f23c6e7a916164e30607dc
+
+[33mcommit 270d6c2760387be9e5223f7f64e5cba840ff95cf[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Fri Oct 23 14:46:09 2015 +0800
+
+    Add emotion show in EmotionPicker
+    
+    Change-Id: Id57375e2788584a485293419b2d41a656e5cb822
+
+[33mcommit f598a3044d5eade503764444c079b3a8ae51802a[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Fri Oct 23 09:54:57 2015 +0800
+
+    Fix emotion package download and unzip
+    
+    Change-Id: Ifa63b5dc696ebe4e4973493ac7961c7ed1391c11
+
+[33mcommit 607af8591a982b65e1f1c19e26d08a0898498767[m
+Author: silva.zan@tjut.cc <silva.zan@tjut.cc>
+Date:   Thu Oct 22 19:18:42 2015 +0800
+
+    Icon chagee
+    
+    Change-Id: I1f63ab711f4903628ff668bc0ffdf98a7fd5e0d7
+
+[33mcommit 12106676ea8d58c5c081c9ce3a8ebbda8cf46b60[m
+Author: silva.zan@tjut.cc <silva.zan@tjut.cc>
+Date:   Thu Oct 22 19:06:26 2015 +0800
+
+    vip channel id change
+    
+    Change-Id: I7641451ed436609b01174a8c2655c7c85e314b26
+
+[33mcommit 863cb82b2b1a32a7efccf8fb71d16bb607ec9dde[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Thu Oct 22 18:31:07 2015 +0800
+
+    Fix contact err by switch day_night and other bug
+    
+    Change-Id: I21172b632114a4a6ebda7ee70ff879b5fe779d6d
+
+[33mcommit b28323684d7226239ba6506acf5f2dfe4b536d9b[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Wed Oct 21 18:17:06 2015 +0800
+
+    Update some crash bug and update UI
+    
+    Change-Id: I7f2623be119304a0d5b932a448a00e71848467c7
+
+[33mcommit 5c63f3490c7bf60556315ff0bdfe1e68d4fbd174[m
+Author: silva.zan@tjut.cc <silva.zan@tjut.cc>
+Date:   Wed Oct 21 18:59:34 2015 +0800
+
+    Login regist vipcenter and chat change
+    
+    Change-Id: I73f2b74d821cc05c55baa05243cc338ad898a46e
+
+[33mcommit 7c64700d02bc7bdfcc0b2ce8b79d00775055e137[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Wed Oct 21 10:03:24 2015 +0800
+
+    Update pic_vote view , open daynight switch
+    
+    Change-Id: Ic3286969ddfe17de1115035d8047c1d4a428b66c
+
+[33mcommit da3114c1623e84a5a427f11830b9cf2c0ee38d1f[m
+Author: nick wang <nick.wang@tjut.cc>
+Date:   Tue Oct 20 21:43:06 2015 +0800
+
+    Fix scroll screen issue.
+    
+    Change-Id: I4c45b33a37bb0f1daa8e38fc180bef8bfd6c3dde
+
+[33mcommit 4bab14e419d6174400fd62cc06acf4bfef1a001a[m
+Author: nick wang <nick.wang@tjut.cc>
+Date:   Tue Oct 20 19:52:51 2015 +0800
+
+    Add screen scrolling function.
+    
+    Change-Id: Iad698a7e06bfdf901cd838860733772f9dc17c7f
+
+[33mcommit 998b3f534e2e7c7dc6e0fb72e95fca8416e20dd8[m
+Author: silva.zan@tjut.cc <silva.zan@tjut.cc>
+Date:   Tue Oct 20 18:45:25 2015 +0800
+
+    Splash and bug change
+    
+    Change-Id: I37d296991b8616c114b03702cb90f6d7e6df4693
+
+[33mcommit 5357a4001d179e9ad36cedacb2e186b8ba4016f9[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Tue Oct 20 18:51:15 2015 +0800
+
+    Update ui to adaptation more screen
+    
+    Change-Id: I1f2d2d146f4dacf300995c051da77cba7b86d129
+
+[33mcommit 1bcab2fc3d9e37996eef628d135795adfa7e4dfe[m
+Author: silva.zan@tjut.cc <silva.zan@tjut.cc>
+Date:   Mon Oct 19 18:55:22 2015 +0800
+
+    News TakeNote and so on change
+    
+    Change-Id: I4711313b1eb95839861bf2a942a287829ceeb8ce
+
+[33mcommit 36123dd5f289000f689c4b4d82d4d01171aef0a0[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Mon Oct 19 10:05:34 2015 +0800
+
+    Update roamcollegeview and ui
+    
+    Change-Id: If5010dac197788486eacfc6490b5e603917b3282
+
+[33mcommit a3b6616b60a6dc290bc0802b8f6da77078256627[m
+Author: nick wang <nick.wang@tjut.cc>
+Date:   Mon Oct 19 10:01:24 2015 +0800
+
+    Compress png files and ready for package.
+    
+    Change-Id: I0d8acf4344ca1ae4f6033a60579e597370ac38b3
+
+[33mcommit 7ef5a772d028651be1f5a47be4a1a17dde21f40d[m
+Author: nick wang <nick.wang@tjut.cc>
+Date:   Fri Oct 16 19:16:43 2015 +0800
+
+    Modify weather page ui
+    
+    Change-Id: Ida2cc0e8f15144d864a3ba3a73c75204dc68477a
+
+[33mcommit 3837b1738981a63ab21021fff7c5721332bc1289[m
+Author: silva.zan@tjut.cc <silva.zan@tjut.cc>
+Date:   Fri Oct 16 18:29:20 2015 +0800
+
+    Forget pass and so on change
+    
+    Change-Id: I9d717f509cb6c3072c5c5559f8a9fd6023221d38
+
+[33mcommit 3f1bbc359255100dbe54a074fa09db45f6cc36b7[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Fri Oct 16 18:35:41 2015 +0800
+
+    Update server address and task notice
+    
+    Change-Id: Ie6e1b87e67ce84806b404927088f24921605a81a
+
+[33mcommit 028809befda76e5350b08aceacbf17bab85e5163[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Fri Oct 16 10:20:46 2015 +0800
+
+    Update contact list view, and other UI,bugs
+    
+    Change-Id: If8d499134ebc66174baf9bf3b6e90dfbb0c54cbb
+
+[33mcommit 5039d991978d2e7f3f62f8aeb9e8d5dfc7962ff8[m
+Author: nick wang <nick.wang@tjut.cc>
+Date:   Fri Oct 16 16:07:18 2015 +0800
+
+    Modify ui for fast entrance page,compress size of png file.
+    
+    Change-Id: Ife38750ec23193e680f9ec27153bfe76f4d93726
+
+[33mcommit 1dac32f06fbba1df559a652bb989eaf14123987e[m
+Author: silva.zan@tjut.cc <silva.zan@tjut.cc>
+Date:   Fri Oct 16 09:45:14 2015 +0800
+
+    Roamcollege change
+    
+    Change-Id: Ic71343d0b2e895c56fa56e9ad173d78a60e0ac5a
+
+[33mcommit 2930f0eee3f80e01a88619b873831f2c15c99f7d[m
+Author: nick wang <nick.wang@tjut.cc>
+Date:   Thu Oct 15 19:20:15 2015 +0800
+
+    Add black transparent view when click barrage.
+    
+    Change-Id: Ib7353ce3f1353f9c4b8653653fc21988d54f2742
+
+[33mcommit dbe926b777cddc11542f049464ddd50ad06f4ed8[m
+Author: nick wang <nick.wang@tjut.cc>
+Date:   Thu Oct 15 10:39:20 2015 +0800
+
+    Remove unused resources.
+    
+    Change-Id: I9799ef65262fa09569cce23e125154997c87c7f9
+
+[33mcommit 6295adb929ade2e0a5f3614bf167fbd1684fc5dc[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Thu Oct 15 20:35:28 2015 +0800
+
+    Update voicePic error and task notice bug
+    
+    Change-Id: I59348a437d6c4b3efcccef52308754b86fd15ff5
+
+[33mcommit a79919195e81ad042c25b951240d6c64a9a238c1[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Thu Oct 15 19:36:28 2015 +0800
+
+    Fix crash when register by choose image by camera
+    
+    Change-Id: I2cd933d2c82ae6a77408a97f8c8257ebd777f626
+
+[33mcommit 9483c1cdd3c839dc48b8b08987139c45250d23b1[m
+Author: silva.zan@tjut.cc <silva.zan@tjut.cc>
+Date:   Thu Oct 15 19:06:40 2015 +0800
+
+    Login and roamcollege change
+    
+    Change-Id: I7437dff6e3b738dcc045d1329335bab63d81272c
+
+[33mcommit dc7f43c97db4f589e4458fb7dfc0325fd3da0f48[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Thu Oct 15 19:06:37 2015 +0800
+
+    Add statiscal and fix bug
+    
+    Change-Id: If9a9e22f69c9306f97726f10cf40d12dfa789013
+
+[33mcommit 272bccacbc27492ba6f6940eb7618c8a03b2926d[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Thu Oct 15 13:11:19 2015 +0800
+
+    Fix some bug about news and update task notice
+    
+    Change-Id: I35b8fd25160eaa15d2a1b5c5a35b38a24ad284eb
+
+[33mcommit da95ac474c9a053ad136f0cd8da31e16dcb7bc16[m
+Author: silva.zan@tjut.cc <silva.zan@tjut.cc>
+Date:   Thu Oct 15 09:44:46 2015 +0800
+
+    new bug change
+    
+    Change-Id: Ie3fb407c8cc0c82e5e64f5517aa981616a5bdf8a
+
+[33mcommit ddc2bbc63d92c88fdc0f616ece0792e847be22ad[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Wed Oct 14 20:45:20 2015 +0800
+
+    Update icon and some bug
+    
+    Change-Id: Ic4acdb08d5bc8bfaa8e09245ab70a735df92e24d
+
+[33mcommit bd1ed706c40a774ab6cc4543c645381a4d102402[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Tue Oct 13 19:38:27 2015 +0800
+
+    Fix voice record bug , animation play cancle bug
+    
+    Change-Id: I5ff1076d2c57b3f7cabff63eb793463cf5aa6432
+
+[33mcommit c91384ccb25098d4cba2de2252218d7532d54a9c[m
+Author: silva.zan@tjut.cc <silva.zan@tjut.cc>
+Date:   Tue Oct 13 18:41:50 2015 +0800
+
+    Channel note change
+    
+    Change-Id: Iacea17334addc94910e77dcd09de386db551ecdf
+
+[33mcommit c72d0c489b21aeeb12437ad05f52cc3c393fb5ca[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Tue Oct 13 18:40:09 2015 +0800
+
+    Update forum bug, recording bug, imresource bug...
+    
+    Change-Id: I041e9f8c0fad7902bfffd25eaea3e19bbcb9b642
+
+[33mcommit b64163b37f1ffe05a4efed084e4d362baff14f3d[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Tue Oct 13 12:00:09 2015 +0800
+
+    Update titlebar and fix some bug
+    
+    Change-Id: I531e79a6c5c3666b731a5a59633e4f2fda177e60
+
+[33mcommit 3fdd5f964c8d89b1821209cc2c3bc6a6fa50838a[m
+Author: nick wang <nick.wang@tjut.cc>
+Date:   Mon Oct 12 20:46:39 2015 +0800
+
+    Add text color change function for message pop window.
+    
+    Change-Id: I1725dc2a88480906f473f32f14c0827ba093ba57
+
+[33mcommit 3e06a686d84afe782300546b1e4b1e0cf621d36b[m
+Author: nick wang <nick.wang@tjut.cc>
+Date:   Mon Oct 12 18:49:00 2015 +0800
+
+    Add pop page for push message.
+    
+    Change-Id: I6ef0c2ca77777eba4a03df42c7ab2d687ea5f891
+
+[33mcommit 5c91b03f2f3d699e92950db93a7151195faf94f1[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Mon Oct 12 13:14:35 2015 +0800
+
+    System info notification and fix bug about danmu
+    
+    Change-Id: Id9e0eddbc60819587b5eb63872ac761cce557850
+
+[33mcommit 560f7759ec68eee1a8df1ac471d69a12128dc865[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Sat Oct 10 18:58:15 2015 +0800
+
+    Update black ui continue
+    
+    Change-Id: I798188d8d36435b10349e36f734103a6ba37cd00
+
+[33mcommit fd5a4bcfa57280bfa8a43be67610757d3befd908[m
+Author: silva.zan@tjut.cc <silva.zan@tjut.cc>
+Date:   Mon Oct 12 18:38:20 2015 +0800
+
+    Notedatail and register change
+    
+    Change-Id: I4f5a7cc5b72ff737b6c2569cb754931f9883853e
+
+[33mcommit e8dd95b7fe46155dd9da7ce8b31fcda07ed1a311[m
+Author: nick wang <nick.wang@tjut.cc>
+Date:   Mon Oct 12 13:02:46 2015 +0800
+
+    Add text color resolution for night model.
+    
+    Change-Id: I74425f1c7e80f1cb9c48b605c1038ab7f4312e90
+
+[33mcommit b047cb457dbde43696571fc96465f7b889dfefdb[m
+Author: nick wang <nick.wang@tjut.cc>
+Date:   Sat Oct 10 17:39:15 2015 +0800
+
+    Add umeng analytics sdk and upgrade xg sdk.
+    
+    Change-Id: I3f3bb50aeb4f9826f2e319dcf1b90af6d6628447
+
+[33mcommit 941552c7bebc752957f5a9d743c15e5765d82527[m
+Author: nick wang <nick.wang@tjut.cc>
+Date:   Fri Oct 9 19:03:28 2015 +0800
+
+    Add logic for ThemeTextView
+    
+    Change-Id: I1a691aa41fcf17e5487fef45c99f353587d64c9d
+
+[33mcommit ad682321cd9278c4061161d599aa11afe4f0c675[m
+Author: silva.zan@tjut.cc <silva.zan@tjut.cc>
+Date:   Sat Oct 10 18:56:51 2015 +0800
+
+    Mycollege task and userInfo change
+    
+    Change-Id: Ib4df59199831f54d8f5cd9d6b0c0a897f15c35ba
+
+[33mcommit 4296b048d435a875ce71c1d32680b215ea09f6e6[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Sat Oct 10 17:16:31 2015 +0800
+
+    Update ui
+    
+    Change-Id: I5957ec004f8f8aa0126545143e0bf384bfef36d0
+
+[33mcommit 1b298c94b40c84766a1688c5199cd159ba570747[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Sat Oct 10 10:17:31 2015 +0800
+
+    fix change mode ui pro
+    
+    Change-Id: Ie4cfd37f15e05c4cd65224c90a555607b568f7f0
+
+[33mcommit 5a380d6f19ccadbc9a025f3895d7fb3a9361a46d[m
+Author: silva.zan@tjut.cc <silva.zan@tjut.cc>
+Date:   Fri Oct 9 19:02:36 2015 +0800
+
+    Mycollege and register change
+    
+    Change-Id: I3923476b0fa3d32af08ffb5ce64602b1b1cd90f9
+
+[33mcommit ae698b1b4918c1be094e0848760ed340776ca5af[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Thu Oct 8 10:48:28 2015 +0800
+
+    Update black UI 2
+    
+    Change-Id: I1637fb23f37e5817376f2b6421866da8e38ce407
+
+[33mcommit 44a3c8ccca44fbe52d72aa2f476863e53d03fe00[m
+Author: nick wang <nick.wang@tjut.cc>
+Date:   Fri Oct 9 15:07:11 2015 +0800
+
+    Add day mode change architecture.
+    
+    Change-Id: I00d1e17e2c2bab5cf93ecfc3ce4ee2aa4c456a97
+
+[33mcommit 085ca684b7df603dc0ef27d7f34c406435b4d026[m
+Author: nick wang <nick.wang@tjut.cc>
+Date:   Thu Oct 8 14:21:41 2015 +0800
+
+    Add anim for night mode.
+    
+    Change-Id: I15ee6cbe71dd321b3b648cea4eb93bb29e7c42bd
+
+[33mcommit 8f3b2ab62b54c319a533874174fb2f188f82d044[m
+Author: silva.zan@tjut.cc <silva.zan@tjut.cc>
+Date:   Thu Oct 8 11:06:56 2015 +0800
+
+    Signin and news change
+    
+    Change-Id: I0865075c85343bc6831942470a765876951eef31
+
+[33mcommit 2a4404a5a0b576b873786bad8835226c6b01bd4a[m
+Author: silva.zan@tjut.cc <silva.zan@tjut.cc>
+Date:   Wed Sep 30 18:26:25 2015 +0800
+
+    UI and function change
+    
+    Change-Id: Ibd09fdfa746913ddffd6c9c56b6bba47e8384495
+
+[33mcommit c433797a8b1322ebb3e2c0099a8252135469a2c5[m
+Author: dylan.ding@tjut.cc <dylan.ding@tjut.cc>
+Date:   Wed Sep 30 18:12:15 2015 +0800
+
+    Update mianliao UI
+    
+    Change-Id: Idddeefcd5c732b9c256c6ed8ee22d2cdeba38bde
+
+[33mcommit 53ecede5acffba7e84dade33d1bc91863363b09e[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Mon Sep 28 14:54:50 2015 +0800
+
+    Change black and white mode
+    
+    Change-Id: I4768040b800bae0cfb5f73e7bea72d885d1d02e9
+
+[33mcommit acdf06e9043250acc8b3b989661b9f607d13cd7b[m
+Author: nick wang <nick.wang@tjut.cc>
+Date:   Mon Sep 28 16:44:05 2015 +0800
+
+    Process xml for night mode
+    
+    Change-Id: Icc59998d41acdc3c43b87431318d499df16920c8
+
+[33mcommit 13c231158f65d3d02a0e66271535de398f4ea327[m
+Author: nick wang <nick.wang@tjut.cc>
+Date:   Fri Sep 25 14:38:23 2015 +0800
+
+    Fix avatar crash issue in decorating mall.
+    
+    Change-Id: Ida1f20aeb4689259f55eaa7c68b1bb0973528463
+
+[33mcommit 6ed54a4f8f2ea2a288e3b0c9bfb26ae601cbd084[m
+Author: nick wang <nick.wang@tjut.cc>
+Date:   Thu Sep 24 21:09:17 2015 +0800
+
+    Modify version code
+    
+    Change-Id: I3aabb1c88b10406eb1b643c966e8a140e6c1bfa5
+
+[33mcommit 671a210ac0f84240b989ea9b364804fb81af7596[m
+Author: nick wang <nick.wang@tjut.cc>
+Date:   Thu Sep 24 18:54:52 2015 +0800
+
+    Parse push message.
+    
+    Change-Id: Iffee76daef74490a782412c61ade4f73d233e1d6
+
+[33mcommit 806233b4aa5348a8a824541aa4ae177e13c70ac6[m
+Author: silva.zan@tjut.cc <silva.zan@tjut.cc>
+Date:   Mon Sep 28 14:09:38 2015 +0800
+
+    Chat explore mycollege UI change
+    
+    Change-Id: Ieda8b0e1b86fb4136ac82dd746aa7ba9bd9177a1
+
+[33mcommit 2ed28397b23bb3f745b5dfc0b088a1ae728cec6d[m
+Author: silva.zan@tjut.cc <silva.zan@tjut.cc>
+Date:   Fri Sep 25 17:24:42 2015 +0800
+
+    TakeNote UI change
+    
+    Change-Id: I5d124629da843abc4e17e09fbb0cf130797e848b
+
+[33mcommit d14d33c0e0860e9e49d4fa57594193b90f1bc586[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Mon Sep 28 14:22:09 2015 +0800
+
+    Fix some error
+    
+    Change-Id: I6d7f42f75de0eada96e5ccad3c735f6ba2933ae8
+
+[33mcommit 83e2288e344d95c02b5341f77f094bd7da989793[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Mon Sep 28 09:15:01 2015 +0800
+
+    Fix some bug and update icon
+    
+    Change-Id: If362a5e3ef65beaf50ccc9cec4d3a441511eafa2
+
+[33mcommit 4f2d680fd14c81c04af3afa670f5f1f2ca226bfd[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Fri Sep 25 16:01:51 2015 +0800
+
+    Fix some bugs
+    
+    Change-Id: I5d2a9090a3a54af592de64b8b53464568f2fa6f7
+
+[33mcommit 211d039f3706ab3028133f14d6a6e75a5e0450d2[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Fri Sep 25 13:47:01 2015 +0800
+
+    Fix some bug and update UI
+    
+    Change-Id: I0aa9d6a93c7750d3b89cebd55558ee6675a14772
+
+[33mcommit 234096e5f717ce2da050d9d378fe22f12b4ebf41[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Fri Sep 25 11:08:36 2015 +0800
+
+    Update some icon and bug
+    
+    Change-Id: Ia3aa3a4a78ad1740501b0158bb60439fd2b46032
+
+[33mcommit 0afdb00b50e2be7a23126740f7f528782f4a86a1[m
+Author: silva.zan@tjut.cc <silva.zan@tjut.cc>
+Date:   Fri Sep 25 12:08:51 2015 +0800
+
+    Chat and exchange UI change
+    
+    Change-Id: Id47324c60f1bd04bf0412e7fc9bfa1cb54819f07
+
+[33mcommit 73db0492a12d89eaab1e76380fcd277f40e7b868[m
+Author: silva.zan@tjut.cc <silva.zan@tjut.cc>
+Date:   Fri Sep 25 10:34:00 2015 +0800
+
+    Spliash and NewsActivity change
+    
+    Change-Id: Ib35fcc720cc248e3419b08f5c1e4524b0a1273a7
+
+[33mcommit 30ff24b8c3a5cd4667a34e79fa4791e601e7f48b[m
+Author: silva.zan@tjut.cc <silva.zan@tjut.cc>
+Date:   Thu Sep 24 20:57:33 2015 +0800
+
+    Chat UI change
+    
+    Change-Id: I190223fc024b4418e86ccbf382b01cc52814340b
+
+[33mcommit df0094ce06584b49f0686d5229d4c23b2c44c882[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Thu Sep 24 20:15:35 2015 +0800
+
+    Update guid and icon
+    
+    Change-Id: Ic12f351e61f3b2badc1d15b2bc13f23757ca2659
+
+[33mcommit 19177d5fc767202c37ea82776be3c3d9f2c95d54[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Thu Sep 24 09:34:13 2015 +0800
+
+    Update splash and guid
+    
+    Change-Id: Id2740b356bed585e5935c9dabee12563adfe7955
+
+[33mcommit a2448ad2966ef5bed5236a2352b43cb012822956[m
+Merge: ccddecd 597013f
+Author: Yoop Wu <yoop.wu@tjut.cc>
+Date:   Thu Sep 24 18:39:20 2015 +0800
+
+    Merge "NewsActivity and Gold change"
+
+[33mcommit 597013fbe0d40542207c6dd8a36132f684756022[m
+Author: silva.zan@tjut.cc <silva.zan@tjut.cc>
+Date:   Thu Sep 24 18:11:11 2015 +0800
+
+    NewsActivity and Gold change
+    
+    Change-Id: I342c9d641c7703e12ff2e3de246b89178319d240
+
+[33mcommit ccddecd31135d7c6ac15b60fcdfc0f7f5995500d[m
+Author: nick wang <nick.wang@tjut.cc>
+Date:   Thu Sep 24 16:53:50 2015 +0800
+
+    Ready for activity
+    
+    Change-Id: I0ae1eee6078d58f4e74342ee5cc767359270979e
+
+[33mcommit fcf558bdf5f0201c33c3202c15ae6c08bdd3150c[m
+Author: nick wang <nick.wang@tjut.cc>
+Date:   Thu Sep 24 13:59:04 2015 +0800
+
+    Add push message entity.
+    
+    Change-Id: Ia029d4ddca9a9049928242e1b2b4d11bf9f77106
+
+[33mcommit be1334fcc9a5aa3b8f7d08a890d7d740f89ba3a0[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Thu Sep 24 11:26:12 2015 +0800
+
+    Change explore homepage icon
+    
+    Change-Id: If8ecfa2cc1853160ad530faaae1cd50212b46ca4
+
+[33mcommit b99126a0051c87d8780d0cdbc161ebf654f49874[m
+Author: silva.zan@tjut.cc <silva.zan@tjut.cc>
+Date:   Thu Sep 24 08:52:58 2015 +0800
+
+    TaskActivity and signinactivity change
+    
+    Change-Id: Iaa9c76943e203bffa025703ee4e75dce2e0310db
+
+[33mcommit 118282cb6124405053e60e4d14298bfea0a9b1b1[m
+Merge: c4a15a6 d53fe8b
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Thu Sep 24 09:12:39 2015 +0800
+
+    Merge "Update forum UI of all"
+
+[33mcommit d53fe8b1489305ca0cc1731914f103660e10d2c7[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Wed Sep 23 09:35:51 2015 +0800
+
+    Update forum UI of all
+    
+    Change-Id: Ie3998a064aae6e7f8089556056bba85cc428a88f
+
+[33mcommit c4a15a611d8d1143cd7f607857abf4a25c2828af[m
+Author: nick wang <nick.wang@tjut.cc>
+Date:   Wed Sep 23 19:26:25 2015 +0800
+
+    Debug XG push.
+    
+    Change-Id: Iafca58e6fc56d1312bfe8b9560f5a7048e8f6f46
+
+[33mcommit 07f9e598ec06aaa5d354d5f0e78e1471e83f3800[m
+Author: nick wang <nick.wang@tjut.cc>
+Date:   Tue Sep 22 16:55:38 2015 +0800
+
+    Use new cocos avatar actions.
+    
+    Change-Id: I89d2a13fd40ca6dc6b8203e7cb7509ca104e38e1
+
+[33mcommit 5fe35f1d75b1debaf02016f58c0a64f30c19f1e3[m
+Author: silva.zan@tjut.cc <silva.zan@tjut.cc>
+Date:   Tue Sep 22 09:01:31 2015 +0800
+
+    TakeNote UI change
+    
+    Change-Id: I31a54bf3308708e9de70d9a723cfb024326403b4
+
+[33mcommit c846de26bff505d2960b1594f7f1245e468baaf1[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Mon Sep 21 18:51:55 2015 +0800
+
+    Update some UI and fix bug about voice playing
+    
+    Change-Id: I6543d32514118cff02e8712015d0005203ae0d7d
+
+[33mcommit fc3054a5a8691197ee227ddad7e0f399ab608744[m
+Author: silva.zan@tjut.cc <silva.zan@tjut.cc>
+Date:   Fri Sep 18 18:53:43 2015 +0800
+
+    Exchange point UI change
+    
+    Change-Id: Ica26e57b2c2c45acb7c77431cfb5f3db759d11ba
+
+[33mcommit ec5af22e4923f34bf48420ed8c6847c0d5f364e6[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Thu Sep 17 10:16:31 2015 +0800
+
+    Update some bugs and UI
+    
+    Change-Id: I367de01165d580ecbc35f11a34a0fbc5a7f3a5fd
+
+[33mcommit 02213f1bcf5f8f477fddae73cd9436d0efc3b5e0[m
+Author: silva.zan@tjut.cc <silva.zan@tjut.cc>
+Date:   Wed Sep 16 18:45:32 2015 +0800
+
+    TaskActivity UI and SigninActivity UI change
+    
+    Change-Id: If5526b0854948810f7b0689660f7d2c0917eefdf
+
+[33mcommit 9eb792e94bbb097b9637982f8125aa48bbcaac4e[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Tue Sep 15 16:47:39 2015 +0800
+
+    Update some Ui and bug
+    
+    Change-Id: I558a150f0fd1972fef87c0b45cf716b745b6326c
+
+[33mcommit cf5cc6235b0f9f5e7a92499f2a2cec2fd0955b5e[m
+Merge: 488105d 825e554
+Author: Yoop Wu <yoop.wu@tjut.cc>
+Date:   Wed Sep 16 10:32:19 2015 +0800
+
+    Merge "Newsadapter change"
+
+[33mcommit 488105dd53b420191a0d9ee61d1209b663a13236[m
+Merge: 6ed94d3 523d461
+Author: Yoop Wu <yoop.wu@tjut.cc>
+Date:   Wed Sep 16 10:31:15 2015 +0800
+
+    Merge "ResumeActivity UI change roam dialog UI change"
+
+[33mcommit 6ed94d355d03be6331d851f4949a7e46852d33b9[m
+Merge: 0fd913f f83822c
+Author: Yoop Wu <yoop.wu@tjut.cc>
+Date:   Wed Sep 16 10:29:19 2015 +0800
+
+    Merge "Login and register UI change"
+
+[33mcommit 825e554444414fe0a283ad9c8e680891ff80891d[m
+Author: silva.zan@tjut.cc <silva.zan@tjut.cc>
+Date:   Wed Sep 16 09:26:51 2015 +0800
+
+    Newsadapter change
+    
+    Change-Id: I3a8568e30d8ee728de8abf24cf525e81e080bd88
+
+[33mcommit 523d461336e80a6022db4e3500b11228064a41fc[m
+Author: silva.zan@tjut.cc <silva.zan@tjut.cc>
+Date:   Wed Sep 16 09:22:29 2015 +0800
+
+    ResumeActivity UI change roam dialog UI change
+    
+    Change-Id: Ib83978b7d5d14a92f4511bb7b2609c9013786ef1
+
+[33mcommit 0fd913f4a71d64945fe161ca87fa92ff1df8e5fc[m
+Author: nick wang <nick.wang@tjut.cc>
+Date:   Tue Sep 15 20:13:34 2015 +0800
+
+    Modify fast entrance activity ui.
+    
+    Change-Id: I38f42a5a61e0c4c12b559352c48f7e77724d9ee1
+
+[33mcommit f83822c6c04603a16edbdc9481561f3b476fd631[m
+Author: silva.zan@tjut.cc <silva.zan@tjut.cc>
+Date:   Mon Sep 14 18:27:39 2015 +0800
+
+    Login and register UI change
+    
+    Change-Id: Icdcb23f196ff67658ec7976e3cb3934165fc6789
+
+[33mcommit 38d5336fd77ee455ca7b0604ba560fc3db0ff434[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Mon Sep 14 10:30:00 2015 +0800
+
+    Update UI
+    
+    Change-Id: I558e9e3a56a71dab6d2b1026b37a2da4fadc8bb0
+
+[33mcommit e22f312e993fc2195f92f422d42e3e215453da09[m
+Author: nick wang <nick.wang@tjut.cc>
+Date:   Fri Sep 11 18:39:32 2015 +0800
+
+    Fix recent chat list ui issue
+    
+    Change-Id: I4f25eb7847f09b9a233bc8d2c23729fdd0681bd8
+
+[33mcommit eb579c8ab95cefa69ed7ea0d443f19bd6f7318fe[m
+Author: silva.zan@tjut.cc <silva.zan@tjut.cc>
+Date:   Fri Sep 11 20:57:19 2015 +0800
+
+    Take note bug change
+    
+    Change-Id: I8b96b1c8fe5d721a6ec92beea3121f3112704fe1
+
+[33mcommit 8bc05165e81f4e64f981fcf4c049f05575b2baf6[m
+Author: silva.zan@tjut.cc <silva.zan@tjut.cc>
+Date:   Fri Sep 11 10:35:50 2015 +0800
+
+    Gold UI and take note UI change
+    
+    Change-Id: Ie9958f182198672a9945f12c6621c0e6b7d80a90
+
+[33mcommit f4ea7cb30b2446dba9a4074985545558c0b67977[m
+Merge: f76b94d 4a523da
+Author: Yoop Wu <yoop.wu@tjut.cc>
+Date:   Fri Sep 11 19:13:26 2015 +0800
+
+    Merge "Register update"
+
+[33mcommit f76b94dde851b52f20a396d481722c9fe379cc92[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Fri Sep 11 18:59:41 2015 +0800
+
+    Update forum UI, tabitem and add danmu bg
+    
+    Change-Id: I45a59cd1abb95c80630e1098822d58275b5dd2bf
+
+[33mcommit 432deb8c0775d158a827b3e490ea89e353ca66b0[m
+Author: nick wang <nick.wang@tjut.cc>
+Date:   Fri Sep 11 15:47:37 2015 +0800
+
+    Add fast navi page
+    
+    Change-Id: I362ef3bdd6ccf3cb3a96d719d364f37f2c363a8e
+
+[33mcommit 281c7397d27705f2b7b6ea25c4107d5940ecdb4a[m
+Author: nick wang <nick.wang@tjut.cc>
+Date:   Fri Sep 11 10:10:56 2015 +0800
+
+    Add nightMode support
+    
+    Change-Id: I940097340c644eca89c6fb021b133335c856b826
+
+[33mcommit 080c045585c8a3c95331712d825b1c74e08c71cc[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Thu Sep 10 18:54:36 2015 +0800
+
+    Update forum UI and fix some bug
+    
+    Change-Id: I852b53072f7f760fbcc179ef3865d35a01ecc09f
+
+[33mcommit 4a523da90e7f166d9f8773c7342da6c15ce756dd[m
+Author: silva.zan@tjut.cc <silva.zan@tjut.cc>
+Date:   Tue Sep 8 19:05:15 2015 +0800
+
+    Register update
+    
+    Change-Id: I3c03323930af8c10995039df16ee9f7b2bb44f5a
+
+[33mcommit 356339e4fd6ff4cb17eabbadd8663b1360837cb4[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Tue Sep 8 18:03:25 2015 +0800
+
+    Update privacy setting, active zone,fix bugs
+    
+    Change-Id: Ie4dc5dd8b553cf56d0294d532fe0f8b10bb673c9
+
+[33mcommit e6db43abad76bf46f1e31d66f2b9cc84fac36455[m
+Author: nick wang <nick.wang@tjut.cc>
+Date:   Tue Sep 8 17:37:35 2015 +0800
+
+    Add common banner
+    
+    Change-Id: I8de3891aca04393f81aa7071e68dc02bc4beef2f
+
+[33mcommit b7fb17c7c0bc4db274a965905d20d3ab8020ad7e[m
+Author: nick wang <nick.wang@tjut.cc>
+Date:   Mon Sep 7 11:44:07 2015 +0800
+
+    Add task Activity
+    
+    Change-Id: I8495fd3c921076b4b3fdf73e9065bc4959ce77ff
+
+[33mcommit 2220b2df6ff7b91e15f8c82b51b9d92a5e807c40[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Tue Sep 8 18:13:58 2015 +0800
+
+    Update takenote hamepage bug
+    
+    Change-Id: Idb051ad7c4bebbec81a1ec7f9d5f36ee41e54d29
+
+[33mcommit 82b3d5a2f30e038ffa786b27872c110b7596768c[m
+Merge: f16a30b 1dd6bee
+Author: Yoop Wu <yoop.wu@tjut.cc>
+Date:   Tue Sep 8 17:35:10 2015 +0800
+
+    Merge "Add funny game"
+
+[33mcommit f16a30bd0632613960e317123f9d35b8883f19fe[m
+Merge: e9cf1a8 e1d1e77
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Tue Sep 8 17:27:57 2015 +0800
+
+    Merge "Update dressupmall and emotiondetails"
+
+[33mcommit 1dd6bee42a0948376780c206a04b3493a955f948[m
+Author: silva.zan@tjut.cc <silva.zan@tjut.cc>
+Date:   Tue Sep 8 17:19:34 2015 +0800
+
+    Add funny game
+    
+    Change-Id: I150870794524acd1c8c6334acd818ba22caabbed
+
+[33mcommit e1d1e7791e2191389f6abe18777abed04f72ceb9[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Tue Sep 8 17:15:13 2015 +0800
+
+    Update dressupmall and emotiondetails
+    
+    Change-Id: I8c5da462cd3a2e582a0c10159ea818a4e90b75fc
+
+[33mcommit e9cf1a807d6206dde9b05517184dba1eebd973c9[m
+Author: silva.zan@tjut.cc <silva.zan@tjut.cc>
+Date:   Tue Sep 8 11:05:41 2015 +0800
+
+    Update register and login
+    
+    Change-Id: I8059d745d74cc503e8a6e4c1f47abcabe0aa25ef
+
+[33mcommit 004b8681ebfcc67bf65a248f53f4263cd162fb48[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Tue Sep 8 13:03:12 2015 +0800
+
+    Fix some bug
+    
+    Change-Id: Ie4a00d6f36e118be47432d07955ec801bd37971c
+
+[33mcommit efdde4650e12b3d816e5a686c025ec1bba65b43b[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Tue Sep 8 08:57:58 2015 +0800
+
+    Update setting , profile and add account safe
+    
+    Change-Id: I1b210df26ca0edbc8698a10f88cafdfe5fb5ba6c
+
+[33mcommit 0d82a61d32ecfca6d663516f1c0e02804b1d8a67[m
+Merge: 346180b 5ca2a6c
+Author: nick wang <nick.wang@tjut.cc>
+Date:   Mon Sep 7 11:45:32 2015 +0800
+
+    Merge "Fix refresh issue for sign in view"
+
+[33mcommit 346180bdc91105761425b387f7e71541fcd1a52b[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Wed Aug 19 13:42:06 2015 +0800
+
+    Update explore,add anim in matching job,updat navi
+    
+    Change-Id: I25783d3faad345b07186dd0e7158f31b3c611d53
+
+[33mcommit 55f33b0a7b8f07f241e704119992eb8f00cc7e93[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Sun Sep 6 11:05:48 2015 +0800
+
+    Update mianliao structure and fix oom error
+    
+    Change-Id: I53abab2e5f86166b7ab115d423526a4ec14980c9
+
+[33mcommit 6582d8d77b040001e4e153770ec879d39fd2f2d9[m
+Author: silva.zan@tjut.cc <silva.zan@tjut.cc>
+Date:   Sat Aug 22 11:28:49 2015 +0800
+
+    Take notes
+    
+    Change-Id: I82c1a8deada8c410db1cc559d5611046c625e655
+
+[33mcommit 5a80af726524eceed57265eebc8f95019370c99e[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Tue Sep 1 20:28:59 2015 +0800
+
+    Personal homepage
+    
+    Change-Id: I1fa968b8e9ff7c259df04009a653200b2ec4ca2a
+
+[33mcommit 5ca2a6c9f145d1b052bcb8fd8b6c26fd41ae7199[m
+Author: nick wang <nick.wang@tjut.cc>
+Date:   Wed Sep 2 13:09:30 2015 +0800
+
+    Fix refresh issue for sign in view
+    
+    Change-Id: I673bb65789b2c23ba281779fabb128e77bdf1130
+
+[33mcommit bda23262ab5877fef3287e0fd341d9480ce2c994[m
+Author: nick wang <nick.wang@tjut.cc>
+Date:   Wed Sep 2 10:36:09 2015 +0800
+
+    Add sign in center
+    
+    Change-Id: Iae2483b872155aff1097e06f610b459cd7ef4a69
+
+[33mcommit 62ed1d0fe074ca0e695f0884b16d1bcdf871c07d[m
+Author: nick wang <nick.wang@tjut.cc>
+Date:   Sat Aug 29 13:59:11 2015 +0800
+
+    Add new resume
+    
+    Change-Id: I02d3a5df71a77f107c09bc52c21d6c2ffd96d3f8
+
+[33mcommit 0921a70019e08785b7ed63a51bdeffca12ee2104[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Sat Aug 29 11:28:37 2015 +0800
+
+    Add personal recruit and show in Calendar
+    
+    Change-Id: Ib5a6ecced95581164d426076d78493ee912bf6cb
+
+[33mcommit 1e84bb2ff2d7237f191ed37cab8b000e4d0f6a66[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Mon Aug 24 13:13:47 2015 +0800
+
+    Add intel match, homepage and mc in my college
+    
+    Change-Id: Ibf0ea220990de408b51b7b98f2be8e2f500765e1
+
+[33mcommit 83828c6c53f3e3833fc06db47e52e22f3ac2bfb7[m
+Author: nick wang <nick.wang@tjut.cc>
+Date:   Fri Aug 28 13:45:41 2015 +0800
+
+    Add recruit calendar activity
+    
+    Change-Id: I3154ec3c5ad22906ad8055c0d3f2d5f21dd4a404
+
+[33mcommit 5c300df0cfee2c5839129067d59c1eae9f84fb5a[m
+Author: nick wang <nick.wang@tjut.cc>
+Date:   Fri Aug 21 09:37:01 2015 +0800
+
+    Add union pay sdk
+    
+    Change-Id: If612bad58ad2482461a2f3b5342c190c7c1c3a3a
+
+[33mcommit 22f9ea466b8f1ffc6d756e426966be8220085df1[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Wed Aug 19 18:26:22 2015 +0800
+
+    Fix some bug and update interface about post
+    
+    Change-Id: I67b30d61c79968d6777de1ab061968dc1ffa30c8
+
+[33mcommit b282b7f20cea5362bc398531ffac4459a422d9d6[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Tue Aug 18 09:44:49 2015 +0800
+
+    Fix error about roam
+    
+    Change-Id: Ie714a96202cedf64bae3ecd5cf0d12e00e5c6f51
+
+[33mcommit adda6fc3d82a38b33dfcc2176ec81f1a3fb97433[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Wed Aug 19 09:24:41 2015 +0800
+
+    Add payment function and update explore
+    
+    Change-Id: I3870e3e5fecb037220fc5b4605d57edbae0799ec
+
+[33mcommit e7b4c3958ff254669e318d34da7f2e2b213f8bb7[m
+Author: nick wang <nick.wang@tjut.cc>
+Date:   Tue Aug 18 21:37:06 2015 +0800
+
+    Add emo selection function and provide night chat mode.
+    
+    Change-Id: Ibb9dacdd330c17b6568dd835fce0f67381171887
+
+[33mcommit ab16d056a54e8c8d25ec8c9ce3facd4af27c6e3f[m
+Author: nick wang <nick.wang@tjut.cc>
+Date:   Mon Aug 17 15:17:43 2015 +0800
+
+    Deploy emoji selection in chat window
+    
+    Change-Id: I7c8a8b7d3c7b0ccdad169cd91288e7c38f64da63
+
+[33mcommit ca410bcf10a05598a2f2190cf186a4168ca3eba7[m
+Author: nick wang <nick.wang@tjut.cc>
+Date:   Thu Aug 13 15:31:46 2015 +0800
+
+    Change recent chat list page
+    
+    Change-Id: Ia660dea549bbc07babe4d0452ff9907b678645fb
+
+[33mcommit 0767a00219efda39f8ce6b5338fd8fe6c117b21e[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Tue Aug 18 14:01:30 2015 +0800
+
+    Update emotions download and unzip style
+    
+    Change-Id: I4d3c58428ee8a78d4f84b53a2bfaf009a16a9735
+
+[33mcommit 04fbd10cd32c8cb5d20bcfcbf52f675217d75af4[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Tue Aug 11 14:10:12 2015 +0800
+
+    Add explore function
+    
+    Change-Id: I24e0d475a0b28cc973efc2d5f8542b379251955d
+
+[33mcommit ae6836bb3615b7f326b909fb3ddf3f7d61756e16[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Mon Aug 17 11:41:39 2015 +0800
+
+    Fix pic_vote error
+    
+    Change-Id: Ia82e0852c60708875476f94f1173c5bd821b264f
+
+[33mcommit 483402692532f5382411afce3b5f856ccb3bc15b[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Fri Aug 14 13:14:49 2015 +0800
+
+    Change barrage style and fix some bugs
+    
+    Change-Id: I14ec6bc47f06a37aae26be917ef3329c4677b764
+
+[33mcommit 3f692a4bf7877b723c9f1045629da14ff5678643[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Thu Aug 13 10:16:56 2015 +0800
+
+    Rollbacks baidu API key
+    
+    Change-Id: Ib2d9ea894dc6498d8de3e0421c16896d30b497a0
+
+[33mcommit 4fceff5c5c234a6704a4a9f1d5887378a6b99223[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Thu Aug 13 09:07:48 2015 +0800
+
+    Change titlebar style and fix some bugs
+    
+    Change-Id: Iadd6af0fd0f81828a6b17b53315d90e5e730319a
+
+[33mcommit 32c8bcfa3ab629fde7a52e382ba57358020cd525[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Wed Aug 12 11:50:07 2015 +0800
+
+    Impl single voice play and fix error while del
+    
+    Change-Id: I3b211fabf8ba3e531d2a05daf706087425529732
+
+[33mcommit eec6a3cc98f8ab0bc93bee6fe65b38bb793e9120[m
+Merge: ec4a398 7171df7
+Author: Lorin Yang <lorin.yang@tjut.cc>
+Date:   Wed Aug 12 10:02:02 2015 +0800
+
+    Merge "Post text vote"
+
+[33mcommit ec4a398fa547c99aad658392d6946092f8ebb867[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Tue Aug 11 17:21:20 2015 +0800
+
+    change pic_vote voice_pic impl and fix some bug
+    
+    Change-Id: Ic80a220b9606f54184365fc740c72e7011685d8f
+
+[33mcommit 7171df7433ffde7922f457c21045b93c586bab35[m
+Author: Lorin Yang <lorin.yang@tjut.cc>
+Date:   Tue Aug 11 19:10:52 2015 +0800
+
+    Post text vote
+    
+    Change-Id: I8b536d9f2e816f74a875129af17f315cff8a594c
+
+[33mcommit b9ad823ae55eddfd028eee8f2fbf0c65ba22445f[m
+Author: nick wang <nick.wang@tjut.cc>
+Date:   Tue Aug 11 17:05:16 2015 +0800
+
+    Add roaming other school activity
+    
+    Change-Id: I5bec12ec8e3e2eb01d49d18c80828a6c3d2f777c
+
+[33mcommit e58276fe25547d9325358b149e69c9928b109052[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Tue Aug 11 09:51:10 2015 +0800
+
+    Update vocie play and add switch day-night function
+    
+    Change-Id: I3f67aa8a8f956bd8813677fa13472d3ae6211bd3
+
+[33mcommit 0c1ccd1badcb5f63af3cc91ecd58d8f7b66d4643[m
+Merge: ecd25c6 46e707c
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Mon Aug 10 15:00:35 2015 +0800
+
+    Merge "Fix some bug and add channel collect function"
+
+[33mcommit ecd25c6420beba653edbb290d10fe39f10f51de5[m
+Author: Lorin Yang <lorin.yang@tjut.cc>
+Date:   Mon Aug 10 14:50:16 2015 +0800
+
+    Add click vote feature
+    
+    Change-Id: I3a58cc74d18411d8484bc5b8e6240517c84a948e
+
+[33mcommit 46e707ca45263a74ae263ea2b421cc86ecc96a53[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Mon Aug 10 14:26:01 2015 +0800
+
+    Fix some bug and add channel collect function
+    
+    Change-Id: I572c94b4f27156e1c7dee68eff9083f4d00f08dd
+
+[33mcommit 518fc4e150247dc7a8e3e29904b02b8c574127ae[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Sat Aug 8 17:57:13 2015 +0800
+
+    Optimize the interface
+    
+    Change-Id: I2fa225f89c54fa5228f3ac961bfee55222d195b0
+
+[33mcommit c4ebfab218cdd0d59ea0e287f78bf9a641d6745f[m
+Author: nick wang <nick.wang@tjut.cc>
+Date:   Sat Aug 8 16:14:36 2015 +0800
+
+    Integrate roam school function with main tab.
+    
+    Change-Id: I0f549048efc181242b252c01f5b11d8549dcf1f6
+
+[33mcommit 9ebaea158f058bdbadf66ca02562ffb32d8d833d[m
+Author: nick wang <nick.wang@tjut.cc>
+Date:   Fri Aug 7 16:30:31 2015 +0800
+
+    Add roam college function and provide my post and reply data source.
+    
+    Change-Id: I8f06e6fbb5a1cf3739d49d4a3a62bcd482cc60b0
+
+[33mcommit 421bfcc3123043425bda1df5bc39a9bab4d3242f[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Fri Aug 7 16:31:59 2015 +0800
+
+    Optimize some feature
+    
+    Change-Id: I4b5bc17c5135d5672021e6449a8aff54f2717d52
+
+[33mcommit 43b17c25e138e0b89909890f15ea3526b7123fb5[m
+Author: Lorin Yang <lorin.yang@tjut.cc>
+Date:   Fri Aug 7 18:39:33 2015 +0800
+
+    Add danmaku diplay
+    
+    Change-Id: I4c610c5d54732900b5d6afbe6ca4df913481a7b3
+
+[33mcommit c19a08606746663b95199729620f08ae846fd854[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Fri Aug 7 14:31:31 2015 +0800
+
+    Add channel fateture
+    
+    Change-Id: I478790ca94d406f33d75397ad4e295688e6c6d9f
+
+[33mcommit 516595cda1a7b6396ea46171cb7ece25b38dd572[m
+Author: Lorin Yang <lorin.yang@tjut.cc>
+Date:   Thu Aug 6 18:11:42 2015 +0800
+
+    Add post vote display
+    
+    Change-Id: I3ff901ba14e01c32213e950d66b539053d705cd6
+
+[33mcommit 6ea03ff4d7512841506494c7fa88d2d0cf2de715[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Wed Aug 5 13:42:27 2015 +0800
+
+    New form channel
+    
+    Change-Id: I049625c127e0e0f08f5aa4abc9660c5da3010afb
+
+[33mcommit 09e628b24185378e04a33d1d14f35108510977f1[m
+Author: Nick Wang <nick.wang@tjut.cc>
+Date:   Wed Aug 5 12:44:24 2015 +0800
+
+    Revert "Change xmlns default schema from ns0 to anrdoid"
+    
+    This reverts commit 4d37917d34636a2d5dc2da49a0b8c54091e6b892.
+    
+    Change-Id: Iac23439a2f6239aff977b697fdd39f71fc14b6af
+
+[33mcommit 4d37917d34636a2d5dc2da49a0b8c54091e6b892[m
+Author: nick wang <nick.wang@tjut.cc>
+Date:   Mon Aug 3 20:21:07 2015 +0800
+
+    Change xmlns default schema from ns0 to anrdoid
+    
+    Change-Id: I3f0b98c5f0ae8668fd26e4bc35359478ea0ab0ea
+
+[33mcommit 73c777550230557a92b336aee279841436bd8ea5[m
+Author: nick wang <nick.wang@tjut.cc>
+Date:   Mon Aug 3 18:56:09 2015 +0800
+
+    Add theme changing architecture
+    
+    Change-Id: I7dc7d749e71f5276a1faf561f194f3a6b5e29f72
+
+[33mcommit 6eb5f13bc074ff0a0596de687214cafd662e34c5[m
+Author: Lorin Yang <lorin.yang@tjut.cc>
+Date:   Wed Jul 29 16:41:57 2015 +0800
+
+    Update BasePostActivity
+    
+    Change-Id: I1a587659610a4412db5f04509a2b34b5b25653cb
+
+[33mcommit 24d60e94032a150f93d323ccc9597fa99c11e46c[m
+Merge: 178f412 8e85337
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Tue Jul 28 22:48:56 2015 +0800
+
+    Merge "Fix some err about cfpost-update"
+
+[33mcommit 8e85337798d4961d5dd8aedaaa530c8cf328bc48[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Tue Jul 28 21:17:40 2015 +0800
+
+    Fix some err about cfpost-update
+    
+    Change-Id: Ie6a7037897a076d03f107f825f32d45c509f9b87
+
+[33mcommit 178f412a93d8bcc8ab51adfa30ac176a5fc9c096[m
+Merge: de2a09a ab9b8ba
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Tue Jul 28 19:13:30 2015 +0800
+
+    Merge "Update CfPost and add channelinfo"
+
+[33mcommit ab9b8bad06ec477dc819d98109294a86a8f71ecb[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Tue Jul 28 12:47:39 2015 +0800
+
+    Update CfPost and add channelinfo
+    
+    Change-Id: Ied2602709a8915e4d4ae0e8b3aadda2d135e49e6
+
+[33mcommit de2a09a87b2dbc3b1bf7bde434ac8fcc1d2b7301[m
+Author: Lorin Yang <lorin.yang@tjut.cc>
+Date:   Tue Jul 28 18:37:11 2015 +0800
+
+    Update post layout
+    
+    Change-Id: Id97af7b1977fd03929f4c621e93db7c0d8606c15
+
+[33mcommit 087f0fbe7cadf74ec787baf9c2f49ed4ca393e36[m
+Author: Lorin Yang <lorin.yang@tjut.cc>
+Date:   Mon Jul 27 14:45:58 2015 +0800
+
+    Add nova forum framework
+    
+    Change-Id: I2ce0426eab3b12e624c8fec1c523a05f0dcbbde0
+
+[33mcommit dd6fc889cb106345a1fed157ee1dcefaec472e0e[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Wed Jul 22 18:31:03 2015 +0800
+
+    Restore unnecessary deleted operation
+    
+    Change-Id: I484a1e4de321770e63264465ac66ee7a5ee52b34
+
+[33mcommit ec8b5e8293eba73bd6f27efbe0a0d66b7d3c178c[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Mon Jul 20 14:06:37 2015 +0800
+
+    Fix no user info in groupchatinfo while no-friend
+    
+    Change-Id: I75677ef55720ff7322e7ec070aa64f5ebbfd2226
+
+[33mcommit f9f4b21e0267f0aafcebec525bf0cff2e86cd515[m
+Merge: c967eea 299779e
+Author: Lorin Yang <lorin.yang@tjut.cc>
+Date:   Mon Jul 20 15:37:59 2015 +0800
+
+    Merge "Implement third-party login feature"
+
+[33mcommit 299779eec449d23dfaabc83380af76e9fb8f5685[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Fri Jul 10 18:57:27 2015 +0800
+
+    Implement third-party login feature
+    
+    Change-Id: Ib141acbdef56f8c55b52f06a08cf56a0871ecf9a
+
+[33mcommit c967eea4de3369c916fb65617c80416f934d6a3b[m
+Merge: 2929ba8 3d03ffb
+Author: Lorin Yang <lorin.yang@tjut.cc>
+Date:   Mon Jul 20 11:16:03 2015 +0800
+
+    Merge "Fix some bug of GroupChat"
+
+[33mcommit 3d03ffb1176ea0e1d10096158aee78b9d31397b6[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Fri Jul 17 12:40:13 2015 +0800
+
+    Fix some bug of GroupChat
+    
+    Change-Id: I5debab6db2cb266b701906e9535c159347293cbe
+
+[33mcommit 2929ba88fffeec3fca0dda866de1eb44c0efb7b4[m
+Author: yoop.wu@tjut.cc <yoop.wu@tjut.cc>
+Date:   Tue Jul 14 17:05:06 2015 +0800
+
+    Fix bug about register (0000415)
+    
+    Change-Id: Id6b1798d8ae97b9cae5ce5d650184a74f13b3c46
+
+[33mcommit 334545fa80d541904ad40cc5d460f1ae32748a9f[m
+Author: Lorin Yang <lorin.yang@tjut.cc>
+Date:   Fri Jul 10 11:19:02 2015 +0800
+
+    Fix parameter error when fetch ticket news (0000380)
+    
+    Change-Id: I9aeb2c9b1c9953087717a6f76b21a72dc001b596
+
+[33mcommit c9b34059f719f493d58079130faf4393398896f5[m
+Author: Yoop Wu <yoop.wu@tjut.cc>
+Date:   Tue Jul 7 13:23:05 2015 +0800
+
+    Update group-real-name in recentchat
+    
+    Change-Id: I3897e36edd915bddeba06dfb0f0f43297a3ced71
+
+[33mcommit 5a73a9a1ce39403f6917bac07a1af4fe23ebf46e[m
+Author: Yoop Wu <yoop.wu@tjut.cc>
+Date:   Mon Jul 6 09:24:46 2015 +0800
+
+    Add group-info management
+    
+    Change-Id: I623d229aba3bf90936870f6ce54b3b3a5ab56dd3
+
+[33mcommit f3453eaacc1eb00f6d37ca9c2054979b2e4e6b68[m
+Author: Lorin Yang <lorin.yang@tjut.cc>
+Date:   Thu Jul 9 11:28:17 2015 +0800
+
+    Update UI for bubble
+    
+    Change-Id: I478580a35cb1240ad3cef1e3c1379a00dd1c1090
+
+[33mcommit 79e458a9b981cb85667c7e7b9aec4b3e9b6899fb[m
+Author: Lorin Yang <lorin.yang@tjut.cc>
+Date:   Wed Jul 8 14:42:17 2015 +0800
+
+    Some tweaks
+    
+    1. Tweak set using resource function
+    2. Tweak avatar shown in ChatActivity
+    3. Send size when upload image
+    
+    Change-Id: I7e852e3ea14453c501f6ef53f7b8111f8bfd6a3f
+
+[33mcommit 80a546ce8d61e761cf003fb433bcba1532ecc06b[m
+Author: Lorin Yang <lorin.yang@tjut.cc>
+Date:   Wed Jul 8 14:25:34 2015 +0800
+
+    Reformat DatabaseOpenHelper
+    
+    Change-Id: I752cd92261f90ad2e917788f8d716d0b82dd597e
+
+[33mcommit e71999046e3e5caca2208e06dd98dfbafbbe631c[m
+Merge: 383aef2 4d78035
+Author: Lorin Yang <lorin.yang@tjut.cc>
+Date:   Wed Jul 8 11:24:03 2015 +0800
+
+    Merge "Change to adapt avatar lib"
+
+[33mcommit 383aef250159adf549c80e650f4790b97398e903[m
+Merge: e771391 4a65d42
+Author: Lorin Yang <lorin.yang@tjut.cc>
+Date:   Wed Jul 8 10:07:06 2015 +0800
+
+    Merge "Fix bug in mantis with 0000393"
+
+[33mcommit e7713917fcee8ed1021879597c730041804779ea[m
+Merge: 9e19786 3c3c8c3
+Author: Lorin Yang <lorin.yang@tjut.cc>
+Date:   Wed Jul 8 10:05:19 2015 +0800
+
+    Merge "Fix bug in mantis with 0000385"
+
+[33mcommit 4d7803541c46d1e5c4fc10f7db7a0b28d45b2e23[m
+Author: Lorin Yang <lorin.yang@tjut.cc>
+Date:   Tue Jul 7 19:00:59 2015 +0800
+
+    Change to adapt avatar lib
+    
+    Change-Id: Id8be5fcedd442f353fc1269e0bd557c7fad2d88d
+
+[33mcommit 9e1978648ac67a5ecd16e80dedeafa7a0bfe1b5d[m
+Author: Lorin Yang <lorin.yang@tjut.cc>
+Date:   Tue Jul 7 18:29:31 2015 +0800
+
+    Implement chat state feature
+    
+    Change-Id: I262df48bfbf953782b986381d4cc006573ef8e7c
+
+[33mcommit 4a65d4278a0445160775acbbb12c46952d5b6a2f[m
+Author: Yoop Wu <yoop.wu@tjut.cc>
+Date:   Tue Jul 7 15:50:00 2015 +0800
+
+    Fix bug in mantis with 0000393
+    
+    Change-Id: I496aaaf4525641a69988755bf6d6335e6735848a
+
+[33mcommit 3c3c8c3bf6d2291706b7130a365cdcdab2b82ee6[m
+Author: Yoop Wu <yoop.wu@tjut.cc>
+Date:   Thu Jul 2 16:47:31 2015 +0800
+
+    Fix bug in mantis with 0000385
+    
+    Change-Id: I6b44db68634efdc7132b997be56606d94c7387d0
+
+[33mcommit 1d921f9170209d831ca17e04ee87eb2b7d139659[m
+Author: Yoop Wu <yoop.wu@tjut.cc>
+Date:   Tue Jun 30 13:34:57 2015 +0800
+
+    Update bubble
+    
+    Change-Id: I2e9baa2249d3c241c3955521dc8654dc3d70a54c
+
+[33mcommit a3f505af91a7edfa75043b35cb929ab5569ff0b5[m
+Author: Yoop Wu <yoop.wu@tjut.cc>
+Date:   Wed Jul 1 12:08:36 2015 +0800
+
+    Fix profile-photo bug in mantis with 0000376
+    
+    Change-Id: I8a0f78051834dfe513532a28463356e9d306d95e
+
+[33mcommit c629cf16f43aa4952997dc4ae503d75c435b2cba[m
+Author: Lorin Yang <lorin.yang@tjut.cc>
+Date:   Wed Jul 1 13:15:15 2015 +0800
+
+    Implement avatar change suit feature
+    
+    Change-Id: I3180f9e8ff355cf511ef3bdc74b60a4e32bc4754
+
+[33mcommit b9a2dba1e4463c4313570479d29a88642739a553[m
+Merge: 0168c1e 3059eaa
+Author: Lorin Yang <lorin.yang@tjut.cc>
+Date:   Wed Jul 1 11:44:41 2015 +0800
+
+    Merge "Fix group-name bug"
+
+[33mcommit 0168c1ecd948b16ff00ef5dc9ab9eb4012e4caa5[m
+Author: Edward Gu <edward.gu@tjut.cc>
+Date:   Wed Jul 1 08:45:25 2015 +0800
+
+    Meeting update
+    
+    Change-Id: I1b7c64893608e42a009d861af11cc62ac2c8d28e
+
+[33mcommit 4805cbd1f7eac0ac4403e8b400b45246d00160f0[m
+Author: Yoop Wu <yoop.wu@tjut.cc>
+Date:   Tue Jun 30 18:41:08 2015 +0800
+
+    Update prifile and more page style
+    
+    Change-Id: Iee2fcc394fc4b5cf99c98d49c09cef1437c26a59
+
+[33mcommit e91b27c5a122389e6df5cd6fa90fdfa6e1189d04[m
+Merge: e7f6c2c 4924b3b
+Author: Lorin Yang <lorin.yang@tjut.cc>
+Date:   Tue Jun 30 18:16:29 2015 +0800
+
+    Merge "Fix profile-photo/fourm-banner/new-post-icon"
+
+[33mcommit 3059eaa7db8de81173e725b8df88768663d40a6f[m
+Author: Yoop Wu <yoop.wu@tjut.cc>
+Date:   Tue Jun 30 18:09:59 2015 +0800
+
+    Fix group-name bug
+    
+    Change-Id: I73831757afd6be7930eee48e919576f04387cbe4
+
+[33mcommit 4924b3b891e52421a13adbac29c3399cc7708ede[m
+Author: Yoop Wu <yoop.wu@tjut.cc>
+Date:   Tue Jun 30 09:43:52 2015 +0800
+
+    Fix profile-photo/fourm-banner/new-post-icon
+    
+    Change-Id: Ibc75c693e54d199fb703dc6e6d727ea27d92a224
+
+[33mcommit e7f6c2c298be98c4ffa3e7ee3cac6daff04f210a[m
+Author: Edward Gu <edward.gu@tjut.cc>
+Date:   Tue Jun 30 10:22:33 2015 +0800
+
+    Updated proguard file for cocos-avatar project
+    
+    Change-Id: I7740928744bc50ef6dd719105b5dd0000862464b
+
+[33mcommit 82edf0a47949f7bcc2c989ecce3233ec0486d14b[m
+Author: Edward Gu <edward.gu@tjut.cc>
+Date:   Mon Jun 29 19:57:53 2015 +0800
+
+    Updated asmack jar and proguard file
+    
+    Change-Id: Ib82729c32de5043306d25486714810a5c5016ba5
+
+[33mcommit e038d3ee03203501c2b2de9e27c6f2b3800dfd0c[m
+Author: Lorin Yang <lorin.yang@tjut.cc>
+Date:   Mon Jun 29 10:21:26 2015 +0800
+
+    Updated version code to v2.4.0
+    
+    Change-Id: I1b737708ef5ec672860f98d7d42f808c0f23700d
+
+[33mcommit f86e97b07128d31fe1400c19e361efaa920ce278[m
+Author: Lorin Yang <lorin.yang@tjut.cc>
+Date:   Mon Jun 29 18:54:03 2015 +0800
+
+    Temporary disable emotion and bubble
+    
+    Change-Id: I7228897c5ac4f90921dfac06e5edd6f00154721e
+
+[33mcommit 5a72fde06090a106b8ba55e922b10e4a43234fab[m
+Merge: a202eb1 0c644b3
+Author: Lorin Yang <lorin.yang@tjut.cc>
+Date:   Mon Jun 29 18:50:56 2015 +0800
+
+    Merge "Put file key property when send message"
+
+[33mcommit a202eb14332abce210cf0b71de765fd189b141e2[m
+Merge: 3561a54 ef3c102
+Author: Lorin Yang <lorin.yang@tjut.cc>
+Date:   Mon Jun 29 18:38:53 2015 +0800
+
+    Merge "Fix avatar show bug"
+
+[33mcommit 3561a541fd89fdc0e45b37f55b9476a37124d056[m
+Merge: 66833f2 9fb23d8
+Author: Lorin Yang <lorin.yang@tjut.cc>
+Date:   Mon Jun 29 18:37:58 2015 +0800
+
+    Merge "Update group-chat2"
+
+[33mcommit 0c644b33fcead2da071df22796cd730763953018[m
+Author: Lorin Yang <lorin.yang@tjut.cc>
+Date:   Mon Jun 29 18:06:10 2015 +0800
+
+    Put file key property when send message
+    
+    Change-Id: Iede3311f7fae92cf9f82cb53fb0a5c0089986372
+
+[33mcommit ef3c10237643b64b27f0e70ad36b5b5ff29f50ad[m
+Author: Yoop Wu <yoop.wu@tjut.cc>
+Date:   Mon Jun 29 17:33:53 2015 +0800
+
+    Fix avatar show bug
+    
+    Change-Id: Ie5eb4ea1beba7750bf68e7d47181a86fa6deb082
+
+[33mcommit 9fb23d801cc4dcb8828b466c46d1d6b0320d5638[m
+Author: Yoop Wu <yoop.wu@tjut.cc>
+Date:   Mon Jun 29 16:30:35 2015 +0800
+
+    Update group-chat2
+    
+    Change-Id: Iba0105d2c7d54bf0422af016711890fc2f1e350d
+
+[33mcommit 66833f20bf4654921da15c6cef9c1474279dd3f5[m
+Author: Lorin Yang <lorin.yang@tjut.cc>
+Date:   Mon Jun 29 15:17:47 2015 +0800
+
+    Refactor IM resource market
+    
+    Change-Id: Ic04439d4ae972eefc8691cea787bec01b1914525
+
+[33mcommit bb7daab306539bb5cf1b8b89894663cc2c69bf18[m
+Merge: 6289584 0742aba
+Author: Lorin Yang <lorin.yang@tjut.cc>
+Date:   Mon Jun 29 15:17:19 2015 +0800
+
+    Merge "Fix crash when click im resource suite"
+
+[33mcommit 6289584b0e11f06c168c077e5b04a1a307b81a52[m
+Merge: 7869a82 6580b41
+Author: Lorin Yang <lorin.yang@tjut.cc>
+Date:   Mon Jun 29 15:16:53 2015 +0800
+
+    Merge "Update contact-mianliao-style"
+
+[33mcommit 7869a82a775bfa90e5627c6075baa122362b4204[m
+Author: Yoop Wu <yoop.wu@tjut.cc>
+Date:   Mon Jun 29 12:42:51 2015 +0800
+
+    Update group-chat
+    
+    Change-Id: Ib1498b5dd8ee6cf8b714bc86d5e59d5d7c5a3812
+
+[33mcommit 6580b41a2abb6836368d4af57975b0245f936fca[m
+Author: Yoop Wu <yoop.wu@tjut.cc>
+Date:   Mon Jun 29 10:40:30 2015 +0800
+
+    Update contact-mianliao-style
+    
+    Change-Id: I753f24d7817b9beb4e1320854338384fe7946ca9
+
+[33mcommit 0742aba31f2094efd0a6a28bd4c6d47fa4c99fe3[m
+Author: Lorin Yang <lorin.yang@tjut.cc>
+Date:   Mon Jun 29 10:16:24 2015 +0800
+
+    Fix crash when click im resource suite
+    
+    Change-Id: I70f4461397657d873f9f42ad13f270cb5625a6ce
+
+[33mcommit 202065b6bbea2b7cff76ebe528e475ed71e93c39[m
+Merge: 7720e28 394d1ff
+Author: Edward Gu <edward.gu@tjut.cc>
+Date:   Mon Jun 29 10:12:12 2015 +0800
+
+    Merge "Updated gradle version"
+
+[33mcommit 394d1ffc3b38b7f31e68b4613fe662c24e63e211[m
+Author: Edward Gu <edward.gu@tjut.cc>
+Date:   Mon Jun 29 09:06:04 2015 +0800
+
+    Updated gradle version
+    
+    Change-Id: I91360963fe89c7a1a8d80af0488bcf64733f1fdb
+
+[33mcommit 7720e287704b2e59806aba3cc803d24afd352fc4[m
+Author: Lorin Yang <lorin.yang@tjut.cc>
+Date:   Wed Jun 24 14:30:20 2015 +0800
+
+    Implement cocos2dx avatar feature
+    
+    Change-Id: If4d6ccf021e2b61bc7d177f5f6bc5c071c6f5924
+
+[33mcommit 6dbfd0c246c71fac5bdf44c0482ef1020fa7dbf7[m
+Author: Lorin Yang <lorin.yang@tjut.cc>
+Date:   Sat Jun 27 12:45:42 2015 +0800
+
+    Some fixes and tweaks
+    
+    1. Fix url error in news module
+    2. Update pressed color of post like button
+    3. Fix checkstyles and findbugs
+    4. Update some drawables
+    
+    Change-Id: I253d745ce9e62a65f324c71e7cfd233f35768abe
+
+[33mcommit d5679f7d19f33a62d3dc27a7142f718cef45cad2[m
+Author: Edward Gu <edward.gu@tjut.cc>
+Date:   Sat Jun 27 16:45:32 2015 +0800
+
+    Ignore chatstate message
+    
+    Change-Id: I5e1a24f35073bf640c5dc0c1f63ba527d1f65055
+
+[33mcommit e883bd9a5dd5ddcb569bd3567c5603c2581c341d[m
+Author: Yoop Wu <yoop.wu@tjut.cc>
+Date:   Wed Jun 17 10:59:04 2015 +0800
+
+    Group chat
+    
+    Change-Id: I89331cec84d46c3630825f30d295e83ec9771fcf
+
+[33mcommit 1f58258f0e0370982b97424a27bd3aeb3de3e231[m
+Author: Lorin Yang <lorin.yang@tjut.cc>
+Date:   Fri Jun 19 09:59:01 2015 +0800
+
+    Fix input method problem in ChatActivity
+    
+    Change-Id: I96f919811ff635ba9e5a84db9e2bbf26ebf325a8
+
+[33mcommit 4989078566d4cad2d66d2fcdd764c555329eacbc[m
+Author: Lorin Yang <lorin.yang@tjut.cc>
+Date:   Wed Jun 17 16:06:45 2015 +0800
+
+    Implement im resource related features
+    
+    Change-Id: I19f4e9fb21369c40a87f0e70a3b36f0ab5467bd0
+
+[33mcommit ff9cf1f5b2b8bac528b35a262af058f06aa1da16[m
+Author: Lorin Yang <lorin.yang@tjut.cc>
+Date:   Wed Jun 17 15:54:24 2015 +0800
+
+    Fix crash when exit ChatActivity
+    
+    Change-Id: If119408f266b0b5193f38ae4c6c9070993a9e62b
+
+[33mcommit 1a8bc127d8d26e308b61d184b7eeb26f36e36f3f[m
+Author: Lorin Yang <lorin.yang@tjut.cc>
+Date:   Fri Jun 12 10:49:13 2015 +0800
+
+    Fix voice-record-bug
+    
+    Change-Id: I7a898c8d3dea4c191f359a1758f9f88799e4ace4
+
+[33mcommit c7b6675f06583597faf350269f1e4acd40903232[m
+Author: Lorin Yang <lorin.yang@tjut.cc>
+Date:   Mon Jun 15 14:54:12 2015 +0800
+
+    View multiple images in ChatActivity
+    
+    Change-Id: If9dc7159a3bd19aac8490441ba3ae2347abb24aa
+
+[33mcommit e0885f6ddecf8423c737a9e9082389f988e9cc32[m
+Author: Lorin Yang <lorin.yang@tjut.cc>
+Date:   Fri Jun 12 10:49:13 2015 +0800
+
+    Update bubble_me_voice icons and remove some redundant resources
+    
+    Change-Id: Ie7c19d64f0916924c4726a8b177d73518ce50898
+
+[33mcommit d62d60515c242b09eb70de58bc3fa86405ce3d90[m
+Author: Yoop Wu <yoop.wu@tjut.cc>
+Date:   Mon Jun 8 17:25:50 2015 +0800
+
+    Update ChatExtPicker style
+    
+    Change-Id: I99d4fac6bfa1c50b1bd85232b66dc7039acda5f3
+
+[33mcommit 86cbbb08a2ea3b004cbb1aa9cbe034e53941be2d[m
+Merge: 604982f c8ee842
+Author: Lorin Yang <lorin.yang@tjut.cc>
+Date:   Thu Jun 11 18:45:02 2015 +0800
+
+    Merge "Add Share location in IM"
+
+[33mcommit 604982f58c1c00a5bba40ad1d851f4f3f24413f4[m
+Merge: db95c4d 00f60a1
+Author: Lorin Yang <lorin.yang@tjut.cc>
+Date:   Thu Jun 11 18:44:54 2015 +0800
+
+    Merge "Add send voice/picure/location in IM"
+
+[33mcommit c8ee842cac9236a2fd93eed9d55fb32b985f3b8e[m
+Author: Yoop Wu <yoop.wu@tjut.cc>
+Date:   Fri May 15 18:23:52 2015 +0800
+
+    Add Share location in IM
+    
+    Change-Id: Ia34abda5865c8ca6ad72284c82d51cb0c5475c98
+
+[33mcommit db95c4d124adef01930ab139e5b937848d3735da[m
+Merge: 5805c43 8a7b93b
+Author: Edward Gu <edward.gu@tjut.cc>
+Date:   Wed Jun 10 17:27:36 2015 +0800
+
+    Merge "Fixed promotion and updated versioncode to 2.3.3"
+
+[33mcommit 8a7b93b7c859ff2bcba2ab198c1ef0928c8545ea[m
+Author: Edward Gu <edward.gu@tjut.cc>
+Date:   Wed Jun 10 17:03:26 2015 +0800
+
+    Fixed promotion and updated versioncode to 2.3.3
+    
+    Change-Id: I74b188039427d1d1869d632c940e493ae039c529
+
+[33mcommit 00f60a1a6c86186b04dc375b75fcb4fe76765324[m
+Author: Yoop Wu <yoop.wu@tjut.cc>
+Date:   Fri May 15 18:23:52 2015 +0800
+
+    Add send voice/picure/location in IM
+    
+    Change-Id: Ic30f3447130a0d8b34310583cd69e2ca81eaf6c6
+
+[33mcommit 5805c4398e830d2e075fe8ba8e46773d3e148004[m
+Author: Lorin Yang <lorin.yang@tjut.cc>
+Date:   Fri Jun 5 15:32:32 2015 +0800
+
+    Fix bugs introduced by IM refactor
+    
+    1. Fix crashes when scan qrcode and enter feedback
+    2. Fix connection state display bug
+    
+    Change-Id: I997a81d6cef86ea0662439a7fff81f9cfd14c713
+
+[33mcommit ec3e88f8163c2bd44f4c5cb3a5465e05c3d2d1c7[m
+Author: Lorin Yang <lorin.yang@tjut.cc>
+Date:   Thu May 21 11:26:46 2015 +0800
+
+    Fix mantis bugs (0000183, 0000228~0000231)
+    
+    Change-Id: Iadeb258cbf377b78dae320011a552d834eec126c
+
+[33mcommit a52d7d7167286270b2c1c294b96cd2607879c75d[m
+Author: Lorin Yang <lorin.yang@tjut.cc>
+Date:   Thu Jun 4 14:36:33 2015 +0800
+
+    Fix IM module refactor bugs
+    
+    Change-Id: Iec98ab5303106c61aff4e82b1ac139cafadf1889
+
+[33mcommit 28f109dcc4846c7d9f67a59266b238baf2dbee4c[m
+Merge: 4c2057e d6c5b93
+Author: Lorin Yang <lorin.yang@tjut.cc>
+Date:   Tue Jun 2 14:29:08 2015 +0800
+
+    Merge "IM module refactor to support sending extention message"
+
+[33mcommit d6c5b932fd3e85c770afbc433c35ed0d2bb509db[m
+Author: Lorin Yang <lorin.yang@tjut.cc>
+Date:   Thu May 21 10:18:33 2015 +0800
+
+    IM module refactor to support sending extention message
+    
+    Change-Id: I7ce742162d716deada611334585fe44e92a953ba
+
+[33mcommit 4c2057e73c5222d26397a6c9b952d2381518826a[m
+Author: Queenie Qu <queenie.qu@tjut.cc>
+Date:   Wed May 27 13:36:53 2015 +0800
+
+    show fav icon
+    
+    Change-Id: I98421450c0c99715696cc9dcef0f38a0406cde2b
+
+[33mcommit b8a375298c274ba29e2f65806ad82b8bbe982152[m
+Author: Queenie Qu <queenie.qu@tjut.cc>
+Date:   Wed May 27 13:04:08 2015 +0800
+
+    fix the today post count but
+    
+    Change-Id: Idb2a826b7820323638b3f4d49dcc99cb5f34e783
+
+[33mcommit 4021dcf28ff81abf29ef562255acfaecdfac4081[m
+Author: Queenie Qu <queenie.qu@tjut.cc>
+Date:   Tue May 26 16:57:21 2015 +0800
+
+    filter tickes & favorite news
+    
+    Change-Id: Id9983c5eab5d336aa9adf834147a429f76a46ac2
+
+[33mcommit d342cbfbe602c54d3a72e7dc825c4a8f75ceeed6[m
+Author: Queenie Qu <queenie.qu@tjut.cc>
+Date:   Tue May 26 09:59:02 2015 +0800
+
+    add admin operation for posts
+    
+    Change-Id: Id1ff92440f5f44811945b21464056b2a224eadfb
+
+[33mcommit 99a3d65b1cc487bce982c1a7694d856d6b4a013c[m
+Author: Queenie Qu <queenie.qu@tjut.cc>
+Date:   Thu May 21 17:57:56 2015 +0800
+
+    show recommend post icon
+    
+    Change-Id: Ib31b82a50a1e744980029c621342b3720c7a7a08
+
+[33mcommit 0e59c3bbc4cf40261cc389e5feb2de8f2675151a[m
+Author: Lorin Yang <lorin.yang@tjut.cc>
+Date:   Wed May 20 17:56:47 2015 +0800
+
+    Update toolbar_inputbox and fix ali oss token error
+    
+    Change-Id: I9b97c243d8518907eda319d9dfaaa9132575eade
+
+[33mcommit 1758e1cef7a2d37f4b367bfd301c7b8f59eb50a8[m
+Author: Lorin Yang <lorin.yang@tjut.cc>
+Date:   Mon May 18 10:32:37 2015 +0800
+
+    Upload file/data with Ali OSS SDK
+    
+    Change-Id: Ic1f6143d97d454b9f237c7a330cbb60fb2b07325
+
+[33mcommit ea54c84699ad79b94df62bd05751c20e42f4cba2[m
+Merge: faaaacc b3a411d
+Author: Lorin Yang <lorin.yang@tjut.cc>
+Date:   Wed May 20 09:44:55 2015 +0800
+
+    Merge "Add chat extention picker and update input layout"
+
+[33mcommit b3a411d34cec944783455c87bbb34909a3a38129[m
+Author: Lorin Yang <lorin.yang@tjut.cc>
+Date:   Tue May 19 17:57:08 2015 +0800
+
+    Add chat extention picker and update input layout
+    
+    Change-Id: I00e84741c54f06356a09e46460130bf0e407d3b0
+
+[33mcommit faaaacc56f582b0661ff56200adc98f57b52ddc9[m
+Author: Queenie Qu <queenie.qu@tjut.cc>
+Date:   Tue May 19 13:53:40 2015 +0800
+
+    replace main tab icons&colors
+    
+    Change-Id: Ie2147b392add6c3a8afaf6b38531fa42d31fe145
+
+[33mcommit 39db2ab5edeaed9720eb4f0b85d765bc0fdeb64f[m
+Author: Queenie Qu <queenie.qu@tjut.cc>
+Date:   Tue May 19 11:11:24 2015 +0800
+
+    implement MyPostsActivity
+    
+    Change-Id: If88b7772de062323c4c3015ca6f0e143aa4efd3e
+
+[33mcommit 45b4fef949af73826c8d2f986213fad56a5a8fa1[m
+Author: Queenie Qu <queenie.qu@tjut.cc>
+Date:   Tue May 19 09:55:49 2015 +0800
+
+    update forum setting screen
+    
+    Change-Id: I2f3d673acdde7f8dc11df549a183feba4657e407
+
+[33mcommit 3a5c18ce215fdfc598e9a1427ef52da15cd86718[m
+Author: Queenie Qu <queenie.qu@tjut.cc>
+Date:   Fri May 15 15:54:39 2015 +0800
+
+    fix like btn bg bug
+    
+    Change-Id: I1e782d57cedd76b172866fb17e16eaea78321831
+
+[33mcommit c46af577c3ed43c23653fa5af0edf558486e12bc[m
+Author: Queenie Qu <queenie.qu@tjut.cc>
+Date:   Fri May 15 15:00:02 2015 +0800
+
+    update forum layout
+    
+    Change-Id: I4df600d02bea9103009f0b6340d6e7782d814093
+
+[33mcommit c8d3fada7381c53f9f069512a780b9c9b173420a[m
+Author: Queenie Qu <queenie.qu@tjut.cc>
+Date:   Thu May 14 15:49:10 2015 +0800
+
+    show banner as post stream header
+    
+    Change-Id: I7062ccacb99399429d11ffe540c52c929d348cf4
+
+[33mcommit 6727f8ee743969bf783ae507411167ee2f112068[m
+Merge: f0c8165 49ee14b
+Author: Lorin Yang <lorin.yang@tjut.cc>
+Date:   Thu May 14 10:42:19 2015 +0800
+
+    Merge "Update newsDetailActivity's UI and newsTabFragment"
+
+[33mcommit f0c81654abd4c17ef491b056b12241094c60ea63[m
+Merge: 4fea393 642191c
+Author: Lorin Yang <lorin.yang@tjut.cc>
+Date:   Thu May 14 10:42:11 2015 +0800
+
+    Merge "Fix crash when view large pictures (0000217)"
+
+[33mcommit 4fea393d9a4658402a7eff9f21fc4323e9fc6b2e[m
+Merge: 049112c c1fb067
+Author: Queenie Qu <queenie.qu@tjut.cc>
+Date:   Thu May 14 09:36:53 2015 +0800
+
+    Merge "use tab switch post type"
+
+[33mcommit 642191cd81d1c25abfbd1e531d3c355f9fc0dc50[m
+Author: Lorin Yang <lorin.yang@tjut.cc>
+Date:   Wed May 13 11:08:27 2015 +0800
+
+    Fix crash when view large pictures (0000217)
+    
+    Change-Id: Iba4c0a91b7b74f10468b1fed2339da624f8536dc
+
+[33mcommit 49ee14b5f2e055ef1be60b76a2fabd08e05ced9d[m
+Author: Yoop Wu <yoop.wu@tjut.cc>
+Date:   Mon May 11 14:01:18 2015 +0800
+
+    Update newsDetailActivity's UI and newsTabFragment
+    
+    Change-Id: Ib9b1f266054a2a3ff7d81fa16b1a2bc331c38365
+
+[33mcommit c1fb067483740b5b23a3bced2a43d8f740a543b4[m
+Author: Queenie Qu <queenie.qu@tjut.cc>
+Date:   Tue May 12 11:29:03 2015 +0800
+
+    use tab switch post type
+    
+    Change-Id: If17365717936ade972b6029dca6e496837a77802
+
+[33mcommit 049112c0a00e9b7df2bc80692d5afb88b0867031[m
+Author: Lorin Yang <lorin.yang@tjut.cc>
+Date:   Mon May 11 15:54:07 2015 +0800
+
+    Fix uploading problem when images count exceed limit (0000222)
+    
+    Change-Id: I117ac45979d0b33388c02e6914065b913f9564db
+
+[33mcommit 668c59545f13f9d54a74414d07577069828f8ad2[m
+Author: Lorin Yang <lorin.yang@tjut.cc>
+Date:   Thu May 7 17:07:02 2015 +0800
+
+    Fix medal shown bug in Vote/Event memebers (0000218)
+    
+    Change-Id: Ifec299d9f6077a9a9498394a0a5844054b8a874c

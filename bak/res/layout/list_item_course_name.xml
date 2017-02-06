@@ -1,0 +1,13 @@
+<com.tjut.mianliao.theme.ThemeTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tv_course_name"
+    android:layout_width="match_parent"
+    android:layout_height="43dp"
+    android:background="@drawable/selector_bg_item"
+    android:drawableRight="@drawable/botton_bg_arrowright"
+    android:ellipsize="end"
+    android:gravity="center_vertical"
+    android:maxLines="1"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:textColor="#433E3C"
+    android:textSize="16sp"/>

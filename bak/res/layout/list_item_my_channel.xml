@@ -1,0 +1,99 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_my_channel_info"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:color_magic="0">
+
+    <com.tjut.mianliao.black.MagicRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp">
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="64dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="12dp"
+            android:background="@android:color/transparent"
+            android:gravity="center|left"
+            android:orientation="horizontal">
+
+            <com.tjut.mianliao.component.AvatarView
+                android:id="@+id/piv_channel_icon"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/ic_adc_person_around"
+                app:borderType="roundCorner"
+                app:cornerRadius="45dp"/>
+
+            <com.tjut.mianliao.black.MagicLinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.tjut.mianliao.theme.ThemeTextView
+                    android:id="@+id/tv_channel_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:maxWidth="150dp"
+                    android:singleLine="true"
+                    android:textColor="#BEBEBE"
+                    android:textSize="15sp"/>
+
+                <com.tjut.mianliao.theme.ThemeTextView
+                    android:id="@+id/tv_channel_intro"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="4dp"
+                    android:maxWidth="200dp"
+                    android:singleLine="true"
+                    android:textColor="#807e80"
+                    android:textSize="12sp"/>
+            </com.tjut.mianliao.black.MagicLinearLayout>
+        </com.tjut.mianliao.black.MagicLinearLayout>
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="15dp"
+            android:background="@android:color/transparent"
+            android:gravity="center|right"
+            android:orientation="vertical">
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:id="@+id/tv_user_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#BEBEBE"
+                android:textSize="10sp"
+                android:visibility="gone"/>
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:id="@+id/tv_my_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/foot"
+                android:drawablePadding="5dp"
+                android:textColor="#BEBEBE"
+                android:textSize="10sp"
+                android:visibility="gone"/>
+        </com.tjut.mianliao.black.MagicLinearLayout>
+    </com.tjut.mianliao.black.MagicRelativeLayout>
+
+    <View
+        android:id="@+id/view_splite"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#34FFFFFF"/>
+
+</com.tjut.mianliao.black.MagicLinearLayout>

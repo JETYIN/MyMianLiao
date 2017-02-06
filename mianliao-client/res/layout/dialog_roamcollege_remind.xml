@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/ll_roam_dialog"    
+    android:layout_width="240dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_roamcollege_dialog"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <com.tjut.mianliao.theme.ThemeImageView
+            android:id="@+id/iv_rmdialog_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/pic_bg_hint" />
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:id="@+id/tv_rmdialog_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="5dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="@string/rule_hang"
+            android:textColor="#706F6F"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+    <com.tjut.mianliao.theme.ThemeLineView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#E6E6E6" />
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_rmdialog_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/rc_roam_rule_content"
+        android:textColor="#969696"
+        android:textSize="15sp" />
+
+</LinearLayout>

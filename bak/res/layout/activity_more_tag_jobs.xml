@@ -1,0 +1,17 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_more_jobs"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/item_my_tag_info"/>
+
+    <ListView
+        android:id="@+id/lv_jobs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@null"
+        android:dividerHeight="0px"
+        android:scrollbars="none"/>
+
+</com.tjut.mianliao.black.MagicLinearLayout>

@@ -1,0 +1,47 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <com.tjut.mianliao.component.AvatarView
+        android:id="@+id/av_avatar"
+        android:layout_width="@dimen/card_avatar_size"
+        android:layout_height="@dimen/card_avatar_size"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/chat_botton_bg_faviconboy"/>
+
+    <com.tjut.mianliao.component.NameView
+        android:id="@+id/tv_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/av_avatar"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="-2dp"
+        android:layout_toRightOf="@+id/av_avatar"
+        android:drawablePadding="@dimen/mdl_name_spacing"
+        android:textColor="#2E2E2E"
+        android:textSize="16sp"/>
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_credit_level"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_alignTop="@+id/av_avatar"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="-3dp"
+        android:layout_toRightOf="@+id/tv_user_name"
+        android:gravity="center_vertical"
+        android:textColor="@color/white"
+        android:textSize="10sp"/>
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_user_name"
+        android:layout_below="@+id/tv_user_name"
+        android:layout_marginTop="-3dp"
+        android:textColor="#A9A9A9"
+        android:textSize="12sp"/>
+
+</merge>

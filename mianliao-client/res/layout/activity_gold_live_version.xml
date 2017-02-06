@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp">
+
+            <TextView
+                android:id="@+id/tv_my_gold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawableLeft="@drawable/img_gold_live_version"
+                android:drawablePadding="20dp"
+                android:text="66"
+                android:textColor="#fbc51f"
+                android:textSize="24sp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="17dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/prof_my_rechange"
+                android:textColor="#515151"
+                android:textSize="14sp" />
+
+
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/lv_gold_change_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@color/white"
+            android:divider="@null"
+            android:dividerHeight="0px"
+            android:listSelector="@null" />
+
+
+        <TextView
+            android:id="@+id/tv_contact_us_in_qq"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:gravity="left"
+            android:onClick="onClick"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:text="@string/prof_contact_us_in_qq"
+            android:textColor="#a8c3e5"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_pay_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#3d000000"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:id="@+id/ll_pay_way_select"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_gravity="bottom"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp">
+
+                <TextView
+                    android:id="@+id/tv_recharge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:textColor="#515151"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/tv_pay_money"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_recharge"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:textColor="#515151"
+                    android:textSize="18sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_alignParentBottom="true"
+                    android:background="#e6e6e6" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_alipay"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:onClick="onClick">
+
+                <TextView
+                    android:id="@+id/tv_alipay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:clickable="true"
+                    android:drawableLeft="@drawable/img_pay_alipay"
+                    android:drawablePadding="15dp"
+                    android:gravity="center"
+                    android:onClick="onClick"
+                    android:text="@string/pay_alipay"
+                    android:textColor="#515151"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#e6e6e6" />
+
+            <RelativeLayout
+                android:id="@+id/rl_weixin"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:onClick="onClick">
+
+                <TextView
+                    android:id="@+id/tv_wx_pay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:clickable="true"
+                    android:drawableLeft="@drawable/img_pay_wx"
+                    android:drawablePadding="15dp"
+                    android:gravity="center"
+                    android:onClick="onClick"
+                    android:text="@string/pay_wxchat"
+                    android:textColor="#515151"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#e6e6e6" />
+
+            <RelativeLayout
+                android:id="@+id/rl_cancel"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:onClick="onClick">
+
+                <TextView
+                    android:id="@+id/tv_cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:onClick="onClick"
+                    android:text="@string/search_cancel"
+                    android:textColor="#515151"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+    </FrameLayout>
+</FrameLayout>

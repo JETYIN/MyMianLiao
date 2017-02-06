@@ -1,0 +1,34 @@
+<com.tjut.mianliao.black.MagicRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_bt_blue"
+    android:paddingBottom="10dp">
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/white"/>
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_content"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/tv_title"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"/>
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_for_skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/tv_content"
+        android:layout_marginRight="10dp"/>
+
+</com.tjut.mianliao.black.MagicRelativeLayout>

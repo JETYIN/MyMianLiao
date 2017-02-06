@@ -1,0 +1,193 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.tjut.mianliao.component.SceneView
+        android:id="@+id/iv_scene"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/prof_scene_height"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:scaleType="centerCrop"
+        android:src="@drawable/pic_prof_scene"
+        app:coverSrc="@drawable/pic_scene_cover"
+        tools:ignore="ContentDescription" />
+
+    <FrameLayout
+        android:id="@+id/fl_avatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp">
+
+        <ImageView
+            android:id="@+id/iv_vip_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:src="@drawable/profile_avatar_bg"
+            android:visibility="invisible" />
+
+        <com.tjut.mianliao.component.ProAvatarView
+            android:id="@+id/av_avatar"
+            android:layout_width="@dimen/prof_head_width"
+            android:layout_height="@dimen/prof_head_width"
+            android:layout_gravity="bottom|right"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:padding="@dimen/prof_avatar_border_size"
+            android:scaleType="fitXY"
+            android:src="@drawable/chat_botton_bg_faviconboy" />
+
+        <ImageView
+            android:id="@+id/iv_type_icon"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_gravity="bottom|right"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp"
+            android:scaleType="fitXY"
+            tools:ignore="ContentDescription" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fl_avatar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/bg_name_transparent"
+        android:clickable="true"
+        android:maxLength="8"
+        android:maxLines="1"
+        android:maxWidth="230dp"
+        android:onClick="onClick"
+        android:shadowColor="@color/text_shadow"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="1"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textIsSelectable="true"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/iv_gender"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_alignTop="@+id/tv_name"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@+id/tv_name"
+        android:scaleType="fitXY"
+        android:src="@drawable/img_boy"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/iv_vip"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignTop="@id/iv_gender"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/iv_gender"
+        android:src="@drawable/icon_vip"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/ll_interactive"
+        layout="@layout/item_user_interactive_data_small"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/tv_name" />
+
+    <TextView
+        android:id="@+id/tv_edu_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_interactive"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:drawableLeft="@drawable/ic_event_location"
+        android:drawablePadding="5dp"
+        android:maxLines="1"
+        android:maxWidth="280dp"
+        android:shadowColor="@color/text_shadow"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="1"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textIsSelectable="true"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/tv_edit"
+        android:layout_width="@dimen/prof_avatar_size"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/fl_avatar"
+        android:layout_alignLeft="@+id/fl_avatar"
+        android:layout_marginBottom="3dp"
+        android:gravity="center_horizontal"
+        android:text="@string/prof_edit"
+        android:textColor="@color/txt_white"
+        android:textSize="10dp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/iv_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="2dp"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:padding="10dp"
+        android:src="@drawable/homepage_bg_button_back" />
+
+    <ImageView
+        android:id="@+id/iv_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="2dp"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:padding="15dp"
+        android:src="@drawable/homepage_bg_button_more" />
+
+
+    <TextView
+        android:id="@+id/tv_other_is_living"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/fl_avatar"
+        android:layout_marginRight="35dp"
+        android:drawablePadding="5dp"
+        android:drawableTop="@drawable/homepage_bg_button_more"
+        android:gravity="center"
+        android:text="正在直播"
+        android:visibility="invisible" />
+
+
+    <TextView
+        android:id="@+id/tv_visitor_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/tv_edu_info"
+        android:layout_marginRight="-10dp"
+        android:background="@drawable/bg_name_transparent"
+        android:drawableLeft="@drawable/channel_see"
+        android:drawablePadding="5dp"
+        android:paddingRight="17dp"
+        android:textColor="#fff" />
+
+</RelativeLayout>

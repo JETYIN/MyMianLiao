@@ -1,0 +1,22 @@
+include 'emotion', ':Qupaisdk-release', ':pingpp'
+project(':emotion').projectDir = new File('../emotion')
+include 'pull-to-refresh'
+project(':pull-to-refresh').projectDir = new File('../pull-to-refresh/library')
+include 'umeng-social-lib'
+project(':umeng-social-lib').projectDir = new File('../umeng-social-lib')
+include 'wheel'
+project(':wheel').projectDir = new File('../wheel')
+include 'android-touch-gallery'
+project(':android-touch-gallery').projectDir = new File('../android-touch-gallery')
+include 'two_ways_lib'
+project(':two_ways_lib').projectDir = new File('../two_ways_lib')
+include 'cocos_view_lib'
+project(':cocos_view_lib').projectDir = new File('../cocos_view_lib/proj.android')
+include 'fastBlur'
+project(':fastBlur').projectDir = new File('../fastBlur')
+include 'multi-image-selector'
+project(':multi-image-selector').projectDir = new File('../multi-image-selector')
+include 'tuSdk'
+project(':tuSdk').projectDir = new File('../tuSdk')
+
+include ':playerLibRelease'

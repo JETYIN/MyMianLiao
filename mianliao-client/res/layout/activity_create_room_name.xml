@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.tjut.mianliao.black.MagicFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:color_magic="0">
+
+        <com.tjut.mianliao.theme.ThemeImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/team_data"/>
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:text="@string/tribe_create_name_prompt"
+            android:textColor="@color/white"
+            android:textSize="11sp"/>
+    </com.tjut.mianliao.black.MagicFrameLayout>
+
+    <EditText
+        android:id="@+id/et_chat_room_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:hint="@string/tribe_create_name_hint"
+        android:maxLength="10"
+        android:paddingLeft="15dp"/>
+
+</LinearLayout>

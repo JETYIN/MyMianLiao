@@ -1,0 +1,11 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical">
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView android:divider="@null" android:id="@+id/ptrlv_answers" android:layout_height="0dp" android:layout_weight="1" android:layout_width="match_parent" android:listSelector="@color/bg_basic" android:scrollbarStyle="outsideOverlay" />
+
+    <com.tjut.mianliao.black.MagicFrameLayout android:background="@drawable/bg_navi_bar" android:layout_height="@dimen/navi_bar_height" android:layout_width="match_parent">
+
+        <Button android:background="@drawable/selector_btn_orange" android:id="@+id/btn_answer" android:layout_gravity="center_horizontal" android:layout_height="wrap_content" android:layout_marginTop="7dp" android:layout_width="180dp" android:onClick="onClick" android:paddingBottom="6dp" android:paddingTop="6dp" android:text="@string/qa_create_an_answer" android:textColor="#A7772D" />
+
+    </com.tjut.mianliao.black.MagicFrameLayout>
+
+</com.tjut.mianliao.black.MagicLinearLayout>

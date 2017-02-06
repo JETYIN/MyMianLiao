@@ -1,0 +1,9 @@
+<com.tjut.mianliao.black.MagicRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/bg_item_with_top_bottom_lines" android:layout_height="wrap_content" android:layout_width="match_parent" android:paddingLeft="10dp" android:paddingRight="10dp">
+
+    <include layout="@layout/merge_bounty_user_in_list" />
+
+    <View android:background="@color/hr_divider" android:id="@+id/v_divider" android:layout_below="@+id/av_avatar" android:layout_height="1px" android:layout_marginTop="8dp" android:layout_width="match_parent" />
+
+    <com.tjut.mianliao.component.BountyView android:id="@+id/bv_bounty" android:layout_below="@+id/v_divider" android:layout_height="wrap_content" android:layout_width="match_parent" android:padding="10dp" />
+
+</com.tjut.mianliao.black.MagicRelativeLayout>

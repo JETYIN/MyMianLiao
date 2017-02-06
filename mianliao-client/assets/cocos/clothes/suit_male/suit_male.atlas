@@ -1,0 +1,41 @@
+
+suit_male.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shangyi_taozhuang1
+  rotate: false
+  xy: 107, 46
+  size: 63, 60
+  orig: 63, 60
+  offset: 0, 0
+  index: -1
+toufa_taozhuang1
+  rotate: false
+  xy: 2, 2
+  size: 103, 104
+  orig: 103, 104
+  offset: 0, 0
+  index: -1
+xiayi_taozhuang1
+  rotate: false
+  xy: 172, 56
+  size: 43, 50
+  orig: 43, 50
+  offset: 0, 0
+  index: -1
+youjian_taozhuang1
+  rotate: false
+  xy: 107, 9
+  size: 31, 35
+  orig: 31, 35
+  offset: 0, 0
+  index: -1
+zuojian_taozhuang1
+  rotate: false
+  xy: 217, 72
+  size: 27, 34
+  orig: 27, 34
+  offset: 0, 0
+  index: -1

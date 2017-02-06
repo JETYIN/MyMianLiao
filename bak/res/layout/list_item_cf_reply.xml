@@ -1,0 +1,43 @@
+<com.tjut.mianliao.black.MagicRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/cf_reply_padding_bottom">
+
+    <include layout="@layout/merge_user_info"/>
+
+    <com.tjut.mianliao.theme.ThemeImageView
+        android:id="@+id/top_right_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/selector_btn_white_ring"
+        android:padding="4dp"
+        android:src="@drawable/ic_cf_more"
+        tools:ignore="ContentDescription"/>
+
+    <com.tjut.mianliao.component.EmotionTextView
+        android:id="@+id/tv_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/fl_user_name"
+        android:layout_below="@+id/av_avatar"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#7A7A7A"
+        android:textIsSelectable="true"
+        android:textSize="@dimen/card_content_txt_size"/>
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_like"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/tv_desc"
+        android:layout_below="@id/tv_desc"
+        android:layout_marginTop="2dp"
+        android:textColor="#A9A9A9"
+        android:textSize="12sp"/>
+
+</com.tjut.mianliao.black.MagicRelativeLayout>

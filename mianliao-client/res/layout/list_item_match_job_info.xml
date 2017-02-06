@@ -1,0 +1,9 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_width="match_parent" android:orientation="vertical">
+
+    <include layout="@layout/item_my_tag_info" />
+
+    <View android:background="#CCCCCC" android:layout_height="1px" android:layout_width="match_parent" />
+
+    <ListView android:divider="@null" android:id="@+id/lv_jobs" android:layout_height="match_parent" android:layout_width="match_parent" android:scrollbars="none" />
+
+</com.tjut.mianliao.black.MagicLinearLayout>

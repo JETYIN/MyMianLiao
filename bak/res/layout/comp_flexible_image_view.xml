@@ -1,0 +1,44 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.tjut.mianliao.component.ProImageView
+        android:id="@+id/iv_image"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:scaleType="centerCrop"
+        android:visibility="gone"/>
+
+    <com.tjut.mianliao.component.ExpandableGridView
+        android:id="@+id/gv_image"
+        android:layout_width="match_parent"
+        android:layout_height="178dp"
+        android:horizontalSpacing="5dp"
+        android:listSelector="@null"
+        android:numColumns="2"
+        android:verticalSpacing="2dp"
+        android:visibility="gone"/>
+
+    <com.tjut.mianliao.component.ExpandableGridView
+        android:id="@+id/gv_images"
+        android:layout_width="match_parent"
+        android:layout_height="118dp"
+        android:horizontalSpacing="3dp"
+        android:listSelector="@null"
+        android:numColumns="3"
+        android:verticalSpacing="2dp"
+        android:visibility="gone"/>
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:background="#66000000"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:visibility="gone"/>
+
+</merge>

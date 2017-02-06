@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+           <stroke android:width="3dp" android:color="#ffffff" />
+           <solid android:color="#00000000" />
+</shape><!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/drawable/edit_diy_qupai_timeline_frame.xml -->

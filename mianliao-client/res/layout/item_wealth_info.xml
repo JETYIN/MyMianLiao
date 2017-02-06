@@ -1,0 +1,237 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    app:color_magic="0">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#E6E6E6" />
+
+    <RelativeLayout
+        android:id="@+id/rl_point_me"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/transparent"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+        <TextView
+            android:id="@+id/tv_point"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:drawableLeft="@drawable/icon_kernel_one"
+            android:drawablePadding="10dp"
+            android:text="@string/my_value"
+            android:textColor="#515151"
+            android:textSize="15sp" />
+
+        <!-- <ImageView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentRight="true"
+             android:layout_centerVertical="true"
+             android:layout_marginRight="50dp"
+             android:src="@drawable/icon_kernel" />-->
+
+        <TextView
+            android:id="@+id/tv_point_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:text="100"
+            android:textColor="#656565"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/iv_right_point"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:src="@drawable/botton_bg_chat_arrowright" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="@dimen/card_margin_horizontal"
+        android:layout_marginRight="@dimen/card_margin_horizontal"
+        android:background="#E6E6E6" />
+
+    <RelativeLayout
+        android:id="@+id/rl_gold_me"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/transparent"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+        <!-- <ImageView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentRight="true"
+             android:layout_centerVertical="true"
+             android:layout_marginRight="50dp"
+             android:src="@drawable/icon_kernel" />
+ -->
+        <TextView
+            android:id="@+id/tv_gold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:drawableLeft="@drawable/icon_money"
+            android:drawablePadding="10dp"
+            android:text="@string/my_coin"
+            android:textColor="#515151"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tv_gold_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:text="100"
+            android:textColor="#656565"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/iv_right_gold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:src="@drawable/botton_bg_chat_arrowright" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="@dimen/card_margin_horizontal"
+        android:layout_marginRight="@dimen/card_margin_horizontal"
+        android:background="#E6E6E6" />
+
+    <RelativeLayout
+        android:id="@+id/rl_income_me"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/transparent"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+        <TextView
+            android:id="@+id/tv_income"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:drawableLeft="@drawable/icon_money_return"
+            android:drawablePadding="10dp"
+            android:text="@string/my_income"
+            android:textColor="#515151"
+            android:textSize="15sp" />
+
+        <!--  <ImageView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignParentRight="true"
+              android:layout_centerVertical="true"
+              android:layout_marginRight="50dp"
+              android:src="@drawable/icon_kernel" />
+  -->
+        <TextView
+            android:id="@+id/tv_income_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:text="100"
+            android:textColor="#656565"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/iv_right_income"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:src="@drawable/botton_bg_chat_arrowright" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="@dimen/card_margin_horizontal"
+        android:layout_marginRight="@dimen/card_margin_horizontal"
+        android:background="#E6E6E6" />
+
+    <RelativeLayout
+        android:id="@+id/rl_live_rank"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:onClick="onClick"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:drawableLeft="@drawable/icon_people_return"
+            android:drawablePadding="10dp"
+            android:text="@string/prof_live_rank"
+            android:textColor="#656565"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/iv_right_rank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/botton_bg_chat_arrowright" />
+
+        <GridView
+            android:id="@+id/gv_income_rank"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="70dp"
+            android:layout_toLeftOf="@id/iv_right_rank"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:listSelector="@null"
+            android:numColumns="@integer/emo_picker_rows"
+            android:paddingRight="12dp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="@dimen/card_margin_horizontal"
+        android:layout_marginRight="@dimen/card_margin_horizontal"
+        android:background="#E6E6E6" />
+
+</LinearLayout>

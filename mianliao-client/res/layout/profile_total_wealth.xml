@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingLeft="15dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    app:color_magic="0" >
+
+    <com.tjut.mianliao.theme.ThemeImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:visibility="gone"
+        android:src="@drawable/icon_money" />
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_total_wealth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#9B9A9A"
+        android:textSize="12sp"
+        android:text="@string/my_wealth" />
+
+</com.tjut.mianliao.black.MagicLinearLayout>

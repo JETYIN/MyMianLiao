@@ -1,0 +1,21 @@
+<com.tjut.mianliao.black.MagicRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.tjut.mianliao.theme.ThemeLineView
+        android:id="@+id/view_line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="@dimen/title_bar_height_with_shadow"
+        android:background="#b2b2b2"/>
+
+    <ViewStub
+        android:id="@+id/vs_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/view_line"/>
+
+    <include layout="@layout/title_bar"/>
+
+</com.tjut.mianliao.black.MagicRelativeLayout>

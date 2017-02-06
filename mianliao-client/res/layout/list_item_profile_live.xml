@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_live_info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_live_cove"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/pic_cover_girl_mid" />
+
+        <ImageView
+            android:id="@+id/iv_hot_live"
+            android:layout_width="28dp"
+            android:layout_height="8dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/hot_hover" />
+
+        <TextView
+            android:id="@+id/tv_live"
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="7dp"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/bg_tv_circle_write"
+            android:gravity="center"
+            android:textColor="#2378FF" />
+
+        <TextView
+            android:id="@+id/tv_school_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:drawableLeft="@drawable/circle_write"
+            android:drawablePadding="5dp"
+            android:scaleY="1"
+            android:shadowColor="#FFFFFF"
+            android:shadowDx="-1"
+            android:shadowRadius="2"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:paddingLeft="9dp"
+        android:paddingRight="9dp">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="水原希子"
+            android:textColor="#8C8C8C"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_spectator_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="88888人"
+            android:textColor="#959595"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_live_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="9dp"
+        android:paddingRight="9dp"
+        android:text="fjhgsdjkfhs"
+        android:textSize="12sp" />
+</LinearLayout>

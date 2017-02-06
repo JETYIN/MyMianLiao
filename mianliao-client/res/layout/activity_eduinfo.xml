@@ -1,0 +1,22 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical" android:padding="10dp">
+
+    <com.tjut.mianliao.black.MagicLinearLayout android:background="@drawable/bg_card" android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="vertical">
+
+        <com.tjut.mianliao.component.CardItemConf app:cardHint="@string/please_choose" app:cardTitle="@string/reg_school" android:id="@+id/cic_school" android:layout_height="wrap_content" android:layout_width="match_parent" android:onClick="onClick" />
+
+        <include layout="@layout/hr_divider_with_margin" />
+
+        <com.tjut.mianliao.component.CardItemConf app:cardHint="@string/please_choose" app:cardTitle="@string/reg_department" android:id="@+id/cic_department" android:layout_height="wrap_content" android:layout_width="match_parent" android:onClick="onClick" />
+
+        <include layout="@layout/hr_divider_with_margin" />
+
+        <com.tjut.mianliao.component.CardItemConf app:cardHint="@string/please_choose" app:cardTitle="@string/reg_start_year" android:id="@+id/cic_year" android:layout_height="wrap_content" android:layout_width="match_parent" android:onClick="onClick" />
+
+        <include layout="@layout/hr_divider_with_margin" />
+
+        <com.tjut.mianliao.component.CardItemConf app:cardHint="@string/please_choose" app:cardTitle="@string/reg_education_back" android:id="@+id/cic_eduback" android:layout_height="wrap_content" android:layout_width="match_parent" android:onClick="onClick" />
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+    <Button android:background="@drawable/selector_btn_blue" android:id="@+id/btn_confirm" android:layout_gravity="center_horizontal" android:layout_height="wrap_content" android:layout_marginTop="60dp" android:layout_width="164dp" android:onClick="onClick" android:text="@string/finish" />
+
+</com.tjut.mianliao.black.MagicLinearLayout>

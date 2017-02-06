@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/title"
+        android:orientation="horizontal" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="center_vertical|right"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:text="管理"
+            android:visibility="visible" />
+
+    </FrameLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/title"
+        android:id="@+id/tip"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="-15dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="9dp"
+            android:layout_gravity="right"
+            android:src="@drawable/balloon_qupai_tip_anchor_top"/>
+        <TextView
+            style="@style/Qupai.Text.BalloonTip.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/balloon_qupai_tip_rect_bg"
+            android:paddingBottom="15dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="15dp"
+            android:text="@string/qupai_overlay_guide_tip_manage"/>
+    </LinearLayout>
+
+</RelativeLayout>

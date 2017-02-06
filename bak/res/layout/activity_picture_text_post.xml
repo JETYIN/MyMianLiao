@@ -1,0 +1,144 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg"
+            android:orientation="vertical" >
+
+            <com.tjut.mianliao.black.MagicFrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="258dp" >
+
+                <com.tjut.mianliao.theme.ThemeImageView
+                    android:id="@+id/iv_photo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:onClick="onClick"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/pic_face_01" />
+
+                <com.tjut.mianliao.theme.ThemeTextView
+                    android:id="@+id/tv_change_pic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/change_pic_btn_bg"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:onClick="onClick"
+                    android:text="@string/channel_click_to_change_pic"
+                    android:textColor="@color/white"
+                    android:textSize="13sp" />
+            </com.tjut.mianliao.black.MagicFrameLayout>
+
+            <com.tjut.mianliao.black.MagicFrameLayout
+                android:id="@+id/fl_body"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <com.tjut.mianliao.black.MagicLinearLayout
+                    android:id="@+id/ll_base_body"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="9dp"
+                    android:orientation="vertical"
+                    app:color_magic="0" >
+
+                    <EditText
+                        android:id="@+id/et_content"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:gravity="top"
+                        android:hint="@string/rpl_hint_reply"
+                        android:maxLength="140"
+                        android:maxLines="8"
+                        android:minLines="5"
+                        android:onClick="onClick"
+                        android:textColor="#434343"
+                        android:textSize="14sp" />
+
+                    <com.tjut.mianliao.black.MagicLinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:paddingBottom="@dimen/card_margin_horizontal"
+                        android:paddingLeft="@dimen/card_margin_horizontal"
+                        android:paddingRight="19dp"
+                        android:paddingTop="@dimen/card_item_spacing" >
+
+                        <CheckBox
+                            android:id="@+id/cb_input_emotion"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="@dimen/card_margin_horizontal"
+                            android:button="@drawable/button_emotion"
+                            android:onClick="onClick" />
+
+                        <com.tjut.mianliao.theme.ThemeTextView
+                            android:id="@+id/tv_content_length"
+                            android:layout_width="80dp"
+                            android:layout_height="27dp"
+                            android:background="@drawable/button_clear"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="20dp"
+                            android:text="140"
+                            android:textColor="#525252"
+                            android:textSize="15sp" />
+                    </com.tjut.mianliao.black.MagicLinearLayout>
+
+                    <include layout="@layout/hr_divider_with_margin" />
+                </com.tjut.mianliao.black.MagicLinearLayout>
+            </com.tjut.mianliao.black.MagicFrameLayout>
+
+            <com.tjut.mianliao.component.EmotionPicker
+                android:id="@+id/ep_emotions"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/white"
+                android:visibility="gone" />
+        </com.tjut.mianliao.black.MagicLinearLayout>
+    </ScrollView>
+
+    <com.tjut.mianliao.black.MagicLinearLayout
+        android:id="@+id/ll_loading_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:background="@drawable/login_progress_bg"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ProgressBar
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:indeterminateBehavior="repeat"
+            android:indeterminateDrawable="@drawable/login_ext_loading_ratate"
+            android:indeterminateOnly="true" />
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/cf_posting"
+            android:textColor="@color/btn_blue"
+            android:textSize="13sp" />
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+</FrameLayout>

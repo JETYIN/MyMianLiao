@@ -1,0 +1,53 @@
+<com.tjut.mianliao.black.MagicRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_note_detail"
+    android:layout_width="131dp"
+    android:layout_height="131dp"
+    android:background="@drawable/botton_bg_mynote"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingTop="15dp" 
+    app:color_magic="0">
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_notesdetail_title"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:maxLength="10"
+        android:paddingRight="10dp"
+        android:singleLine="true"
+        android:textColor="#32bbbc"
+        android:textSize="12sp" />
+
+    <com.tjut.mianliao.component.EmotionTextView
+        android:id="@+id/tv_notesdetail_content"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_notesdetail_title"
+        android:maxLines="3"
+        android:paddingRight="10dp"
+        android:textSize="12sp"
+        app:emotionSize="@dimen/emo_size_note_small" />
+
+    <com.tjut.mianliao.component.ExpandableGridView
+        android:id="@+id/mgv_images"
+        android:layout_width="131dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:horizontalSpacing="5dp"
+        android:listSelector="@null"
+        android:numColumns="3"
+        android:paddingRight="10dp"
+        android:verticalSpacing="2dp" />
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_prompt"
+        android:layout_width="131dp"
+        android:layout_height="25dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_vertical"
+        android:paddingRight="10dp"
+        android:textSize="10sp"
+        android:visibility="gone" />
+
+</com.tjut.mianliao.black.MagicRelativeLayout>

@@ -1,0 +1,22 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_item_popup"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="4dp"
+    android:orientation="vertical"
+    android:paddingTop="10dp">
+
+    <ListView
+        android:id="@+id/lv_popup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/popup_bg"
+        android:divider="@drawable/popup_line"
+        android:listSelector="@android:color/transparent"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"/>
+
+</com.tjut.mianliao.black.MagicLinearLayout>

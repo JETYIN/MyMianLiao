@@ -1,0 +1,165 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_gold_dep"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.tjut.mianliao.black.MagicLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingTop="16dp">
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/emo_recharge_waring"
+            android:textColor="#32bbbc"
+            android:textSize="12sp"/>
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/emo_recharge_warm_reminder"
+            android:textColor="#808080"
+            android:textSize="12sp"/>
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+    <com.tjut.mianliao.black.MagicLinearLayout
+        android:id="@+id/ll_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginTop="9dp"/>
+
+        <com.tjut.mianliao.black.MagicRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            app:color_magic="0">
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="20dp"
+                android:text="@string/pay_my_balance"
+                android:textSize="15sp"/>
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:id="@+id/tv_count_balance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:textColor="#fbb83e"
+                android:textSize="12sp"/>
+        </com.tjut.mianliao.black.MagicRelativeLayout>
+
+        <com.tjut.mianliao.theme.ThemeImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/img_solid_split_down"/>
+
+        <com.tjut.mianliao.black.MagicRelativeLayout
+            android:id="@+id/rl_trans_record"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginTop="14dp"
+            android:background="@color/white"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:onClick="onClick"
+            app:color_magic="0">
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="20dp"
+                android:text="@string/emo_recharge_record"
+                android:textSize="15sp"/>
+
+            <com.tjut.mianliao.theme.ThemeImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/botton_bg_arrowright"/>
+        </com.tjut.mianliao.black.MagicRelativeLayout>
+
+        <com.tjut.mianliao.theme.ThemeImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/img_solid_split_down"/>
+
+        <com.tjut.mianliao.black.MagicRelativeLayout
+            android:id="@+id/rl_exchange_point"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginTop="14dp"
+            android:background="@color/white"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:onClick="onClick"
+            app:color_magic="0">
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="20dp"
+                android:text="@string/emo_recharge_exchangepoint"
+                android:textSize="15sp"/>
+
+            <com.tjut.mianliao.theme.ThemeImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/botton_bg_arrowright"/>
+        </com.tjut.mianliao.black.MagicRelativeLayout>
+
+        <com.tjut.mianliao.theme.ThemeImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/img_solid_split_down"/>
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="21dp"
+            android:layout_marginTop="45dp"
+            android:text="@string/emo_recharge_chose_money"
+            android:textColor="#8C8C8C"
+            android:textSize="12sp"/>
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+    <ListView
+        android:id="@+id/lv_recharge_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:background="@color/white"
+        android:divider="@null"
+        android:dividerHeight="0px"
+        android:listSelector="@null"/>
+
+    <com.tjut.mianliao.theme.ThemeImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/img_solid_split_down"/>
+
+</com.tjut.mianliao.black.MagicLinearLayout>

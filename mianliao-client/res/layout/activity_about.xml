@@ -1,0 +1,193 @@
+<com.tjut.mianliao.black.MagicRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_about"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.tjut.mianliao.theme.ThemeImageView
+        android:id="@+id/iv_launcher"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:src="@drawable/ic_launcher"
+        tools:ignore="ContentDescription"/>
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_app_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_launcher"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="#434343"
+        android:textSize="15dp"/>
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_information"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_app_info"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/txt_color_red"
+        android:visibility="invisible"/>
+
+    <com.tjut.mianliao.black.MagicLinearLayout
+        android:id="@+id/ll_invite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_information"
+        android:layout_marginLeft="@dimen/card_margin_horizontal"
+        android:layout_marginRight="@dimen/card_margin_horizontal"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/selector_bg_card"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:orientation="horizontal"
+        app:color_magic="0">
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            style="@style/MianLiao.CardText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card_margin_horizontal"
+            android:layout_weight="1"
+            android:maxLines="1"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:singleLine="true"
+            android:text="@string/invite_friends"/>
+
+        <com.tjut.mianliao.theme.ThemeImageView
+            android:layout_width="@dimen/ci_btn_size"
+            android:layout_height="@dimen/ci_btn_size"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="5dp"
+            android:scaleType="center"
+            android:src="@drawable/botton_bg_arrowright"
+            tools:ignore="contentDescription"/>
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+    <com.tjut.mianliao.black.MagicLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_invite"
+        android:layout_marginLeft="@dimen/card_margin_horizontal"
+        android:layout_marginRight="@dimen/card_margin_horizontal"
+        android:layout_marginTop="@dimen/card_item_spacing"
+        android:background="@drawable/bg_card"
+        android:orientation="vertical"
+        app:color_magic="0">
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            android:id="@+id/ll_change_log"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_bg_card_item"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:orientation="horizontal">
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                style="@style/MianLiao.CardText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/card_margin_horizontal"
+                android:layout_weight="1"
+                android:maxLines="1"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:singleLine="true"
+                android:text="@string/change_log"/>
+
+            <com.tjut.mianliao.theme.ThemeImageView
+                android:layout_width="@dimen/ci_btn_size"
+                android:layout_height="@dimen/ci_btn_size"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="5dp"
+                android:scaleType="center"
+                android:src="@drawable/botton_bg_arrowright"
+                tools:ignore="contentDescription"/>
+        </com.tjut.mianliao.black.MagicLinearLayout>
+
+        <include layout="@layout/hr_divider_with_margin"/>
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            android:id="@+id/ll_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_bg_card_item"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:orientation="horizontal">
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                style="@style/MianLiao.CardText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/card_margin_horizontal"
+                android:layout_weight="1"
+                android:maxLines="1"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:singleLine="true"
+                android:text="@string/check_for_update"/>
+
+            <com.tjut.mianliao.theme.ThemeImageView
+                android:layout_width="@dimen/ci_btn_size"
+                android:layout_height="@dimen/ci_btn_size"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="5dp"
+                android:scaleType="center"
+                android:src="@drawable/botton_bg_arrowright"
+                tools:ignore="contentDescription"/>
+        </com.tjut.mianliao.black.MagicLinearLayout>
+
+        <include layout="@layout/hr_divider_with_margin"/>
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            android:id="@+id/ll_agreement"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_bg_card_item"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:orientation="horizontal">
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                style="@style/MianLiao.CardText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/card_margin_horizontal"
+                android:layout_weight="1"
+                android:maxLines="1"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:singleLine="true"
+                android:text="@string/user_agreement"/>
+
+            <com.tjut.mianliao.theme.ThemeImageView
+                android:layout_width="@dimen/ci_btn_size"
+                android:layout_height="@dimen/ci_btn_size"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="5dp"
+                android:scaleType="center"
+                android:src="@drawable/botton_bg_arrowright"
+                tools:ignore="contentDescription"/>
+        </com.tjut.mianliao.black.MagicLinearLayout>
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_copyright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp"
+        android:text="@string/copy_right"
+        android:textColor="#ABABAB"
+        android:textSize="13dp"/>
+
+</com.tjut.mianliao.black.MagicRelativeLayout>

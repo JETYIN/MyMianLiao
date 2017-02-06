@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/contact_item_height"
+    android:background="@drawable/selector_bg_item"
+    android:padding="3dp">
+
+    <com.tjut.mianliao.component.AvatarView
+        android:id="@+id/iv_classmate_avatar"
+        android:layout_width="@dimen/contact_avatar_normal_size"
+        android:layout_height="@dimen/contact_avatar_normal_size"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/contact_spacing_left"
+        android:src="@drawable/chat_botton_bg_faviconboy"/>
+
+    <ImageView
+        android:id="@+id/iv_classmate_gender"
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:layout_alignBottom="@id/iv_classmate_avatar"
+        android:layout_alignRight="@id/iv_classmate_avatar"
+        android:src="@drawable/ic_male"
+        tools:ignore="ContentDescription"/>
+
+    <com.tjut.mianliao.component.NameView
+        android:id="@+id/tv_classmate_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/iv_classmate_avatar"
+        android:layout_marginLeft="@dimen/contact_name_margin_left"
+        android:layout_marginTop="@dimen/contact_name_margin_top"
+        android:layout_toRightOf="@id/iv_classmate_avatar"
+        android:drawablePadding="@dimen/mdl_name_spacing"
+        android:textColor="@color/txt_darkgray"
+        android:textSize="@dimen/contact_name_size"/>
+
+    <TextView
+        android:id="@+id/tv_classmate_department"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/tv_classmate_name"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="3dp"
+        android:layout_toRightOf="@id/tv_classmate_name"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="#7A7775"
+        android:textSize="@dimen/contact_info_size"/>
+
+    <TextView
+        android:id="@+id/tv_classmate_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/iv_classmate_avatar"
+        android:layout_alignLeft="@id/tv_classmate_name"
+        android:layout_marginBottom="@dimen/contact_info_margin_bottom"
+        android:layout_marginRight="@dimen/contact_spacing_right"
+        android:drawableLeft="@drawable/ic_short_desc"
+        android:drawablePadding="6dp"
+        android:hint="@string/prof_no_short_desc"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="@color/contact_info_color"
+        android:textSize="@dimen/contact_info_size"/>
+
+</RelativeLayout>

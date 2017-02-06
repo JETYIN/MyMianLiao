@@ -1,0 +1,28 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/contact_item_height"
+    android:background="@drawable/selector_bg_item"
+    android:orientation="horizontal"
+    app:color_magic="0" >
+
+    <include
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        layout="@layout/list_item_user_info"
+        android:background="@null" />
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_view_photo"
+        android:layout_width="70dp"
+        android:layout_height="28dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="@dimen/card_margin_horizontal"
+        android:background="@drawable/selector_btn_blue"
+        android:gravity="center"
+        android:text="@string/adc_view_photo"
+        android:textColor="@color/white"
+        android:textSize="@dimen/title_text_size_small" />
+
+</com.tjut.mianliao.black.MagicLinearLayout>

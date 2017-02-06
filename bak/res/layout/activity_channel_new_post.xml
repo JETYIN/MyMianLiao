@@ -1,0 +1,25 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical">
+
+    <View android:background="#CCCCCC" android:layout_height="1px" android:layout_marginTop="5dp" android:layout_width="match_parent" />
+
+    <EditText android:background="@null" android:gravity="top" android:hint="@string/rpl_hint_reply" android:id="@+id/et_desc" android:layout_height="wrap_content" android:layout_width="match_parent" android:maxLength="140" android:maxLines="8" android:minLines="5" android:onClick="onClick" android:textColor="#434343" />
+
+    <View android:background="#CCCCCC" android:layout_height="1px" android:layout_marginTop="5dp" android:layout_width="match_parent" />
+
+    <com.tjut.mianliao.black.MagicLinearLayout android:id="@+id/rl_channel_normal" android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="vertical">
+
+        <com.tjut.mianliao.black.MagicRelativeLayout android:layout_height="wrap_content" android:layout_width="match_parent">
+
+            <com.tjut.mianliao.theme.ThemeTextView android:gravity="center" android:id="@+id/tv_number" android:layout_alignParentRight="true" android:layout_centerInParent="true" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="15dp" android:layout_width="wrap_content" android:text="140" />
+
+            <com.tjut.mianliao.theme.ThemeImageView android:id="@+id/iv_add_emotion" android:layout_height="wrap_content" android:layout_toLeftOf="@id/tv_number" android:layout_width="wrap_content" android:src="@drawable/tool_ic_emotion" />
+        </com.tjut.mianliao.black.MagicRelativeLayout>
+
+        <View android:background="#CCCCCC" android:layout_height="1px" android:layout_marginTop="5dp" android:layout_width="match_parent" />
+
+        <include layout="@layout/channel_normal" android:layout_height="wrap_content" android:layout_width="match_parent" />
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+    <include layout="@layout/channel_vote" android:id="@+id/chl_vote" android:layout_height="wrap_content" android:layout_width="match_parent" android:visibility="gone" />
+
+</com.tjut.mianliao.black.MagicLinearLayout>

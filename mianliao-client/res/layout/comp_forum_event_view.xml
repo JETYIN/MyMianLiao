@@ -1,0 +1,19 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.tjut.mianliao.theme.ThemeTextView style="@style/MianLiao.EventItem" android:drawableLeft="@drawable/ic_event_time" android:id="@+id/tv_start_at" android:layout_height="wrap_content" android:layout_width="match_parent" />
+
+    <com.tjut.mianliao.theme.ThemeTextView style="@style/MianLiao.EventItem" android:drawableLeft="@drawable/ic_event_location" android:id="@+id/tv_location" android:layout_height="wrap_content" android:layout_width="match_parent" />
+
+    <com.tjut.mianliao.theme.ThemeTextView style="@style/MianLiao.EventItem" android:drawableLeft="@drawable/ic_event_cost" android:id="@+id/tv_cost" android:layout_height="wrap_content" android:layout_width="match_parent" />
+
+    <com.tjut.mianliao.theme.ThemeTextView style="@style/MianLiao.EventItem" android:drawableLeft="@drawable/ic_event_contact" android:id="@+id/tv_contact" android:layout_height="wrap_content" android:layout_width="match_parent" />
+
+    <com.tjut.mianliao.theme.ThemeTextView style="@style/MianLiao.EventItem" android:drawableLeft="@drawable/ic_event_feature" android:id="@+id/tv_feature" android:layout_height="wrap_content" android:layout_width="match_parent" />
+
+    <com.tjut.mianliao.theme.ThemeTextView style="@style/MianLiao.EventItem" android:drawableLeft="@drawable/ic_event_members" android:id="@+id/tv_reg_count" android:layout_height="wrap_content" android:layout_width="match_parent" />
+
+    <com.tjut.mianliao.component.ProgressButton app:textColor="@color/white" android:background="@drawable/selector_btn_red" android:id="@+id/pb_submit" android:layout_height="40dp" android:layout_marginBottom="8dp" android:layout_marginTop="10dp" android:layout_width="match_parent" />
+
+    <com.tjut.mianliao.theme.ThemeTextView android:id="@+id/tv_participants" android:layout_gravity="center_horizontal" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:layout_marginTop="4dp" android:layout_width="wrap_content" android:text="@string/fe_view_participants" android:textColor="#34ced9" android:textSize="15sp" />
+
+</merge>

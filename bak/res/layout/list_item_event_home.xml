@@ -1,0 +1,21 @@
+<com.tjut.mianliao.black.MagicFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/bg_item_with_bottom_line" android:layout_height="60dp" android:layout_width="match_parent" android:orientation="horizontal">
+
+    <com.tjut.mianliao.black.MagicRelativeLayout android:background="@drawable/selector_bg_card_item" android:id="@+id/rl_event" android:layout_height="match_parent" android:layout_width="match_parent">
+
+        <com.tjut.mianliao.theme.ThemeImageView android:id="@+id/iv_icon" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_width="58dp" android:scaleType="centerInside" />
+
+        <View android:background="@color/hr_divider" android:layout_height="38dp" android:layout_marginTop="11dp" android:layout_toRightOf="@+id/iv_icon" android:layout_width="1px" />
+
+        <com.tjut.mianliao.theme.ThemeTextView android:id="@+id/tv_title" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:layout_toRightOf="@+id/iv_icon" android:layout_width="wrap_content" android:maxLines="1" android:singleLine="true" android:textColor="#424242" android:textSize="15sp" />
+
+        <com.tjut.mianliao.theme.ThemeTextView android:id="@+id/tv_desc" android:layout_alignLeft="@+id/tv_title" android:layout_below="@+id/tv_title" android:layout_height="wrap_content" android:layout_marginRight="6dp" android:layout_marginTop="1dp" android:layout_width="wrap_content" android:maxLines="1" android:singleLine="true" android:textColor="#979797" android:textSize="13sp" />
+
+        <com.tjut.mianliao.theme.ThemeTextView android:drawableLeft="@drawable/ic_like_small" android:drawablePadding="4dp" android:gravity="center" android:id="@+id/tv_like" android:layout_alignTop="@+id/tv_desc" android:layout_height="wrap_content" android:layout_marginRight="20dp" android:layout_toLeftOf="@+id/tv_reply" android:layout_width="wrap_content" android:textColor="#8F8F8F" android:textSize="12sp" />
+
+        <View android:background="@color/hr_divider" android:layout_alignTop="@+id/tv_desc" android:layout_gravity="center_vertical" android:layout_height="14dp" android:layout_marginRight="@dimen/card_margin_horizontal" android:layout_toLeftOf="@+id/tv_reply" android:layout_width="1px" />
+
+        <com.tjut.mianliao.theme.ThemeTextView android:drawableLeft="@drawable/ic_comment_small" android:drawablePadding="4dp" android:gravity="center" android:id="@+id/tv_reply" android:layout_alignParentRight="true" android:layout_alignTop="@+id/tv_desc" android:layout_height="wrap_content" android:layout_marginRight="@dimen/card_margin_horizontal" android:layout_width="wrap_content" android:textColor="#8F8F8F" android:textSize="12sp" />
+
+    </com.tjut.mianliao.black.MagicRelativeLayout>
+
+</com.tjut.mianliao.black.MagicFrameLayout>

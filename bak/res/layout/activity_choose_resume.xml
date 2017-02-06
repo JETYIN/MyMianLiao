@@ -1,0 +1,42 @@
+<com.tjut.mianliao.black.MagicRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_chose_resume"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/lv_resume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="@color/bg_basic"
+        android:choiceMode="singleChoice"
+        android:divider="@null"
+        android:listSelector="@color/bg_basic"
+        android:overScrollFooter="@null"
+        android:overScrollHeader="@null"/>
+
+    <EditText
+        android:id="@+id/et_postscript"
+        android:layout_width="match_parent"
+        android:layout_height="152dp"
+        android:layout_below="@+id/lv_resume"
+        android:layout_margin="16dp"
+        android:gravity="top|left"
+        android:hint="@string/rsm_tst_postscript_hint"
+        android:maxLength="500"
+        android:visibility="gone"/>
+
+    <com.tjut.mianliao.component.ProgressButton
+        android:id="@+id/pb_deliver_resume"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:background="@drawable/selector_btn_blue"
+        android:onClick="onClick"
+        android:visibility="gone"
+        app:textColor="@color/white"
+        app:textSize="16sp"/>
+
+</com.tjut.mianliao.black.MagicRelativeLayout>

@@ -1,0 +1,91 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="vertical" >
+
+    <com.tjut.mianliao.theme.ThemeLineView
+        android:id="@+id/view_up_line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#E6E6E6" />
+
+    <com.tjut.mianliao.black.MagicLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:orientation="horizontal" >
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            android:id="@+id/ll_like_normal"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:id="@+id/tv_like_normal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/buttom_like"
+                android:drawablePadding="5dp"
+                android:gravity="center"
+                android:padding="6dp"
+                android:text="@string/channel_like"
+                android:textColor="#999999"
+                android:textSize="11sp" />
+        </com.tjut.mianliao.black.MagicLinearLayout>
+
+        <com.tjut.mianliao.theme.ThemeImageView
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="@drawable/normal_pic_vertical"
+            android:contentDescription="@null" />
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            android:id="@+id/ll_dislike_normal"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:id="@+id/tv_dislike_normal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/buttom_hate"
+                android:drawablePadding="5dp"
+                android:gravity="center"
+                android:padding="6dp"
+                android:text="@string/channel_hate"
+                android:textColor="#999999"
+                android:textSize="11sp" />
+        </com.tjut.mianliao.black.MagicLinearLayout>
+
+        <com.tjut.mianliao.theme.ThemeImageView
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="@drawable/normal_pic_vertical"
+            android:contentDescription="@null" />
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            android:id="@+id/ll_comment_normal"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:id="@+id/tv_comment_normal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/buttom_comment"
+                android:drawablePadding="6dp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/rpl_title_comment"
+                android:textColor="#999999"
+                android:textSize="11sp" />
+        </com.tjut.mianliao.black.MagicLinearLayout>
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+</com.tjut.mianliao.black.MagicLinearLayout>

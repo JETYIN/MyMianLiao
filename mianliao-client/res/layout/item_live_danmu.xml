@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="30dp">
+
+    <TextView
+        android:id="@+id/tv_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="38dp"
+        android:text="小飞侠"
+        android:textColor="#d07dff"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/tv_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/bg_name_transparent"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLength="20"
+        android:paddingLeft="30dp"
+        android:paddingRight="12dp"
+        android:text="你这样真的好嘛?"
+        android:textColor="#B2ffffff"
+        android:textSize="10sp" />
+
+    <com.tjut.mianliao.component.AvatarView
+        android:id="@+id/av_avatar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/bg_live_avatar_purple"
+        android:src="@drawable/img_living_contact_light"
+        app:borderType="circle"
+        app:cornerRadius="40dp" />
+
+</FrameLayout>

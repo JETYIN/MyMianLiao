@@ -1,0 +1,38 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <com.tjut.mianliao.component.AvatarView
+        android:id="@+id/iv_emotion_icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:borderType="roundCorner"
+        app:cornerRadius="5dp"
+        android:padding="1px"
+        android:background="@drawable/bg_bt_emotion_circle"/>
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_emotion_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="9dp"
+        android:textColor="#000000"
+        android:textSize="12sp"/>
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_emotion_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="11dp"
+        android:layout_marginLeft="6dp"
+        android:drawableLeft="@drawable/pic_record_stop"
+        android:drawablePadding="5dp"
+        android:gravity="center"
+        android:textColor="#8C8C8C"
+        android:textSize="9sp"/>
+
+</com.tjut.mianliao.black.MagicLinearLayout>

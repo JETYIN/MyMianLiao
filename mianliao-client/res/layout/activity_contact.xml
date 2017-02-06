@@ -1,0 +1,49 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_contacts"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:color_magic="0">
+
+    <com.tjut.mianliao.component.SearchView
+        android:id="@+id/sv_contacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/lv_contacts"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@null"
+            android:dividerHeight="0px"
+            android:listSelector="@android:color/transparent"
+            android:overScrollFooter="@null"
+            android:overScrollHeader="@null"/>
+
+        <com.tjut.mianliao.component.LetterBarView
+            android:id="@+id/letter_bar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            app:lbOverlayTextSize="40sp"
+        	app:lbOverlayTextColor="#FFF"
+        	app:lbOverlayBackground="@drawable/bg_overlay"
+        	app:lbLetterBarTextColor="@color/selector_letterbar_text"
+        	app:lbLetterBarBackground="@drawable/bg_letterbar"/>
+    </FrameLayout>
+
+</com.tjut.mianliao.black.MagicLinearLayout>

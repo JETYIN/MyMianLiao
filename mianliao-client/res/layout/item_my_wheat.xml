@@ -1,0 +1,69 @@
+<com.tjut.mianliao.black.MagicRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_recharge_info"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:paddingLeft="19dp"
+    android:paddingRight="20dp"
+    app:color_magic="0">
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_gold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:drawableLeft="@drawable/task_pic_bg_kernel"
+        android:drawablePadding="4dp"
+        android:gravity="center"
+        android:textColor="#fbb83e"
+        android:textSize="12sp" />
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_money"
+        android:layout_width="50dp"
+        android:layout_height="21dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bg_gold_text"
+        android:gravity="center"
+        android:textColor="#29ce73"
+        android:textSize="12sp" />
+
+    <com.tjut.mianliao.black.MagicLinearLayout
+        android:id="@+id/ll_tv_sale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="5dp"
+        android:layout_toLeftOf="@id/tv_money"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:id="@+id/tv_ori_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/emo_recharge_rmb"
+            android:textColor="#808080"
+            android:textSize="12sp" />
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:id="@+id/tv_sale_info"
+            android:layout_width="43dp"
+            android:layout_height="15dp"
+            android:background="@drawable/bg_tv_black"
+            android:gravity="center"
+            android:text="@string/emo_recharge_sale"
+            android:textColor="#fbb83e"
+            android:textSize="10sp" />
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+    <com.tjut.mianliao.theme.ThemeLineView
+        android:id="@+id/lin_list_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_alignParentBottom="true" />
+
+</com.tjut.mianliao.black.MagicRelativeLayout>

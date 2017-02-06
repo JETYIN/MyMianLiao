@@ -1,0 +1,173 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ly_bg_chat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.tjut.mianliao.black.MagicFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <com.tjut.mianliao.component.ProListView
+            android:id="@+id/lv_chat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@null"
+            android:drawSelectorOnTop="false"
+            android:listSelector="@android:color/transparent"
+            android:overScrollFooter="@null"
+            android:overScrollHeader="@null"
+            android:transcriptMode="normal"/>
+
+        <com.tjut.mianliao.component.MlWebView
+            android:id="@+id/wv_choose_res"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="97dp"
+            android:visibility="gone"/>
+
+        <!--
+             <com.tjut.mianliao.cocos2dx.CocosAvatarView
+            android:id="@+id/cav_avatar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/cocos_avatar_height"
+            android:layout_gravity="bottom"/>
+        --> 
+
+        <com.tjut.mianliao.cocos2dx.CocosAvatarView
+            android:id="@+id/cav_avatar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="-97dp"/>
+    </com.tjut.mianliao.black.MagicFrameLayout>
+
+    <com.tjut.mianliao.black.MagicRelativeLayout
+        android:id="@+id/rl_bg_chat_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_item_with_top_bottom_lines"
+        android:paddingBottom="8dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="8dp">
+
+        <com.tjut.mianliao.theme.ThemeImageView
+            android:id="@+id/iv_keyboard"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:onClick="onClick"
+            android:scaleType="center"
+            android:src="@drawable/button_ic_voice"
+            tools:ignore="ContentDescription"/>
+
+        <com.tjut.mianliao.black.MagicFrameLayout
+            android:id="@+id/fl_right"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true">
+
+            <com.tjut.mianliao.theme.ThemeImageView
+                android:id="@+id/iv_extention"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="onClick"
+                android:scaleType="center"
+                android:src="@drawable/button_ic_more"
+                android:visibility="visible"
+                tools:ignore="ContentDescription"/>
+
+            <com.tjut.mianliao.theme.ThemeImageView
+                android:id="@+id/tv_send"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/button_ic_send"
+                android:visibility="gone"/>
+        </com.tjut.mianliao.black.MagicFrameLayout>
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:id="@+id/tv_voice"
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/selector_bg_chat_voice"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="@string/cht_pressed_to_record"
+            android:textColor="@color/txt_green"
+            android:textSize="15sp"
+            android:visibility="gone"/>
+
+        <com.tjut.mianliao.black.MagicRelativeLayout
+            android:id="@+id/rl_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@id/fl_right"
+            android:layout_toRightOf="@id/iv_keyboard"
+            android:background="@drawable/toolbar_inputbox"
+            android:visibility="visible">
+
+            <com.tjut.mianliao.component.MlEditText
+                android:id="@+id/et_message"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_toLeftOf="@+id/iv_emotion"
+                android:background="@null"
+                android:inputType="textMultiLine"
+                android:maxLines="4"
+                android:minHeight="35dp"
+                android:onClick="onClick"
+                android:paddingBottom="0dp"
+                android:paddingTop="0dp"
+                android:textSize="15sp"/>
+
+            <com.tjut.mianliao.theme.ThemeImageView
+                android:id="@+id/iv_emotion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="8dp"
+                android:onClick="onClick"
+                android:src="@drawable/button_emotion"
+                tools:ignore="ContentDescription"/>
+        </com.tjut.mianliao.black.MagicRelativeLayout>
+    </com.tjut.mianliao.black.MagicRelativeLayout>
+
+    <com.tjut.mianliao.component.EmotionPicker
+        android:id="@+id/ep_emotions"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@android:color/transparent"
+        android:visibility="gone"
+        app:showBigEmotion="true"/>
+
+    <com.tjut.mianliao.component.ChatExtPicker
+        android:id="@+id/cep_extention"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:gravity="center_horizontal"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="5"
+        android:paddingBottom="16dp"
+        android:paddingTop="16dp"
+        android:verticalSpacing="16dp"
+        android:visibility="gone"/>
+
+</com.tjut.mianliao.black.MagicLinearLayout>

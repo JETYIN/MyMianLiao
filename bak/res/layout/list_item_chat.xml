@@ -1,0 +1,74 @@
+<com.tjut.mianliao.black.MagicRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="8dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="8dp">
+
+    <FrameLayout
+        android:id="@+id/fl_avatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true">
+
+        <ImageView
+            android:id="@+id/iv_vip_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:src="@drawable/chat_avatar_bg"
+            android:visibility="invisible"/>
+
+        <com.tjut.mianliao.component.AvatarView
+            android:id="@+id/iv_avatar"
+            android:layout_width="@dimen/contact_avatar_size"
+            android:layout_height="@dimen/contact_avatar_size"
+            android:layout_gravity="bottom|center_horizontal"
+            android:padding="1dp"
+            app:borderType="roundCorner"
+            app:cornerRadius="100dp"/>
+    </FrameLayout>
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/fl_avatar"
+        android:layout_marginLeft="12dp"
+        android:layout_toRightOf="@id/fl_avatar"
+        android:textColor="#3C3C3C"
+        android:visibility="gone"/>
+
+    <com.tjut.mianliao.component.ProFrameLayout
+        android:id="@+id/fl_chat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_name"
+        android:layout_marginLeft="7dp"
+        android:layout_toRightOf="@id/fl_avatar"
+        android:background="@drawable/bubble_other">
+
+        <include
+            layout="@layout/chat_msg_text"
+            android:visibility="gone"/>
+
+        <include
+            layout="@layout/chat_msg_picture"
+            android:visibility="gone"/>
+
+        <include
+            layout="@layout/chat_msg_voice"
+            android:visibility="gone"/>
+
+        <include
+            layout="@layout/chat_msg_loc"
+            android:visibility="gone"/>
+
+        <include
+            layout="@layout/chat_msg_share_loc"
+            android:visibility="gone"/>
+    </com.tjut.mianliao.component.ProFrameLayout>
+
+</com.tjut.mianliao.black.MagicRelativeLayout>

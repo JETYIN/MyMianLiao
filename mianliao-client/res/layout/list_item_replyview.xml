@@ -1,0 +1,12 @@
+<com.tjut.mianliao.component.RichEmotionTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/etv_reply_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="left"
+    android:padding="10dp"
+    android:textColor="#2E2E2E"
+    app:atSpanClickble="true"
+    app:shouldMatchAtFriend="true"
+    app:shouldMatchTopic="false"
+    app:topicSpanClickble="false"/>

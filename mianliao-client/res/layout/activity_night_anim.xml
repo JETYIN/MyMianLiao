@@ -1,0 +1,12 @@
+<com.tjut.mianliao.black.MagicRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.tjut.mianliao.cocos2dx.CocosAvatarView
+        android:id="@+id/cav_avatar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</com.tjut.mianliao.black.MagicRelativeLayout>

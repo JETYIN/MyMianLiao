@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" 
+    android:background="@color/white">
+
+    <com.tjut.mianliao.component.AvatarView
+        android:id="@+id/iv_contact_avatar"
+        android:layout_width="@dimen/contact_avatar_size"
+        android:layout_height="@dimen/contact_avatar_size"
+        android:padding="1dp"
+        android:scaleType="fitXY"
+        android:layout_gravity="center_vertical|left"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/chat_botton_bg_faviconboy"
+        app:borderType="roundCorner"
+        app:cornerRadius="100dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:layout_marginLeft="30dp">
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:id="@+id/tv_pubnum_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:id="@+id/tv_pubnum_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    
+
+</LinearLayout>

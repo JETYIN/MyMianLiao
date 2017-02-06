@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_url">http://t.cn/8sBdKIS</string>
+    <string name="copy_right">2013&#8211;2016 Tjut Software, Inc. All rights reserved.</string>
+    <string name="service_email">service@tjut.cc</string>
+    <string name="service_email_underline"><u>service@tjut.cc</u></string>
+
+    <string name="sns_share_common">%1$s （分享自【面聊】）</string>
+    <string name="sns_share_question">我刚刚在【面聊】上提了一个问题：%1$s？小伙伴们快来帮我解答吧~</string>
+    <string name="sns_share_answer">我刚刚在【面聊】上回答了这个问题：%1$s？快来看看我的答案正确吗？</string>
+    <string name="sns_share_medal">我刚刚在【面聊】上获封为“%1$s”，实至名归，瞬间觉得自己无比高大上了啊~</string>
+    <string name="sns_share_job">我刚刚在【面聊】上看到了一份“%1$s”工作，感觉很不错，小伙伴们快来看看吧！</string>
+
+
+    <string name="job_desc">%1$s (%2$s)</string>
+
+    <string name="bty_distance_desc">%1$s · %2$s</string>
+
+    <string name="size_bytes">(%1$d B)</string>
+    <string name="size_kilobytes">(%1$.1f KB)</string>
+    <string name="size_megabytes">(%1$.1f MB)</string>
+</resources>

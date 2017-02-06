@@ -1,0 +1,41 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_item"
+    android:layout_width="match_parent"
+    android:layout_height="57dp"
+    android:background="@drawable/selector_bg_card_item"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingLeft="15dp"
+    android:paddingRight="10dp"
+    app:color_magic="0">
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_setting_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:maxLines="1"
+        android:textColor="@color/txt_in_card"
+        android:textSize="15sp" />
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_setting_summary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:textColor="#68AAFD"
+        android:textSize="12sp" />
+
+    <com.tjut.mianliao.black.MagicLinearLayout
+        android:id="@+id/ll_setting_widget_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" />
+
+</com.tjut.mianliao.black.MagicLinearLayout>

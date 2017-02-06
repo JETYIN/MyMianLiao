@@ -1,0 +1,39 @@
+<com.tjut.mianliao.black.MagicRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/contact_item_height"
+    android:background="@drawable/selector_bg_item"
+    android:padding="3dp"
+    app:color_magic="0">
+
+    <com.tjut.mianliao.component.AvatarView
+        android:id="@+id/iv_group_avatar"
+        android:layout_width="@dimen/contact_avatar_size"
+        android:layout_height="@dimen/contact_avatar_size"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/contact_spacing_left"
+        android:src="@drawable/chat_pic_bg_wechat"
+        app:borderType="roundCorner"
+        app:cornerRadius="100dp"/>
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_group_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@id/iv_group_avatar"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textSize="15sp"/>
+
+    <com.tjut.mianliao.theme.ThemeLineView
+        android:id="@+id/view_line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#CCCCCC"/>
+
+</com.tjut.mianliao.black.MagicRelativeLayout>

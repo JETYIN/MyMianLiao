@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_tribe_fragement"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.tjut.mianliao.theme.ThemeLineView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        app:read_attr_color="true"/>
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/ptrlv_tribe_tab"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:divider="@null"
+        android:dividerHeight="0px"
+        android:listSelector="@android:color/transparent"
+        android:scrollbarStyle="outsideOverlay"/>
+
+    <include
+        android:id="@+id/my_concern"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/activity_my_concern_tribe"
+        android:visibility="gone"/>
+
+    <include
+        android:id="@+id/channel_home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/activity_channel_home"
+        android:visibility="gone"/>
+
+</LinearLayout>

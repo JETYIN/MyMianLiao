@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tjut.mianliao.black.MagicRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_hot_post"
+    android:layout_width="match_parent"
+    android:layout_height="35dp"
+    android:clickable="true"
+    android:onClick="onClick"
+    app:color_magic="0">
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_flag"
+        android:layout_width="24dp"
+        android:layout_height="16dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:gravity="center"
+        android:textColor="#3bcaa6"
+        android:text="@string/tribe_top"
+        android:background="@drawable/bg_school_top"
+        android:textSize="9sp"/>
+    
+
+    <FrameLayout
+        android:id="@+id/fl_avatar_bg"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/tv_flag">
+
+        <com.tjut.mianliao.component.AvatarView
+            android:id="@+id/iv_avatar"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:src="@drawable/pic_face_01"
+            app:borderType="circle"
+            app:cornerRadius="100dp"/>
+    </FrameLayout>
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_post_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="55dp"
+        android:layout_toRightOf="@id/fl_avatar_bg"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textColor="#656565"
+        android:textSize="10sp"/>
+
+    <com.tjut.mianliao.black.MagicFrameLayout
+        android:id="@+id/fl_video"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dp"
+        android:visibility="gone">
+
+        <com.tjut.mianliao.theme.ThemeImageView
+            android:id="@+id/iv_image_thumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@null"
+            android:visibility="visible"/>
+
+        <com.tjut.mianliao.theme.ThemeImageView
+            android:id="@+id/iv_video_paly"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="#66000000"
+            android:scaleType="center"
+            android:src="@drawable/nomal_hot_video"/>
+    </com.tjut.mianliao.black.MagicFrameLayout>
+
+    <FrameLayout
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dp">
+        
+        <com.tjut.mianliao.component.AvatarView
+            android:id="@+id/iv_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:contentDescription="@null"
+            android:src="@drawable/pic_face_01"
+            android:scaleType="centerCrop"
+            android:visibility="gone"
+            app:borderType="roundCorner"
+            app:cornerRadius="3dp"/>
+
+        <com.tjut.mianliao.theme.ThemeImageView
+            android:id="@+id/iv_image_flag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:contentDescription="@null"
+            android:visibility="gone"/>
+    </FrameLayout>
+    
+    <com.tjut.mianliao.theme.ThemeLineView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="53dp"
+        android:background="#E5E5E5"/>
+
+   
+
+</com.tjut.mianliao.black.MagicRelativeLayout>

@@ -1,0 +1,14 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="vertical">
+
+    <include layout="@layout/hr_divider" android:id="@+id/v_top_divider" />
+
+    <com.tjut.mianliao.black.MagicLinearLayout android:background="@drawable/selector_bg_card_item" android:layout_height="wrap_content" android:layout_width="match_parent" android:paddingBottom="10dp" android:paddingTop="10dp">
+
+        <com.tjut.mianliao.theme.ThemeTextView android:drawablePadding="10dp" android:id="@+id/tv_att_label" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/att_label" android:textColor="@color/txt_green" android:textSize="12sp" />
+
+        <com.tjut.mianliao.theme.ThemeTextView android:id="@+id/tv_att_info" android:layout_height="wrap_content" android:layout_width="match_parent" android:textColor="#2E2E2E" android:textSize="12sp" />
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+    <include layout="@layout/hr_divider" android:id="@+id/v_bottom_divider" />
+
+</com.tjut.mianliao.black.MagicLinearLayout>

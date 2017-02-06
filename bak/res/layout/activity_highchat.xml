@@ -1,0 +1,25 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ly_bg_highchat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+
+    <com.tjut.mianliao.component.CommonBanner
+        android:id="@+id/vs_switcher"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/pic_forum_scene"
+        app:banner_plate="8"/>
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/ptrlv_high_chat_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:dividerHeight="0px"
+        android:listSelector="@null"
+        android:scrollbarStyle="outsideOverlay"/>
+
+</com.tjut.mianliao.black.MagicLinearLayout>

@@ -1,0 +1,26 @@
+res/drawable-hdpi/img_sucssece_comment.png
+           res/drawable-hdpi/img_sucssece_comment_black.png
+           res/drawable-hdpi/pic_bg_activity_center_black.png
+           res/drawable-hdpi/pic_bg_dress_up_black.png
+           res/drawable-hdpi/pic_bg_game_center.png
+           res/drawable-hdpi/pic_bg_game_center_black.png
+           res/drawable-hdpi/pic_bg_vip_center.png
+           res/drawable-hdpi/pic_bg_vip_center_black.png
+           res/drawable-xhdpi/img_sucssece_comment.png
+           res/drawable-xhdpi/img_sucssece_comment_black.png
+           res/drawable-xhdpi/pic_bg_activity_center_black.png
+           res/drawable-xhdpi/pic_bg_chat_nochat_big_night.png
+           res/drawable-xhdpi/pic_bg_dress_up_black.png
+           res/drawable-xhdpi/pic_bg_game_center.png
+           res/drawable-xhdpi/pic_bg_game_center_black.png
+           res/drawable-xhdpi/pic_bg_vip_center_black.png
+           res/drawable-xxhdpi/img_sucssece_comment.png
+           res/drawable-xxhdpi/img_sucssece_comment_black.png
+           res/drawable-xxhdpi/pic_bg_activity_center.png
+           res/drawable-xxhdpi/pic_bg_activity_center_black.png
+           res/drawable-xxhdpi/pic_bg_dress_up.png
+           res/drawable-xxhdpi/pic_bg_dress_up_black.png
+           res/drawable-xxhdpi/pic_bg_game_center.png
+           res/drawable-xxhdpi/pic_bg_game_center_black.png
+           res/drawable-xxhdpi/pic_bg_vip_center.png
+           res/drawable-xxhdpi/pic_bg_vip_center_black.png

@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <item name="activity_slide_anim_duration" type="integer">350</item>
+    <item name="call_loading_fade_in_duration" type="integer">300</item>
+    <item name="call_loading_fade_in_duration_long" type="integer">500</item>
+    <item name="max_primary_medals" type="integer">5</item>
+    <item name="emo_picker_rows" type="integer">3</item>
+    <item name="emo_picker_cols" type="integer">6</item>
+
+    <array name="chat_emotion_list">
+        <item>@string/cht_ext_picture</item>
+        <item>@drawable/pic_face_11</item>
+        <item>@string/cht_ext_picture</item>
+        <item>@string/cht_ext_location</item>
+        <item>@drawable/pic_face_15</item>
+        <item>@string/cht_ext_location</item>
+        <item>@string/cht_ext_bubble</item>
+        <item>@drawable/pic_face_01</item>
+        <item>@string/cht_ext_bubble</item>
+    </array>
+    <array name="chat_avatar_list">
+        <item>@string/cht_ext_picture</item>
+        <item>@drawable/pic_face_11</item>
+        <item>@string/cht_ext_picture</item>
+        <item>@string/cht_ext_location</item>
+        <item>@drawable/pic_face_15</item>
+        <item>@string/cht_ext_location</item>
+        <item>@string/cht_ext_emotion</item>
+        <item>@drawable/pic_face_01</item>
+        <item>@string/cht_ext_emotion</item>
+        <item>@string/cht_ext_bubble</item>
+        <item>@drawable/pic_face_05</item>
+        <item>@string/cht_ext_bubble</item>
+    </array>
+    <array name="chat_ext_menu">
+        <item>@string/cht_ext_picture</item>
+        <item>@drawable/tool_ic_picture</item>
+        <item>@string/cht_ext_location</item>
+        <item>@drawable/tool_ic_location</item>
+        <item>@string/cht_ext_emotion</item>
+        <item>@drawable/tool_ic_emotion</item>
+        <item>@string/cht_ext_bubble</item>
+        <item>@drawable/tool_ic_bubble</item>
+        <item>@string/cht_ext_background</item>
+        <item>@drawable/tool_ic_background</item>
+        <item>@string/cht_ext_character</item>
+        <item>@drawable/tool_ic_character</item>
+    </array>
+
+    <integer name="more_profile">1</integer>
+    <integer name="more_blank">1</integer>
+
+    <array name="menu_resume">
+        <item>@string/rsm_menu_normal_resume</item>
+        <item>@string/rsm_menu_upload_resume</item>
+    </array>
+
+    <integer name="mi_rsm_download">1</integer>
+    <integer name="mi_rsm_upload">1</integer>
+    <integer name="mi_rsm_delete">1</integer>
+
+    <array name="menu_resume_item">
+        <item>@integer/mi_rsm_download</item>
+        <item>@string/rsm_menu_download_resume</item>
+        <item>@integer/mi_rsm_upload</item>
+        <item>@string/rsm_menu_retry_upload</item>
+        <item>@integer/mi_rsm_delete</item>
+        <item>@string/rsm_menu_delete_resume</item>
+    </array>
+    <array name="news_category">
+        <item>@string/news_category_all</item>
+        <item>@drawable/ic_popmenu_all</item>
+        <item>@string/news_category_hot</item>
+        <item>@drawable/ic_popmenu_news_hot</item>
+        <item>@string/news_category_fav</item>
+        <item>@drawable/ic_popmenu_news_fav</item>
+    </array>
+    <array name="post_stream_popup">
+        <item>@string/cf_post_stream</item>
+        <item>@drawable/ic_popmenu_all</item>
+        <item>@string/cf_post_hots</item>
+        <item>@drawable/ic_popmenu_news_hot</item>
+        <item>@string/cf_post_mine</item>
+        <item>@drawable/ic_popmenu_news_fav</item>
+    </array>
+    <array name="remind_item_menu">
+        <item>@string/reply</item>
+        <item>@string/cf_show_source_post</item>
+        <item>@string/report</item>
+    </array>
+    <array name="remind_item_menu_sub">
+        <item>@string/cf_show_source_post</item>
+        <item>@string/report</item>
+    </array>
+    <array name="myreply_item_menu">
+        <item>@string/cf_show_source_post</item>
+        <item>@string/course_delete_period</item>
+    </array>
+    <array name="news_title_popup">
+        <item>@string/news_title_ticket</item>
+        <item>@drawable/bottom_bg_notice</item>
+        <item>@string/news_title_favorite</item>
+        <item>@drawable/bottom_bg_favorite</item>
+    </array>
+    <array name="channel_menu_popup">
+        <item>@string/channel_create</item>
+        <item>@drawable/bottom_bg_found</item>
+        <item>@string/channel_search</item>
+        <item>@drawable/bottom_bg_search</item>
+        <item>@string/channel_mine</item>
+        <item>@drawable/bottom_bg_mine</item>
+    </array>
+    <array name="profile_menu_popup_del_ad">
+    	<item>@string/report</item>
+    	<item>null</item>
+    	<item>@string/news_source_unfollow</item>
+    	<item>null</item>
+    	<item>@string/prof_blacklist_add</item>
+    	<item>null</item>
+    </array>
+    <array name="profile_menu_popup_ad_ad">
+    	<item>@string/report</item>
+    	<item>null</item>
+    	<item>@string/tribe_follow_with</item>
+    	<item>null</item>
+    	<item>@string/prof_blacklist_add</item>
+    	<item>null</item>
+    </array>
+    <array name="profile_menu_popup_del_del">
+    	<item>@string/report</item>
+    	<item>null</item>
+    	<item>@string/news_source_unfollow</item>
+    	<item>null</item>
+    	<item>@string/prof_blacklist_remove</item>
+    	<item>null</item>
+    </array>
+    <array name="profile_menu_popup_ad_del">
+    	<item>@string/report</item>
+    	<item>null</item>
+    	<item>@string/tribe_follow_with</item>
+    	<item>null</item>
+    	<item>@string/prof_blacklist_remove</item>
+    	<item>null</item>
+    </array>
+    <array name="profile_menu_popup_del_ad_nospeak">
+    	<item>@string/no_speak</item>
+    	<item>null</item>
+    	<item>@string/prof_contact_delete</item>
+    	<item>null</item>
+    	<item>@string/prof_blacklist_add</item>
+    	<item>null</item>
+    </array>
+    <array name="profile_menu_popup_ad_ad_nospeak">
+    	<item>@string/no_speak</item>
+    	<item>null</item>
+    	<item>@string/prof_contact_add</item>
+    	<item>null</item>
+    	<item>@string/prof_blacklist_add</item>
+    	<item>null</item>
+    </array>
+    <array name="profile_menu_popup_del_del_nospeak">
+    	<item>@string/no_speak</item>
+    	<item>null</item>
+    	<item>@string/prof_contact_delete</item>
+    	<item>null</item>
+    	<item>@string/prof_blacklist_remove</item>
+    	<item>null</item>
+    </array>
+    <array name="profile_menu_popup_ad_del_nospeak">
+    	<item>@string/no_speak</item>
+    	<item>null</item>
+    	<item>@string/prof_contact_add</item>
+    	<item>null</item>
+    	<item>@string/prof_blacklist_remove</item>
+    	<item>null</item>
+    </array>
+    <array name="cf_menu_popup">
+        <item>@string/fe_remind_msg</item>
+        <item>@drawable/bottom_bg_message</item>
+        <item>@string/fe_list_attended</item>
+        <item>@drawable/bottom_bg_join</item>
+        <item>@string/plc_my_collection</item>
+        <item>@drawable/bottom_collect_empty</item>
+    </array>
+    <array name="cf_menu_popup_black">
+        <item>@string/fe_remind_msg</item>
+        <item>@drawable/bottom_night_bg_message</item>
+        <item>@string/fe_list_attended</item>
+        <item>@drawable/bottom_night_bg_join</item>
+        <item>@string/plc_my_collection</item>
+        <item>@drawable/bottom_collect_empty</item>
+    </array>
+    
+     <array name="recent_chat_day_popup">
+        <item>@string/contacts_title</item>
+        <item>@drawable/bottom_bg_ad</item>
+        <item>@string/add_friends_to_group</item>
+        <item>@drawable/bottom_bg_chat</item>
+        <item>@string/add_friends</item>
+        <item>@drawable/bottom_bg_friend</item>
+    </array>
+    
+    <array name="cf_roam_college_popup">
+        <item>@string/rc_collection</item>
+        <item>@drawable/bottom_bg_collect</item>
+        <item>@string/rc_roam_remind</item>
+        <item>@drawable/bottom_bg_remind</item>
+    </array>
+    <array name="cf_roam_college_popup_no">
+        <item>@string/rc_collection_cancel</item>
+        <item>@drawable/bottom_bg_fillcollect</item>
+        <item>@string/rc_roam_remind</item>
+        <item>@drawable/bottom_bg_remind</item>
+    </array>
+    <array name="my_college_recruit_calendar_popup">
+        <item>@string/mc_recruit_calendar_pop_str1</item>
+        <item>@drawable/bottom_bg_add</item>
+        <item>@string/mc_recruit_calendar_pop_str2</item>
+        <item>@drawable/bottom_bg_browse</item>
+    </array>
+    <array name="qa_menu">
+        <item>@string/qa_menu_all</item>
+        <item>@drawable/ic_popmenu_all</item>
+        <item>@string/qa_menu_asked</item>
+        <item>@drawable/ic_popmenu_qa_asked</item>
+        <item>@string/qa_menu_answered</item>
+        <item>@drawable/ic_popmenu_qa_answered</item>
+    </array>
+    <array name="channel_collected_menu">
+        <item>@string/channel_collect_cancle</item>
+        <item>@drawable/bottom_night_bg_fillcollect</item>
+        <item>@string/channel_remind</item>
+        <item>@drawable/bottom_night_bg_remind</item>
+    </array>
+    <array name="channel_uncollect_menu">
+        <item>@string/channel_collect</item>
+        <item>@drawable/bottom_night_bg_collect</item>
+        <item>@string/channel_remind</item>
+        <item>@drawable/bottom_night_bg_remind</item>
+    </array>
+    <array name="qa_record_menu">
+        <item>@string/view</item>
+        <item>@string/report</item>
+    </array>
+
+    <string-array name="news_comment_menu">
+        <item>@string/reply</item>
+        <item>@string/report</item>
+    </string-array>
+    <string-array name="news_comment_menu_mine">
+        <item>@string/reply</item>
+        <item>@string/report</item>
+        <item>@string/delete</item>
+    </string-array>
+    <string-array name="channel_post_comment_menu">
+        <item>@string/reply</item>
+        <item>@string/post_copy_content</item>
+        <item>@string/report</item>
+    </string-array>
+    <string-array name="channel_post_comment_menu_mine">
+        <item>@string/reply</item>
+<!--         <item>@string/post_copy_content</item> -->
+        <item>@string/delete</item>
+    </string-array>
+    <string-array name="channel_post_menu_collect">
+        <item>@string/share</item>
+        <item>@string/cf_collect_post</item>
+        <item>@string/post_copy_content</item>
+        <item>@string/report</item>
+    </string-array>
+    <string-array name="channel_post_menu_uncollect">
+        <item>@string/share</item>
+        <item>@string/cf_uncollect_post</item>
+        <item>@string/post_copy_content</item>
+        <item>@string/report</item>
+    </string-array>
+    <string-array name="channel_post_menu_mine_collect">
+        <item>@string/share</item>
+        <item>@string/cf_collect_post</item>
+        <item>@string/post_copy_content</item>
+        <item>@string/delete</item>
+    </string-array>
+    <string-array name="channel_post_menu_mine_uncollect">
+        <item>@string/share</item>
+        <item>@string/cf_uncollect_post</item>
+        <item>@string/post_copy_content</item>
+        <item>@string/delete</item>
+    </string-array>
+    <string-array name="channel_post_menu_collect_moderator">
+        <item>@string/share</item>
+        <item>@string/cf_collect_post</item>
+        <item>@string/post_copy_content</item>
+        <item>@string/delete</item>
+        <item>@string/cf_stick_thread</item>
+    </string-array>
+    <string-array name="channel_post_menu_uncollect_moderator">
+        <item>@string/share</item>
+        <item>@string/cf_uncollect_post</item>
+        <item>@string/post_copy_content</item>
+        <item>@string/delete</item>
+        <item>@string/cf_stick_thread</item>
+    </string-array>
+    <string-array name="channel_post_menu_mine_collect_moderator">
+        <item>@string/share</item>
+        <item>@string/cf_collect_post</item>
+        <item>@string/post_copy_content</item>
+        <item>@string/delete</item>
+        <item>@string/cf_stick_thread</item>
+    </string-array>
+    <string-array name="channel_post_menu_mine_uncollect_moderator">
+        <item>@string/share</item>
+        <item>@string/cf_uncollect_post</item>
+        <item>@string/post_copy_content</item>
+        <item>@string/delete</item>
+        <item>@string/cf_stick_thread</item>
+    </string-array>
+    <string-array name="channel_post_menu_collect_moderator_stick">
+        <item>@string/share</item>
+        <item>@string/cf_collect_post</item>
+        <item>@string/post_copy_content</item>
+        <item>@string/delete</item>
+        <item>@string/cf_stick_thread_succ</item>
+    </string-array>
+    <string-array name="channel_post_menu_uncollect_moderator_stick">
+        <item>@string/share</item>
+        <item>@string/cf_uncollect_post</item>
+        <item>@string/post_copy_content</item>
+        <item>@string/delete</item>
+        <item>@string/cf_stick_thread_succ</item>
+    </string-array>
+    <string-array name="channel_post_menu_mine_collect_moderator_stick">
+        <item>@string/share</item>
+        <item>@string/cf_collect_post</item>
+        <item>@string/post_copy_content</item>
+        <item>@string/delete</item>
+        <item>@string/cf_stick_thread_succ</item>
+    </string-array>
+    <string-array name="channel_post_menu_mine_uncollect_moderator_stick">
+        <item>@string/share</item>
+        <item>@string/cf_uncollect_post</item>
+        <item>@string/post_copy_content</item>
+        <item>@string/delete</item>
+        <item>@string/cf_stick_thread_succ</item>
+    </string-array>
+
+    <!-- define menu item. the name instead of the value is used for id. -->
+    <integer name="mi_cf_like">1</integer>
+    <integer name="mi_cf_reply">1</integer>
+    <integer name="mi_cf_share">1</integer>
+    <integer name="mi_cf_report">1</integer>
+    <integer name="mi_cf_delete">1</integer>
+    <integer name="mi_cf_stick_thread">1</integer>
+    <integer name="mi_cf_show_post">1</integer>
+    <integer name="mi_cf_show_forum">1</integer>
+    <integer name="mi_cf_recommend_post">1</integer>
+
+    <array name="cf_record_menu">
+        <item>@integer/mi_cf_like</item>
+        <item>@string/cf_up</item>
+        <item>@integer/mi_cf_reply</item>
+        <item>@string/reply</item>
+        <item>@integer/mi_cf_share</item>
+        <item>@string/share</item>
+        <item>@integer/mi_cf_report</item>
+        <item>@string/report</item>
+        <item>@integer/mi_cf_delete</item>
+        <item>@string/delete</item>
+        <item>@integer/mi_cf_stick_thread</item>
+        <item>@string/cf_stick_thread</item>
+        <item>@integer/mi_cf_show_post</item>
+        <item>@string/cf_show_post</item>
+        <item>@integer/mi_cf_show_forum</item>
+        <item>@string/cf_show_forum</item>
+        <item>@integer/mi_cf_recommend_post</item>
+        <item>@string/cf_recommend</item>
+    </array>
+
+    <string-array name="cf_share_menu">
+        <item>@string/fp_share_title</item>
+        <item>@string/sns_share_title</item>
+    </string-array>
+    <string-array name="available_tabs">
+        <item>@string/tab_chat</item>
+        <item>@string/tab_forum</item>
+        <item>@string/tab_my_college</item>
+        <item>@string/tab_explore</item>
+    </string-array>
+    <string-array name="reg_choose_gender_menu">
+        <item>@string/prof_female</item>
+        <item>@string/prof_male</item>
+    </string-array>
+    <string-array name="prof_edit_photo_menu">
+        <item>@string/prof_set_as_avatar</item>
+        <item>@string/prof_update_photo</item>
+        <item>@string/prof_delete_photo</item>
+    </string-array>
+    <string-array name="get_image_choices">
+        <item>@string/choose_local_picture</item>
+        <item>@string/take_a_photo</item>
+    </string-array>
+    <string-array name="get_channel_classify_choices">
+        <item>@string/channel_emotion_tree_hole</item>
+        <item>@string/channel_interest_in_anime</item>
+        <item>@string/channel_pet_whimsy</item>
+        <item>@string/channel_food</item>
+        <item>@string/channel_photography_world</item>
+        <item>@string/channel_music_movie</item>
+    </string-array>
+    <string-array name="forum_privacy_choices">
+        <item>@string/ef_privacy_open</item>
+        <item>@string/ef_privacy_open_read_only</item>
+        <item>@string/ef_privacy_private</item>
+    </string-array>
+    <string-array name="resume_user_status_choices">
+        <item>@string/rsm_user_status_0</item>
+        <item>@string/rsm_user_status_1</item>
+        <item>@string/rsm_user_status_2</item>
+    </string-array>
+    <string-array name="fp_image_choices">
+        <item>@string/choose_local_picture</item>
+        <item>@string/take_a_photo</item>
+        <item>@string/delete</item>
+    </string-array>
+    <string-array name="fp_attachment_choices">
+        <item>@string/att_replace</item>
+        <item>@string/delete</item>
+    </string-array>
+    <string-array name="fp_post_type_choices">
+        <item>@string/fp_post_type_normal</item>
+        <item>@string/fp_post_type_vote</item>
+        <item>@string/fp_post_type_event</item>
+    </string-array>
+    <string-array name="fp_vote_type_choices">
+        <item>@string/fp_vote_type_normal</item>
+        <item>@string/fp_vote_type_anony</item>
+    </string-array>
+
+    <integer name="mi_bty_new_task">1</integer>
+    <integer name="mi_bty_my_task">1</integer>
+    <integer name="mi_bty_help">1</integer>
+
+    <string-array name="bty_main_menu">
+        <item>@integer/mi_bty_new_task</item>
+        <item>@string/bty_new_task</item>
+        <item>@integer/mi_bty_my_task</item>
+        <item>@string/bty_my_task</item>
+        <item>@integer/mi_bty_help</item>
+        <item>@string/bty_help</item>
+    </string-array>
+    <string-array name="forum_stream_filter">
+        <item>@string/fs_filter_department</item>
+        <item>@string/fs_filter_school</item>
+        <item>@string/fs_filter_off</item>
+    </string-array>
+
+    <array name="channel_data">
+        <item>基因决定我很美</item>
+        <item>@drawable/pic_face_01</item>
+        <item>苦逼的我还没对象</item>
+        <item>@drawable/pic_face_02</item>
+        <item>男生女生冒险问</item>
+        <item>@drawable/pic_face_03</item>
+        <item>大学任务清单</item>
+        <item>@drawable/pic_face_04</item>
+        <item>段子集中营</item>
+        <item>@drawable/pic_face_05</item>
+        <item>我身边的平民美女帅哥</item>
+        <item>@drawable/pic_face_06</item>
+        <item>背包客</item>
+        <item>@drawable/pic_face_07</item>
+        <item>美丽部落格</item>
+        <item>@drawable/pic_face_08</item>
+        <item>爱看电影</item>
+        <item>@drawable/pic_face_09</item>
+        <item>二次元世界</item>
+        <item>@drawable/pic_face_10</item>
+        <item>治治选择困难症</item>
+        <item>@drawable/pic_face_11</item>
+    </array>
+    <array name="education_background">
+        <item>大专</item>
+        <item>本科</item>
+        <item>研究生</item>
+    </array>
+    <array name="tribe_detail_menu_collected">
+        <item>@string/tribe_info</item>
+        <item>@drawable/channel_information</item>
+        <item>@string/news_source_unfollow</item>
+        <item>@drawable/channel_see</item>
+    </array>
+    <array name="tribe_detail_menu_uncollected">
+        <item>@string/tribe_info</item>
+        <item>@drawable/channel_information</item>
+        <item>@string/news_source_follow</item>
+        <item>@drawable/channel_see</item>
+    </array>
+    
+    <array name="more_tab_items">
+        <item>@string/explore_dressup_mall</item>
+        <item>@drawable/mall</item>
+        <item>com.tjut.mianliao.explore.DressUpMallActivty</item>
+        <item>@string/mc_recru_job</item>
+        <item>@drawable/recruitment</item>
+        <item>com.tjut.mianliao.mycollege.MicroRecHomeActivity</item>
+    </array>
+</resources>

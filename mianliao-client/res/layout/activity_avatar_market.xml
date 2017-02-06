@@ -1,0 +1,21 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fl_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.tjut.mianliao.cocos2dx.CocosAvatarView
+        android:id="@+id/cav_avatar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-46dp"
+        android:visibility="gone"/>
+
+    <com.tjut.mianliao.component.MlWebView
+        android:id="@+id/wv_browser"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/cocos_avatar_size"/>
+
+</FrameLayout>

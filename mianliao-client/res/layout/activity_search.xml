@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_activity_search"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F2F2"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/search_type_tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        layout="@layout/search_choice_tab"
+        android:background="@color/white"
+        android:paddingTop="10dp"/>
+
+    <com.tjut.mianliao.theme.ThemeImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/img_solid_split"/>
+
+    <com.tjut.mianliao.black.MagicLinearLayout
+        android:id="@+id/ll_search_hot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        app:color_magic="0">
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:id="@+id/tv_search_hot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/all_serach"/>
+
+        <com.tjut.mianliao.theme.ThemeLineView
+            android:layout_width="match_parent"
+            android:layout_height="1px"/>
+
+        <com.tjut.mianliao.component.ExpandableGridView
+            android:id="@+id/gv_search_hot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:listSelector="@color/white"
+            android:numColumns="2"
+            android:stretchMode="columnWidth"/>
+
+        <com.tjut.mianliao.theme.ThemeImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/img_solid_split"/>
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+    <com.tjut.mianliao.black.MagicLinearLayout
+        android:id="@+id/ll_search_history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:color_magic="0">
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:id="@+id/tv_search_history"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:background="@color/white"
+            android:gravity="left"
+            android:paddingLeft="15dp"
+            android:paddingTop="11dp"
+            android:text="@string/search_history"
+            android:textColor="#656565"
+            android:textSize="15sp"/>
+
+        <ListView
+            android:id="@+id/ptrlv_search_history"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:divider="@null"
+            android:dividerHeight="0px"
+            android:listSelector="@android:color/transparent"
+            android:scrollbarStyle="outsideOverlay"/>
+
+        <com.tjut.mianliao.theme.ThemeLineView
+            android:layout_width="match_parent"
+            android:layout_height="1px"/>
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:id="@+id/tv_clear_history"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="@string/search_clear_history"
+            android:textColor="#78A8E4"
+            android:textSize="15sp"/>
+    </com.tjut.mianliao.black.MagicLinearLayout>
+    
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/ptrlv_search_result"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:dividerHeight="0px"
+        android:listSelector="@android:color/transparent"
+        android:scrollbarStyle="outsideOverlay"/>
+
+</com.tjut.mianliao.black.MagicLinearLayout>

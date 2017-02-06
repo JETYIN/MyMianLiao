@@ -1,0 +1,7 @@
+<com.tjut.mianliao.black.MagicFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="match_parent" android:layout_width="match_parent">
+
+    <include layout="@layout/question_splash" android:id="@+id/layout_question_splash" />
+
+    <include layout="@layout/question" android:id="@+id/layout_question" android:visibility="gone" />
+
+</com.tjut.mianliao.black.MagicFrameLayout>

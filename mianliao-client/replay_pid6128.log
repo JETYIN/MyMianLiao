@@ -1,0 +1,23 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 133 ciObject found
+ciMethod java/lang/String <init> ([C)V 2089 1 8458 0 -1
+ciMethod java/lang/Long valueOf (J)Ljava/lang/Long; 2049 1 5376 0 -1
+ciMethod java/lang/Long longValue ()J 3513 1 21847 0 -1
+ciMethod java/io/ObjectStreamField <init> (Ljava/lang/String;Ljava/lang/String;Z)V 2097 1 5403 0 -1
+ciMethod java/io/DataInputStream readUnsignedShort ()I 2049 1 626 0 -1
+ciMethod java/io/ObjectInputStream readByte ()B 2057 1 14787 0 -1
+ciMethod java/io/ObjectInputStream readShort ()S 2105 1 6458 0 -1
+ciMethod java/io/ObjectInputStream readLong ()J 2073 1 6458 0 -1
+ciMethod java/io/ObjectInputStream readUTF ()Ljava/lang/String; 2057 1 14787 0 0
+ciMethod java/io/ObjectInputStream readTypeString ()Ljava/lang/String; 1897 1 5605 0 -1
+ciMethod java/io/ObjectInputStream$BlockDataInputStream readUnsignedShort ()I 2153 1 5389 0 288
+ciMethod java/io/ObjectInputStream$BlockDataInputStream readUTF ()Ljava/lang/String; 2153 1 20678 0 0
+ciMethod java/io/ObjectInputStream$BlockDataInputStream readUTFBody (J)Ljava/lang/String; 2153 4193 5439 0 -1
+ciMethod java/io/ObjectInputStream$PeekInputStream read ([BII)I 2145 1 5619 0 -1
+ciMethod java/io/ObjectInputStream$PeekInputStream readFully ([BII)V 2097 2097 5465 0 2496
+ciMethod java/io/Bits getShort ([BI)S 2921 1 10768 0 0
+ciMethod java/io/ObjectStreamClass readNonProxy (Ljava/io/ObjectInputStream;)V 2049 2721 6446 0 -1
+ciMethod java/io/ObjectStreamClass computeFieldOffsets ()V 2049 3089 6494 0 -1
+ciMethodData java/io/ObjectInputStream$BlockDataInputStream readUTF ()Ljava/lang/String; 2 20727 orig 264 216 160 192 81 0 0 0 0 24 212 1 23 0 0 0 0 136 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13 1 0 0 81 127 2 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 64 0 0 0 255 255 255 255 5 0 2 0 0 0 0 0 data 8 0x20005 0x0 0x19e1a370 0x4fea 0x0 0x0 0x60002 0x4fea oops 1

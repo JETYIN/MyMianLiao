@@ -1,0 +1,98 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sv_source_about"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <com.tjut.mianliao.black.MagicLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/card_margin_horizontal"
+        app:color_magic="0">
+
+        <com.tjut.mianliao.component.CardItem
+            android:id="@+id/ci_about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/selector_bg_card"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            app:cardBtnVisibility="gone"
+            app:cardContentIsSelectable="true"
+            app:cardHint="@string/field_no_info"
+            app:cardTitle="@string/news_source_about"/>
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_card"
+            android:orientation="vertical"
+            app:color_magic="0">
+
+            <com.tjut.mianliao.component.CardItem
+                android:id="@+id/ci_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                app:cardBtnBackground="@drawable/selector_btn_blue"
+                app:cardBtnSrc="@drawable/btn_prof_call"
+                app:cardContentIsSelectable="true"
+                app:cardHint="@string/field_no_info"
+                app:cardSingleLine="true"
+                app:cardTitle="@string/news_source_phone"/>
+
+            <include layout="@layout/hr_divider_with_margin"/>
+
+            <com.tjut.mianliao.component.CardItem
+                android:id="@+id/ci_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                app:cardBtnBackground="@drawable/selector_btn_blue"
+                app:cardBtnSrc="@drawable/btn_prof_mail"
+                app:cardContentIsSelectable="true"
+                app:cardHint="@string/field_no_info"
+                app:cardSingleLine="true"
+                app:cardTitle="@string/news_source_email"/>
+
+            <include layout="@layout/hr_divider_with_margin"/>
+
+            <com.tjut.mianliao.component.CardItem
+                android:id="@+id/ci_web"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                app:cardBtnBackground="@drawable/selector_btn_blue"
+                app:cardBtnSrc="@drawable/btn_prof_web"
+                app:cardContentIsSelectable="true"
+                app:cardHint="@string/field_no_info"
+                app:cardSingleLine="true"
+                app:cardTitle="@string/news_source_web"/>
+
+            <include layout="@layout/hr_divider_with_margin"/>
+
+            <com.tjut.mianliao.component.CardItem
+                android:id="@+id/ci_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                app:cardBtnVisibility="gone"
+                app:cardContentIsSelectable="true"
+                app:cardHint="@string/field_no_info"
+                app:cardTitle="@string/news_source_address"/>
+        </com.tjut.mianliao.black.MagicLinearLayout>
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+</ScrollView>

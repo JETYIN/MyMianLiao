@@ -1,0 +1,68 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_privacy"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    android:orientation="vertical">
+
+    <com.tjut.mianliao.black.MagicRelativeLayout
+        android:id="@+id/rl_blacklist"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:clipChildren="true"
+        android:onClick="onClick"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        app:color_magic="0">
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:text="@string/setting_contacts_blacklist"/>
+
+        <com.tjut.mianliao.theme.ThemeImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:src="@drawable/botton_bg_chat_arrowright"/>
+    </com.tjut.mianliao.black.MagicRelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#E6E6E6"/>
+
+    <com.tjut.mianliao.black.MagicRelativeLayout
+        android:id="@+id/rl_temp_chat"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:clipChildren="true"
+        android:onClick="onClick"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        app:color_magic="0">
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:text="@string/setting_temporary_chat"
+            android:textSize="15sp"/>
+
+        <com.tjut.mianliao.theme.ThemeImageView
+            android:id="@+id/iv_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:src="@drawable/switch_on"/>
+    </com.tjut.mianliao.black.MagicRelativeLayout>
+
+</com.tjut.mianliao.black.MagicLinearLayout>

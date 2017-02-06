@@ -1,0 +1,68 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_wicket"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:color_magic="0" >
+
+    <EditText
+        android:id="@+id/et_ticket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/card_margin_horizontal"
+        android:layout_marginRight="@dimen/card_margin_horizontal"
+        android:layout_marginTop="10dp"
+        android:hint="@string/tic_input_hint"
+        android:inputType="textNoSuggestions"
+        android:maxLength="100"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="#585858" />
+
+    <Button
+        android:id="@+id/btn_check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/card_margin_horizontal"
+        android:layout_marginRight="@dimen/card_margin_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/selector_btn_blue"
+        android:onClick="onClick"
+        android:text="@string/tic_manual_check" />
+
+    <com.tjut.mianliao.black.MagicFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/line_dash_horizontal"
+        android:layerType="software"
+        app:color_magic="0" >
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:id="@+id/tv_course_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/bg_basic"
+            android:maxLines="1"
+            android:padding="2dp"
+            android:text="@string/tic_recent_wicket_records"
+            android:textColor="#FFA524"
+            android:textSize="12sp" />
+    </com.tjut.mianliao.black.MagicFrameLayout>
+
+    <ListView
+        android:id="@+id/lv_wicket_record"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:divider="@color/hr_divider"
+        android:dividerHeight="1px"
+        android:listSelector="@null"
+        android:overScrollFooter="@null"
+        android:overScrollHeader="@null" />
+
+</com.tjut.mianliao.black.MagicLinearLayout>

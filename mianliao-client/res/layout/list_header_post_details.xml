@@ -1,0 +1,23 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="vertical" android:paddingTop="15dp">
+
+    <com.tjut.mianliao.theme.ThemeTextView android:drawableLeft="@drawable/icon_hotrecommend" android:drawablePadding="6dp" android:id="@+id/tv_recommend" android:layout_gravity="right" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:layout_marginRight="15dp" android:layout_width="wrap_content" android:text="@string/forum_recommended_post_label" android:textColor="#00aeff" android:textSize="12sp" android:visibility="gone" />
+
+    <include layout="@layout/post_user" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:layout_width="match_parent" />
+
+    <com.tjut.mianliao.component.EmotionTextView android:id="@+id/tv_desc" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:layout_marginTop="15dp" android:layout_width="match_parent" android:lineSpacingExtra="3dp" android:textColor="#2E2E2E" android:textIsSelectable="true" android:textSize="15sp" />
+
+    <com.tjut.mianliao.component.FlexibleImageView android:id="@+id/fiv_images" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:layout_marginTop="10dp" android:layout_width="match_parent" />
+
+    <com.tjut.mianliao.component.forum.VoteView android:id="@+id/vv_vote" android:layout_height="wrap_content" android:layout_width="match_parent" android:paddingBottom="8dp" android:visibility="gone" />
+
+    <com.tjut.mianliao.component.forum.EventView android:id="@+id/ev_event" android:layout_height="wrap_content" android:layout_width="match_parent" android:paddingBottom="8dp" android:paddingLeft="24dp" android:paddingRight="24dp" android:visibility="gone" />
+
+    <com.tjut.mianliao.component.AttachmentView android:id="@+id/av_att" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:layout_marginTop="10dp" android:layout_width="match_parent" />
+
+    <include layout="@layout/post_action" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:layout_marginTop="10dp" android:layout_width="match_parent" />
+
+    <com.tjut.mianliao.theme.ThemeTextView android:drawableLeft="@drawable/badge_like" android:drawablePadding="8dp" android:id="@+id/tv_liked_users" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:layout_marginTop="10dp" android:layout_width="wrap_content" android:textColor="#9F9F9F" android:textSize="12sp" />
+
+    <View android:background="#CCCCCC" android:layout_height="1px" android:layout_marginTop="15dp" android:layout_width="match_parent" />
+
+</com.tjut.mianliao.black.MagicLinearLayout>

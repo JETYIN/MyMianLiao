@@ -1,0 +1,132 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* doc\
+* doc\download\
+* doc\download\download_center.html
+* doc\download\download_info.html
+* doc\download\download_letter.html
+* doc\download\download_module.html
+* doc\download\download_observer.html
+* doc\fqa.html
+* doc\gitbook\
+* doc\gitbook\app.js
+* doc\gitbook\fonts\
+* doc\gitbook\fonts\fontawesome\
+* doc\gitbook\fonts\fontawesome\FontAwesome.otf
+* doc\gitbook\fonts\fontawesome\fontawesome-webfont.eot
+* doc\gitbook\fonts\fontawesome\fontawesome-webfont.svg
+* doc\gitbook\fonts\fontawesome\fontawesome-webfont.ttf
+* doc\gitbook\fonts\fontawesome\fontawesome-webfont.woff
+* doc\gitbook\images\
+* doc\gitbook\images\apple-touch-icon-precomposed-152.png
+* doc\gitbook\images\favicon.ico
+* doc\gitbook\plugins\
+* doc\gitbook\plugins\gitbook-plugin-fontsettings\
+* doc\gitbook\plugins\gitbook-plugin-fontsettings\buttons.js
+* doc\gitbook\plugins\gitbook-plugin-fontsettings\website.css
+* doc\gitbook\plugins\gitbook-plugin-highlight\
+* doc\gitbook\plugins\gitbook-plugin-highlight\ebook.css
+* doc\gitbook\plugins\gitbook-plugin-highlight\website.css
+* doc\gitbook\plugins\gitbook-plugin-search\
+* doc\gitbook\plugins\gitbook-plugin-search\lunr.min.js
+* doc\gitbook\plugins\gitbook-plugin-search\search.css
+* doc\gitbook\plugins\gitbook-plugin-search\search.js
+* doc\gitbook\plugins\gitbook-plugin-sharing\
+* doc\gitbook\plugins\gitbook-plugin-sharing\buttons.js
+* doc\gitbook\style.css
+* doc\img\
+* doc\img\LePlayer鎾斁鍣ㄦ挱鏀炬祦绋嬪浘.png
+* doc\img\Player鍜孭layContext.png
+* doc\img\demo_import_as.png
+* doc\img\demo_import_as_2.png
+* doc\img\demo_import_eclipse.png
+* doc\img\import_assert.png
+* doc\img\playersdk_import.png
+* doc\img\skin_import.png
+* doc\index.html
+* doc\part0\
+* doc\part0\demoyun_xing_xiao_guo_ji_shi_yong.html
+* doc\part0\get_start_play.html
+* doc\part0\handle_video_ratio.html
+* doc\part0\handle_video_view_change.html
+* doc\part0\hanlde_proguard.html
+* doc\part0\import_project.html
+* doc\part0\index.html
+* doc\part0\kuai_su_yun_xing_demo.html
+* doc\part0\pano_quick_start.html
+* doc\part1\
+* doc\part1\index.html
+* doc\part1\playcontext_introduction.html
+* doc\part1\player_api_Intro.html
+* doc\part1\player_structure.html
+* doc\part1\update.md
+* doc\search_index.json
+* doc\update.html
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+gson-2.1.jar => com.google.code.gson:gson:2.1
+
+Potentially Missing Dependency:
+-------------------------------
+When we replaced the following .jar files with a Gradle dependency, we
+inferred the dependency version number from the filename. This
+specific version may not actually be available from the repository.
+If you get a build error stating that the dependency is missing, edit
+the version number to for example "+" to pick up the latest version
+instead. (This may require you to update your code if the library APIs
+have changed.)
+
+gson-2.1.jar => version 2.1 in com.google.code.gson:gson:2.1
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => playerLibRelease\src\main\AndroidManifest.xml
+* assets\ => playerLibRelease\src\main\assets
+* libs\AdModule.jar => playerLibRelease\libs\AdModule.jar
+* libs\armeabi-v7a\libLetvAdSDK.so => playerLibRelease\src\main\jniLibs\armeabi-v7a\libLetvAdSDK.so
+* libs\armeabi-v7a\libMMANDKSignature.so => playerLibRelease\src\main\jniLibs\armeabi-v7a\libMMANDKSignature.so
+* libs\armeabi-v7a\libmvvtracker.so => playerLibRelease\src\main\jniLibs\armeabi-v7a\libmvvtracker.so
+* libs\avdsmart_sdk.jar => playerLibRelease\libs\avdsmart_sdk.jar
+* libs\cmf-sdk-1.0.17.jar => playerLibRelease\libs\cmf-sdk-1.0.17.jar
+* libs\LePanoVideo.jar => playerLibRelease\libs\LePanoVideo.jar
+* libs\letvadlib_lecloud.jar => playerLibRelease\libs\letvadlib_lecloud.jar
+* libs\org.apache.http.legacy.jar => playerLibRelease\libs\org.apache.http.legacy.jar
+* libs\playersdk_2016_04_25_17_v4.0.1_release.jar => playerLibRelease\libs\playersdk_2016_04_25_17_v4.0.1_release.jar
+* libs\VideoTracker.jar => playerLibRelease\libs\VideoTracker.jar
+* res\ => playerLibRelease\src\main\res
+* src\ => playerLibRelease\src\main\java
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

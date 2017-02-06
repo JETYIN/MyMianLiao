@@ -1,0 +1,35 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical">
+
+    <com.tjut.mianliao.black.MagicLinearLayout android:background="@color/white" android:layout_height="@dimen/tab_height" android:layout_width="match_parent" android:orientation="horizontal" android:paddingLeft="30dp" android:paddingRight="30dp">
+
+        <com.tjut.mianliao.theme.ThemeTextView style="@style/MianLiao.TabItem" android:id="@+id/tv_host" android:layout_height="match_parent" android:layout_weight="1" android:layout_width="0dp" android:text="@string/bty_credits_host" />
+
+        <com.tjut.mianliao.theme.ThemeTextView style="@style/MianLiao.TabItem" android:id="@+id/tv_guest" android:layout_height="match_parent" android:layout_weight="1" android:layout_width="0dp" android:text="@string/bty_credits_guest" />
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+    <View android:background="@color/txt_tab_item_green" android:layout_height="1px" android:layout_width="match_parent" />
+
+    <com.tjut.mianliao.black.MagicRelativeLayout android:background="@drawable/bg_item_with_top_bottom_lines" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_width="match_parent" android:orientation="vertical">
+
+        <com.tjut.mianliao.component.NameView android:drawablePadding="@dimen/mdl_name_spacing" android:id="@+id/tv_name" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:layout_width="wrap_content" android:textColor="#2E2E2E" android:textSize="16sp" />
+
+        <com.tjut.mianliao.theme.ThemeTextView android:background="@drawable/inset_5_bg_credit_red" android:gravity="center_vertical" android:id="@+id/tv_level" android:layout_height="24dp" android:layout_marginTop="9dp" android:layout_toRightOf="@id/tv_name" android:layout_width="wrap_content" android:paddingLeft="@dimen/bty_credit_padding_left" android:paddingRight="@dimen/bty_credit_padding_right" android:textColor="@color/white" android:textSize="10sp" />
+
+        <com.tjut.mianliao.black.MagicLinearLayout android:layout_below="@id/tv_name" android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal" android:padding="10dp">
+
+            <com.tjut.mianliao.theme.ThemeTextView style="@style/MianLiao.RatingNumberItem" android:drawableLeft="@drawable/ic_rating_good" android:id="@+id/tv_good" android:layout_height="wrap_content" android:layout_weight="1" android:layout_width="0dp" />
+
+            <com.tjut.mianliao.theme.ThemeTextView style="@style/MianLiao.RatingNumberItem" android:drawableLeft="@drawable/ic_rating_normal" android:id="@+id/tv_normal" android:layout_height="wrap_content" android:layout_weight="1" android:layout_width="0dp" />
+
+            <com.tjut.mianliao.theme.ThemeTextView style="@style/MianLiao.RatingNumberItem" android:drawableLeft="@drawable/ic_rating_bad" android:id="@+id/tv_bad" android:layout_height="wrap_content" android:layout_weight="1" android:layout_width="0dp" />
+        </com.tjut.mianliao.black.MagicLinearLayout>
+    </com.tjut.mianliao.black.MagicRelativeLayout>
+
+    <com.tjut.mianliao.black.MagicFrameLayout android:background="@drawable/line_dash_horizontal" android:layerType="software" android:layout_height="wrap_content" android:layout_margin="10dp" android:layout_width="match_parent">
+
+        <com.tjut.mianliao.theme.ThemeTextView android:background="@color/bg_basic" android:layout_gravity="center" android:layout_height="wrap_content" android:layout_width="wrap_content" android:maxLines="1" android:padding="2dp" android:text="@string/bty_credits_ratings" android:textColor="#FFA524" android:textSize="12sp" />
+    </com.tjut.mianliao.black.MagicFrameLayout>
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView android:divider="@color/hr_divider" android:dividerHeight="1px" android:id="@+id/ptrlv_rating" android:layout_height="match_parent" android:layout_width="match_parent" />
+
+</com.tjut.mianliao.black.MagicLinearLayout>

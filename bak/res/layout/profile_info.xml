@@ -1,0 +1,30 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@drawable/bg_card" android:id="@+id/ll_info_card" android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="vertical">
+
+    <com.tjut.mianliao.black.MagicLinearLayout android:id="@+id/ll_remark" android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="vertical" android:visibility="gone">
+
+        <com.tjut.mianliao.component.CardItemConf app:cardHint="@string/field_no_info" app:cardSingleLine="true" app:cardTitle="@string/prof_remark" android:id="@+id/cif_remark" android:layout_height="wrap_content" android:layout_width="match_parent" android:onClick="onClick" />
+
+        <include layout="@layout/hr_divider_with_margin" />
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+    <com.tjut.mianliao.black.MagicLinearLayout android:id="@+id/ll_account" android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="vertical" android:visibility="gone">
+
+        <com.tjut.mianliao.component.CardItem app:cardContentIsSelectable="true" app:cardHint="@string/field_no_info" app:cardSingleLine="true" app:cardTitle="@string/prof_account" android:id="@+id/ci_account" android:layout_height="wrap_content" android:layout_width="match_parent" />
+
+        <include layout="@layout/hr_divider_with_margin" />
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+    <com.tjut.mianliao.component.CardItem app:cardBtnBackground="@drawable/selector_btn_blue" app:cardBtnSrc="@drawable/btn_prof_call" app:cardContentIsSelectable="true" app:cardHint="@string/field_no_info" app:cardSingleLine="true" app:cardTitle="@string/prof_phone" android:id="@+id/ci_phone" android:layout_height="wrap_content" android:layout_width="match_parent" />
+
+    <include layout="@layout/hr_divider_with_margin" />
+
+    <com.tjut.mianliao.component.CardItem app:cardBtnBackground="@drawable/selector_btn_blue" app:cardBtnSrc="@drawable/btn_prof_mail" app:cardContentIsSelectable="true" app:cardHint="@string/field_no_info" app:cardSingleLine="true" app:cardTitle="@string/prof_email" android:id="@+id/ci_email" android:layout_height="wrap_content" android:layout_width="match_parent">
+
+        <com.tjut.mianliao.component.ProgressButton app:text="@string/prof_email_verify" app:textColor="@color/white" app:textSize="13sp" android:id="@+id/pb_email_verify" android:layout_gravity="center_vertical" android:layout_height="26dp" android:layout_marginRight="15dp" android:layout_width="54dp" android:visibility="gone" />
+    </com.tjut.mianliao.component.CardItem>
+
+    <include layout="@layout/hr_divider_with_margin" />
+
+    <com.tjut.mianliao.component.CardItem app:cardBtnVisibility="gone" app:cardContentIsSelectable="true" app:cardHint="@string/prof_no_short_desc" app:cardTitle="@string/prof_short_desc" android:id="@+id/ci_desc" android:layout_height="wrap_content" android:layout_width="match_parent" />
+
+</com.tjut.mianliao.black.MagicLinearLayout>

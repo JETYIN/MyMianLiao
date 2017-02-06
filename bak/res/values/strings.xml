@@ -1,0 +1,1841 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="zh">
+
+    <!-- Generic -->
+    <string name="app_name">面聊</string>
+    <string name="version">版本号</string>
+    <string name="check_for_update">检查更新</string>
+    <string name="clip_board_clipped">内容已复制到剪贴版</string>
+    <string name="field_no_info">无</string>
+    <string name="delete">删除</string>
+    <string name="create">创建</string>
+    <string name="view">查看</string>
+    <string name="edit">编辑</string>
+    <string name="share">分享</string>
+    <string name="contacts">通讯录 （%1$d人）</string>
+    <string name="contacts_title">通讯录&#160;&#160;&#160;&#160;</string>
+    <string name="high_chat_title">High群聊</string>
+    <string name="high_chat">嗨群聊</string>
+    <string name="high_open_time">每晚10：00开放</string>
+    <string name="access">进入</string>
+    <string name="high_chat_theme_no_entrance">只能进入一个话题</string>
+    <string name="loading">读取中…</string>
+    <string name="storage_not_available">存储卡不可用</string>
+    <string name="crop_image">剪裁图片</string>
+    <string name="user_agreement">面聊使用协议</string>
+    <string name="change_log">更新日志</string>
+    <string name="help">使用帮助</string>
+    <string name="invite_friends">邀请朋友</string>
+    <string name="invite_friends_desc">您的好友邀请您使用面聊，点击地址下载: </string>
+    <string name="please_choose">请选择</string>
+    <string name="handling_last_task">正在处理上一条任务</string>
+    <string name="reply">回复</string>
+    <string name="like">点赞</string>
+    <string name="liked">已赞</string>
+    <string name="cancel_like">取消赞</string>
+    <string name="ms_failure_template">%1$s (%2$s)</string>
+    <string name="choose_local_picture">选择本地图片</string>
+    <string name="take_a_photo">拍照</string>
+    <string name="question_mark">？</string>
+    <string name="finish">完成</string>
+    <string name="set_avatar">设置头像</string>
+    <string name="set_scene_image">设置背景</string>
+    <string name="confirm">请确认</string>
+    <string name="invite">邀请</string>
+    <string name="check_all">全选</string>
+    <string name="uncheck_all">取消全选</string>
+    <string name="agree">同意</string>
+    <string name="refuse">拒绝</string>
+    <string name="post">发表</string>
+    <string name="back">返回</string>
+    <string name="year">年</string>
+    <string name="month">月</string>
+    <string name="day">日</string>
+    <string name="hour">时</string>
+    <string name="minute">分</string>
+    <string name="date">日期</string>
+    <string name="time">时间</string>
+    <string name="field_tbd">待定</string>
+    <string name="report">举报</string>
+    <string name="ref_friends">"@好友"</string>
+    <string name="map">地图</string>
+    <string name="show_location">查看位置</string>
+    <string name="field_required">必填</string>
+    <string name="manage">订阅</string>
+    <string name="send">发送</string>
+    <string name="voice_message">[语音]</string>
+    <string name="picture_message">[图片]</string>
+    <string name="location_message">[位置]</string>
+    <string name="share_location_message">[共享位置]</string>
+    <string name="share_location_over">[位置共享结束]</string>
+    <string name="share_location_no_result">抱歉，未查询到结果</string>
+    <string name="add_friends_to_group">发起群聊</string>
+    <string name="add_friends">添加朋友</string>
+    <string name="group_chat_title">讨论组</string>
+    <string name="get_members_info_failed">群成员信息获取失败</string>
+    <string name="group_chat_info_title">聊天信息</string>
+    <string name="group_chat_start_message">我发起了群聊</string>
+    <string name="group_chat_not_support">对不起，该功能尚不支持群聊！</string>
+    <string name="group_chat_toast_text">功能开发中，敬请期待!</string>
+    <string name="group_chat_delete_chatrecord_success">聊天记录删除成功</string>
+    <string name="update_gorup_name">修改群聊名称</string>
+    <string name="update_my_nickname">我在本群的昵称</string>
+    <string name="chose_report_reason">选择举报原因</string>
+    <string name="chose_report_reason_toast">请选择一项举报内容</string>
+    <string name="report_success_toast">举报成功</string>
+    <string name="report_failed_toast">举报失败</string>
+    <string name="third_party_login">第三方登录</string>
+    <string name="login_loading_txt">登录中……</string>
+    <string name="other_party_login">其他方式登录</string>
+    <string name="chat_loading_voice">对方正在录音中……</string>
+    <string name="chat_loading_txt">对方正在输入中……</string>
+    <string name="splash_skip">跳过</string>
+    <string name="fast_menu_choose_info">+号快捷功能显示</string>
+    <string name="fast_menu_choose_count">(%1$d/4)</string>
+    <string name="more_music">更多音乐:</string>
+    <string name="tv_more_music">更多音乐</string>
+    <string name="Group_management">群聊管理</string>
+
+    <!-- app channel name -->
+    <string name="app_channel_wandoujia">豌豆荚</string>
+    <string name="app_channel_yingyongbao">应用宝</string>
+    <string name="app_channel_yingyonghui">应用汇</string>
+    <string name="app_channel_baidu">百度</string>
+    <string name="app_channel_xiaomi">小米</string>
+    <string name="app_channel_meizu">魅族</string>
+    <string name="app_channel_360">360</string>
+    <string name="app_channel_tjut">泰聚泰</string>
+    <string name="app_channel_sina">新浪微博</string>
+    <string name="app_channel_huawei">华为</string>
+
+    <!-- Upgrade manager -->
+    <string name="um_titile_desc">有重大版本更新啦！</string>
+    <string name="um_update_top_desc">面聊后续会努力为童鞋们获取更多便捷服务哒</string>
+    <string name="um_positive_btn">去更新嘞!</string>
+    <string name="um_negative_btn">我稍后去更新!</string>
+
+    <!-- FocusDialog -->
+    <string name="dia_title">更多精彩，敬请期待</string>
+    <string name="dia_text">面聊后续会努力为童鞋们获取更多便捷服务哒</string>
+    <string name="dia_button">知道啦!</string>
+    <!-- Police Report -->
+    <string name="pr_success">谢谢您的举报</string>
+    <string name="pr_failed">举报失败</string>
+
+    <!-- network -->
+    <string name="connecting">连接中…</string>
+    <string name="disconnected">未连接到服务器</string>
+    <string name="no_network">无网络连接</string>
+    <string name="connect_timeout">连接超时</string>
+    <string name="network_error">网络连接出错</string>
+    <string name="invalid_url">无效的地址</string>
+
+    <!-- foot bar -->
+    <string name="tab_chat">消息</string>
+    <string name="tab_my_college">我的大学</string>
+    <string name="tab_tribe">部落</string>
+    <string name="tab_forum">校园</string>
+    <string name="tab_explore">更多</string>
+    <string name="tab_more">更多</string>
+    <string name="tab_slogan">去，趣发现</string>
+    <string name="fun_game_title">上手容易，挑战辨别能力的小游戏,哟西，来！</string>
+    <string name="fun_game_buttom_tit">下午好趣味游戏板块是小小游戏乐园，趣味性强，偶尔逛一逛有益于身心健康</string>
+
+    <!-- Chat -->
+    <string name="me">我: </string>
+    <string name="more">更多</string>
+    <string name="call_checking_availability">同步状态…</string>
+    <string name="call_starting">启动中…</string>
+    <string name="call_failed">启动通话失败，请稍后再试</string>
+    <string name="call_voice_no_phone">TA未设手机号</string>
+    <string name="cht_chat_with_friends">与朋友一起聊天</string>
+    <string name="cht_chat_no_message">哼，还没有聊天消息喔！</string>
+    <string name="cht_open_contacts">进入通讯录</string>
+    <string name="cht_no_chat_recently">你近期还没有跟朋友聊过天哦，点击屏幕左上角的通讯录跟朋友聊天吧！</string>
+    <string name="cht_no_contact">咦？怎么还没有小伙伴呀？\n快来认识新的小伙伴吧！</string>
+    <string name="cht_find_contacts">添加好友</string>
+    <string name="cht_choose_call">选择通话方式</string>
+    <string name="cht_clip_board_label">面聊 - 聊天内容</string>
+    <string name="cht_multi_send_title">群发消息</string>
+    <string name="cht_multi_send_tst_no_msg">消息为空</string>
+    <string name="cht_multi_send_tst_failed">群发消息失败</string>
+    <string name="cht_multi_send_tst_success">消息已成功发送给好友</string>
+    <string name="cht_msg_voice">%1$d\"</string>
+    <string name="cht_pressed_to_record">按住录音</string>
+    <string name="cht_unpressed_to_end">松开结束</string>
+    <string name="cht_unpressed_to_finish">松开完成</string>
+    <string name="cht_move_up_to_cancle">上划取消</string>
+    <string name="cht_unpressed_to_cancle">松开取消</string>
+    <string name="cht_tst_voice_too_short">录音时间太短啦！</string>
+    <string name="cht_input_hint">输入：可以触发动作</string>
+    <string name="cht_input_hint_group">请输入内容</string>
+    <string name="cht_share_location_title">位置共享</string>
+    <string name="cht_request_dialog_title">位置共享确认</string>
+    <string name="cht_request_dialog_content">加入位置共享，聊天中其他人也能看到你的位置，确定加入？</string>
+    <string name="cht_sharelication_dialog_title">退出实时共享</string>
+    <string name="cht_sharelication_dialog_content">您确定要退出实时位置共享服务吗？</string>
+    <string name="cht_share_location_text">我发起了位置共享</string>
+    <string name="cht_share_location_persons">%1$d人在共享位置</string>
+    <string name="cht_share_location_distance">（距离：%1$s）</string>
+    <string name="cht_share_location_over_txt">位置共享已经结束</string>
+    <string name="cht_group_name_txt">群聊名称</string>
+    <string name="cht_group_size">群聊大小</string>
+    <string name="cht_group_chat_top">置顶聊天</string>
+    <string name="cht_group_chat_picture">聊天图片</string>
+    <string name="cht_group_set_backgroud">设置聊天背景</string>
+    <string name="cht_group_my_nickname">我的本群昵称</string>
+    <string name="cht_group_delete_record">清空聊天记录</string>
+    <string name="cht_report_group">举报</string>
+    <string name="cht_group_del_quit">删除并退出</string>
+    <string name="cht_group_quit_message">删除并退出后，将不再接收此群聊信息</string>
+    <string name="cht_group_del_records_message">确定删除群的聊天记录吗?</string>
+    <string name="please_input_gorup_name">请输入群聊名称</string>
+    <string name="please_input_nickname">请输入您的本群昵称</string>
+    <string name="cht_no_picture">暂无图片消息!</string>
+
+    <string-array name="cht_report_reasons">
+        <item>色情低俗</item>
+        <item>广告骚扰</item>
+        <item>政治敏感</item>
+        <item>谣言</item>
+        <item>诈骗钱财</item>
+        <item>违法暴力</item>
+        <item>抄袭冒用</item>
+    </string-array>
+    <string-array name="cht_share_location">
+        <item>发送位置</item>
+        <item>共享实时位置</item>
+    </string-array>
+    <string-array name="cht_long_press_menu">
+        <item>删除聊天记录</item>
+    </string-array>
+    <string-array name="cht_call_choices">
+        <item>打电话</item>
+        <item>(wifi) 视频</item>
+    </string-array>
+
+    <!-- Chat Extention -->
+    <string name="cht_ext_picture">图片</string>
+    <string name="cht_ext_location">位置</string>
+    <string name="cht_ext_emotion">表情</string>
+    <string name="cht_ext_bubble">气泡</string>
+    <string name="cht_ext_background">背景</string>
+    <string name="cht_ext_character">角色</string>
+    <string name="cht_ext_res_get_failed">聊天资源获取失败</string>
+    <string name="cht_ext_res_set_failed">聊天资源设置失败</string>
+
+    <!-- Notification -->
+    <string name="notify_chat">新聊天消息（%1$d条）</string>
+    <string name="notify_course">课程提醒</string>
+    <string name="notify_memo">备忘贴</string>
+    <string name="notify_memo_content">你有一条备忘贴</string>
+
+    <!-- News -->
+    <string name="news_homepage_title">公告</string>
+    <string name="news_details_title">正文</string>
+    <string name="news_category_all">全部公告</string>
+    <string name="news_category_hot">热门公告</string>
+    <string name="news_category_fav">我的收藏</string>
+    <string name="news_category_atten">我的关注</string>
+    <string name="news_tab1">面聊推荐</string>
+    <string name="news_tab2">本校公告</string>
+    <string name="news_favorite">收藏</string>
+    <string name="news_favorited">已收藏</string>
+    <string name="news_liked">%1$d人赞过</string>
+    <string name="news_liked_count">%1$d赞</string>
+    <string name="news_comment_title">所有评论</string>
+    <string name="news_comment_hint">亲，您也说两句吧</string>
+    <string name="news_commented_count">评论（%1$d条）</string>
+    <string name="news_commented_count_num">%1$d条评论</string>
+    <string name="news_comment_reply">回复 %1$s</string>
+    <string name="news_comment_content">回复%1$s：%2$s</string>
+    <string name="news_published_on">发布于 %1$s</string>
+    <string name="news_ticket_congrats">恭喜，您已经抢到票了！</string>
+    <string name="news_tst_not_found">未找到该公告</string>
+    <string name="news_tst_fetch_list_failed">公告列表更新失败</string>
+    <string name="news_tst_fetch_cmt_failed">获取公告评论失败</string>
+    <string name="news_tst_favorite_failed">收藏失败</string>
+    <string name="news_tst_favorite_success">已收藏</string>
+    <string name="news_tst_unfavorite_failed">取消收藏失败</string>
+    <string name="news_tst_unfavorite_success">已取消收藏</string>
+    <string name="news_tst_like_failed">点赞失败</string>
+    <string name="news_tst_like_success">已点赞</string>
+    <string name="news_tst_unlike_failed">取消赞失败</string>
+    <string name="news_tst_unlike_success">已取消赞</string>
+    <string name="news_tst_comment_failed">评论失败</string>
+    <string name="news_tst_comment_success">评论成功</string>
+    <string name="news_tst_ticket_failed">抢票失败</string>
+    <string name="news_details_write_comment">写评论</string>
+    <string name="news_title_all">全部公告</string>
+    <string name="news_title_ticket">抢票公告</string>
+    <string name="news_title_favorite">我的收藏</string>
+
+    <!-- News Source -->
+    <string name="news_source_details">详细资料</string>
+    <string name="news_source_authed">面聊官方认证账号</string>
+    <string name="news_source_followed_count">%1$d人关注</string>
+    <string name="news_source_follow">加关注</string>
+    <string name="news_source_unfollow">取消关注</string>
+    <string name="news_source_more">查看更多…</string>
+    <string name="news_source_qrcode">我们的二维码</string>
+    <string name="news_source_about">关于我们</string>
+    <string name="news_source_phone">联系电话</string>
+    <string name="news_source_email">电子邮件</string>
+    <string name="news_source_web">网址</string>
+    <string name="news_source_address">地址</string>
+    <string name="news_source_tst_not_found">未找到该公告源</string>
+    <string name="news_source_tst_profile_failed">获取公告源详细资料失败</string>
+    <string name="news_source_tst_follow_failed">关注公告源失败</string>
+    <string name="news_source_tst_news_failed">获取公告列表失败</string>
+
+    <!-- News Sources -->
+    <string name="news_sources_title">公告源</string>
+    <string name="news_sources_followed">我关注的</string>
+    <string name="news_sources_search_hint">你对什么感兴趣呢？</string>
+    <string name="news_sources_search_info">别错过这些优秀的公告源哟~</string>
+    <string name="news_sources_tst_fetch_error">获取公告源列表失败</string>
+
+    <!-- Login -->
+    <string name="lgi_login">登录</string>
+    <string name="lgi_hint_account">请输入面聊账号/邮箱</string>
+    <string name="lgi_hint_password">请输入您的密码</string>
+    <string name="lgi_login_failed">登录失败</string>
+    <string name="lgi_account_too_short">亲，账户名太短啦~</string>
+    <string name="lgi_password_too_short">亲，密码太短啦~</string>
+    <string name="lgi_logging_in">努力登录ing……</string>
+    <string name="lgi_wrong_login_info">账户名或密码不正确</string>
+    <string name="lgi_network_unavailable">哎呀呀，网络不可用啊</string>
+    <string name="lgi_login_expired">登录已失效</string>
+    <string name="lgi_login_expired_desc">请重新登录</string>
+    <string name="lgi_failed_too_frequent">登录太频繁，请稍后再试</string>
+    <string name="lgi_failed_ids_error">IDS服务器异常</string>
+    <string name="lgi_failed_version_too_old">面聊版本过低</string>
+    <string name="lgi_failed_version_too_old_desc">你的面聊版本过低，请点击“确定”获取最新版本的面聊。</string>
+    <string name="lgi_new_user">新用户请</string>
+    <string name="lgi_register"><u>点击注册</u></string>
+    <string name="lgi_forgot_password"><u>忘记密码?</u></string>
+    <string name="lgi_user_title">ML号</string>
+    <string name="lgi_success_submit">提交成功！</string>
+    <string name="lgi_prompt_mess">稍后你将会收到一封邮件，请根据邮件内提示重置密码。</string>
+    <string name="lgi_to_email">转到邮箱</string>
+    <string name="lgi_show_error_school">请选择学校</string>
+
+    <!-- Curriculum -->
+    <string name="cur_title_num_week" formatted="false">第 %d 周</string>
+    <string name="cur_current_week" formatted="false">第 %d 周（本周）</string>
+    <string name="cur_discurrent_week" formatted="false">第 %d 周（非本周）</string>
+    <string name="cur_week_mon">星期一</string>
+    <string name="cur_week_tue">星期二</string>
+    <string name="cur_week_wed">星期三</string>
+    <string name="cur_week_thu">星期四</string>
+    <string name="cur_week_fri">星期五</string>
+    <string name="cur_week_sat">星期六</string>
+    <string name="cur_week_sun">星期日</string>
+    <string name="cur_choose_course">选择课程</string>
+    <string name="cur_edit_course">编辑课程</string>
+    <string name="cur_di">第</string>
+    <string name="cur_jie">节</string>
+
+    <!-- Course widget hint -->
+    <string name="cur_widget_hint_title">添加桌面小部件</string>
+    <string name="cur_widget_hint">同学们，为了更方便快捷的使用“面聊”协助学习，我们可以通过“添加桌面小部件”把课程表添加到手机桌面哦~\n这样每天的课程，我们就一目了然了！</string>
+
+    <!-- Course Settings -->
+    <string name="cs_title">课表设置</string>
+    <string name="cs_cur_semester">当前学期</string>
+    <string name="cs_cur_week">当前周</string>
+    <string name="cs_query_score">查询成绩</string>
+    <string name="cs_desktop_widget">桌面小部件</string>
+    <string name="cs_refresh_course">刷新课表</string>
+
+    <!-- Course Query Score -->
+    <string name="course_score_info">您本学期的成绩（%1$s）</string>
+    <string name="course_credit">学分</string>
+    <string name="course_score">分</string>
+    <string name="course_query_score_failed">查询成绩失败</string>
+
+    <!-- Course Search -->
+    <string name="course_search_title">快速选课</string>
+    <string name="course_search_hint">请输入课程名称或教师名称</string>
+    <string name="course_search_info">可能是您的课程（%1$s）</string>
+    <string name="course_time_clear">提示</string>
+    <string name="course_time_clear_desc">确认去掉时间筛选条件？</string>
+    <string name="course_manual_add">手动添加该课程</string>
+    <string name="course_classmates_count">%1$d人</string>
+    <string name="course_classmates">同学</string>
+    <string name="course_teacher">老师</string>
+    <string name="course_entry">详情</string>
+    <string name="course_join">添加课程</string>
+    <string name="course_leave">退出课程</string>
+    <string name="course_rating">评分</string>
+    <string name="course_rating_desc">%1$.1f/5 (已有%2$s人评分)</string>
+    <string name="course_rating_failed">评分失败</string>
+    <string name="course_checkin">签到</string>
+    <string name="course_checkin_desc">目前共有%1$s人签到</string>
+    <string name="course_checkin_me">我要签到</string>
+    <string name="course_checkin_failed">签到失败</string>
+    <string name="course_tst_search_error">搜索出错</string>
+    <string name="course_tst_join_success">添加课程成功</string>
+    <string name="course_tst_join_failed">添加课程失败</string>
+    <string name="course_tst_join_already_joint">您已经添加过了该课程</string>
+    <string name="course_tst_leave_success">退出课程成功</string>
+    <string name="course_tst_leave_failed">退出课程失败</string>
+    <string name="course_tst_leave_hasnt_joint">您还没有添加该课程</string>
+    <string name="course_leave_confirm">你确定要退出：%1$s？</string>
+
+    <!-- Course Classmates -->
+    <string name="classmates_title">同学列表</string>
+    <string name="classmates_user_not_activated">用户不在线</string>
+
+    <!-- Course -->
+    <string name="course_description">@string/course_entry</string>
+    <string name="course_name_head">课程</string>
+    <string name="course_classroom_head">教室</string>
+    <string name="course_teacher_head">老师</string>
+    <string name="course_period_head">节数</string>
+    <string name="course_weeks_head">周数</string>
+    <string name="course_choose_weeks">请选择周数</string>
+    <string name="course_choose_periods">请选择节数</string>
+    <string name="course_delete_period">删除</string>
+    <string name="course_input_classroom">请输入教室</string>
+    <string name="course_add_period">添加更多课程时间</string>
+    <string name="course_delete">删除本课</string>
+    <string name="course_input_name">请输入课程名称</string>
+    <string name="course_input_teacher">请输入老师名字</string>
+    <string name="course_semester_desc">%1$d~%2$d学年 第%3$d学期</string>
+    <string name="course_week_desc">%1$s周</string>
+    <string name="course_odd_week_desc">%1$s~%2$s单周</string>
+    <string name="course_even_week_desc">%1$s~%2$s双周</string>
+    <string name="course_weekday_desc">%1$s</string>
+    <string name="course_period_desc">第%1$s节</string>
+    <string name="course_entry_desc">%1$s %2$s@%3$s</string>
+    <string name="course_total_classmates">目前共有%1$s位同学选择本课</string>
+    <string name="course_hint_loading">读取中……</string>
+    <string name="course_tst_failed_get_info">删除课程失败</string>
+    <string name="course_tst_get_init_data">正在从服务器获得初始课程数据</string>
+    <string name="course_tst_failed_get_init_data">获取课程初始化数据失败</string>
+    <string name="course_tst_fill_all_field">请填写所有的信息</string>
+    <string name="course_tst_period_overlapped">时间段冲突</string>
+    <string name="course_tst_course_updated">课程编辑成功</string>
+    <string name="course_tst_course_joint">课程添加成功</string>
+    <string name="course_tst_failed_join_course">添加课程失败(%1$s)，请再试一次</string>
+
+    <!-- Course Widget -->
+    <string name="course_wid_not_logged_in">同学，怎么忘记登录了啊？</string>
+    <string name="course_wid_no_lesson">今天没课哦~</string>
+    <string name="course_wid_unknown_location">未知地点</string>
+    <string name="course_wid_unknown">未知</string>
+    <string name="course_wid_label">面聊 课程表</string>
+
+    <!-- Course Forum -->
+    <string name="cf_post_my_reply">我的回复</string>
+    <string name="cf_post_campus">校园</string>
+    <string name="cf_post_stream">广场</string>
+    <string name="cf_post_hots">部落</string>
+    <string name="cf_post_mine">我的帖子</string>
+    <string name="cf_title">课程面团</string>
+    <string name="cf_join">我要参与</string>
+    <string name="cf_failed_to_get_post">获取帖子失败</string>
+    <string name="cf_failed_to_get_reply">获取回复失败</string>
+    <string name="cf_menu_all">当前讨论</string>
+    <string name="cf_like_failed">点赞失败</string>
+    <string name="cf_reply_failed">回复失败</string>
+    <string name="cf_delete_failed">删除失败</string>
+    <string name="cf_post_title">帖子正文</string>
+    <string name="cf_up">赞</string>
+    <string name="cf_liked_users">%1$s赞过</string>
+    <string name="cf_liked_users_more">%1$s等%2$d人赞过</string>
+    <string name="cf_quote_empty">内容为空</string>
+    <string name="cf_quote_post">%1$s发表了: %2$s</string>
+    <string name="cf_quote_reply_post">%1$s回复了%2$s的帖子: %3$s</string>
+    <string name="cf_quote_reply_reply">%1$s回复了%2$s: %3$s</string>
+    <string name="cf_post">发帖</string>
+    <string name="cf_delete_success">删除成功</string>
+    <string name="cf_reply_success">回复成功</string>
+    <string name="cf_forum_not_exist">该面团不存在</string>
+    <string name="cf_post_not_exist">该贴子不存在</string>
+    <string name="cf_reply_not_exist">该回复不存在</string>
+    <string name="cf_not_authed">无权限</string>
+    <string name="cf_banned">你被禁言了</string>
+    <string name="cf_post_locked">已关闭回复</string>
+    <string name="cf_too_frequent">发/回贴太频繁</string>
+    <string name="cf_list_empty">同学，这里还没有内容哟~</string>
+    <string name="cf_show_post">查看帖子</string>
+    <string name="cf_show_forum">查看面团</string>
+    <string name="cf_recommend">推荐</string>
+    <string name="cf_get_forum_list_failed">获取面团列表失败</string>
+    <string name="cf_school_section">本校</string>
+    <string name="cf_school_myschool">校内广场</string>
+    <string name="cf_public_section">全国</string>
+    <string name="cf_event_section">活动</string>
+    <string name="cf_add_more">更多面团</string>
+    <string name="cf_add_more_school">更多本校面团</string>
+    <string name="cf_add_more_public">更多全国面团</string>
+    <string name="cf_stick_thread">置顶</string>
+    <string name="cf_stick_thread_failed">置顶失败</string>
+    <string name="cf_recommend_thread_failed">推荐失败</string>
+    <string name="cf_unstick_thread">取消置顶</string>
+    <string name="cf_unstick_thread_confirm">你确定要取消这个帖子的置顶吗？</string>
+    <string name="cf_posts_today">今日话题 </string>
+    <string name="cf_image_count">共%1$d张</string>
+    <string name="cf_pop_post">人气</string>
+    <string name="cf_delete_post_confirm">您确定要删除这个帖子吗？</string>
+    <string name="cf_delete_reply_confirm">您确定要删除这条回复吗？</string>
+    <string name="cf_fetch_actors_failed">获取参与成员列表失败</string>
+    <string name="cf_add_picture">添加图片</string>
+    <string name="cf_show_source_post">查看源帖</string>
+    <string name="cf_create_channel_fail">创建部落失败</string>
+    <string name="cf_create_channel_fail_noid">要验证身份之后才能创建部落哦!</string>
+    <string name="cf_create_channel_fail_toomore">每天只能创建一个部落哦!</string>
+    <string name="cf_create_channel_go_idvif">去看看>></string>
+    <string name="cf_posting">正在发帖请稍等……</string>
+    <string name="cf_loading">页面加载中……</string>
+    <string name="cf_call_friend_title">选择好友</string>
+    <string name="cf_add_friend_notice"><u>添加Ta为好友</u>查看全部动态!</string>
+    <string name="cf_add_friend_request_succ">好友请求已发送\nTa有许多小秘密,小秘密!</string>
+    <string name="cf_collect_post">收藏</string>
+    <string name="cf_uncollect_post">取消收藏</string>
+    <string name="cf_post_video_preview">预览</string>
+    <string name="cf_post_video_cancle_notice_msg">确定放弃这段视频吗？</string>
+    <string name="cf_post_video_time_msg">%1$.1fs/10.0s</string>
+    <string name="cf_post_video_record_title">10s微拍</string>
+
+    <!-- Forum Post -->
+    <string name="fp_hint_content">正文（不能为空）</string>
+    <string name="fp_post">发表</string>
+    <string name="fp_tst_content_empty">没有内容可以提交</string>
+    <string name="fp_hint_vote_input">新选项</string>
+    <string name="fp_post_type">帖子类型</string>
+    <string name="fp_post_type_normal">普通贴</string>
+    <string name="fp_post_type_vote">投票贴</string>
+    <string name="fp_post_type_event">活动贴</string>
+    <string name="fp_post_type_recommend">推荐贴</string>
+    <string name="fp_vote_expire_on">截止时间</string>
+    <string name="fp_vote_add_more">添加选项</string>
+    <string name="fp_vote_add_more_max">已达上限</string>
+    <string name="fp_vote_type">投票类型</string>
+    <string name="fp_vote_type_normal">记名</string>
+    <string name="fp_vote_type_anony">匿名</string>
+    <string name="fp_tst_vote_option_less">投票选项不能少于两项</string>
+    <string name="fp_tst_vote_endtime_empty">请设置截止时间</string>
+    <string name="fp_load_datas">数据加载中...</string>
+    <string name="fp_upload_files">文件上传中...</string>
+    <string name="fp_voice_length">%1$ds</string>
+
+    <!-- Edit forum -->
+    <string name="ef_title">编辑面团</string>
+    <string name="ef_create_forum">创建面团</string>
+    <string name="ef_forum_name">名称</string>
+    <string name="ef_hint_title">名称（不能更改）</string>
+    <string name="ef_forum_intro">简介</string>
+    <string name="ef_hint_intro">简短的介绍说明</string>
+    <string name="ef_privacy">私密性</string>
+    <string name="ef_privacy_open">公开（游客可读可写）</string>
+    <string name="ef_privacy_open_read_only">半公开（游客只可读）</string>
+    <string name="ef_privacy_private">私密（只对组员开放）</string>
+    <string name="ef_members">组员</string>
+    <string name="ef_qrcard">面团二维码</string>
+    <string name="ef_posts">帖子</string>
+    <string name="ef_disband"><u>解散面团</u></string>
+    <string name="ef_disband_confirm">你确定要解散这个面团吗？该操作是不可逆的！</string>
+    <string name="ef_change_unsaved">您有未保存的修改</string>
+    <string name="ef_name_invalid">面团名称至少3个字符且不能包含空格</string>
+    <string name="ef_intro_empty">简介不能为空</string>
+    <string name="ef_act_join">加入</string>
+    <string name="ef_act_view">查看</string>
+    <string name="ef_act_quit">退出</string>
+    <string name="ef_act_quit_confirm">您确定要退出该面团吗？</string>
+    <string name="ef_act_manage">管理</string>
+    <string name="ef_act_join_failed">加入面团失败</string>
+    <string name="ef_act_join_success">申请已提交，请等待团长审核</string>
+    <string name="ef_act_join_success_joint">成功加入面团</string>
+    <string name="ef_act_quit_success">退出面团成功</string>
+    <string name="ef_act_quit_failed">退出面团失败</string>
+    <string name="ef_create_forum_success">成功创建面团</string>
+    <string name="ef_create_forum_failed">创建面团失败了</string>
+    <string name="ef_edit_forum_success">更新面团资料成功</string>
+    <string name="ef_edit_forum_failed">更新面团资料失败</string>
+    <string name="ef_disband_forum_success">面团已解散</string>
+    <string name="ef_disband_forum_failed">解散面团失败</string>
+    <string name="ef_new_member_requests">%1$d (新的请求: %2$d)</string>
+    <string name="ef_admin">团长</string>
+    <string name="ef_mianliao_wall_hint">面聊墙：如需让您的面团上墙，请在用户反馈里联系我们的客服，\  <Data><![CDATA[ <u><font color="#34CED9">点此进入</font></u> ]]></Data></string>
+    <string name="ef_create_forum_hint">嗨！主人，用心经营才会收到更多乐趣，可不要抛弃我而不顾哦！\
+        时常来自己的地盘逛逛会有更多惊喜等你哟！</string>
+
+    <!-- Forum recommended/Search -->
+    <string name="forum_member_count">组员%1$d</string>
+    <string name="forum_thread_count">帖子%1$d</string>
+    <string name="forum_recommended_hint">您可能会对这些面团感兴趣</string>
+    <string name="forum_recommended_tst_failed">获取推荐面团失败</string>
+    <string name="forum_recommended_post_label">热门推荐</string>
+    <string name="forum_search">面团搜索</string>
+    <string name="forum_search_hint">您搜索到的面团</string>
+    <string name="forum_search_input_hint">输入您感兴趣的名称进行搜索</string>
+    <string name="forum_search_tst_failed">搜索面团失败</string>
+    <string name="forum_search_ing">搜索中...</string>
+    
+
+    <!-- Forum member -->
+    <string name="forum_member_title">面团成员</string>
+    <string name="forum_member_input_hint">请输入成员昵称进行搜索</string>
+    <string name="forum_member_tst_members_failed">获取面团成员列表失败</string>
+    <string name="forum_member_tst_requests_failed">获取加入申请列表失败</string>
+    <string name="forum_member_tst_remove_failed">成员移出面团失败</string>
+
+    <string-array name="forum_member_menu">
+        <item>移出这个面团</item>
+    </string-array>
+
+    <!-- Forum new request -->
+    <string name="forum_new_request_title">新的加入申请</string>
+    <string name="forum_new_request_desc">请求加入面团</string>
+    <string name="forum_new_request_tst_failed">申请操作失败</string>
+
+    <!-- Forum invite -->
+    <string name="forum_invite_title">邀请好友</string>
+    <string name="forum_invite_tst_failed">邀请好友失败</string>
+    <string name="forum_invite_tst_success">邀请消息已成功发送给好友</string>
+
+    <!-- Forum post share -->
+    <string name="fp_share_title">分享给好友</string>
+    <string name="fp_share_tst_failed_privacy">抱歉，不能分享私密面团中的帖子</string>
+    <string name="fp_share_tst_failed">分享给好友失败</string>
+    <string name="fp_share_tst_success">帖子已成功分享给好友</string>
+
+    <!-- Forum settings -->
+    <string name="fs_filter_school">本校</string>
+    <string name="fs_filter_department">学院</string>
+    <string name="fs_filter_off">关闭</string>
+    <string name="fs_download_settings_failed">下载设置失败</string>
+    <string name="fs_save_settings_failed">保存设置失败</string>
+    <string name="fs_forum_settings_title">面团管理</string>
+    <string name="fs_forum_stream_label">精彩校园</string>
+    <string name="fs_add_school_forum">添加本校面团</string>
+    <string name="fs_add_public_forum">添加全国面团</string>
+    <string name="fs_description">您订阅的面团将显示在广场信息流里</string>
+    <string name="fs_listen_on">订阅</string>
+    <string name="fs_listen_off">退订</string>
+    <string name="fs_my_posts">我的</string>
+
+    <!-- Contacts -->
+    <string name="contacts_search_hint">快速查找</string>
+    <string name="contacts_check_hint">请至少选中一个联系人</string>
+
+    <!-- New Contact -->
+    <string name="nc_title">新的朋友</string>
+    <string name="nc_reject">拒绝</string>
+    <string name="nc_agree">同意</string>
+    <string name="nc_request_desc">请求添加你为好友</string>
+    <string name="nc_handling_last_request">仍在处理上一条请求</string>
+    <string name="public_num_title">公众号</string>
+
+    <!-- Add contact -->
+    <string name="adc_add_contact">添加好友</string>
+    <string name="adc_add_friend">找朋友</string>
+    <string name="adc_input_hint">请输入您好友的昵称</string>
+    <string name="adc_search_hint">点击查看详细用户信息</string>
+    <string name="adc_search_failed">查找用户失败</string>
+    <string name="adc_request_sent">好友请求已发送</string>
+    <string name="adc_request_sent_failed">好友请求发送失败</string>
+    <string name="adc_response_sent_failed">处理好友请求失败</string>
+    <string name="adc_nick_search">昵称搜索</string>
+    <string name="adc_face_match">面部匹配</string>
+    <string name="adc_face_match_desc">快来发现跟你有夫妻脸、基友相/丽友相的朋友</string>
+    <string name="adc_person_around">周边的人</string>
+    <string name="adc_person_around_desc">跟身边也在使用“面聊”的朋友打个招呼吧</string>
+    <string name="adc_friend_recommend">好友推荐</string>
+    <string name="adc_change_recommend">换一批</string>
+    <string name="adc_view_photo">看照片</string>
+    <string name="adc_tst_friend_recommend_failed">好友推荐失败</string>
+
+    <!-- Person Around -->
+    <string name="around_waiting_title">稍候片刻</string>
+    <string name="around_waiting_desc">亲，别着急。我们正在努力为您定位，马上就好……</string>
+    <string name="around_distance_desc">出现在约%1$s处</string>
+    <string name="around_distance_meter">%1$d米</string>
+    <string name="around_distance_km">%1$.1f公里</string>
+    <string name="around_gps_hint_title">提高“我的位置”精确度</string>
+    <string name="around_gps_hint_desc">如需获取更精确的位置服务，请您在室外时打开GPS设置</string>
+    <string name="around_tst_search_failed">搜索周边的人失败</string>
+
+    <!-- Face match -->
+    <string name="face_set_picture">设置一张美照</string>
+    <string name="face_set_category">设置一个分类</string>
+    <string name="face_category_couple">夫妻脸</string>
+    <string name="face_category_male">基友相</string>
+    <string name="face_category_female">丽友相</string>
+    <string name="face_search_start">开始查找</string>
+    <string name="face_search_continue">继续查找</string>
+    <string name="face_similar_desc">这位同学与您长得有点儿像哦～</string>
+    <string name="face_searching_desc">正在查找，请稍候…</string>
+    <string name="face_result_desc">相似度%1$s\n点击头像查看对方的详细资料</string>
+    <string name="face_error_parse">人脸匹配解析异常</string>
+    <string name="face_error_no_face">未能在您的头像里找到脸部（可能是太小或者太模糊？），请换一张照片试试</string>
+    <string name="face_error_get_facesets">获取分类列表失败，请稍后重试</string>
+    <string name="face_error_search_face">搜索相似脸失败，请稍后重试</string>
+    <string name="face_error_obtain_my_face">获取用户人脸失败，请稍后重试</string>
+    <string name="face_error_obtain_similar_face">获取相似人脸失败，请稍后重试</string>
+    <string name="face_error_set_pic">设置照片失败，请稍后重试</string>
+    <string name="face_error_detect_face">检测人脸失败，请稍后重试</string>
+    <string name="face_error_add_face">添加人脸失败，请稍后重试</string>
+    <string name="face_error_remove_face">删除人脸失败，请稍后重试</string>
+
+    <!-- Update -->
+    <string name="upd_no_new_version">您的面聊已经是最新的了</string>
+    <string name="upd_failed_check_new_version">检查更新失败，请稍后再试</string>
+    <string name="upd_has_update">有新版本: %1$s</string>
+    <string name="upd_has_update_major">有重要新版本: %1$s</string>
+    <string name="upd_update">升级</string>
+
+    <!-- More tab -->
+    <string name="more_bounty">任务</string>
+    <string name="more_quit">关闭面聊</string>
+    <string name="more_quit_desc">关闭后将不会收到面聊即时信息</string>
+    <string name="more_description_logout">注销或切换至其他帐号登录</string>
+    <string name="more_settings">设置</string>
+    <string name="more_qa">问答墙</string>
+    <string name="more_check_in">签到</string>
+    <string name="more_question">一答到底</string>
+    <string name="more_jobs">找工作</string>
+    <string name="more_curriculum">课程表</string>
+    <string name="more_scan">扫一扫</string>
+    <string name="more_notice">通知</string>
+    <string name="more_service">更多服务...</string>
+
+    <!-- Checkin -->
+    <string name="checkin_successful">签到成功</string>
+    <string name="checkin_failed">签到失败</string>
+
+    <!-- Profile -->
+    <string name="prof_edit">编辑</string>
+    <string name="prof_short_desc">个性签名</string>
+    <string name="prof_gender">性别</string>
+    <string name="prof_real_name">姓名</string>
+    <string name="prof_nick_name">昵称</string>
+    <string name="prof_email">邮箱</string>
+    <string name="prof_spacemil">邮    箱</string>
+    <string name="prof_phone">手机号码</string>
+    <string name="prof_account">登录账号</string>
+    <string name="prof_update_avatar">更换头像</string>
+    <string name="prof_edit_profile">编辑资料</string>
+    <string name="prof_change_not_saved">修改未保存</string>
+    <string name="prof_change_not_saved_desc">修改未保存，点击“放弃”退出</string>
+    <string name="prof_discard">放弃</string>
+    <string name="prof_save">保存</string>
+    <string name="prof_email_malformed">请填入正确的邮箱地址!</string>
+    <string name="prof_failed_save_picture">保存图片失败！</string>
+    <string name="prof_failed_update_profile">上传个人资料失败</string>
+    <string name="prof_not_connected">未连接到服务器</string>
+    <string name="prof_old_password_wrong">密码错误</string>
+    <string name="prof_new_password_too_short">新密码不能少于6位</string>
+    <string name="prof_password_dont_match">两次输入的新密码不匹配</string>
+    <string name="prof_update_password_failed">修改密码失败</string>
+    <string name="prof_update_password_success">修改密码成功</string>
+    <string name="prof_update_password">修改密码</string>
+    <string name="prof_old_password">请输入您的旧密码</string>
+    <string name="prof_new_password">请输入您的新密码</string>
+    <string name="prof_password_again">再次确认</string>
+    <string name="prof_no_medal">尚未获得</string>
+    <string name="prof_my_medal">我的勋章</string>
+    <string name="prof_cant_get_medal_info">无法获取勋章信息</string>
+    <string name="prof_getting_medal">从服务器获取勋章信息…</string>
+    <string name="prof_no_short_desc">Ta很懒,什么都没有留下</string>
+    <string name="prof_male">男</string>
+    <string name="prof_female">女</string>
+    <string name="prof_log_out">退出登录</string>
+    <string name="prof_send_email">发送邮件</string>
+    <string name="prof_desc_grade">%1$s级</string>
+    <string name="prof_my_qrcode">我的二维码</string>
+    <string name="prof_user_not_exist">用户不存在</string>
+    <string name="prof_user_fetch_failed">获取用户信息失败</string>
+    <string name="prof_update_photo">换一张</string>
+    <string name="prof_delete_photo">删除</string>
+    <string name="prof_set_as_avatar">设为头像</string>
+    <string name="prof_blacklist_add">加入黑名单</string>
+    <string name="prof_blacklist_add_success">已加入黑名单</string>
+    <string name="prof_blacklist_add_failed">加入黑名单失败，请稍后再试</string>
+    <string name="prof_blacklist_add_desc">加入黑名单，你将不再收到对方的消息</string>
+    <string name="prof_blacklist_remove">移出黑名单</string>
+    <string name="prof_blacklist_remove_success">已移出黑名单</string>
+    <string name="prof_blacklist_remove_failed">移出黑名单失败，请稍后再试</string>
+    <string name="prof_contact_add">添加好友</string>
+    <string name="prof_contact_remove">解除好友关系</string>
+    <string name="prof_contact_delete">删除好友</string>
+    <string name="prof_contact_remove_success">好友关系已解除</string>
+    <string name="prof_contact_remove_failed">解除好友关系失败，请稍后再试</string>
+    <string name="prof_contact_remove_desc">解除好友关系将同时删除与该好友的聊天记录</string>
+    <string name="prof_chat">发消息</string>
+    <string name="prof_remark">备注名称</string>
+    <string name="prof_remark_updated">备注名称已更新</string>
+    <string name="prof_remark_update_failed">更新备注名称失败</string>
+    <string name="prof_email_verify">绑定</string>
+    <string name="prof_email_verified">已绑定</string>
+    <string name="prof_email_input_code">请输入验证码</string>
+    <string name="prof_email_verify_failed">邮箱绑定失败</string>
+    <string name="prof_email_input_code_hint">* 验证码已发送到您的邮箱</string>
+    <string name="prof_degree_diploma">专科</string>
+    <string name="prof_degree_bachelor">本科</string>
+    <string name="prof_degree_master">硕士</string>
+    <string name="prof_sign_in_center">签到中心</string>
+    <string name="prof_sign_in_wait">初始化数据中，请稍候</string>
+    <string name="prof_sign_kernel">已获得2粒</string>
+    <string name="prof_day_interactive">白天动态</string>
+    <string name="prof_night_interactive">黑夜动态</string>
+    <string name="prof_update_bg">更换背景</string>
+    <string name="prof_img_pos_count">%1$d/%2$d</string>
+    <string name="prof_update_desc_des">这是我的个性，更是我的态度</string>
+    <string name="prof_update_nick_des">回眸一笑还是比不上昵称迷人</string>
+    <string name="prof_update_nick_count_style">(%1$d/8)</string>
+    <string name="prof_update_desc_count_style">(%1$d/30)</string>
+    <string name="prof_update_nick_not_null">昵称不能为空</string>
+    <string name="prof_update_nick_too_short">昵称太短啦</string>
+    <string name="prof_medal">荣誉勋章</string>
+    <string name="prof_local_file_noneed_save">本地文件，无需再次保存</string>
+    <string name="prof_personal_short_desc">请输入个性签名</string>
+	<string name="prof_got_up">获赞</string>
+	<string name="prof_visitor">浏览</string>
+	<string name="prof_got_up_num">获赞数</string>
+	<string name="prof_visitor_latest">最近来访</string>
+	<string name="prof_visitor_latest_desc">总浏览量%1$d   今日浏览量%2$d</string>
+	<string name="prof_got_up_desc">%1$d人赞了我的帖子,共获得%2$d个赞</string>
+	
+    
+    <!-- Points -->
+    <string name="points_count">%1$s 麦粒</string>
+    <string name="points_mine">我的麦粒</string>
+    <string name="points_desc">我要做任务，赚更多的麦粒</string>
+    <string name="points_info">麦粒说明</string>
+    <string name="points_quest_desc">%1$s (%2$d/%3$d)</string>
+    <string name="points_quest_desc_points">+%1$d 麦粒</string>
+    <string name="points_see_points_intro">查看麦粒说明</string>
+    <string name="points_my_quests">我的任务</string>
+    <string name="points_get_quests_failed">查询麦粒任务失败</string>
+    <string name="points_count_mine">我的麦粒(%1$d颗)</string>
+    <string name="points_count_other">Ta的麦粒(%1$d颗)</string>
+    <string name="points_gold_mine">我的金币(%1$d枚)</string>
+    <string name="points_gold_other">Ta的金币(%1$d枚)</string>
+    <string name="points_count_text">(%1$d颗)</string>
+    <string name="points_gold_text">(%1$d枚)</string>
+    <string name="points_count_mine_title">我的麦粒</string>
+    <string name="points_count_other_title">Ta的麦粒</string>
+    <string name="points_gold_mine_title">我的金币</string>
+    <string name="points_gold_other_title">Ta的金币</string>
+
+    <!-- Question -->
+    <string name="quest_begin">开始答题</string>
+    <string name="quest_exit">离开</string>
+    <string name="quest_correct">正确</string>
+    <string name="quest_wrong">错误</string>
+    <string name="quest_next">下一题</string>
+    <string name="quest_number">第%1$d题</string>
+    <string name="quest_no_more">都被你答完了啦</string>
+    <string name="quest_congrat">恭喜成为答题小王子！</string>
+
+    <!-- Feedback -->
+    <string name="fbk_title">用户反馈</string>
+    <string name="fbk_success">谢谢您的反馈！</string>
+    <string name="fbk_fail">反馈失败</string>
+    <string name="fbk_list_fail">获取反馈历史记录失败</string>
+
+    <!-- Developing -->
+    <string name="dvp_developing">正全力开发中</string>
+    <string name="dvp_description">很抱歉，我们的攻城狮正在全力开发中，敬请期待我们的新版本吧！</string>
+
+    <!-- Settings -->
+    <string name="setting_title">设置</string>
+    <string name="setting_new_message_sound">消息提示音</string>
+    <string name="setting_new_message_vibrate">振动提示</string>
+    <string name="setting_night_mode">23:00–8:00时间段免打扰</string>
+    <string name="setting_only_download_pictures_with_wifi">仅 WIFI 下载图片</string>
+    <string name="setting_enter_send_message">回车键发送消息</string>
+    <string name="setting_default_tab">默认主页面</string>
+    <string name="setting_daily_course_alarm">每日课程提醒</string>
+    <string name="setting_daily_course_alarm_time">每日提醒时间</string>
+    <string name="setting_daily_course_alarm_time_summary">%1$s %2$02d:%3$02d</string>
+    <string name="setting_account_safe_star">账号安全星级</string>
+    <string name="setting_account_safe_desc">绑定帐号及设置登录密码有助于提升账号安全</string>
+    <string name="setting_account_ml">ML帐号</string>
+    <string name="setting_account_login_pwd">登录密码</string>
+    <string name="setting_account_and_safe">账号与安全</string>
+    <string name="setting_safe_level">安全等级: %1$s</string>
+    <string name="setting_clear_cache">清除缓存</string>
+    <string name="setting_msg_notify">消息通知</string>
+    <string name="setting_exth_qq">腾讯QQ</string>
+    <string name="setting_exth_sina">新浪微博</string>
+    <string name="setting_exth_rr">人人网</string>
+    <string name="setting_exth_bind">去绑定</string>
+    <string name="setting_exth_unbind">已绑定</string>
+    <string name="setting_old_pwd">原密码</string>
+    <string name="setting_new_pwd">新密码</string>
+    <string name="setting_unbind">解除绑定</string>
+    <string name="setting_cannot_bind_ok">好吧</string>
+    <string name="setting_cannot_bind_msg">这是你唯一绑定的第三方帐号，不能解除绑定哦，么么哒</string>
+    <string name="setting_unbind_msg">确定要解除绑定 "%1$s" 吗？</string>
+    <string name="setting_binded_msg">亲，该帐号已被绑定过了哦!</string>
+
+    <string-array name="setting_daily_course_alarm_day">
+        <item>前一天</item>
+        <item>当天</item>
+    </string-array>
+    <string-array name="setting_daily_course_remind">
+        <item>你明天有%1$d门课</item>
+        <item>你今天有%1$d门课</item>
+    </string-array>
+
+    <string name="setting_daily_course_alarm_hour">%1$02d 时</string>
+    <string name="setting_daily_course_alarm_minute">%1$02d 分</string>
+    <string name="setting_privacy">隐私</string>
+    <string name="setting_about">关于面聊</string>
+    <string name="setting_no_hint">不再提示</string>
+    <string name="setting_set_now">现在设置</string>
+    <string name="setting_nick_hint">昵称提示</string>
+    <string name="setting_nick_hint_msg">您还没有昵称，现在就去设置吧！\n\n如果现在不设置，您的真实姓名将会被使用，以后您可以通过个人资料进行设置</string>
+
+    <!-- Privacy settings -->
+    <string name="setting_contacts_blacklist">我的黑名单</string>
+    <string name="setting_temporary_chat">允许陌生人聊天</string>
+    <string name="setting_hide_contact_info">对好友公开联系方式</string>
+    <string name="setting_update_failed">更改设置失败</string>
+
+    <!-- Scanner -->
+    <string name="scan_hint">请将二维码或条形码置于上面的扫描框中进行自动扫描</string>
+    <string name="scan_camera_not_available">相机不可用</string>
+    <string name="scan_result">扫描结果</string>
+    <string name="scan_copy">复制</string>
+    <string name="scan_clip_board_label">面聊 - 扫一扫</string>
+    <string name="scan_send_email">@string/prof_send_email</string>
+    <string name="scan_open">打开</string>
+    <string name="scan_call">拨打电话</string>
+    <string name="scan_handling">处理中…</string>
+
+    <!-- QR code -->
+    <string name="qrc_title">二维码名片</string>
+    <string name="qrc_failed_gen_qrcode">制作二维码失败</string>
+    <string name="qrc_desc_user">扫一扫上面的二维码加我为好友\n（点击保存二维码图片）</string>
+    <string name="qrc_desc_forum">扫一扫上面的二维码加入面团\n（点击保存二维码图片）</string>
+    <string name="qrc_desc_news_source">扫一扫上面的二维码关注公告源\n（点击保存二维码图片）</string>
+    <string name="qrc_qrcode_saved">二维码已保存</string>
+    <string name="qrc_qrcode_save_failed">保存二维码失败</string>
+    <string name="qrc_view">查看</string>
+
+    <!-- Ticket -->
+    <string name="tic_title">检票</string>
+    <string name="tic_ticket">票号: </string>
+    <string name="tic_wicket_success">检票通过</string>
+    <string name="tic_wicket_failed">检票失败</string>
+    <string name="tic_desc_success">票号: %1$s\n公告: %2$s</string>
+    <string name="tic_desc_failed">票号: %1$s\n公告: %2$s\n原因: %3$s</string>
+    <string name="tic_view_records">查看记录</string>
+    <string name="tic_continue">继续检票</string>
+    <string name="tic_fail_checked_on">该票已检于: </string>
+    <string name="tic_fail_invalid">无效的票</string>
+    <string name="tic_fail_not_authed">你无权限处理这张票</string>
+    <string name="tic_fail_other">其他: </string>
+    <string name="tic_input_hint">请输入票号</string>
+    <string name="tic_input_correct_ticket">请输入正确的票号</string>
+    <string name="tic_manual_check">手动检票</string>
+    <string name="tic_recent_wicket_records">最近检票记录</string>
+
+    <!-- QA -->
+    <string name="qa_ask">提问</string>
+    <string name="qa_question">问题</string>
+    <string name="qa_answer">回答</string>
+    <string name="qa_solved">已解决</string>
+    <string name="qa_choose_image">选择图片</string>
+
+    <string-array name="qa_image_choices">
+        <item>预览</item>
+        <item>删除</item>
+    </string-array>
+
+    <string name="qa_discard_title">未提交</string>
+    <string name="qa_discard_message">放弃已编辑的内容?</string>
+    <string name="qa_discard_continue">继续编辑</string>
+    <string name="qa_discard_quit">放弃</string>
+    <string name="qa_upload_title">正在上传</string>
+    <string name="qa_upload_message">是否放弃上传？</string>
+    <string name="qa_upload_wait">等待</string>
+    <string name="qa_upload_quit">停止并退出</string>
+    <string name="qa_upload_failed">上传失败</string>
+    <string name="qa_get_data_failed">获取数据失败</string>
+    <string name="qa_choose_answer_success">选择答案成功</string>
+    <string name="qa_choose_answer_failed">选择答案失败</string>
+    <string name="qa_submit">确认提交</string>
+    <string name="qa_post_hint_question">请输入问题内容</string>
+    <string name="qa_post_hint_answer">请输入回答内容</string>
+    <string name="qa_desc_empty">内容不能为空</string>
+    <string name="qa_create_an_answer">我要回答</string>
+    <string name="qa_invalid_question">无效的问题</string>
+    <string name="qa_handle_image_failed">处理图片失败</string>
+    <string name="qa_menu_all">全部问题</string>
+    <string name="qa_menu_asked">我的问题</string>
+    <string name="qa_menu_answered">我的回答</string>
+    <string name="qa_choose_answer">选择答案</string>
+    <string name="qa_choose_answer_desc">选择该答案为最佳答案（一旦选中，无法更改）？</string>
+
+    <!-- Image Activity -->
+    <string name="ia_title">查看图片</string>
+    <string name="ia_invalid_image_uri">无效的图片地址</string>
+    <string name="ia_open_file_failed">打开文件失败</string>
+    <string name="ia_downloading">图片下载中</string>
+    <string name="ia_image_saved">图片保存于：%1$s</string>
+    <string name="ia_image_save_failed">图片保存失败</string>
+
+    <!-- MsResponse -->
+    <string name="msr_cancelled">已取消</string>
+    <string name="msr_parse_failed">解析服务器返回数据出错</string>
+    <string name="msr_missing_parameter">缺少参数</string>
+    <string name="msr_database_error">数据库错误</string>
+    <string name="msr_attachment_error">附件错误</string>
+    <string name="msr_mail_error">邮件错误</string>
+    <string name="msr_maintaining">系统维护中</string>
+    <string name="msr_failed_not_authed">无权限</string>
+    <string name="msr_failed_invalid_status">无效的状态</string>
+    <string name="msr_failed_101">未知请求</string>
+    <string name="msr_failed_102">无效的请求</string>
+    <string name="msr_failed_104">无效的参数</string>
+    <string name="msr_failed_214">该学号已经被认证过</string>
+    <string name="msr_failed_215">今日已签到</string>
+    <string name="msr_failed_216">无效昵称</string>
+    <string name="msr_failed_217">验证失败</string>
+    <string name="msr_failed_218">对不起，该邮箱已被绑定，请使用其他邮箱</string>
+    <string name="msr_failed_508">评论不存在</string>
+    <string name="msr_failed_601">学期未设置</string>
+    <string name="msr_failed_908">仅对组员开放</string>
+    <string name="msr_failed_909">用户未提交申请</string>
+    <string name="msr_failed_910">已经提交过申请</string>
+    <string name="msr_failed_911">用户不是一个会员</string>
+    <string name="msr_failed_912">您已经是会员啦</string>
+    <string name="msr_failed_913">面团已存在</string>
+    <string name="msr_failed_914">您今天已经创建了太多的面团啦</string>
+    <string name="msr_failed_1001">活动不存在</string>
+    <string name="msr_failed_1101">该活动不存在</string>
+    <string name="msr_failed_1207">职位不存在</string>
+    <string name="msr_failed_1211">请先填写简历</string>
+    <string name="msr_failed_1212">简历已存在</string>
+    <string name="msr_failed_1215">邀请不存在</string>
+    <string name="msr_failed_1216">申请已存在</string>
+    <string name="msr_failed_1301">你已被禁言</string>
+    <string name="msr_failed_1302">未激活</string>
+    <string name="msr_failed_1401">任务不存在</string>
+    <string name="msr_failed_1404">今天不能再发布更多任务了</string>
+    <string name="msr_failed_1405">记录不存在</string>
+    <string name="msr_failed_1408">今天已经完成太多任务了</string>
+    <string name="msr_failed_1409">不能同时进行过多的任务哦</string>
+
+    <!-- Medal -->
+    <string name="mdl_title">%1$s的勋章</string>
+    <string name="mdl_no_medal">无勋章</string>
+    <string name="mdl_set_hint">提示：点击眼睛图标可以展示勋章，您最多可以展示%1$d个哟~</string>
+    <string name="mdl_set_confirm">确认展示</string>
+    <string name="mdl_unset_hint">您确定要取消展示勋章吗？</string>
+    <string name="mdl_set_tst_max_num">您最多可以展示%1$d个勋章</string>
+    <string name="mdl_set_tst_failed">设置展示勋章失败</string>
+    <string name="mdl_all_medals">所有勋章</string>
+    <string name="mdl_all_medals_tst_failed">获取所有勋章失败</string>
+    <string name="mdl_apply_hint">提示：如果您已达到获得勋章的条件后，系统将会自动授予您勋章哟！</string>
+
+    <!-- SNS -->
+    <string name="sns_share_title">分享到社交平台</string>
+
+    <!-- Notice -->
+    <string name="ntc_title">@string/more_notice</string>
+    <string name="ntc_sys_msg">系统消息</string>
+    <string name="ntc_sys_medal">恭喜您获得勋章“%1$s”</string>
+    <string name="ntc_qa_quest_answer">回答了我提出的问题%1$s：</string>
+    <string name="ntc_qa_answer_accept">在问题%1$s中选择了我的回答：</string>
+    <string name="ntc_qa_quest_at">在提出的问题中提到了我：</string>
+    <string name="ntc_qa_answer_at">在问题%1$s的回答中提到了我：</string>
+    <string name="ntc_comment_reply">在公告%1$s中回复了我：</string>
+    <string name="ntc_comment_at">在公告%1$s的评论中提到了我：</string>
+    <string name="ntc_forum_reply_post">回复了我的帖子%1$s：</string>
+    <string name="ntc_forum_reply_reply">回复了我的评论%1$s：</string>
+    <string name="ntc_forum_invite">邀请我加入面团%1$s，赶快点击查看吧</string>
+    <string name="ntc_forum_post_share">在面团%1$s中分享了一篇帖子给我，赶快点击查看吧</string>
+    <string name="ntc_forum_post_at">在帖子%1$s中提到了我：</string>
+    <string name="ntc_forum_reply_at">在帖子%1$s的评论中提到了我：</string>
+    <string name="ntc_forum_post_updated">您之前参与的帖子%1$s有更新啦，赶快点击查看吧</string>
+    <string name="ntc_bounty_request">认领了我发布的任务：</string>
+    <string name="ntc_bounty_at">在发布的任务中提到了我：</string>
+    <string name="ntc_bounty_rated">在任务%1$s中评价了我：</string>
+    <string name="ntc_at_reply_comment">评论/回复/@我</string>
+    <string name="ntc_up_down">点赞/点踩</string>
+
+    <string-array name="ntc_qa_menu">
+        <item>采纳</item>
+        <item>查看问题</item>
+    </string-array>
+    <string-array name="ntc_news_menu">
+        <item>回复</item>
+        <item>查看公告</item>
+    </string-array>
+    <string-array name="ntc_forum_menu">
+        <item>回复</item>
+        <item>查看帖子</item>
+    </string-array>
+
+    <string name="ntc_tst_summary_failed">获取通知个数失败</string>
+    <string name="ntc_tst_list_failed">获取通知列表失败</string>
+
+    <!-- Register -->
+    <string name="reg_choose_school">选择学校</string>
+    <string name="reg_choose_school_hint">看看这里有你的学校吗？</string>
+    <string name="reg_choose_school_search_hint">请输入学校名称</string>
+    <string name="reg_choose_department">选择院系</string>
+    <string name="reg_choose_department_hint">看看这里有你的学院吗？</string>
+    <string name="reg_choose_department_search_hint">请输入学院名称</string>
+    <string name="reg_choose_start_year">选择入学年份</string>
+    <string name="reg_choose_edu_back">选择学历</string>
+    <string name="reg_education_back">学历</string>
+    <string name="reg_start_year_desc">%1$d 年</string>
+    <string name="reg_edu_info">教育信息</string>
+    <string name="reg_school">学校</string>
+    <string name="reg_department">学院</string>
+    <string name="reg_start_year">入学年份</string>
+    <string name="reg_next">下一步</string>
+    <string name="reg_account_info">必填信息</string>
+    <string name="reg_login_name">登录账号</string>
+    <string name="reg_login_mlname">ML 号</string>
+    <string name="reg_login_name_hint">请输入登录账号</string>
+    <string name="reg_password">密码</string>
+    <string name="reg_password_hint">请输入至少6位密码</string>
+    <string name="reg_password_again">确认密码</string>
+    <string name="reg_password_again_hint">请再次输入密码</string>
+    <string name="reg_nick_name">昵称</string>
+    <string name="reg_nick_name_hint">请输入2~8位昵称</string>
+    <string name="reg_format_user_name">登录账号6~32个字符，可使用字母（大小写无关）、数字、下划线，需以字母开头。</string>
+    <string name="reg_format_password">密码6~32个字符，区分大小写</string>
+    <string name="reg_format_password_inconsistent">两次填写的密码不一致</string>
+    <string name="reg_format_nickname">昵称需至少2个字符，且不能有空格</string>
+    <string name="reg_format_nickname_puppet">昵称里含非法字符（@/#）</string>
+    <string name="reg_optional_info">选填信息</string>
+    <string name="reg_avatar">设置一张美照</string>
+    <string name="reg_avatar_confirmation">建议您现在就设置一张美照，当然您也可以稍后进行设置。</string>
+    <string name="reg_email_hint">请输入邮箱用于找回密码</string>
+    <string name="reg_email_invalid">请输入一个合法的邮箱地址</string>
+    <string name="reg_setup_now">现在编辑</string>
+    <string name="reg_finish">完成注册</string>
+    <string name="reg_username_not_available">该用户名不可用</string>
+    <string name="reg_existing_username">用户名已存在</string>
+    <string name="reg_other_school">其他学校</string>
+    <string name="reg_other_department">其他院系</string>
+    <string name="reg_failed">注册失败</string>
+    <string name="regist">注册</string>
+    <string name="input_username">请输入以字母开头的6#8211;16位帐号</string>
+    <string name="input_passward">请设置6—16位密码</string>
+    <string name="reg_waiting">注册中,请稍候...</string>
+
+    <!-- Forgot Password -->
+    <string name="fpwd_title">忘记密码？</string>
+    <string name="fpwd_submit">提交</string>
+    <string name="fpwd_reset_success">稍后您会收到一封邮件，请根据邮件内的提示重置密码。</string>
+    <string name="fpwd_reset_failed">提交失败</string>
+    <string name="fpwd_ids_not_allowed">教务系统账号请去教务系统进行修改</string>
+    <string name="fpwd_contact_us">联系我们: </string>
+    <string name="fpwd_login_name_invalid">请输入一个合法的登录名</string>
+    <string name="fpwd_login_name_email_not_match">用户名和邮件不匹配</string>
+
+    <!-- Identity Verification -->
+    <string name="iv_title">身份认证</string>
+    <string name="iv_upload_hint">提示：请正确上传您的学号和清晰的学生证照片</string>
+    <string name="iv_stu_number_input_hint">请输入您的学号</string>
+    <string name="iv_upload_stu_card">给学生证拍张照</string>
+    <string name="iv_keep_stu_card_clear">请保证照片内容清晰可辨</string>
+    <string name="iv_submit">确认提交</string>
+    <string name="iv_upload_succeeded">资料上传成功，请等待人工审核</string>
+    <string name="iv_upload_failed">上传资料失败</string>
+    <string name="iv_stu_number_invalid">请输入您的学生证号</string>
+    <string name="iv_missing_stu_card">请上传您的学生证照片</string>
+    <string name="iv_desc_id_student">学生的身份认证完成后，这个图标将会出现在您的个人信息页面</string>
+    <string name="iv_desc_id_teacher_business">教师、企业用户由于认证手续较为复杂，请通过线下渠道联系客服以完成身份认证</string>
+
+    <!-- Promotion -->
+    <string name="prom_take_a_look">马上参与</string>
+    <string name="prom_get_info_failed">获取资料失败</string>
+    <string name="prom_no_promotion_found">未找到活动资料</string>
+
+    <!-- Jobs -->
+    <string name="job_title">招聘查询</string>
+    <string name="job_my_jobs">我的工作</string>
+    <string name="job_work_location">地点</string>
+    <string name="job_work_category">类型</string>
+    <string name="job_work_type">性质</string>
+    <string name="job_apply_resume">申请</string>
+    <string name="job_applied_resume">已申请</string>
+    <string name="job_apply_failed">简历投递失败</string>
+    <string name="job_applied_job">简历已投递: </string>
+    <string name="job_list_job_failed">获取工作列表失败</string>
+    <string name="job_filter_any">不限</string>
+    <string name="job_detail_title">详情</string>
+    <string name="job_info">工作描述</string>
+    <string name="job_corp_info">公司简介</string>
+    <string name="job_not_found">职位未找到</string>
+    <string name="job_apply_now">马上投递</string>
+    <string name="job_get_corp_info_failed">获取公司信息失败</string>
+    <string name="job_other_jobs">该公司其他热招岗位</string>
+    <string name="job_take_a_look">看一看</string>
+    <string name="job_not_verified">请先认证您的账号</string>
+    <string name="job_download_form">下载申请表</string>
+    <string name="job_invited">被邀请</string>
+    <string name="job_invited_desc">你受到了这份职位的邀请，是否允许其查看你的联系方式？</string>
+    <string name="job_invite_accepted">同意了邀请</string>
+    <string name="job_invite_refused">拒绝了邀请</string>
+    <string name="job_invite_accept_failed">同意邀请失败</string>
+    <string name="job_invite_refuse_failed">拒绝邀请失败</string>
+    <string name="job_forum">面团工作讨论区</string>
+    <string name="job_forum_join">我要参与</string>
+    <string name="job_search_hint">请输入工作名称进行搜索</string>
+    <string name="job_position">职位</string>
+    <string name="job_recru_corp">公司</string>
+    <string name="job_recru_invite_time">招聘时间</string>
+    <string name="job_recru_scan_title">招聘浏览</string>
+    <string name="job_new">发布</string>
+    <string name="job_intel_match">智能匹配</string>
+    <string name="job_my_resume">我的简历</string>
+    <string name="job_recru_cal">就业日历</string>
+    <string name="job_share_count">分享%1$d</string>
+    <string name="job_delivered">已投递</string>
+
+    <!-- Offer -->
+    <string name="offer_view_details">查看详情 ></string>
+    <string name="offer_title_receive">来自%1$s的邀请</string>
+    <string name="offer_title_send">发给%1$s的申请</string>
+    <string name="offer_desc_100">%1$s查看了您的简历，并邀请您接受他们的%2$s工作</string>
+    <string name="offer_desc_101">您接受了%1$s的%2$s工作</string>
+    <string name="offer_desc_102">您拒绝了%1$s的%2$s工作</string>
+    <string name="offer_desc_200">您申请了%1$s的%2$s工作，请耐心等待对方的答复</string>
+    <string name="offer_desc_201">%1$s接受了您对%2$s工作的申请</string>
+    <string name="offer_desc_202">%1$s拒绝了您对%2$s工作的申请</string>
+    <string name="offer_tst_failed">获取请求列表失败</string>
+
+    <!-- Resume -->
+    <string name="rsm_title">%1$s的简历</string>
+    <string name="rsm_title_mine">简历</string>
+    <string name="rsm_photo">设置一张清晰的生活照</string>
+    <string name="rsm_real_name">姓名</string>
+    <string name="rsm_real_name_hint">请输入您的真实姓名</string>
+    <string name="rsm_birth_year">出生年份</string>
+    <string name="rsm_phone">电话</string>
+    <string name="rsm_phone_hint">请输入您的联系电话</string>
+    <string name="rsm_qq">QQ</string>
+    <string name="rsm_qq_hint">请输入您的QQ号码</string>
+    <string name="rsm_email">邮箱</string>
+    <string name="rsm_email_hint">请输入您的邮箱地址</string>
+    <string name="rsm_education">学习经历</string>
+    <string name="rsm_education_hint">请输入您的教育程度和学习经历</string>
+    <string name="rsm_certificate">资格证书</string>
+    <string name="rsm_certificate_hint">请列举您所持有的资格证书</string>
+    <string name="rsm_award">获奖经历</string>
+    <string name="rsm_award_hint">请列举您所获得的奖项</string>
+    <string name="rsm_major">专业</string>
+    <string name="rsm_major_hint">请输入您所学习的专业</string>
+    <string name="rsm_practice">社会实践</string>
+    <string name="rsm_practice_hint">请列举您的社会实践经历</string>
+    <string name="rsm_intro">其他简介</string>
+    <string name="rsm_intro_hint">请输入您擅长的技能或爱好</string>
+    <string name="rsm_category">工作类型</string>
+    <string name="rsm_type">工作性质</string>
+    <string name="rsm_user_status">目前状态</string>
+    <string name="rsm_user_status_0">不想找工作</string>
+    <string name="rsm_user_status_1">寻觅工作中</string>
+    <string name="rsm_user_status_2">已找到工作</string>
+    <string name="rsm_save">保存简历</string>
+    <string name="rsm_tst_load_failed">获取简历失败</string>
+    <string name="rsm_tst_save_failed">保存简历失败</string>
+    <string name="rsm_tst_delete_failed">删除简历失败</string>
+    <string name="rsm_tst_upload_failed">上传简历失败</string>
+    <string name="rsm_tst_incorrect_real_name">请输入正确的真实姓名</string>
+    <string name="rsm_tst_empty_birth_year">请选择您的出生年份</string>
+    <string name="rsm_tst_empty_graduation_year">请选择您的毕业时间</string>
+    <string name="rsm_tst_empty_major">请输入你的专业</string>
+    <string name="rsm_tst_emtpy_contact_method">请输入至少一种联系方式（电话，QQ或邮箱）</string>
+    <string name="rsm_tst_incorrect_phone">请输入正确的电话号码</string>
+    <string name="rsm_tst_incorrect_qq">请输入正确的QQ号码</string>
+    <string name="rsm_tst_incorrect_email">请输入正确的邮箱地址</string>
+    <string name="rsm_tst_empty_category">请选择至少一个工作类型</string>
+    <string name="rsm_tst_exceeded_category">请选择最多三个工作类型</string>
+    <string name="rsm_menu_normal_resume">基本简历</string>
+    <string name="rsm_menu_upload_resume">上传简历</string>
+    <string name="rsm_upload_resume_title">上传简历</string>
+    <string name="rsm_uploaded_resume_lable">简历:</string>
+    <string name="rsm_add_resume_lable">导入:</string>
+    <string name="rsm_upload_resume_hint">点击此处导入简历。最多能导入3份，每份容量不超过5MB。</string>
+    <string name="rsm_menu_download_resume">下载</string>
+    <string name="rsm_menu_delete_resume">删除</string>
+    <string name="rsm_menu_retry_upload">重新上传</string>
+    <string name="rsm_tst_resume_uploading">简历正在努力上传中，请稍候</string>
+    <string name="rsm_tst_choose_resume">选择简历</string>
+    <string name="rsm_tst_deliver_resume">投递简历</string>
+    <string name="rsm_tst_postscript_hint">说点啥…</string>
+    <string name="rsm_tst_normal_resume">面聊基本简历</string>
+    <string name="rsm_tst_hightlight_hint">360招式还未展现，速来我的亮点报上你的优秀事迹来140字的详尽版标签，实习经历、技能证书、获奖经历、我们没想到的、你拥有的都可以写在这里~</string>
+
+    <!-- Vote -->
+    <string name="fv_vote_desc_format">%1$s (%2$d票 %3$s)</string>
+    <string name="fv_vote_desc_format_zero">%1$s (0票)</string>
+    <string name="fv_vote_failed">投票失败</string>
+    <string name="fv_view_voters"><u>查看投票成员</u></string>
+    <string name="fv_vote_btn_text">投票 (截止于：%1$s)</string>
+    <string name="fv_tst_choice_not_made">请选择一个选项</string>
+    <string name="fv_voted">投了：%1$s</string>
+    <string name="fv_voters">投票成员</string>
+    <string name="fv_vote_confirm">投票贴确认</string>
+    <string name="fv_vote_confirm_desc">投票贴在发布之后不能被编辑，请确认您输入的信息的完善与正确</string>
+    <string name="fv_vote_not_editable">投票贴无法被编辑</string>
+
+    <!-- Forum Event -->
+    <string name="fe_feature">特色</string>
+    <string name="fe_feature_hint">请用一句话描述</string>
+    <string name="fe_location">地点</string>
+    <string name="fe_location_hint">活动地点</string>
+    <string name="fe_start_at">开始时间</string>
+    <string name="fe_reg_deadline">报名截止</string>
+    <string name="fe_contact">联系方式</string>
+    <string name="fe_contact_hint">联系方式</string>
+    <string name="fe_quota">人数限制</string>
+    <string name="fe_quota_hint">0或不填表示不限制</string>
+    <string name="fe_cost">费用</string>
+    <string name="fe_cost_hint">活动花费</string>
+    <string name="fe_register">报名</string>
+    <string name="fe_reg_count_desc">已有%1$d人报名（上限%2$s人）</string>
+    <string name="fe_reg_count_desc_unlimited">已有%1$d人报名</string>
+    <string name="fe_event_participants">报名成员</string>
+    <string name="fe_view_participants"><u>查看报名成员</u></string>
+    <string name="fe_tst_register_failed">报名失败</string>
+
+    <!-- Forum Event List -->
+    <string name="fe_list">活动专区</string>
+    <string name="fe_list_latest">最新活动</string>
+    <string name="fe_list_attended">我参与的</string>
+    <string name="fe_list_owned">我发布的</string>
+    <string name="fe_list_tst_fetch_failed">获取活动列表失败</string>
+    <string name="fe_remind_msg">消息提醒</string>
+
+    <!-- Reply -->
+    <string name="rpl_title">回复</string>
+    <string name="rpl_title_comment">评论</string>
+    <string name="rpl_tst_content_empty">内容不能为空</string>
+    <string name="rpl_hint_reply">说点什么</string>
+
+    <!-- bounty -->
+    <string name="bty_my_task">我的任务</string>
+    <string name="bty_my_task_published">已发布</string>
+    <string name="bty_my_task_accepted">已接受</string>
+    <string name="bty_my_task_favorited">已收藏</string>
+    <string name="bty_get_task_list_failed">获取任务列表失败</string>
+    <string name="bty_credit_level">%1$s级</string>
+    <string name="bty_new_task">发起任务</string>
+    <string name="bty_menu_sort_date">发布时间</string>
+    <string name="bty_menu_sort_distance">距离远近</string>
+    <string name="bty_checkbox_ongoing">悬赏中</string>
+    <string name="bty_reward">报酬</string>
+    <string name="bty_deadline">截止时间</string>
+    <string name="bty_contact">联系方式</string>
+    <string name="bty_location">所在位置</string>
+    <string name="bty_desc_hint">任务描述</string>
+    <string name="bty_tst_desc_empty">任务描述不能为空</string>
+    <string name="bty_tst_reward_empty">报酬不能为空</string>
+    <string name="bty_tst_not_exist">该任务不存在</string>
+    <string name="bty_tst_fav_failed">收藏任务失败</string>
+    <string name="bty_tst_cancel_failed">取消任务失败</string>
+    <string name="bty_tst_apply_failed">申请任务失败</string>
+    <string name="bty_state_ongoing">悬赏中</string>
+    <string name="bty_state_expired">已过期</string>
+    <string name="bty_state_claimed">已被认领</string>
+    <string name="bty_tst_post_failed">发布任务失败</string>
+    <string name="bty_help">帮助</string>
+    <string name="bty_task_type">任务类型</string>
+    <string name="bty_task_type_single">单次</string>
+    <string name="bty_task_type_multiple">重复</string>
+    <string name="bty_task_quota_hint">请输入重复次数</string>
+    <string name="bty_tst_quota_invalid">请填入正确的重复次数</string>
+    <string name="bty_tst_please_set_deadline">请设置截止时间</string>
+    <string name="bty_clear_map">清除</string>
+    <string name="bty_no_location_info">无法获取位置信息，请稍后再试</string>
+    <string name="bty_new_task_disclaimer">面聊仅提供内容发布，任务实施的效果和结果需要发布者自行评估和跟进</string>
+
+    <!-- bounty contract -->
+    <string name="btyct_title">任务详情</string>
+    <string name="btyct_status_applying">认领中</string>
+    <string name="btyct_status_ongoing">进行中</string>
+    <string name="btyct_status_rated">已评价</string>
+    <string name="btyct_status_finished">已结束</string>
+    <string name="btyct_action_cancel">取消任务</string>
+    <string name="btyct_action_apply">立即认领</string>
+    <string name="btyct_action_finish">结束并评价</string>
+    <string name="btyct_cancel_confirm">您确定要取消这个任务吗？</string>
+    <string name="btyct_disclaimer_title">免责申明</string>
+    <string name="btyct_disclaimer_desc">任何非官方组织的线下交易均有一定的风险，请同学们小心谨慎以防上当受骗。我们作为发布平台难以鉴定发布的真实性，对因此造成的损失不负担责任。</string>
+    <string name="btyct_applyed">于 %1$s 认领了这个任务</string>
+    <string name="btyct_reward">任务报酬：%1$s</string>
+    <string name="btyct_deadline">截止时间：%1$s</string>
+    <string name="btyct_contact">联系电话：%1$s</string>
+    <string name="btyct_place">所在位置：%1$s</string>
+    <string name="btyct_tst_fetch_failed">获取列表失败</string>
+    <string name="btyct_tst_not_exist">任务交易不存在</string>
+
+    <!-- bounty rating -->
+    <string name="bty_rating_title">评价</string>
+    <string name="bty_rating_desc">请评价对方：</string>
+    <string name="bty_rating_hint">您的描述能帮助到更多的人</string>
+    <string name="bty_rating_submit">确认评价</string>
+    <string name="bty_rating_good">好评</string>
+    <string name="bty_rating_normal">中评</string>
+    <string name="bty_rating_bad">差评</string>
+    <string name="bty_rating_tst_bad_reason">请说明给予差评的原因</string>
+    <string name="bty_rating_tst_success">评价成功</string>
+    <string name="bty_rating_tst_failed">评价失败</string>
+
+    <!-- bounty credits -->
+    <string name="bty_credits_title">信誉</string>
+    <string name="bty_credits_host">发布任务信誉</string>
+    <string name="bty_credits_guest">接受任务信誉</string>
+    <string name="bty_credits_ratings">大家的评价</string>
+    <string name="bty_credits_good">好评 %1$d</string>
+    <string name="bty_credits_normal">中评 %1$d</string>
+    <string name="bty_credits_bad">差评 %1$d</string>
+    <string name="bty_credits_tst_not_exist">信誉不存在</string>
+    <string name="bty_credits_tst_failed">获取信誉失败</string>
+    <string name="bty_credits_tst_ratings_failed">获取评价列表失败</string>
+
+    <!-- User State -->
+    <string name="us_inactive_title">未激活</string>
+    <string name="us_inactive_hint">您的账号还未激活，请等待管理与审核</string>
+    <string name="us_try_active">再试试</string>
+
+    <!-- Emotion picker -->
+    <string name="emo_picker_default">默认</string>
+    <string name="emo_picker_emoji">Emoji</string>
+    <string name="emo_recharge_warm_reminder">请勿使用第三方代充[如淘宝],存在被盗号或诈骗危险。</string>
+    <string name="emo_recharge_my_balance">我的余额</string>
+    <string name="emo_recharge_balance_style"> %1$d面聊币</string>
+    <string name="emo_recharge_record">交易记录</string>
+    <string name="emo_recharge_chose_money">选择充值金额</string>
+    <string name="emo_recharge_pay_way">选择支付方式</string>
+    <string name="emo_recharge_pay_flag">当前选择:</string>
+    <string name="emo_recharge_waring">安全提醒：</string>
+    <string name="emo_recharge_rmb">30RMB</string>
+    <string name="emo_recharge_sale">30%优惠</string>
+    <string name="emo_recharge_exchangepoint">兑换麦粒</string>
+    <string name="emo_recharge_mygold">我的金币</string>
+    <string name="emo_recharge_balance">余额：</string>
+    <string name="emo_recharge_localkernel">当前麦粒</string>
+    <string name="emo_recharge_exchangenum">请输入兑换金币值</string>
+    <string name="emo_recharge_gold">金币</string>
+    <string name="emo_recharge_kernel">麦粒</string>
+    <string name="emo_recharge_exchangeable">可兑换</string>
+    <string name="emo_recharge_changerule">兑换规则</string>
+    <string name="emo_recharge_wantchange">我要兑换</string>
+    <string name="emo_recharge_first_rule"> 1，金币兑换麦粒比例为1:10，也即一枚金币可以兑换成10颗麦粒喔；</string>
+    <string name="emo_recharge_second_rule"> 2，可以用麦粒在装扮商城里购买虚拟道具，也可以拿来炫富哦；</string>
+
+    <!-- Attachment Picker -->
+    <string name="att_label">附件：</string>
+    <string name="att_information"><Data><![CDATA[ <u><font color="#34CED9">%1$s</font></u><font color="#acacac"> %2$s</font>]]></Data></string>
+    <string name="att_replace">重新选择附件</string>
+    <string name="att_install_file_picker">请安装Astro文件浏览器</string>
+    <string name="att_limit_dialog_title">请注意</string>
+    <string name="att_limit_dialog_message">您上传的附件不得超过5MB。（安装Astro文件浏览器可以更方便的选择附件哦～！）</string>
+    <string name="att_limit_dialog_confirm">我知道了</string>
+    <string name="att_error_reach_limit">附件大小超过5MB, 无法添加</string>
+    <string name="att_error_invalid">无效附件</string>
+    <string name="att_download_dialog_title">下载附件</string>
+    <string name="att_download_dialog_message">您确定要下载这个附件吗？</string>
+
+    <!-- Planet collegue -->
+
+    <string name="plc_planet1_name">西部地区</string>
+    <string name="plc_planet2_name">东部地区</string>
+    <string name="plc_planet3_name">北部地区</string>
+    <string name="plc_planet4_name">南部地区</string>
+    <string name="plc_planet5_name">中部地区</string>
+    <string name="plc_my_collection">我的收藏</string>
+    <string name="plc_not_unlocked">此区域未解锁</string>
+    <string name="plc_prompt_unlock">提示</string>
+    <string name="plc_prompt_unlock_post_fail">漫游高校解锁当天不能发帖哦，明天再继续吧！</string>
+    <string name="plc_prompt_unlock_max">漫游高校发帖每天最多发五条喔</string>
+    <string name="plc_prompt_unlock_vip_max">漫游高校发帖Vip用户每天最多发十条条喔</string>
+    <string name="plc_west_area">重庆,四川,贵州,云南,西藏,陕西省,甘肃省,青海省,宁夏,新疆</string>
+    <string name="plc_east_area">上海,浙江,江苏,安徽,福建,江西,山东</string>
+    <string name="plc_north_area">辽宁,吉林黑龙江,内蒙古</string>
+    <string name="plc_south_area">广东,广西,海南,湖南,湖北,香港,澳门,台湾</string>
+    <string name="plc_center_area">北京,天津,河北,山西,河南</string>
+
+    <!-- roam collegue -->
+    <string name="rc_collection">收藏该校</string>
+    <string name="rc_collection_cancel">取消收藏</string>
+    <string name="rc_roam_remind">漫游提醒</string>
+    <string name="rc_roam_rule">漫游规则</string>
+    <string name="rc_roam_rule_content">您已踏入外校区域，您的title将会被附上外校汪认证，请谨慎发言以免被群殴。</string>
+    <string name="rc_collect_success">收藏成功</string>
+    <string name="rc_collect_failed">收藏失败</string>
+    <string name="rc_college_collection_cancel">已取消</string>
+
+    <!-- Channel -->
+    <string name="channel_click_start_record">点击开始录音</string>
+    <string name="channel_click_stop_record">点击停止录音</string>
+    <string name="channel_like">么么哒</string>
+    <string name="channel_hate">呵呵哒</string>
+    <string name="channel_send_flower">送鲜花</string>
+    <string name="channel_throw_eggs">砸鸡蛋</string>
+    <string name="channel_barrage">弹幕</string>
+    <string name="channel_comment">评论</string>
+    <string name="channel_official_recom">官方推荐</string>
+    <string name="channel_user_recom">用户推荐</string>
+    <string name="channel_voice_time_style">%1$s/%2$s</string>
+    <string name="channel_voice_time_remind">最长可录制15分钟</string>
+    <string name="forun_roam_college">高校漫游</string>
+    <string name="forun_roam_college_post_fail">漫游高校第一天不能发贴</string>
+    <string name="post_reply_content">%1$s 回复 %2$s: %3$s</string>
+    <string name="post_more_reply">更多%1$s条回复</string>
+    <string name="post_copy_content">复制内容</string>
+    <string name="post_reply_hit">咋的，不敢来一发呀</string>
+    <string name="channel_post_flowers_group">鲜花团</string>
+    <string name="channel_post_scan_count">浏览量</string>
+    <string name="channel_recommend">推荐部落</string>
+    <string name="channel_latest">最新部落</string>
+    <string name="channel_create">创建部落</string>
+    <string name="cannot_create_channel">还不可以创建部落喔</string>
+    <string name="channel_search">搜索部落</string>
+    <string name="channel_mine">我的部落</string>
+    <string name="channel_emotion_tree_hole">情感树洞</string>
+    <string name="channel_interest_in_anime">兴趣动漫</string>
+    <string name="channel_pet_whimsy">萌宠搞怪</string>
+    <string name="channel_food">美食遍地</string>
+    <string name="channel_photography_world">摄影世界</string>
+    <string name="channel_music_movie">音乐电影</string>
+    <string name="channel_can_edit">可编辑</string>
+    <string name="channel_search_by_attr">按部落属性查找</string>
+    <string name="channel_search_by_tag">按内容分类查找</string>
+    <string name="channel_voice">语音</string>
+    <string name="channel_picture">图文</string>
+    <string name="channel_text">文字</string>
+    <string name="channel_create_qus">部落能做啥?</string>
+    <string name="channel_create_intro">记录、分析，最重要的是心与心的together</string>
+    <string name="channel_create_get_userinfo_success">已经验证身份</string>
+    <string name="channel_create_get_userinfo_fail">还未进行身份验证</string>
+    <string name="channel_create_remind">24小时只能创建一个部落</string>
+    <string name="channel_create_show_chose_attr">选择您要创建的部落属性</string>
+    <string name="channel_create_input_channel_name">请输入部落名称</string>
+    <string name="channel_create_input_channel_intro">请输入您的部落简介(10~50字以内)</string>
+    <string name="channel_create_chose_channel_type">请选择部落类型</string>
+    <string name="channel_start_create_channel">完成创建</string>
+    <string name="channel_my_created">我创建的部落</string>
+    <string name="channel_my_collect">我收藏的部落</string>
+    <string name="channel_my_created_des">已有%1$s个小伙伴发帖</string>
+    <string name="channel_my_collected_des">我发了%1$s帖</string>
+    <string name="channel_click_to_change_pic">点击更换图片</string>
+    <string name="channel_click_to_playing">点击试听</string>
+    <string name="channel_click_to_stop_playing">停止播放</string>
+    <string name="channel_search_by_name">搜索部落名..</string>
+    <string name="channel_remind_msg">%1$s%2$s</string>
+    <string name="channel_comment_floor">%1$s楼</string>
+    <string name="channel_collect">收藏部落</string>
+    <string name="channel_collect_cancle">取消收藏</string>
+    <string name="channel_intro">部落简介</string>
+    <string name="channel_remind">部落提醒</string>
+    <string name="channel_collected_success">收藏成功</string>
+    <string name="setting_check_day_night">切换黑白模式</string>
+    <string name="channel_all_comments">全部评论</string>
+    <string name="channel_comments_count">(%1$d)</string>
+    <string name="channel_second_trade">二手交易</string>
+
+    <!-- Explore -->
+    <string name="explore_vip">VIP</string>
+    <string name="explore_title">探索</string>
+    <string name="explore_gold_deposits">金币充值</string>
+    <string name="explore_activity_zone">活动专区</string>
+    <string name="explore_vip_intro">开通会员享受海量专属装扮</string>
+    <string name="explore_vip_open">立即开通</string>
+    <string name="explore_chat_emotion">聊天表情</string>
+    <string name="explore_chat_bubble">聊天气泡</string>
+    <string name="explore_avatar_dress">角色小人装饰</string>
+    <string name="explore_avatar_dress_intro">让面聊卡通小人更有范儿~</string>
+    <string name="explore_chat_bg">聊天背景</string>
+    <string name="explore_chat_bg_intro">聊的再也不是寂寞了</string>
+    <string name="explore_cource_bg">课程表背景</string>
+    <string name="explore_cource_bg_intro">我的专属地盘就是要范</string>
+    <string name="explore_dressup_mall">装扮商城</string>
+    <string name="explore_task_bar">任务栏</string>
+    <string name="explore_funny_games">趣味游戏</string>
+    <string name="explore_more_funny_plate">更多有趣板块</string>
+    <string name="explore_intrest_game_intro">轻松来一发</string>
+    <string name="explore_vip_center_intro">迷人的象征</string>
+    <string name="explore_inter_active_intro">快拿筐检优惠</string>
+    <string name="explore_dress_mall_intro">比颜值有魅力</string>
+    <string name="explore_emotion_using">正在使用</string>
+    <string name="explore_emotion_can_add">可添加(可重新添加到使用列表)</string>
+    <string name="explore_emotion_mine">我的表情</string>
+    <string name="explore_task_center">任务中心</string>
+    <string name="explore_price">价格：</string>
+    <string name="explore_vip_price">会员价：</string>
+    <string name="explore_number_zero">0</string>
+    <string name="explore_add_to_using">重新添加</string>
+    <string name="explore_task_redirect"><u>去看看</u>>></string>
+
+    <!-- Payment -->
+    <string name="pay_vip_month">%1$d个月</string>
+    <string name="pay_method">支付渠道</string>
+    <string name="pay_total">需要支付</string>
+    <string name="pay_alipay">支付宝</string>
+    <string name="pay_vip_agreed">成为会员即表示同意</string>
+    <string name="pay_confirm">确认支付</string>
+    <string name="pay_payment_detail">付费详情</string>
+    <string name="pay_order_info">订单信息</string>
+    <string name="pay_alipay_account">支付宝账户</string>
+    <string name="pay_paytemt_terms">付款方式</string>
+    <string name="pay_money_total">需付款</string>
+    <string name="pay_light_vip_flag">点亮会员标识</string>
+    <string name="pay_light_vip_flag_des">享受会员特权，打造专属光彩</string>
+    <string name="pay_become_vip">成为会员</string>
+    <string name="pay_vip_function">会员功能</string>
+    <string name="pay_vip_hot_function">热门会员功能</string>
+    <string name="pay_open_year_vip">开通年费会员</string>
+    <string name="pay_only_tel_months">仅需续费12个月</string>
+    <string name="pay_vip_intro">会员功能介绍</string>
+    <string name="pay_vip_top_up_help">充值帮助</string>
+    <string name="pay_vip_website">会员官网</string>
+    <string name="vip_of_minaliao">面聊会员</string>
+    <string name="pay_vip_website_addr">vip.mianliao.com</string>
+    <string name="pay_vip_ml_agreement"><u>面聊会员协议</u></string>
+    <string name="pay_money_style">%1$.2f元</string>
+    <string name="pay_money_style_god">%1$d金币</string>
+    <string name="pay_money_by_ml_god">面聊金币余额支付</string>
+    <string name="pay_money_by_unionpay">银联支付</string>
+    <string name="pay_money_balance_style">余额 :%1$d</string>
+    <string name="pay_money_unionpay">储蓄卡、信用卡</string>
+    <string name="pay_vip_center">会员中心</string>
+    <string name="pay_vip_pay_message_content">您购买%1$d个月VIP，需支付%2$s</string>
+    <string name="pay_my_balance">我的余额</string>
+    <string name="pay_to_redeem">兑换麦粒</string>
+    <string name="pay_buy_imreouce">您将购买%1$s，需支付%2$s</string>
+    <string name="pay_buy_gold_price_style">%1$d金币</string>
+    <string name="pay_buy_price_style">%1$d RMB</string>
+    <string name="pay_recharge_points_style">%1$d麦粒</string>
+    <string name="pay_recharge_wheat_style">%1$d麦粒</string>
+    <string name="pay_recharge_points_msg_style">您即将使用%1$d个金币兑换%2$d麦粒</string>
+    <string name="pay_recharge_msg_style">您确定花费%1$d元人民币充值%2$d个金币？</string>
+    <string name="pay_resource_vip_msg">您是VIP,将付费%1$s购买该%2$s</string>
+    <string name="pay_resource_novip_msg">您不是VIP,将付费%1$s购买该%2$s</string>
+    <string name="pay_resource_msg">您将付费%1$s购买该%2$s</string>
+    <string name="pay_buy">购买</string>
+    <string name="pay_get">领取</string>
+    <string name="pay_have">已拥有</string>
+    <string name="pay_free">免费</string>
+    <string name="pay_vip_free">会员免费</string>
+
+    <!-- My Colleage -->
+    <string name="mc_recru_job">微招聘</string>
+    <string name="mc_recruit_calendar_pop_str1">添加招聘</string>
+    <string name="mc_recruit_calendar_pop_str2">招聘浏览</string>
+    <string name="mc_my_tag">我的标签</string>
+    <string name="mc_match_job_count_des">已为您匹配到%1$d个职位</string>
+    <string name="mc_first_match_show_msg">简单的词定义不一样的你，实习经历、技能、个性化内容等360招统统都标出来吧！</string>
+    <string name="mc_one_key_match">一键匹配</string>
+    <string name="mc_match_by_tag">根据您的 "%1$s" 标签</string>
+    <string name="mc_my_tag_count_desc">我的标签(%1$d/6)</string>
+    <string name="mc_add_my_tag_desc">标签将直接展现给招聘者，填写可包含实习经历、技能、个性化内容哦！</string>
+    <string name="mc_add_my_tag_all_write">大家都这么写</string>
+    <string name="mc_add_my_tag_click_refresh">出错了，点击刷新!</string>
+    <string name="mc_click_add_class">添加课程</string>
+    <string name="mc_click_add_note">新建笔记</string>
+    <string name="mc_match_no_job">未匹配到任何数据</string>
+    <string name="mc_sign_in_rule">签到规则</string>
+    <string name="mc_sign_in_rule_1">1，每日签到可获得2颗麦粒，并且随机获得一张有趣的拼图卡片;</string>
+    <string name="mc_sign_in_rule_2">2，连续签到一周，集齐七张拼图卡片就可拼成一张完整的卡片图;</string>
+    <string name="mc_sign_in_rule_3">3，连续签到四周，集齐四张完整卡片，可以获得该主题的完整卡包;</string>
+    <string name="mc_sign_in_rule_4">4，会员在当前周每天可补签一次;</string>
+    <string name="mc_sign_in_notice">会员才能补签哦，赶快去开通会员吧!</string>
+    <string name="mc_sign_in_notice_top">咦，您今天只能补签一次哦</string>
+    <string name="note_content_length">%1$d字</string>
+
+    <!-- Note -->
+    <string name="note_post_note">记笔记</string>
+    <string name="note_unforget_post">暖暖备忘贴</string>
+    <string name="note_homework">作业记一记</string>
+    <string name="note_pic">笔记照一照</string>
+
+    <!-- TakeNotes -->
+    <string name="take_notes_title">记笔记</string>
+    <string name="take_notes_lable_time">今天</string>
+    <string name="take_notes_lable_memo">暖暖备忘贴</string>
+    <string name="take_notes_lable_notes">笔记照一照</string>
+    <string name="take_notes_lable_homework">作业记一记</string>
+    <string name="take_notes_new">新建</string>
+    <string name="take_note_remindtime">设置提醒时间</string>
+    <string name="take_note_isdelate">是否删除该条笔记</string>
+    <string name="take_note_create">创建于</string>
+    <string name="take_note_choose_sub">点此选择课程分类</string>
+    <string name="never_put_tomorrow">古曰：今日事，今日毕</string>
+    <string name="memo_prompt">常来看看我吧，别去管笔记和作业啦</string>
+    <string name="note_saying">记笔记是一种美德，更是一种逼格</string>
+    <string name="note_prompt">楼上好有心机，作业君你怎么看</string>
+    <string name="homework_saying">老师别再布置作业啦</string>
+    <string name="homework_prompt">呵呵，No Zuo No Die</string>
+
+    <!-- Sign in -->
+    <string name="sign_in_record"><u>连续签到记录</u>>></string>
+
+    <!-- Fast menu -->
+    <string name="fm_setting">快捷设置</string>
+    <string name="fm_post">校内发帖</string>
+    <string name="fm_note">记笔记</string>
+    <string name="fm_sign_in">签到</string>
+    <string name="fm_dress_up">装扮商城</string>
+    <string name="fm_task">任务中心</string>
+    <string name="fm_activity">活动专区</string>
+    <string name="fm_funy_game">趣味游戏</string>
+    <string name="fm_micro_job">微招聘</string>
+    <string name="fm_class">课程表</string>
+
+    <!-- No message -->
+    <string name="nm_no_message">空空如也!</string>
+    <string name="nm_no_message_desc">客官赶紧聊起来!不要悄悄潜水啦~</string>
+    <string name="nm_reload">重新加载</string>
+
+    <!-- Campus -->
+    <string name="campus_hot_top_five_title">校内热门Top5</string>
+    <string name="campus_hot_champion">冠军</string>
+    <string name="campus_hot_runner_up">亚军</string>
+    <string name="campus_hot_second_runner_up">季军</string>
+    <string name="campus_hot_fourth">NO.4</string>	
+    <string name="campus_hot_fifth">NO.5</string>
+    <string name="campus_hot_top_5">热门Top5</string>
+
+    <!-- Tribe -->
+    <string name="tribe_detail_follow_count">关注:%1$d</string>
+    <string name="tribe_detail_post_count">内容:%1$d</string>
+    <string name="tribe_detail_up_count">up值:%1$d</string>
+    <string name="tribe_hot_post">热帖精选</string>
+    <string name="tribr_all_item">全部分类</string>
+    <string name="tribe_fresh_topic">新鲜话题</string>
+    <string name="tribe_game_zone">游戏专区</string>
+    <string name="tribe_newest_post">最新贴</string>
+    <string name="tribe_newest_tribe">最新部落</string>
+    <string name="tribe_hot_tribe">热门部落</string>
+    <string name="tribe_chief">部落酋长</string>
+    <string name="tribe_celbrity">部落名人</string>
+    <string name="tribe_charm_list_top50">魅力榜TOP50</string>
+    <string name="tribe_power_list_top10">助力榜TOP10</string>
+    <string name="tribe_title_all">全部</string>
+    <string name="tribe_title_collect">关注</string>
+    <string name="tribe_title_latest">最新</string>
+    <string name="tribe_title_suggest">推荐</string>
+    <string name="tribe_essential_post">精华帖</string>
+    <string name="tribe_footer_from">来自部落</string>
+    <string name="tribe_my_concern">我关注的部落（按新帖时间排序）</string>
+    <string name="tribe_concern">关注</string>
+    <string name="tribe_chat_room">部落聊天室</string>
+    <string name="tribe_create_chat_room">创建本部落聊天室</string>
+    <string name="tribe_already_have_chat_room">本部落已有聊天室</string>
+    <string name="tribe_create_name_prompt">取个有趣的名字，让你的群更有吸引力！</string>
+    <string name="tribe_create_name_hint">群名字（2~10个字）！</string>
+    <string name="tribe_full_chat_room_name">填写群名称</string>
+    <string name="tribe_upload_avatar_prompt">上传一张好看的群头像，让你的群倍有面子！</string>
+    <string name="tribe_upload_avatar">上传头像</string>
+    <string name="tribe_upload_group_avatar">上传群头像</string>
+    <string name="tribe_come_from">来自</string>
+    <string name="tribe_room_desc_limit">(30字以内)</string>
+    <string name="tribe_group_master">群主</string>
+    <string name="tribe_group_memeber">群成员</string>
+    <string name="tribe_go_chat">进入聊天</string>
+    <string name="tribe_create_successful">创建成功</string>
+    <string name="tribe_type_game">游戏</string>
+    <string name="tribe_type_emotion">情感</string>
+    <string name="tribe_type_study">学习</string>
+    <string name="tribe_type_cartoon">动漫</string>
+    <string name="tribe_type_funny">搞笑</string>
+    <string name="tribe_type_movement">运动</string>
+    <string name="tribe_type_travel">旅行</string>
+    <string name="tribe_type_music">音乐</string>
+    <string name="tribe_type_movie">电影</string>
+    <string name="tribe_type_read">阅读</string>
+    <string name="tribe_type_digital">数码</string>
+    <string name="tribe_type_photo">摄影</string>
+    <string name="tribe_type_other">其他</string>
+    <string name="tribe_mini_game">节操小游戏</string>
+    <string name="mini_game">小游戏</string>
+    <string name="tribe_latest_post_title">最新贴</string>
+    <string name="tribe_topic">话题</string>
+    <string name="tribe_info">部落资料</string>
+    <string name="tribe_up_add">up值+1</string>
+    <string name="tribe_collected_add">+关注</string>
+    <string name="tribe_name">部落名称</string>
+    <string name="tribe_desc">部落简介</string>
+    <string name="tribe_type">部落类型</string>
+    <string name="tribe_rule">部落版规</string>
+    <string name="tribe_rule_des">版规公告如下:</string>
+    <string name="tribe_is_followed">已关注</string>
+    <string name="tribe_is_followed_count">%1$d成员</string>
+    <string name="tribe_upload_avatar_null">头像不能为空！</string>
+    <string name="tribe_is_followed_count_people">%1$d人</string>
+    <string name="tribe_is_followed_count_post">%1$d贴</string>
+    <string name="tribe_name_game">游戏部落</string>
+    <string name="tribe_campus_post">校内帖子</string>
+    <string name="tribe_classify">部落分类</string>
+    <string name="tribe_assist_ok">已UP</string>
+    <string name="tribe_add_friend_to_chat">添加好友到聊天室</string>
+    <string name="tribe_member_list">成员列表</string>
+    <string name="tribe_group_name_length_toast">请输入2到10个汉字</string>
+    <string name="tribe_create_chat_room_ing">正在创建聊天室。。。</string>
+    <string name="tribe_edit_chat_room_ing">聊天室信息修改中。。。</string>
+    <string name="tribe_people_too_much">聊天室人数过多（每个聊天室最多100人）</string>
+    <string name="tribe_add_success">添加成功</string>
+    <string name="tribe_up_count_desc">部落up值:%1$d</string>
+    <string name="tribe_follow_succ">关注成功</string>
+    <string name="tribe_cancle_follow_succ">取消关注成功</string>
+    <string name="tribe_day_post_count">今日%1$d条</string>
+    <string name="tribe_homepage_up_count_desc">%1$dup值</string>
+
+    <!--  Post -->
+    <string name="post_pic_vote_title">PK贴</string>
+    <string name="post_txt_vote_title">投票贴</string>
+    <string name="post_video_nocontent_desc">来自%1$s,精心调制的大片</string>
+    <string name="post_voice_nocontent_desc">%1$s,你的声音不要太性感</string>
+    <string name="post_normal_nocontent_desc">来自%1$s,让我掀开你的素颜</string>
+    <string name="post_collected_post">收藏帖</string>
+    <string name="post_account_exit">退出当前帐号</string>
+    <string name="post_was_deleted">该帖子已经被删除</string>
+    <string name="post_reply_was_deleted">该评论已经被删除</string> 
+    <string name="post_reply_reply_was_deleted">该回复已经被删除</string> 
+    <string name="post_who_dislike_my_post">点踩了我的帖子</string> 
+    <string name="post_who_like_my_post">点赞了我的帖子</string> 
+    <string name="post_who_like_my_reply">点赞了我的评论</string> 
+    <string name="post_who_reply_my_reply">回复了我的评论</string> 
+    <string name="post_who_reply_my_post">评论了我的帖子</string> 
+    <string name="post_who_at_me">"@了我"</string> 
+    <string name="post_who_mention_of_me">在评论中提到了我:</string> 
+    <string name="post_who_mention_of_me_at_reply">在回复中提到了我:</string> 
+    <string name="post_who_mention_of_me_at_post">在帖子中提到了我:</string> 
+    <string name="post_input_length_to_long">输入内容过长请重新输入</string> 
+    <string name="post_hint_reply_content">回复 %1$s:</string> 
+    <string name="post_give_me_flower">送了我一朵鲜花</string> 
+    <string name="post_pound_me_eggs">砸了我一坨鸡蛋</string> 
+    <string name="post_max_vote_lenght_desc">最多输入10个字</string>
+
+    <!-- Mian -->
+    <string name="main_account_str">ML号:%1$s</string>
+    
+     <!--  Search -->
+     <string name="search">搜索</string>
+     <string name="search_history">历史搜索</string>
+     <string name="search_clear_history">清除历史记录</string>
+     <string name="search_cancel">取消</string>
+     <string name="search_hint">点击搜索</string>
+     <string name="search_school_is_lock">该学校尚未解锁</string>
+     <string name="search_user_lock">你是揭不开我的面具的</string>
+     <string name="search_result_null">搜索结果为空</string>
+     
+     <!--  Task -->
+     <string name="task_day_sign">每日签到</string>
+     <string name="task_school_post">校内发帖</string>
+     <string name="task_tribe_post">部落发帖</string>
+     <string name="task_day_tribe_post">白天部落发帖</string>
+     <string name="task_night_tribe_post">黑夜部落发帖</string>
+     <string name="task_roam_school_post">漫游高校发帖</string>
+     <string name="task_add_friend">添加好友</string>
+     <string name="task_interactive_cartoon">卡通小人物互动</string>
+     <string name="task_shopping">购买道具</string>
+    
+</resources>

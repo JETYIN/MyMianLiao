@@ -1,0 +1,9 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:gravity="center" android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical" android:paddingBottom="40dp">
+
+    <com.tjut.mianliao.theme.ThemeImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/pic_waiting" tools:ignore="ContentDescription" />
+
+    <com.tjut.mianliao.theme.ThemeTextView android:layout_height="wrap_content" android:layout_marginTop="18dp" android:layout_width="wrap_content" android:text="@string/around_waiting_title" android:textColor="#34CED9" android:textSize="24sp" />
+
+    <com.tjut.mianliao.theme.ThemeTextView android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_width="181dp" android:text="@string/around_waiting_desc" android:textColor="#797979" android:textSize="14sp" />
+
+</com.tjut.mianliao.black.MagicLinearLayout>

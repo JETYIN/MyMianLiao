@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.tjut.mianliao.component.StickyScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:minHeight="400dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:id="@+id/null_view"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+            </View>
+
+            <include layout="@layout/view_profile_homepage"/>
+        </LinearLayout>
+    </com.tjut.mianliao.component.StickyScrollView>
+
+    <LinearLayout
+        android:id="@+id/ll_bottom_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+
+        <Button
+            android:id="@+id/btn_add_contact"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card_margin_horizontal"
+            android:layout_marginRight="@dimen/card_margin_horizontal"
+            android:layout_weight="1"
+            android:background="@drawable/selector_btn_white"
+            android:onClick="onClick"
+            android:text="@string/tribe_collected_add"
+            android:textColor="#78A8E4"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/btn_chat"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card_margin_horizontal"
+            android:layout_marginRight="@dimen/card_margin_horizontal"
+            android:layout_weight="1"
+            android:background="@drawable/selector_btn_blue"
+            android:onClick="onClick"
+            android:text="@string/prof_chat"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+</LinearLayout>

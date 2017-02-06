@@ -1,0 +1,52 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/channel_create_show_chose_attr"
+        android:textColor="#b95167"
+        android:textSize="15sp"/>
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_voice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:drawablePadding="12dp"
+        android:drawableTop="@drawable/buttton_voice"
+        android:gravity="center"
+        android:text="@string/channel_voice"
+        android:textColor="#BEBEBE"
+        android:textSize="14sp"/>
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_pic_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="61dp"
+        android:drawablePadding="12dp"
+        android:drawableTop="@drawable/buttton_pic"
+        android:gravity="center"
+        android:text="@string/channel_picture"
+        android:textColor="#BEBEBE"
+        android:textSize="14sp"/>
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="61dp"
+        android:drawablePadding="12dp"
+        android:drawableTop="@drawable/buttton_text"
+        android:gravity="center"
+        android:text="@string/channel_text"
+        android:textColor="#BEBEBE"
+        android:textSize="14sp"/>
+
+</com.tjut.mianliao.black.MagicLinearLayout>

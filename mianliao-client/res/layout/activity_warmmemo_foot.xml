@@ -1,0 +1,5 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:id="@+id/lin_timepick" android:layout_height="48dp" android:layout_width="match_parent" android:orientation="horizontal">
+    <com.tjut.mianliao.theme.ThemeTextView android:gravity="left" android:id="@+id/tv_memo_stime" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_weight="1" android:layout_width="wrap_content" android:text="@string/take_note_remindtime" android:textSize="19sp" />
+    <com.tjut.mianliao.theme.ThemeTextView android:gravity="right" android:id="@+id/tv_remindtime" android:layout_height="wrap_content" android:layout_weight="1" android:layout_width="wrap_content" android:textColor="#32bbbc" android:textSize="12sp" />
+    <com.tjut.mianliao.theme.ThemeImageView android:background="@drawable/memo_icon_delete" android:id="@+id/bt_cancel" android:layout_gravity="center_vertical" android:layout_height="15dp" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_width="15dp" />
+</com.tjut.mianliao.black.MagicLinearLayout>

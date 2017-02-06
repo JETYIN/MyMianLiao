@@ -1,0 +1,51 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_emotion"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.tjut.mianliao.black.MagicLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:text="@string/explore_emotion_using"
+            android:textColor="#828282"
+            android:textSize="12sp" />
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            android:id="@+id/lv_using"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical" />
+
+        <com.tjut.mianliao.theme.ThemeImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/img_solid_split_down" />
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:text="@string/explore_emotion_can_add"
+            android:textColor="#828282" />
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            android:id="@+id/lv_can_add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical" />
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+</ScrollView>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="NaviButton">
+        <attr name="nb_title" format="string"/>
+        <attr name="src" format="integer"/>
+    </declare-styleable>
+    <declare-styleable name="CardItem">
+        <attr name="cardTitle" format="string"/>
+        <attr name="cardContent" format="string"/>
+        <attr name="cardContentIsSelectable" format="boolean"/>
+        <attr name="cardHint" format="string"/>
+        <attr name="cardSingleLine" format="boolean"/>
+        <attr name="cardBtnSrc" format="reference|color"/>
+        <attr name="cardBtnBackground" format="reference|color"/>
+        <attr name="cardBtnVisibility">
+            <enum name="visible" value="0"/>
+            <enum name="invisible" value="1"/>
+            <enum name="gone" value="2"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="SceneView">
+        <attr name="coverSrc" format="reference"/>
+    </declare-styleable>
+    <declare-styleable name="TextView">
+        <attr name="text" format="reference|string"/>
+        <attr name="textColor" format="reference|color"/>
+        <attr name="textSize" format="reference|dimension"/>
+        <attr name="drawablePadding" format="reference|dimension"/>
+        <attr name="drawableLeft" format="reference"/>
+        <attr name="drawableTop" format="reference"/>
+        <attr name="drawableRight" format="reference"/>
+        <attr name="drawableBottom" format="reference"/>
+    </declare-styleable>
+    <declare-styleable name="PropertyItem">
+        <attr name="propName" format="reference|string"/>
+        <attr name="propInfo" format="reference|string"/>
+    </declare-styleable>
+    <declare-styleable name="PageIndicator">
+        <attr name="dotColor" format="reference|color"/>
+        <attr name="dotColorSelected" format="reference|color"/>
+        <attr name="dotSize" format="reference|dimension"/>
+    </declare-styleable>
+    <declare-styleable name="VoteInputItem">
+        <attr name="showDelete" format="boolean"/>
+    </declare-styleable>
+    <declare-styleable name="AvatarView">
+        <attr name="borderType">
+            <enum name="circle" value="0"/>
+            <enum name="roundCorner" value="1"/>
+        </attr>
+        <attr name="cornerRadius" format="reference|dimension"/>
+    </declare-styleable>
+    <declare-styleable name="EmotionTextView">
+        <attr name="emotionSize" format="reference|dimension"/>
+    </declare-styleable>
+    <declare-styleable name="AttachmentView">
+        <attr name="drawable" format="reference"/>
+        <attr name="label" format="reference|string"/>
+        <attr name="labelColor" format="reference|color"/>
+        <attr name="nameColor" format="reference|color"/>
+        <attr name="nameUnderlined" format="boolean"/>
+        <attr name="sizeTextColor" format="reference|color"/>
+        <attr name="sizeEnabled" format="boolean"/>
+        <attr name="topDividerEnabled" format="boolean"/>
+        <attr name="bottomDividerEnabled" format="boolean"/>
+    </declare-styleable>
+    <declare-styleable name="PlantCollegeView">
+        <attr name="planet_view_width" format="dimension"/>
+        <attr name="planet_star_img" format="integer"/>
+        <attr name="planet_title_bg_img" format="integer"/>
+        <attr name="search_view_tip_textsize" format="dimension"/>
+        <attr name="search_unlock_marginLeft" format="dimension"/>
+        <attr name="planet_title_magintop" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name="SearchView">
+        <attr name="search_view_height" format="dimension"/>
+        <attr name="search_view_bg" format="integer"/>
+        <attr name="change_bg" format="boolean"/>
+    </declare-styleable>
+    <declare-styleable name="BlockButton">
+        <attr name="block_button_left_text" format="integer"/>
+        <attr name="block_button_right_text" format="integer"/>
+        <attr name="block_button_left_image" format="integer"/>
+        <attr name="block_button_right_image" format="integer"/>
+        <attr name="block_button_background" format="integer"></attr>
+    </declare-styleable>
+    <declare-styleable name="CommonBanner">
+        <attr name="banner_plate" format="integer"/>
+    </declare-styleable>
+    <declare-styleable name="MagicLayout">
+        <attr name="color_magic" format="integer"/>
+    </declare-styleable>
+    <declare-styleable name="AutoWrapLinearLayout">
+        <attr name="dynamic_size" format="boolean"></attr>
+    </declare-styleable>
+    <declare-styleable name="EmotionPicker">
+        <attr name="showBigEmotion" format="boolean"></attr>
+    </declare-styleable>
+    <declare-styleable name="RichMlEditText">
+        <attr name="shouldWatcherTextChanged" format="boolean"></attr>
+        <attr name="shouldWatcherTopic" format="boolean"></attr>
+        <attr name="shouldWatcherAt" format="boolean"></attr>
+    </declare-styleable>
+    <declare-styleable name="RichEmotionTextView">
+        <attr name="shouldMatchTopic" format="boolean"></attr>
+        <attr name="shouldMatchAtFriend" format="boolean"></attr>
+        <attr name="topicSpanClickble" format="boolean"></attr>
+        <attr name="atSpanClickble" format="boolean"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="ArcMenu">
+        <attr name="position">
+	        <enum name="left_top" value="0"></enum>
+	        <enum name="left_bottom" value="1"></enum>
+	        <enum name="right_top" value="2"></enum>
+	        <enum name="right_bottom" value="3"></enum>
+	    </attr>
+	    <attr name="radius" format="dimension"></attr>
+    </declare-styleable>
+
+     <declare-styleable name="SideSlipView">
+        <attr name="scale_right_view" format="boolean"></attr>
+        <attr name="right_padding" format="dimension"></attr>
+        <attr name="scrollable" format="boolean"></attr>
+    </declare-styleable>
+    
+     <declare-styleable name="ThemeLineView">
+         <attr name="read_attr_color" format="boolean"></attr>
+         <attr name="normal_bgColor" format="reference|color"></attr>
+         <attr name="second_bgColor" format="reference|color"></attr>
+     </declare-styleable>
+     
+     <declare-styleable name="LetterBar">
+
+        <!-- A drawable to use as the background of the LetterBar -->
+        <attr name="lbLetterBarBackground" format="reference|color" />
+
+        <!-- Text Color of the LetterBar text -->
+        <attr name="lbLetterBarTextColor" format="reference|color" />
+        
+         <!-- A drawable to use as the background of the Overlay -->
+        <attr name="lbOverlayBackground" format="reference|color" />
+        
+        <!-- Text Color of the Overlay text -->
+        <attr name="lbOverlayTextColor" format="reference|color" />
+        
+        <!-- Text Size of the Overlay text -->
+        <attr name="lbOverlayTextSize" format="reference|dimension" />
+
+    </declare-styleable>
+
+	<declare-styleable name="PagerSlidingTabStrip">
+        <attr name="pstsIndicatorColor" format="color" />
+        <attr name="pstsUnderlineColor" format="color" />
+        <attr name="pstsDividerColor" format="color" />
+        <attr name="pstsIndicatorHeight" format="dimension" />
+        <attr name="pstsUnderlineWidth" format="dimension" />
+        <attr name="pstsUnderlineHeight" format="dimension" />
+        <attr name="pstsDividerPadding" format="dimension" />
+        <attr name="pstsTabPaddingLeftRight" format="dimension" />
+        <attr name="pstsScrollOffset" format="dimension" />
+        <attr name="pstsTabBackground" format="reference" />
+        <attr name="pstsShouldExpand" format="boolean" />
+        <attr name="pstsTextAllCaps" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="HeartLayout">
+        <attr name="initX" format="dimension" />
+        <attr name="initY" format="dimension" />
+        <attr name="xRand" format="dimension" />
+        <attr name="animLengthRand" format="dimension" />
+        <attr name="xPointFactor" format="dimension" />
+        <attr name="animLength" format="dimension" />
+        <attr name="heart_width" format="dimension" />
+        <attr name="heart_height" format="dimension" />
+        <attr name="bezierFactor" format="integer" />
+        <attr name="anim_duration" format="integer" />
+    </declare-styleable>
+</resources>

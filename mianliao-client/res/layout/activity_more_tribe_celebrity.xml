@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/ll_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.tjut.mianliao.black.MagicRelativeLayout
+                android:id="@+id/ll_title_charm_list"
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:background="@drawable/pic_tribe_charm_bg"
+                android:paddingLeft="10dp"
+                android:paddingRight="30dp"
+                app:color_magic="0">
+
+                <com.tjut.mianliao.theme.ThemeImageView
+                    android:id="@+id/iv_charm_list_logo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/club_pic_charm"/>
+
+                <com.tjut.mianliao.theme.ThemeTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/iv_charm_list_logo"
+                    android:text="@string/tribe_charm_list_top50"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp"/>
+            </com.tjut.mianliao.black.MagicRelativeLayout>
+
+            <com.tjut.mianliao.black.MagicRelativeLayout
+                android:id="@+id/ll_title_power_list"
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:background="@drawable/pic_tribe_contrubution_bg"
+                android:paddingLeft="10dp"
+                android:paddingRight="30dp"
+                app:color_magic="0">
+
+                <com.tjut.mianliao.theme.ThemeImageView
+                    android:id="@+id/iv_power_list_logo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/club_pic_contribution"/>
+
+                <com.tjut.mianliao.theme.ThemeTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/iv_power_list_logo"
+                    android:text="@string/tribe_power_list_top50"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp"/>
+            </com.tjut.mianliao.black.MagicRelativeLayout>
+
+            <com.tjut.mianliao.component.ExpandableGridView
+                android:id="@+id/gv_tribe_celebrity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:listSelector="@color/white"
+                android:numColumns="2"
+                android:stretchMode="columnWidth"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <include
+        android:id="@+id/view_no_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/view_no_content"/>
+
+</FrameLayout>

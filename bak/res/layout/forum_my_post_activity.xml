@@ -1,0 +1,35 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_my_post"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/ll_menu"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tab_height"
+        layout="@layout/my_part_type_tab"/>
+
+    <com.tjut.mianliao.theme.ThemeImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/img_solid_split_down"/>
+
+    <FrameLayout
+        android:id="@+id/view_parent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <com.handmark.pulltorefresh.library.PullToRefreshListView
+            android:id="@+id/ptrlv_post_stream"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@null"
+            android:dividerHeight="0px"
+            android:listSelector="@null"
+            android:scrollbarStyle="outsideOverlay"/>
+    </FrameLayout>
+
+</com.tjut.mianliao.black.MagicLinearLayout>

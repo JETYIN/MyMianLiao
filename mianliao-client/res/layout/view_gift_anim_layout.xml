@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:visibility="visible">
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="38dp"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/bg_gift_anim_layout_black_transparent"
+        android:gravity="center_vertical">
+
+        <com.tjut.mianliao.component.ProImageView
+            android:id="@+id/av_avatar"
+            android:layout_width="35dp"
+            android:layout_gravity="center"
+            android:layout_height="35dp"
+            android:background="@drawable/bg_live_avatar_purple"
+            android:src="@drawable/img_living_contact_light"
+            app:borderType="circle"
+            app:cornerRadius="100dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#B2FFFFFF"
+                android:text="title"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tv_gift_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:textColor="#B2FFFFFF"
+                android:text="content"
+                android:textSize="13sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/iv_gift"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="@dimen/gift_icon_left_margin"
+        android:src="@drawable/img_living_contact_light"
+        />
+
+    <TextView
+        android:id="@+id/tv_gift_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="230dp"
+        android:text="X1"
+        android:textColor="#FC5B90"
+        android:textSize="20sp" />
+
+</FrameLayout>

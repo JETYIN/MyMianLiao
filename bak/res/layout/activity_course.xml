@@ -1,0 +1,370 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sv_course"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="none">
+
+    <com.tjut.mianliao.black.MagicLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card_margin_horizontal"
+            android:layout_marginRight="@dimen/card_margin_horizontal"
+            android:layout_marginTop="@dimen/card_item_spacing"
+            android:background="@drawable/bg_card"
+            android:orientation="vertical"
+            app:color_magic="0">
+
+            <com.tjut.mianliao.black.MagicLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.tjut.mianliao.theme.ThemeTextView
+                    style="@style/MianLiao.CardText2"
+                    android:layout_width="@dimen/course_title_width"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_txt_course"
+                    android:drawablePadding="8dp"
+                    android:text="@string/course_name_head"/>
+
+                <com.tjut.mianliao.theme.ThemeTextView
+                    android:id="@+id/tv_course_name"
+                    style="@style/MianLiao.CardText2.Light"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/field_no_info"
+                    android:textIsSelectable="true"/>
+            </com.tjut.mianliao.black.MagicLinearLayout>
+
+            <com.tjut.mianliao.black.MagicLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.tjut.mianliao.theme.ThemeTextView
+                    style="@style/MianLiao.CardText2"
+                    android:layout_width="@dimen/course_title_width"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_txt_teacher"
+                    android:drawablePadding="8dp"
+                    android:text="@string/course_teacher_head"/>
+
+                <com.tjut.mianliao.theme.ThemeTextView
+                    android:id="@+id/tv_teacher"
+                    style="@style/MianLiao.CardText2.Light"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/field_no_info"
+                    android:textIsSelectable="true"/>
+            </com.tjut.mianliao.black.MagicLinearLayout>
+
+            <com.tjut.mianliao.black.MagicLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.tjut.mianliao.theme.ThemeTextView
+                    style="@style/MianLiao.CardText"
+                    android:layout_width="@dimen/course_title_width"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_txt_entry"
+                    android:drawablePadding="8dp"
+                    android:paddingBottom="10dp"
+                    android:text="@string/course_description"/>
+
+                <com.tjut.mianliao.theme.ThemeTextView
+                    android:id="@+id/tv_course_desc"
+                    style="@style/MianLiao.CardText.Light"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/field_no_info"
+                    android:paddingBottom="10dp"
+                    android:textIsSelectable="true"/>
+            </com.tjut.mianliao.black.MagicLinearLayout>
+        </com.tjut.mianliao.black.MagicLinearLayout>
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card_margin_horizontal"
+            android:layout_marginRight="@dimen/card_margin_horizontal"
+            android:layout_marginTop="@dimen/card_item_spacing"
+            android:background="@drawable/bg_card"
+            android:orientation="vertical"
+            android:paddingBottom="10dp"
+            app:color_magic="0">
+
+            <com.tjut.mianliao.black.MagicLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.tjut.mianliao.theme.ThemeTextView
+                    style="@style/MianLiao.CardText2"
+                    android:layout_width="@dimen/course_title_width"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_txt_classmates"
+                    android:drawablePadding="8dp"
+                    android:paddingTop="10dp"
+                    android:text="@string/course_classmates"/>
+
+                <com.tjut.mianliao.theme.ThemeTextView
+                    android:id="@+id/tv_classmates_desc"
+                    style="@style/MianLiao.CardText2.Light"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/course_hint_loading"
+                    android:paddingTop="10dp"/>
+            </com.tjut.mianliao.black.MagicLinearLayout>
+
+            <com.tjut.mianliao.black.MagicLinearLayout
+                android:id="@+id/ll_classmates"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/bg_item_card_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="6dp"
+                android:paddingLeft="4dp"
+                android:paddingRight="10dp"
+                android:paddingTop="8dp"
+                android:visibility="gone"
+                app:color_magic="0">
+
+                <GridView
+                    android:id="@+id/gv_classmates"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/course_avatar_size"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:listSelector="@null"
+                    android:numColumns="5"
+                    android:scrollbars="none"/>
+
+                <com.tjut.mianliao.theme.ThemeImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="2dp"
+                    android:src="@drawable/ic_enter"/>
+            </com.tjut.mianliao.black.MagicLinearLayout>
+        </com.tjut.mianliao.black.MagicLinearLayout>
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            android:id="@+id/ll_course_forum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card_margin_horizontal"
+            android:layout_marginRight="@dimen/card_margin_horizontal"
+            android:layout_marginTop="@dimen/card_item_spacing"
+            android:background="@drawable/selector_bg_card"
+            android:onClick="onClick"
+            android:orientation="vertical"
+            app:color_magic="0">
+
+            <com.tjut.mianliao.black.MagicLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <com.tjut.mianliao.theme.ThemeTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/ic_discuss"
+                    android:drawablePadding="10dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/cf_title"
+                    android:textColor="#7a7a7a"
+                    android:textSize="16sp"/>
+
+                <com.tjut.mianliao.theme.ThemeTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="14dp"
+                    android:drawablePadding="10dp"
+                    android:drawableRight="@drawable/ic_enter"
+                    android:gravity="center_vertical"
+                    android:text="@string/cf_join"
+                    android:textColor="#A5A4A4"
+                    android:textSize="14sp"/>
+            </com.tjut.mianliao.black.MagicLinearLayout>
+
+            <com.tjut.mianliao.black.MagicLinearLayout
+                android:id="@+id/ll_post_item_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <include layout="@layout/hr_divider"/>
+
+                <include layout="@layout/list_item_cf_reply"/>
+            </com.tjut.mianliao.black.MagicLinearLayout>
+
+            <com.tjut.mianliao.black.MagicLinearLayout
+                android:id="@+id/ll_post_item_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <include layout="@layout/hr_divider"/>
+
+                <include layout="@layout/list_item_cf_reply"/>
+            </com.tjut.mianliao.black.MagicLinearLayout>
+        </com.tjut.mianliao.black.MagicLinearLayout>
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card_margin_horizontal"
+            android:layout_marginRight="@dimen/card_margin_horizontal"
+            android:layout_marginTop="@dimen/card_item_spacing"
+            android:background="@drawable/bg_card"
+            android:orientation="vertical"
+            android:paddingBottom="10dp"
+            app:color_magic="0">
+
+            <com.tjut.mianliao.black.MagicLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.tjut.mianliao.theme.ThemeTextView
+                    style="@style/MianLiao.CardText2"
+                    android:layout_width="@dimen/course_title_width"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_txt_rating"
+                    android:drawablePadding="8dp"
+                    android:paddingTop="10dp"
+                    android:text="@string/course_rating"/>
+
+                <com.tjut.mianliao.theme.ThemeTextView
+                    android:id="@+id/tv_rating_desc"
+                    style="@style/MianLiao.CardText2.Light"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/course_hint_loading"
+                    android:paddingTop="10dp"/>
+            </com.tjut.mianliao.black.MagicLinearLayout>
+
+            <com.tjut.mianliao.black.MagicLinearLayout
+                android:id="@+id/ll_rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/bg_item_card_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="0dp"
+                android:paddingLeft="4dp"
+                android:paddingRight="0dp"
+                android:paddingTop="3dp"
+                android:visibility="gone"
+                app:color_magic="0">
+
+                <RatingBar
+                    android:id="@+id/rb_rating"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:isIndicator="true"
+                    android:numStars="5"
+                    android:progressDrawable="@drawable/rating_stars"
+                    android:rating="5"
+                    android:stepSize="1"/>
+
+                <ImageButton
+                    android:id="@+id/btn_rating"
+                    android:layout_width="34dp"
+                    android:layout_height="34dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/selector_btn_blue"
+                    android:onClick="onClick"
+                    android:padding="0dp"
+                    android:src="@drawable/btn_confirm"
+                    android:visibility="gone"/>
+            </com.tjut.mianliao.black.MagicLinearLayout>
+        </com.tjut.mianliao.black.MagicLinearLayout>
+
+        <com.tjut.mianliao.black.MagicRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card_margin_horizontal"
+            android:layout_marginRight="@dimen/card_margin_horizontal"
+            android:layout_marginTop="@dimen/card_item_spacing"
+            android:background="@drawable/bg_card"
+            android:orientation="vertical"
+            android:paddingBottom="18dp"
+            app:color_magic="0">
+
+            <com.tjut.mianliao.black.MagicLinearLayout
+                android:id="@+id/ll_checkin_head"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.tjut.mianliao.theme.ThemeTextView
+                    style="@style/MianLiao.CardText"
+                    android:layout_width="@dimen/course_title_width"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_txt_checkin"
+                    android:drawablePadding="8dp"
+                    android:paddingTop="10dp"
+                    android:text="@string/course_checkin"/>
+
+                <com.tjut.mianliao.theme.ThemeTextView
+                    android:id="@+id/tv_checkin_desc"
+                    style="@style/MianLiao.CardText2.Light"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/course_hint_loading"
+                    android:paddingTop="10dp"/>
+            </com.tjut.mianliao.black.MagicLinearLayout>
+
+            <Button
+                android:id="@+id/btn_checkin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ll_checkin_head"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="14dp"
+                android:background="@drawable/selector_btn_blue"
+                android:enabled="false"
+                android:onClick="onClick"
+                android:text="@string/course_checkin_me"/>
+
+            <com.tjut.mianliao.theme.ThemeImageView
+                android:id="@+id/iv_checked_in"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="24dp"
+                android:layout_marginTop="6dp"
+                android:src="@drawable/ic_course_checked_in"
+                android:visibility="gone"/>
+        </com.tjut.mianliao.black.MagicRelativeLayout>
+
+        <Button
+            android:id="@+id/btn_leave_course"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/card_margin_horizontal"
+            android:background="@drawable/selector_btn_red"
+            android:onClick="onClick"
+            android:text="@string/course_delete"/>
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+</ScrollView>

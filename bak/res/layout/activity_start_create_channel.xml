@@ -1,0 +1,107 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <com.tjut.mianliao.black.MagicRelativeLayout
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="33dp"
+        android:gravity="center_horizontal">
+
+        <com.tjut.mianliao.component.ProAvatarView
+            android:id="@+id/av_avatar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/prof_avatar_border_size"
+            android:src="@drawable/chat_botton_bg_faviconboy"/>
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:id="@+id/tv_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/av_avatar"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="6dp"
+            android:text="@string/channel_can_edit"
+            android:textColor="@color/white"
+            android:textSize="10sp"
+            android:visibility="visible"/>
+    </com.tjut.mianliao.black.MagicRelativeLayout>
+
+    <EditText
+        android:id="@+id/et_channel_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/create_channel_text_bg"
+        android:hint="@string/channel_create_input_channel_name"
+        android:maxLength="50"
+        android:textColor="#716b7e"
+        android:textSize="14sp"/>
+
+    <EditText
+        android:id="@+id/et_channel_intro"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/create_channel_text_bg"
+        android:gravity="left|top"
+        android:hint="@string/channel_create_input_channel_intro"
+        android:maxLength="50"
+        android:textColor="#716b7e"
+        android:textSize="14sp"/>
+
+    <com.tjut.mianliao.black.MagicRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/create_channel_text_bg"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/tv_channel_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="15dp"
+            android:background="@null"
+            android:editable="false"
+            android:hint="@string/channel_create_chose_channel_type"
+            android:textColor="#716b7e"/>
+
+        <com.tjut.mianliao.theme.ThemeImageView
+            android:id="@+id/iv_chose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:padding="15dp"
+            android:src="@drawable/icon_more_black"/>
+    </com.tjut.mianliao.black.MagicRelativeLayout>
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_create_channel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginTop="34dp"
+        android:background="@drawable/selector_create_channel_bg"
+        android:gravity="center"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:text="@string/channel_start_create_channel"
+        android:textColor="@color/white"
+        android:textSize="14sp"/>
+
+</com.tjut.mianliao.black.MagicLinearLayout>

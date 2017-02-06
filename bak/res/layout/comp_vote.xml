@@ -1,0 +1,7 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+
+    <com.tjut.mianliao.theme.ThemeImageView android:id="@+id/iv_check" android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/ic_vote_check" tools:ignore="ContentDescription" />
+
+    <com.tjut.mianliao.theme.ThemeTextView android:id="@+id/tv_desc" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_width="wrap_content" android:textColor="#2e2e2e" android:textSize="14sp" />
+
+</merge>

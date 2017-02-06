@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tjut.mianliao.component.ThemeFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/view_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:color_magic="0">
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/ptr_sign_record"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null" 	
+        android:dividerHeight="0px"
+        android:listSelector="@android:color/transparent"/>
+
+</com.tjut.mianliao.component.ThemeFrameLayout>

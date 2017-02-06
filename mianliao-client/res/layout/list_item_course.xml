@@ -1,0 +1,129 @@
+<com.tjut.mianliao.black.MagicRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector_bg_item"
+    android:paddingBottom="13dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="13dp"
+    android:paddingTop="13dp"
+    app:color_magic="0">
+
+    <com.tjut.mianliao.black.MagicRelativeLayout
+        android:id="@+id/rl_course_basic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="7dp">
+
+        <TextView
+            android:id="@+id/tv_course_action"
+            android:layout_width="100dp"
+            android:layout_height="31dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/selector_btn_green"
+            android:gravity="center"
+            android:maxLines="1"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:singleLine="true"
+            android:text="@string/course_join"
+            android:textColor="@color/white"
+            android:textSize="16sp"/>
+
+        <ProgressBar
+            android:id="@+id/pb_course_action"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="30dp"
+            android:visibility="visible"/>
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:id="@+id/tv_course_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="#433E3C"
+            android:textSize="16sp"/>
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:id="@+id/tv_course_classmates_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_course_name"
+            android:layout_marginTop="11dp"
+            android:drawableLeft="@drawable/ic_txt_classmates"
+            android:drawablePadding="8dp"
+            android:maxLines="1"
+            android:text="@string/course_classmates"
+            android:textColor="#5E5E5E"
+            android:textSize="13sp"/>
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:id="@+id/tv_course_classmates"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/tv_course_classmates_desc"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:layout_toLeftOf="@id/tv_course_action"
+            android:layout_toRightOf="@id/tv_course_classmates_desc"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="#A5A4A4"
+            android:textSize="13sp"/>
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:id="@+id/tv_course_teacher_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_course_classmates_desc"
+            android:layout_marginTop="7dp"
+            android:drawableLeft="@drawable/ic_txt_teacher"
+            android:drawablePadding="8dp"
+            android:maxLines="1"
+            android:text="@string/course_teacher"
+            android:textColor="#5E5E5E"
+            android:textSize="13sp"/>
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:id="@+id/tv_course_teacher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/tv_course_teacher_desc"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:layout_toLeftOf="@id/tv_course_action"
+            android:layout_toRightOf="@id/tv_course_teacher_desc"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="#A5A4A4"
+            android:textSize="13sp"/>
+    </com.tjut.mianliao.black.MagicRelativeLayout>
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_course_entry_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl_course_basic"
+        android:drawableLeft="@drawable/ic_txt_entry"
+        android:drawablePadding="8dp"
+        android:maxLines="1"
+        android:text="@string/course_entry"
+        android:textColor="#5E5E5E"
+        android:textSize="13sp"/>
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_course_entry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/tv_course_entry_desc"
+        android:layout_marginLeft="13dp"
+        android:layout_toRightOf="@id/tv_course_entry_desc"
+        android:textColor="#A5A4A4"
+        android:textSize="13sp"/>
+
+</com.tjut.mianliao.black.MagicRelativeLayout>

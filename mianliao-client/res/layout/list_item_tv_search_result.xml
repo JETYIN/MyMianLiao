@@ -1,0 +1,9 @@
+<com.tjut.mianliao.theme.ThemeTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="54dp"
+    android:id="@+id/tv_school_name"
+    android:background="@drawable/selector_bg_item"
+    android:gravity="center_vertical"
+    android:paddingLeft="20dp"
+    android:textColor="#433E3C"
+    android:textSize="16sp"/>

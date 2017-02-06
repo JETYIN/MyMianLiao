@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_channel_type"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    app:color_magic="0" >
+
+    <com.tjut.mianliao.black.MagicRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:color_magic="0" >
+
+        <com.tjut.mianliao.component.ProImageView
+            android:id="@+id/iv_channel_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/search_botton_bg_tree" />
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:id="@+id/tv_channel_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/channel_emotion_tree_hole"
+                android:textColor="#2FBDBE"
+                android:textSize="20sp" />
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:id="@+id/tv_channel_name_en"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mood&amp;Feeling"
+                android:textColor="#828282"
+                android:textSize="11sp" />
+        </com.tjut.mianliao.black.MagicLinearLayout>
+
+        <com.tjut.mianliao.theme.ThemeLineView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#33FFFFFF" />
+    </com.tjut.mianliao.black.MagicRelativeLayout>
+
+</com.tjut.mianliao.black.MagicLinearLayout>

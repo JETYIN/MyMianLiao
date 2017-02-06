@@ -1,0 +1,215 @@
+<com.tjut.mianliao.component.ThemeFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fl_curriculum"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/course_bg_default">
+
+    <com.tjut.mianliao.black.MagicLinearLayout
+        android:id="@+id/ll_weekday"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@color/cur_cell_a"
+        android:orientation="horizontal">
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:id="@+id/tv_month"
+            style="@style/MianLiao.Title.Curriculum"
+            android:layout_width="@dimen/cur_first_col_width"
+            android:layout_height="match_parent"
+            android:background="#EEEEEE"
+            android:text="8月"/>
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:id="@+id/tv_mon_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="9sp"/>
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:id="@+id/tv_week_mon"
+                style="@style/MianLiao.Title.Curriculum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cur_week_mon"/>
+        </com.tjut.mianliao.black.MagicLinearLayout>
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:id="@+id/tv_tue_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="9sp"/>
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:id="@+id/tv_week_tue"
+                style="@style/MianLiao.Title.Curriculum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cur_week_tue"/>
+        </com.tjut.mianliao.black.MagicLinearLayout>
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:id="@+id/tv_wed_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="9sp"/>
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:id="@+id/tv_week_wed"
+                style="@style/MianLiao.Title.Curriculum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cur_week_wed"/>
+        </com.tjut.mianliao.black.MagicLinearLayout>
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:id="@+id/tv_thu_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="9sp"/>
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:id="@+id/tv_week_thu"
+                style="@style/MianLiao.Title.Curriculum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cur_week_thu"/>
+        </com.tjut.mianliao.black.MagicLinearLayout>
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:id="@+id/tv_fri_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="9sp"/>
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:id="@+id/tv_week_fri"
+                style="@style/MianLiao.Title.Curriculum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cur_week_fri"/>
+        </com.tjut.mianliao.black.MagicLinearLayout>
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:id="@+id/tv_sat_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="9sp"/>
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:id="@+id/tv_week_sat"
+                style="@style/MianLiao.Title.Curriculum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cur_week_sat"/>
+        </com.tjut.mianliao.black.MagicLinearLayout>
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:id="@+id/tv_sun_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="9sp"/>
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:id="@+id/tv_week_sun"
+                style="@style/MianLiao.Title.Curriculum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cur_week_sun"/>
+        </com.tjut.mianliao.black.MagicLinearLayout>
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+    <View
+        android:id="@+id/v_line_hor"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="35dp"
+        android:background="@color/cur_border"/>
+
+    <ScrollView
+        android:id="@+id/sv_course_body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/v_line_hor"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+        <com.tjut.mianliao.black.MagicRelativeLayout
+            android:id="@+id/rl_course_body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.tjut.mianliao.black.MagicLinearLayout
+                android:id="@+id/ll_period"
+                android:layout_width="@dimen/cur_first_col_width"
+                android:layout_height="match_parent"
+                android:layout_alignBottom="@+id/cl_course_content"
+                android:layout_alignTop="@+id/cl_course_content"
+                android:background="#FFFFFFFF"
+                android:orientation="vertical"/>
+
+            <View
+                android:id="@+id/v_line_ver"
+                android:layout_width="1px"
+                android:layout_height="match_parent"
+                android:layout_alignBottom="@+id/cl_course_content"
+                android:layout_marginLeft="@dimen/cur_first_col_width"
+                android:background="@color/cur_border"/>
+
+            <com.tjut.mianliao.curriculum.cell.CellLayout
+                android:id="@+id/cl_course_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/v_line_ver"/>
+        </com.tjut.mianliao.black.MagicRelativeLayout>
+    </ScrollView>
+
+</com.tjut.mianliao.component.ThemeFrameLayout>

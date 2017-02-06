@@ -1,0 +1,42 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_report"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.tjut.mianliao.theme.ThemeLineView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="10dp"
+        android:background="#CACACA"/>
+
+    <ListView
+        android:id="@+id/lv_report"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#CACACA"
+        android:background="@android:color/transparent"
+        android:dividerHeight="1px"
+        android:listSelector="@drawable/selector_group_chat_item_bg"/>
+
+    <com.tjut.mianliao.theme.ThemeLineView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#CACACA"/>
+
+    <Button
+        android:id="@+id/btn_report"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/selector_quit_button_bg"
+        android:gravity="center"
+        android:text="@string/report"
+        android:textColor="@color/white"
+        android:textSize="16sp"/>
+
+</com.tjut.mianliao.black.MagicLinearLayout>

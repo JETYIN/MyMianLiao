@@ -1,0 +1,20 @@
+<com.tjut.mianliao.black.MagicRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="match_parent" android:layout_width="match_parent">
+
+    <com.tjut.mianliao.black.MagicLinearLayout android:background="@drawable/bg_item_with_bottom_line_last" android:id="@+id/ll_input" android:layout_height="wrap_content" android:layout_marginTop="@dimen/card_item_spacing" android:layout_width="match_parent" android:orientation="vertical">
+
+        <include layout="@layout/hr_divider" />
+
+        <EditText android:background="@null" android:gravity="top" android:hint="@string/rpl_hint_reply" android:id="@+id/et_desc" android:layout_height="wrap_content" android:layout_width="match_parent" android:maxLength="140" android:maxLines="8" android:minLines="5" android:onClick="onClick" android:textColor="#434343" />
+
+        <com.tjut.mianliao.theme.ThemeImageView android:id="@+id/iv_image" android:layout_height="55dp" android:layout_marginBottom="@dimen/card_item_spacing" android:layout_marginLeft="10dp" android:layout_width="55dp" android:onClick="onClick" android:scaleType="centerCrop" android:visibility="gone" />
+
+        <include layout="@layout/hr_divider_with_margin" />
+
+        <include layout="@layout/input_actions" />
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+    <Button android:background="@drawable/selector_btn_blue" android:id="@+id/btn_submit" android:layout_below="@id/ll_input" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_marginTop="13dp" android:layout_width="match_parent" android:onClick="onClick" android:text="@string/fp_post" />
+
+    <com.tjut.mianliao.component.EmotionPicker android:background="@color/white" android:id="@+id/ep_emotions" android:layout_alignParentBottom="true" android:layout_height="200dp" android:layout_width="match_parent" android:visibility="gone" />
+
+</com.tjut.mianliao.black.MagicRelativeLayout>

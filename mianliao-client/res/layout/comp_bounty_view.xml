@@ -1,0 +1,17 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="wrap_content" android:layout_width="match_parent">
+
+    <com.tjut.mianliao.component.EmotionTextView android:id="@+id/tv_desc" android:layout_height="wrap_content" android:layout_width="match_parent" android:textColor="#7A7A7A" android:textIsSelectable="true" android:textSize="@dimen/card_content_txt_size" />
+
+    <com.tjut.mianliao.component.FlexibleImageView android:id="@+id/fiv_images" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:layout_width="match_parent" />
+
+    <com.tjut.mianliao.theme.ThemeTextView style="@style/MianLiao.EventItem" android:drawableLeft="@drawable/ic_event_cost" android:id="@+id/tv_reward" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:layout_width="match_parent" />
+
+    <com.tjut.mianliao.theme.ThemeTextView style="@style/MianLiao.EventItem" android:drawableLeft="@drawable/ic_event_time" android:id="@+id/tv_deadline" android:layout_height="wrap_content" android:layout_width="match_parent" />
+
+    <com.tjut.mianliao.theme.ThemeTextView style="@style/MianLiao.EventItem" android:drawableLeft="@drawable/ic_event_contact" android:id="@+id/tv_contact" android:layout_height="wrap_content" android:layout_width="match_parent" />
+
+    <com.tjut.mianliao.theme.ThemeTextView style="@style/MianLiao.EventItem" android:drawableLeft="@drawable/ic_event_location" android:id="@+id/tv_place" android:layout_height="wrap_content" android:layout_width="match_parent" />
+
+    <com.tjut.mianliao.component.StaticMapView android:id="@+id/smv_location" android:layout_height="100dp" android:layout_marginBottom="10dp" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_marginTop="10dp" android:layout_width="match_parent" android:visibility="gone" />
+
+</merge>

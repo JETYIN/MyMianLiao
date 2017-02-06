@@ -1,0 +1,111 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/title_bar_height"
+    android:scrollbars="none">
+
+    <com.tjut.mianliao.black.MagicLinearLayout
+        android:id="@+id/rl_basic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="10dp">
+
+        <include layout="@layout/profile_basic"/>
+
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card_margin_horizontal"
+            android:layout_marginRight="@dimen/card_margin_horizontal"
+            android:layout_marginTop="@dimen/card_item_spacing"
+            layout="@layout/item_wealth_info"/>
+
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card_margin_horizontal"
+            android:layout_marginRight="@dimen/card_margin_horizontal"
+            android:layout_marginTop="@dimen/card_item_spacing"
+            layout="@layout/item_sign_in_center"/>
+
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card_margin_horizontal"
+            android:layout_marginRight="@dimen/card_margin_horizontal"
+            android:layout_marginTop="@dimen/card_item_spacing"
+            layout="@layout/profile_medal"/>
+
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card_margin_horizontal"
+            android:layout_marginRight="@dimen/card_margin_horizontal"
+            android:layout_marginTop="@dimen/card_item_spacing"
+            layout="@layout/item_day_interactive"/>
+
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card_margin_horizontal"
+            android:layout_marginRight="@dimen/card_margin_horizontal"
+            android:layout_marginTop="@dimen/card_item_spacing"
+            layout="@layout/item_individualy_signature"/>
+
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card_margin_horizontal"
+            android:layout_marginRight="@dimen/card_margin_horizontal"
+            android:layout_marginTop="@dimen/card_item_spacing"
+            layout="@layout/profile_identity"
+            android:visibility="gone"/>
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_chat"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/card_margin_horizontal"
+                android:layout_marginRight="@dimen/card_margin_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/selector_btn_white"
+                android:onClick="onClick"
+                android:text="@string/prof_chat"
+                android:textColor="#31C4CE"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/btn_add_contact"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/card_margin_horizontal"
+                android:layout_marginRight="@dimen/card_margin_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/selector_btn_blue"
+                android:onClick="onClick"
+                android:text="@string/prof_contact_add"
+                android:visibility="gone"/>
+        </com.tjut.mianliao.black.MagicLinearLayout>
+
+        <Button
+            android:id="@+id/btn_logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card_margin_horizontal"
+            android:layout_marginRight="@dimen/card_margin_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/selector_btn_red"
+            android:onClick="onClick"
+            android:text="@string/prof_log_out"
+            android:visibility="gone"/>
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+</ScrollView>

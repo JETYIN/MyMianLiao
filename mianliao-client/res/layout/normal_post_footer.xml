@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tjut.mianliao.black.MagicRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:color_magic="0">
+
+    <com.tjut.mianliao.component.ExpandableGridView
+        android:id="@+id/gv_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:horizontalSpacing="4dp"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="5"
+        android:paddingBottom="12dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="12dp"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="4dp"
+        android:visibility="gone"/>
+
+    <com.tjut.mianliao.black.MagicLinearLayout
+        android:id="@+id/ll_voice_record"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/gv_gallery"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <com.tjut.mianliao.theme.ThemeLineView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#c6c6c6"/>
+
+        <com.tjut.mianliao.theme.ThemeImageView
+            android:id="@+id/iv_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp"
+            android:contentDescription="@null"
+            android:onClick="onClick"
+            android:src="@drawable/buttom_down"/>
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            android:id="@+id/ll_record_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="27dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.tjut.mianliao.theme.ThemeImageView
+                android:id="@+id/iv_anim_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/anim_voice_play_post"/>
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:id="@+id/tv_record_time"
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:background="@drawable/circle_voice_post_showtime_bg"
+                android:drawableLeft="@drawable/pic_circle_red_record_time_flag"
+                android:drawablePadding="15dp"
+                android:gravity="center"
+                android:paddingLeft="9dp"
+                android:paddingRight="13dp"
+                android:textColor="@color/white"
+                android:textSize="12sp"/>
+
+            <com.tjut.mianliao.theme.ThemeImageView
+                android:id="@+id/iv_anim_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/anim_voice_play_post"/>
+        </com.tjut.mianliao.black.MagicLinearLayout>
+
+        <com.tjut.mianliao.black.MagicRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp">
+
+            <com.tjut.mianliao.black.MagicFrameLayout
+                android:id="@+id/fl_record"
+                android:layout_width="114dp"
+                android:layout_height="114dp"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center">
+
+                <ProgressBar
+                    android:id="@+id/pb_circle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+                    android:indeterminate="false"
+                    android:indeterminateBehavior="repeat"
+                    android:indeterminateDrawable="@drawable/post_progressbar_ratate"
+                    android:indeterminateOnly="true"
+                    android:onClick="onClick"/>
+
+                <com.tjut.mianliao.theme.ThemeImageView
+                    android:id="@+id/iv_record_flag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/note_bg_button_tape"/>
+
+                <com.tjut.mianliao.theme.ThemeImageView
+                    android:id="@+id/iv_play"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+                    android:onClick="onClick"
+                    android:src="@drawable/note_bg_button_tape"
+                    android:visibility="gone"/>
+            </com.tjut.mianliao.black.MagicFrameLayout>
+
+            <com.tjut.mianliao.theme.ThemeImageView
+                android:id="@+id/iv_del"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30dp"
+                android:layout_toRightOf="@id/fl_record"
+                android:clickable="true"
+                android:onClick="onClick"
+                android:padding="10dp"
+                android:src="@drawable/chn_record_delete"
+                android:visibility="visible"/>
+        </com.tjut.mianliao.black.MagicRelativeLayout>
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:id="@+id/tv_show_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="42dp"
+            android:layout_marginTop="13dp"
+            android:gravity="center"
+            android:text="@string/cht_pressed_to_record"
+            android:textColor="#878a88"
+            android:textSize="14sp"
+            android:visibility="visible"/>
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+</com.tjut.mianliao.black.MagicRelativeLayout>

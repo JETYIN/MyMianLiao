@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_show_gift"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:background="@drawable/img_bg_gift"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tv_congratulation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/congralation_get"/>
+
+        <ImageView
+            android:id="@+id/iv_cloose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:padding="4dp"
+            android:src="@drawable/img_bg_gift_back"/>
+
+        <LinearLayout
+            android:id="@+id/ll_gift_icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_congratulation"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingTop="15dp">
+
+            <LinearLayout
+                android:id="@+id/ll_kernel_img"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+
+                <com.tjut.mianliao.component.AvatarView
+                    android:id="@+id/priv_kernel"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/pic_bg_prize"
+                    app:borderType="circle"
+                    app:cornerRadius="200dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                 android:id="@+id/ll_gift_img"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+
+                <com.tjut.mianliao.component.AvatarView
+                    android:id="@+id/priv_gift"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_sign_gift_text"
+                    app:borderType="circle"
+                    app:cornerRadius="200dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_get_gift"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ll_gift_icon"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:gravity="bottom|center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_gift_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <!-- <TextView -->
+            <!-- android:id="@+id/tv_gift_day" -->
+            <!-- android:layout_width="wrap_content" -->
+            <!-- android:layout_height="wrap_content"/> -->
+
+
+            <!-- <TextView -->
+            <!-- android:layout_width="wrap_content" -->
+            <!-- android:layout_height="wrap_content" -->
+            <!-- android:text="天使用权限"/> -->
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_kernel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ll_get_gift"
+            android:layout_centerHorizontal="true"
+            android:gravity="bottom|center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/prof_has_gain"/>
+
+            <TextView
+                android:id="@+id/tv_kernel_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/emo_recharge_kernel"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_gift"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+
+</FrameLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="om_add_user">Add User</string>
+    <string name="om_enable_video">Enable Video</string>
+    <string name="om_disable_video">Disable Video</string>
+    <string name="om_change_type">Change Type</string>
+    <string name="om_type_change_failed">Type change failed</string>
+    <string name="om_change_call_to">"Change call to "</string>
+    <string name="om_video">Video</string>
+    <string name="om_voice">Voice</string>
+    <string name="om_not_in_call">Not In Call</string>
+    <string name="om_connecting">Connecting&#8230;</string>
+    <string name="om_ringing">Ringing&#8230;</string>
+    <string name="om_call_failed">Call Failed</string>
+    <string name="om_reject">Reject</string>
+    <string name="om_accept">Accept</string>
+    <string name="om_end_call">End call</string>
+    <string name="om_call_ended">Call Ended</string>
+    <string name="om_return_back">Return</string>
+    <string name="om_call_back">Call Back</string>
+    <string name="om_example_user">Exampler User</string>
+    <string name="om_call_error">Call Error</string>
+    <string name="om_call_rejected">Call Rejected</string>
+    <string name="om_missed_call">Missed Call</string>
+    <string name="om_user_busy">User Busy</string>
+    <string name="om_user_unavailable">User Unavailable</string>
+    <string name="om_link_lost">Link Lost</string>
+    <string name="om_speaker">Speaker</string>
+    <string name="om_mute">Mute</string>
+
+</resources>

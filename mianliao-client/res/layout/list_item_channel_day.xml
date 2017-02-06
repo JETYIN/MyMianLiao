@@ -1,0 +1,7 @@
+<com.tjut.mianliao.black.MagicFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center" android:id="@+id/fl_channel_day" android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="horizontal">
+
+    <com.tjut.mianliao.component.GalleryItemView app:borderType="roundCorner" app:cornerRadius="0dp" android:id="@+id/iv_channel_photo" android:layout_gravity="center" android:layout_height="match_parent" android:layout_width="match_parent" android:scaleType="fitXY" android:src="@drawable/pic_face_01" />
+
+    <com.tjut.mianliao.theme.ThemeTextView android:background="#7F000000" android:gravity="center" android:id="@+id/tv_channel_name" android:layout_height="match_parent" android:layout_width="match_parent" android:textColor="@color/white" />
+
+</com.tjut.mianliao.black.MagicFrameLayout>

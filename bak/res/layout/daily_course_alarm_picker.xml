@@ -1,0 +1,9 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="horizontal">
+
+    <kankan.wheel.widget.WheelView android:id="@+id/wv_daily_alarm_day" android:layout_height="150dp" android:layout_weight="1" android:layout_width="0dp" />
+
+    <kankan.wheel.widget.WheelView android:id="@+id/wv_daily_alarm_hour" android:layout_height="150dp" android:layout_weight="1" android:layout_width="0dp" />
+
+    <kankan.wheel.widget.WheelView android:id="@+id/wv_daily_alarm_minute" android:layout_height="150dp" android:layout_weight="1" android:layout_width="0dp" />
+
+</com.tjut.mianliao.black.MagicLinearLayout>

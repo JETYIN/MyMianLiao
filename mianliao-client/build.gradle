@@ -1,0 +1,309 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:1.5.0'
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
+
+// Disable preDex on server
+project.ext.preDexLibs = !project.hasProperty('disablePreDex')
+
+subprojects {
+    project.plugins.whenPluginAdded { plugin ->
+        if ("com.android.build.gradle.AppPlugin".equals(plugin.class.name)) {
+            project.android.dexOptions.preDexLibraries = rootProject.ext.preDexLibs
+        } else if ("com.android.build.gradle.LibraryPlugin".equals(plugin.class.name)) {
+            project.android.dexOptions.preDexLibraries = rootProject.ext.preDexLibs
+        }
+    }
+}
+
+ext {
+    compileSdkVersion = 22
+    buildToolsVersion = "21.1"
+}
+
+// android configs
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion '21.1'
+    defaultConfig {
+        applicationId "com.tjut.mianliao"
+        minSdkVersion 15
+        targetSdkVersion 22
+        multiDexEnabled true
+        ndk {
+            abiFilters "armeabi", "armeabi-v7a", "x86", "mips"
+        }
+        manifestPlaceholders = [UMENG_CHANNEL_VALUE: "tjut"]
+    }
+
+    dexOptions {
+        incremental true
+    }
+
+
+    packagingOptions {
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/MANIFEST.MF'
+
+    }
+
+    signingConfigs {
+        release {
+            storeFile file('config/prod.keystore')
+            storePassword '$%FJK6jkdbf7adfn2193nsdf(&*&(*$@$[p;olkiurfeslikujmth'
+            keyAlias 'tjutproduct'
+            keyPassword '$%FJK6jkdbf7adfn2193nsdf(&*&(*$@$[p;olkiurfeslikujmth'
+        }
+        debug {
+            storeFile file('config/debug.keystore')
+            storePassword 'android'
+            keyAlias 'androiddebugkey'
+            keyPassword 'android'
+        }
+        stg {
+            storeFile file('config/debug.keystore')
+            storePassword 'android'
+            keyAlias 'androiddebugkey'
+            keyPassword 'android'
+        }
+    }
+
+    def propsFile = rootProject.file('keystore.properties')
+    if (propsFile.exists()) {
+        Properties p = new Properties()
+        p.load(new FileInputStream(propsFile))
+        signingConfigs.release.storeFile file(p.storeFile)
+        signingConfigs.release.storePassword p.storePassword
+        signingConfigs.release.keyAlias p.keyAlias
+        signingConfigs.release.keyPassword p.keyPassword
+    }
+
+    productFlavors {
+        dev {}
+        prod {}
+        stg {}
+        xiaomi {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "小米"]
+        }
+        _360 {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "360"]
+        }
+        baidu {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "百度"]
+        }
+        wandoujia {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "豌豆荚"]
+        }
+        yingyongbao {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "应用宝"]
+        }
+        yingyonghui {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "应用汇"]
+        }
+        huawei {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "华为"]
+        }
+        tjut {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "泰聚泰"]
+        }
+        meizu {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "魅族"]
+        }
+        sina {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "新浪"]
+        }
+        _91 {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "91"]
+        }
+        android_market {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "安卓市场"]
+        }
+        jifeng {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "机锋"]
+        }
+        mumayi {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "木蚂蚁"]
+        }
+        nduowang {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "N多网"]
+        }
+        oppo {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "OPPO"]
+        }
+        vivo {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "VIVO"]
+        }
+    }
+
+    jacoco {
+        version = '0.7.2.201409121644'
+    }
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-project.txt'
+            signingConfig signingConfigs.debug
+            testCoverageEnabled true
+            shrinkResources true
+        }
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-project.txt'
+            signingConfig signingConfigs.release
+            shrinkResources true
+        }
+    }
+
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src']
+            aidl.srcDirs = ['src']
+            jniLibs.srcDirs = ['libs']
+            res.srcDirs = ['res']
+            assets.srcDirs = ['assets']
+        }
+
+        devDebug.setRoot 'variants/devDebug'
+        devRelease.setRoot 'variants/devRelease'
+        prodDebug.setRoot 'variants/prodDebug'
+        prodRelease.setRoot 'variants/prodRelease'
+        stgDebug.setRoot 'variants/stgDebug'
+        stgRelease.setRoot 'variants/stgRelease'
+    }
+}
+
+dependencies {
+
+    //qupai
+    compile 'com.android.support:appcompat-v7:22.2.0'
+    compile 'com.android.support:support-v13:22.2.0'
+    compile 'com.fasterxml.jackson.core:jackson-databind:2.6.4'
+    compile 'com.google.dagger:dagger-compiler:2.0.1'
+    compile 'com.android.support:recyclerview-v7:22.2.0'
+    compile 'com.android.support:design:22.2.0'
+    compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.4'
+    compile 'com.google.code.findbugs:jsr305:3.0.0'
+    compile 'org.apache.httpcomponents:httpclient-android:4.3.5.1'
+    compile 'com.android.support:multidex:1.0.1'
+    compile project(':pingpp')
+    compile project(':Qupaisdk-release')
+    compile project(':playerLibRelease')
+    compile project('emotion')
+    compile project('wheel')
+    compile project('pull-to-refresh')
+    compile project('umeng-social-lib')
+    compile project('android-touch-gallery')
+    compile project('two_ways_lib')
+    compile project('cocos_view_lib')
+    compile project('tuSdk')
+    compile project('fastBlur')
+    compile project('multi-image-selector')
+    compile files('libs/faceppsdk.jar')
+    compile files('libs/mta-sdk-2.0.0.jar')
+    compile files('libs/mid-sdk-2.20.jar')
+    compile files('libs/zxing-core-3.0.0-sources.jar')
+    compile files('libs/zxing-core-3.0.0.jar')
+    compile files('libs/wup-1.0.0-SNAPSHOT.jar')
+    compile files('libs/Xg_sdk_v2.39_20150915_1121.jar')
+    compile files('libs/oss-android-sdk-1.0.0.jar')
+    compile files('libs/android_api_1.1_forsdk.jar')
+    compile files('libs/BaiduLBS_Android.jar')
+    compile files('libs/galaxy_mini.jar')
+    compile files('libs/UPPayAssistEx.jar')
+    compile files('libs/UPPayPluginExPro.jar')
+    compile files('libs/nineoldandroids-2.4.0.jar')
+    compile files('libs/jg_filter_sdk_1.1.jar')
+    compile files('libs/umeng-analytics-v5.6.1.jar')
+    compile files('libs/xUtils-2.6.14.jar')
+    compile files('libs/pinyin4j-2.5.0.jar')
+    compile files('libs/httpmime-4.1.3.jar')
+    compile files('libs/commons-lang-2.3.jar')
+    compile files('libs/hyphenatechat_3.1.4.jar')
+    compile files('libs/lecloud_Android_mobile_live_push_SDK_v1.1.2_stable.jar')
+    compile 'com.android.support:design:22.2.0'
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.1'
+}
+
+// lint options
+allprojects {
+    android {
+        lintOptions {
+            abortOnError false
+            disable 'RtlHardcoded', 'RtlSymmetry', 'ContentDescription'
+        }
+    }
+}
+
+// Sub projects configs
+subprojects {
+    tasks.whenTaskAdded { task ->
+        if (task.name.startsWith("lint")) {
+            task.enabled = false
+        }
+    }
+}
+
+// findbugs
+apply plugin: "findbugs"
+
+task findbugs(type: FindBugs) {
+    ignoreFailures = false
+    effort = "max"
+    reportLevel = "medium"
+    ignoreFailures = true
+    excludeFilter = new File("config/findbugs-exclude.xml")
+    classes = files("build/intermediates/classes")
+
+    source 'src'
+    include '**/*.java'
+    exclude '**/gen/**'
+
+    reports {
+        xml.enabled = true
+        xml.destination = "build/outputs/findbugs.xml"
+        html.enabled = false
+        html.destination = "build/outputs/findbugs.html"
+    }
+
+    classpath = files()
+}
+
+// checkstyle
+apply plugin: 'checkstyle'
+
+task checkstyle(type: Checkstyle) {
+    ignoreFailures = true
+    configFile file("config/checkstyle-rule.xml")
+
+    source 'src'
+    include '**/*.java'
+    exclude '**/gen/**'
+
+    reports {
+        xml.enabled = true
+        xml.destination = "build/outputs/checkstyle.xml"
+    }
+
+    classpath = files()
+}

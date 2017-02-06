@@ -1,0 +1,49 @@
+<com.tjut.mianliao.black.MagicFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:color_magic="0">
+
+    <com.tjut.mianliao.black.MagicLinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <com.tjut.mianliao.component.SearchView
+            android:id="@+id/message_search"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dip"
+            android:gravity="center"
+            android:visibility="gone"
+            app:search_view_bg="@drawable/bg_search_bar"
+            app:search_view_height="40dp"/>
+
+        <com.tjut.mianliao.theme.ThemeImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="-100dp"
+            android:background="@drawable/pic_bg_chat_nochat"/>
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cht_chat_with_friends"
+            android:textColor="#FA7886"
+            android:textSize="24dp"
+            android:visibility="gone"/>
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:id="@+id/tv_no_chat"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:text="@string/cht_no_chat_recently"
+            android:visibility="gone"/>
+    </com.tjut.mianliao.black.MagicLinearLayout>
+</com.tjut.mianliao.black.MagicFrameLayout>

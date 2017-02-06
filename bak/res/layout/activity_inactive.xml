@@ -1,0 +1,7 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical">
+
+    <com.tjut.mianliao.theme.ThemeTextView android:gravity="center" android:layout_gravity="center_horizontal" android:layout_height="wrap_content" android:layout_marginTop="50dp" android:layout_width="200dp" android:text="@string/us_inactive_hint" android:textColor="@color/txt_tab_item_grey" android:textSize="17sp" />
+
+    <Button android:background="@drawable/selector_btn_blue" android:id="@+id/btn_check" android:layout_gravity="center_horizontal" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_width="wrap_content" android:onClick="checkState" android:text="@string/us_try_active" />
+
+</com.tjut.mianliao.black.MagicLinearLayout>

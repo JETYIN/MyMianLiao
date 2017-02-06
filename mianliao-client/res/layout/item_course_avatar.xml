@@ -1,0 +1,3 @@
+<com.tjut.mianliao.component.AvatarView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="@dimen/course_avatar_size" android:layout_width="@dimen/course_avatar_size">
+
+</com.tjut.mianliao.component.AvatarView>

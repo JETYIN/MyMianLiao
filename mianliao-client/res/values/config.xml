@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <bool name="debug">true</bool>
+    <bool name="use_dev_server">false</bool>
+    <bool name="use_stg_server">false</bool>
+
+    <!--<string name="server_domain_dev">prods1.tjut.cc</string>
+    <string name="server_domain_dev_chat">prods1.tjut.cc</string>-->
+    <string name="server_domain_dev">dev.tjut.cc</string>
+    <string name="server_domain_dev_chat">dev.tjut.cc</string>
+    <string name="server_domain_prod">prod.tjut.cc</string>
+    <string name="server_domain_prod_chat">chat.tjut.cc</string>
+    <string name="server_domain_stg">stg.tjut.cc</string>
+    <string name="server_domain_stg_chat">stg.tjut.cc</string>
+
+    <string name="le_uid">842911</string>
+    <string name="le_secret_key">241e5cccb7e27858ed02d398638699c0</string>
+    <string name="live_push_domain">3936.mpush.live.lecloud.com</string>
+    <string name="live_pull_domain">3936.mpull.live.lecloud.com</string>
+    <string name="live_sign_key">7YSACWDXYA1IMQBJAWVS</string>
+    <string name="live_point">live</string>
+    <string name="live_uu">0v3fdyv2ds</string>
+
+</resources>

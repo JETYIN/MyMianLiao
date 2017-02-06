@@ -1,0 +1,16 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F2F2"
+    android:orientation="vertical"
+    app:color_magic="0">
+
+    <com.tjut.mianliao.component.CommonBanner
+        android:id="@+id/vs_switcher"
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
+        android:visibility="gone"
+        app:banner_plate="2"/>
+
+</com.tjut.mianliao.black.MagicLinearLayout>

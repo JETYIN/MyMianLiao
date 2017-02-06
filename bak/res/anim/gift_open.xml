@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true">
+
+    <item android:drawable="@drawable/gift_open1" android:duration="60"/>
+    <item android:drawable="@drawable/gift_open2" android:duration="60"/>
+    <item android:drawable="@drawable/gift_open3" android:duration="60"/>
+    <item android:drawable="@drawable/gift_open4" android:duration="60"/>
+    <item android:drawable="@drawable/gift_open5" android:duration="60"/>
+    <item android:drawable="@drawable/gift_open6" android:duration="60"/>
+    <item android:drawable="@drawable/gift_open7" android:duration="60"/>
+    <item android:drawable="@drawable/gift_open8" android:duration="60"/>
+    <item android:drawable="@drawable/gift_open9" android:duration="60"/>
+    <item android:drawable="@drawable/gift_open10" android:duration="60"/>
+    <item android:drawable="@drawable/gift_open11" android:duration="60"/>
+    <item android:drawable="@drawable/gift_open12" android:duration="60"/>
+    <item android:drawable="@drawable/gift_open13" android:duration="60"/>
+    <item android:drawable="@drawable/gift_open14" android:duration="60"/>
+    <item android:drawable="@drawable/gift_open15" android:duration="60"/>
+    <item android:drawable="@drawable/gift_open16" android:duration="60"/>
+    <item android:drawable="@drawable/gift_open17" android:duration="60"/>
+    <item android:drawable="@drawable/gift_open18" android:duration="60"/>
+    <item android:drawable="@drawable/gift_open19" android:duration="60"/>
+    <item android:drawable="@drawable/gift_open20" android:duration="60"/>
+    <item android:drawable="@drawable/gift_open21" android:duration="60"/>
+    <item android:drawable="@drawable/gift_open22" android:duration="60"/>
+    <item android:drawable="@drawable/gift_open23" android:duration="60"/>
+    <item android:drawable="@drawable/gift_open24" android:duration="60"/>
+    <item android:drawable="@drawable/gift_open25" android:duration="60"/>
+    <item android:drawable="@drawable/gift_open26" android:duration="60"/>
+    <item android:drawable="@drawable/gift_open27" android:duration="60"/>
+    <item android:drawable="@drawable/gift_open28" android:duration="60"/>
+    <item android:drawable="@drawable/gift_open29" android:duration="60"/>
+    <item android:drawable="@drawable/gift_open30" android:duration="60"/>
+    <item android:drawable="@drawable/gift_open31" android:duration="60"/>
+    <item android:drawable="@drawable/gift_open32" android:duration="60"/>
+    <item android:drawable="@drawable/gift_open33" android:duration="60"/>
+    <item android:drawable="@drawable/gift_open34" android:duration="60"/>
+    <item android:drawable="@drawable/gift_open35" android:duration="60"/>
+    
+</animation-list>

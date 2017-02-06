@@ -1,0 +1,95 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000">
+
+    <com.tjut.mianliao.component.GalleryViewPagerW
+        android:id="@+id/gvp_images"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <ImageButton
+        android:id="@+id/btn_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:background="@android:color/transparent"
+        android:onClick="onClick"
+        android:padding="10dp"
+        android:src="@drawable/botton_bg_arrow"
+        tools:ignore="ContentDescription"/>
+
+    <TextView
+        android:id="@+id/tv_pos_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="#32000000">
+
+        <ImageView
+            android:id="@+id/iv_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="12dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="12dp"
+            android:onClick="onClick"
+            android:src="@drawable/icon_save_img"
+            tools:ignore="ContentDescription"/>
+
+        <ImageView
+            android:id="@+id/iv_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="12dp"
+            android:layout_marginTop="12dp"
+            android:onClick="onClick"
+            android:src="@drawable/icon_delete_big"
+            android:visibility="gone"
+            tools:ignore="ContentDescription"/>
+
+        <LinearLayout
+            android:id="@+id/ll_todo_avatar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="17dp"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:onClick="onClick"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/iv_todo_avatar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:onClick="onClick"
+                android:src="@drawable/icon_header_choose"
+                tools:ignore="ContentDescription"/>
+
+            <TextView
+                android:id="@+id/tv_todo_avatar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:clickable="true"
+                android:onClick="onClick"
+                android:text="@string/set_image"
+                android:textColor="@color/white"
+                android:textSize="12sp"/>
+        </LinearLayout>
+    </FrameLayout>
+
+</FrameLayout>

@@ -1,0 +1,43 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_medal_card"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingLeft="15dp"
+    app:color_magic="0">
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:drawableLeft="@drawable/icon_medal"
+        android:drawablePadding="10dp"
+        android:text="@string/prof_medal"
+        android:textColor="#656565"
+        android:textSize="15sp"/>
+
+    <GridView
+        android:id="@+id/gv_medal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:listSelector="@null"
+        android:numColumns="@integer/max_primary_medals"
+        android:paddingRight="12dp"/>
+
+    <com.tjut.mianliao.theme.ThemeImageView
+        android:id="@+id/iv_enter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="14dp"
+        android:scaleType="center"
+        android:src="@drawable/botton_bg_chat_arrowright"
+        tools:ignore="ContentDescription"/>
+
+</com.tjut.mianliao.black.MagicLinearLayout>

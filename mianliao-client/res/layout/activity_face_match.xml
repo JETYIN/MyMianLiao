@@ -1,0 +1,153 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_bg_face_match"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/card_margin_horizontal"
+    app:color_magic="0" >
+
+    <com.tjut.mianliao.black.MagicLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_card"
+        android:orientation="vertical"
+        app:color_magic="0" >
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            android:id="@+id/ll_set_picture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_bg_card_item"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:onClick="onClick"
+            android:orientation="horizontal" >
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                style="@style/MianLiao.CardText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/card_margin_horizontal"
+                android:layout_weight="1"
+                android:text="@string/face_set_picture" />
+
+            <com.tjut.mianliao.component.AvatarView
+                android:id="@+id/iv_avatar"
+                android:layout_width="@dimen/face_my_avatar_size"
+                android:layout_height="@dimen/face_my_avatar_size"
+                android:layout_margin="10dp"
+                android:scaleType="fitXY" />
+
+            <com.tjut.mianliao.theme.ThemeImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:src="@drawable/ic_enter"
+                tools:ignore="ContentDescription" />
+        </com.tjut.mianliao.black.MagicLinearLayout>
+
+        <include layout="@layout/hr_divider_with_margin" />
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            android:id="@+id/ll_set_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_bg_card_item"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:onClick="onClick"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp" >
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                style="@style/MianLiao.CardText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/card_margin_horizontal"
+                android:layout_weight="1"
+                android:text="@string/face_set_category" />
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:id="@+id/tv_category"
+                style="@style/MianLiao.CardText.Light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="@string/face_category_couple" />
+
+            <com.tjut.mianliao.theme.ThemeImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:src="@drawable/ic_enter"
+                tools:ignore="ContentDescription" />
+        </com.tjut.mianliao.black.MagicLinearLayout>
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+    <Button
+        android:id="@+id/btn_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/selector_btn_blue"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:text="@string/face_search_start"
+        android:textColor="@color/txt_white" />
+
+    <com.tjut.mianliao.black.MagicFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/line_dash_horizontal"
+        android:layerType="software" >
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/bg_basic"
+            android:maxLines="1"
+            android:padding="2dp"
+            android:text="@string/face_similar_desc"
+            android:textColor="#32BBBC"
+            android:textSize="12sp" />
+    </com.tjut.mianliao.black.MagicFrameLayout>
+
+    <com.tjut.mianliao.black.MagicFrameLayout
+        android:layout_width="@dimen/face_similar_avatar_size"
+        android:layout_height="@dimen/face_similar_avatar_size"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp" >
+
+        <com.tjut.mianliao.component.AvatarView
+            android:id="@+id/iv_similar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" />
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:id="@+id/tv_question_mark"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/btn_gray"
+            android:gravity="center"
+            android:text="@string/question_mark"
+            android:textColor="@color/face_question_mark"
+            android:textSize="@dimen/face_question_mark_size" />
+    </com.tjut.mianliao.black.MagicFrameLayout>
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:textColor="@color/face_info"
+        android:textSize="@dimen/face_info_size" />
+
+</com.tjut.mianliao.black.MagicLinearLayout>

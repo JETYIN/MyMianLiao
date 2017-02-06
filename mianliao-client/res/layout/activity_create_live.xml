@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <SurfaceView
+        android:id="@+id/sv_iamge"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#991a090e" />
+
+    <RelativeLayout
+        android:id="@+id/rl_out_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp">
+
+        <RelativeLayout
+            android:id="@+id/rl_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/image_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/button_identification_none" />
+
+            <TextView
+                android:id="@+id/tv_school"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="27dp"
+                android:layout_toRightOf="@+id/image_one"
+                android:drawableLeft="@drawable/button_location"
+                android:drawablePadding="5dp"
+                android:gravity="center"
+                android:text="@string/user_school"
+                android:textColor="#B2ffffff"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:id="@+id/iv_switch_camera"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_toLeftOf="@+id/iv_quit"
+                android:onClick="onClick"
+                android:src="@drawable/button_camara" />
+
+            <ImageView
+                android:id="@+id/iv_quit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"
+                android:onClick="onClick"
+                android:src="@drawable/button_go_back" />
+
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_below="@+id/rl_top"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="45dp"
+            android:background="#26ffffff" />
+
+        <RelativeLayout
+            android:id="@+id/relative_edit"
+            android:layout_width="match_parent"
+            android:layout_height="127dp"
+            android:layout_below="@+id/view">
+
+            <ImageView
+                android:id="@+id/iv_avatar"
+                android:layout_width="91dp"
+                android:layout_height="91dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="14dp"
+                android:layout_marginTop="16dp"
+                android:onClick="onClick"
+                android:src="@drawable/img_live_addimg">
+
+            </ImageView>
+
+            <com.tjut.mianliao.component.RichMlEditText
+                android:id="@+id/live_edit_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/iv_avatar"
+                android:background="@null"
+                android:hint="@string/live_title"
+                android:onClick="onClick"
+                android:textColor="@drawable/bg_create_live"
+                android:textSize="18sp"
+                app:shouldWatcherAt="true"
+                app:shouldWatcherTextChanged="true"
+                app:shouldWatcherTopic="true" />
+
+            <!--android:textColor="#33ffffff"-->
+
+            <TextView
+                android:id="@+id/tv_topic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="14dp"
+                android:layout_marginRight="38dp"
+                android:onClick="onClick"
+                android:text="@string/live_topic"
+                android:textColor="#B2bdb8fe"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/view_two"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_below="@+id/relative_edit"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="#26ffffff" />
+
+
+        <LinearLayout
+            android:id="@+id/ll_share"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view_two"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginTop="200dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_weichat_friend"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                android:clickable="true"
+                android:src="@drawable/icon_friend_hover" />
+
+            <ImageView
+                android:id="@+id/iv_weichat"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                android:clickable="true"
+                android:src="@drawable/icon_weixin_index" />
+
+            <ImageView
+                android:id="@+id/iv_weibo"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                android:clickable="true"
+                android:src="@drawable/icon_weibo_index" />
+
+            <ImageView
+                android:id="@+id/iv_qq"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                android:clickable="true"
+                android:src="@drawable/icon_qq_index" />
+
+            <ImageView
+                android:id="@+id/iv_qq_zone"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                android:clickable="true"
+                android:src="@drawable/icon_zone_index" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_start"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_below="@+id/ll_share"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/button_bg"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="@string/start_live_show"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_live_rule"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_start"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="21dp"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:shadowDx="-1"
+            android:shadowRadius="2"
+            android:text="@string/start_live_rule"
+            android:textColor="#99ffffff"
+            android:textSize="10sp" />
+
+    </RelativeLayout>
+
+    <include layout="@layout/activity_live_search" />
+</FrameLayout>

@@ -1,0 +1,25 @@
+<com.tjut.mianliao.black.MagicFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fl_course_forum"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/lv_posts"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:listSelector="@null"
+        android:scrollbarStyle="outsideOverlay"/>
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/cf_list_empty"
+        android:textColor="#C1B9A8"
+        android:textSize="16sp"
+        android:visibility="gone"/>
+
+</com.tjut.mianliao.black.MagicFrameLayout>

@@ -1,0 +1,211 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sv_setting"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <com.tjut.mianliao.black.MagicLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.tjut.mianliao.black.MagicRelativeLayout
+            android:id="@+id/setting_account_safe"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_marginTop="15dp"
+            android:background="@color/white"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp"
+            app:color_magic="0">
+
+            <com.tjut.mianliao.theme.ThemeImageView
+                android:id="@+id/iv_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:src="@drawable/botton_bg_chat_arrowright"/>
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:id="@+id/tv_safe_level"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@id/iv_more"
+                android:textColor="#B0B0B0"
+                android:textSize="12sp"/>
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:layout_toLeftOf="@id/tv_safe_level"
+                android:text="@string/setting_account_and_safe"
+                android:textColor="#727272"
+                android:textSize="15sp"/>
+        </com.tjut.mianliao.black.MagicRelativeLayout>
+
+        <com.tjut.mianliao.theme.ThemeImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/img_solid_split_down"/>
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            style="@style/MianLiao.SettingCategory"
+            android:visibility="gone">
+
+            <com.tjut.mianliao.component.CheckBoxSetting
+                android:id="@+id/setting_new_message_sound"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <com.tjut.mianliao.component.CheckBoxSetting
+                android:id="@+id/setting_new_message_vibrate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <com.tjut.mianliao.component.CheckBoxSetting
+                android:id="@+id/setting_download_pictures_with_wifi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.tjut.mianliao.black.MagicLinearLayout>
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            style="@style/MianLiao.SettingCategory"
+            android:visibility="gone">
+
+            <com.tjut.mianliao.component.CheckBoxSetting
+                android:id="@+id/setting_enter_send_message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <com.tjut.mianliao.component.DialogSetting
+                android:id="@+id/setting_default_tab"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <com.tjut.mianliao.component.CheckBoxSetting
+                android:id="@+id/setting_night_mode"
+                android:layout_width="match_parent"
+                android:layout_height="57dp"/>
+        </com.tjut.mianliao.black.MagicLinearLayout>
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            style="@style/MianLiao.SettingCategory"
+            app:color_magic="0">
+        </com.tjut.mianliao.black.MagicLinearLayout>
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            style="@style/MianLiao.SettingCategory"
+            android:layout_marginTop="0dp"
+            app:color_magic="0">
+
+            <com.tjut.mianliao.component.IntentSetting
+                android:id="@+id/setting_notify"
+                android:layout_width="match_parent"
+                android:layout_height="57dp"/>
+
+            <com.tjut.mianliao.theme.ThemeLineView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="#E6E6E6"/>
+
+            <com.tjut.mianliao.component.IntentSetting
+                android:id="@+id/setting_privacy"
+                android:layout_width="match_parent"
+                android:layout_height="57dp"/>
+        </com.tjut.mianliao.black.MagicLinearLayout>
+
+        <com.tjut.mianliao.theme.ThemeImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/img_solid_split_down"/>
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            style="@style/MianLiao.SettingCategory"
+            android:layout_marginTop="0dp"
+            android:background="@android:color/transparent">
+
+            <com.tjut.mianliao.black.MagicLinearLayout
+                style="@style/MianLiao.SettingCategory"
+                app:color_magic="0">
+
+                <com.tjut.mianliao.component.IntentSetting
+                    android:id="@+id/setting_feedback"
+                    android:layout_width="match_parent"
+                    android:layout_height="57dp"/>
+
+                <com.tjut.mianliao.theme.ThemeLineView
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="#E6E6E6"/>
+
+                <com.tjut.mianliao.component.IntentSetting
+                    android:id="@+id/setting_help"
+                    android:layout_width="match_parent"
+                    android:layout_height="57dp"/>
+            </com.tjut.mianliao.black.MagicLinearLayout>
+
+            <com.tjut.mianliao.theme.ThemeImageView
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@drawable/img_solid_split_down"/>
+
+            <com.tjut.mianliao.black.MagicLinearLayout
+                style="@style/MianLiao.SettingCategory"
+                android:layout_width="match_parent"
+                app:color_magic="0">
+
+                <com.tjut.mianliao.component.IntentSetting
+                    android:id="@+id/setting_clear_cache"
+                    android:layout_width="match_parent"
+                    android:layout_height="57dp"
+                    android:clickable="true"
+                    android:onClick="onClick"/>
+
+                <com.tjut.mianliao.theme.ThemeLineView
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="#E6E6E6"/>
+
+                <com.tjut.mianliao.component.IntentSetting
+                    android:id="@+id/setting_about"
+                    android:layout_width="match_parent"
+                    android:layout_height="57dp"/>
+            </com.tjut.mianliao.black.MagicLinearLayout>
+
+            <com.tjut.mianliao.theme.ThemeImageView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@drawable/img_solid_split_down"/>
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:id="@+id/tv_logout"
+                android:layout_width="303dp"
+                android:layout_height="42dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="25dp"
+                android:layout_marginTop="27dp"
+                android:background="@drawable/bg_btn_setting_logout"
+                android:clickable="true"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:text="@string/post_account_exit"
+                android:textColor="@color/white"/>
+        </com.tjut.mianliao.black.MagicLinearLayout>
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+</ScrollView>

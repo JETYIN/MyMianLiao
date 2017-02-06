@@ -1,0 +1,841 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/qupai_recorder_universal_strings.xml -->
+    <eat-comment/>
+    <string-array name="Qupai_ApplicationGlue_LibraryList">
+        <item>megvii</item>
+        <item>gnustl_shared</item>
+        <item>qupai-media-thirdparty</item>
+        <item>qupai-media-jni</item>
+    </string-array>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/qupai_recorder_colors.xml -->
+    <eat-comment/>
+    <array name="qupai_text_edit_colors">
+        <item>#ffffff</item>
+        <item>#efe0cd</item>
+        <item>#fcd1ff</item>
+        <item>#ffd4c1</item>
+        <item>#fff1b1</item>
+        <item>#fffd00</item>
+        <item>#c0ff00</item>
+        <item>#83ff85</item>
+        <item>#87efe4</item>
+        <item>#6de0ff</item>
+        <item>#57bafe</item>
+        <item>#ffcc00</item>
+        <item>#ff9125</item>
+        <item>#ff7475</item>
+        <item>#e3355a</item>
+        <item>#d75cd9</item>
+        <item>#9b81fc</item>
+        <item>#906e52</item>
+        <item>#b90071</item>
+        <item>#2844af</item>
+        <item>#4e348d</item>
+        <item>#008a27</item>
+        <item>#121212</item>
+    </array>
+    <array name="qupai_text_edit_colors_stroke">
+        <item>#5e5e5e</item>
+        <item>#7f5837</item>
+        <item>#a73684</item>
+        <item>#9d481f</item>
+        <item>#368efa</item>
+        <item>#756242</item>
+        <item>#556c14</item>
+        <item>#356c4b</item>
+        <item>#01708c</item>
+        <item>#2844af</item>
+        <item>#894812</item>
+        <item>#fffd00</item>
+        <item>#feff66</item>
+    </array>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/qupai_common_attrs.xml -->
+    <eat-comment/>
+    <attr format="reference" name="absHListViewStyle"/>
+    <attr format="reference" name="hListViewStyle"/>
+    <attr format="reference" name="horizontalProgressLayout"/>
+    <attr name="layout_reference">
+        <flag name="top" value="0x30"/>
+        <flag name="bottom" value="0x50"/>
+        <flag name="left" value="0x03"/>
+        <flag name="right" value="0x05"/>
+        <flag name="center_vertical" value="0x10"/>
+        <flag name="center_horizontal" value="0x01"/>
+        <flag name="center" value="0x11"/>
+    </attr>
+    <attr format="reference" name="progressLayout"/>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/qupai_recorder_attrs.xml -->
+    <eat-comment/>
+    <attr format="reference" name="qupaiBeautySkinHead"/>
+    <attr format="reference" name="qupaiDIYOverlayCancel"/>
+    <attr format="reference" name="qupaiDIYOverlayContent_frame"/>
+    <attr format="reference" name="qupaiDIYOverlayDotte_frame"/>
+    <attr format="reference" name="qupaiDIYOverlayEditbar"/>
+    <attr format="reference" name="qupaiDIYOverlayEditbarStart"/>
+    <attr format="reference" name="qupaiDIYOverlayEditbar_frame"/>
+    <attr format="reference" name="qupaiDIYOverlayEditbar_progress"/>
+    <attr format="reference" name="qupaiDIYOverlayMirror"/>
+    <attr format="reference" name="qupaiDIYOverlayText"/>
+    <attr format="reference" name="qupaiDIYOverlayTransform"/>
+    <attr format="reference" name="qupaiDiyMaskColor"/>
+    <attr format="reference" name="qupaiDubbingAmplitudeProgress"/>
+    <attr format="reference" name="qupaiDubbingButton"/>
+    <attr format="reference" name="qupaiEditEffectAudioMixIcon"/>
+    <attr format="reference" name="qupaiEditEffectTabIndicator"/>
+    <attr format="reference" name="qupaiEditEffectTextColor"/>
+    <attr format="reference" name="qupaiEffectListMoreItem"/>
+    <attr format="reference" name="qupaiNextStepArrowButton"/>
+    <attr format="reference" name="qupaiNextStepTickButton"/>
+    <attr format="reference" name="qupaiOverlayListDownload"/>
+    <attr format="reference" name="qupaiRecorderTimelineClip"/>
+    <attr format="reference" name="qupaiSelfTimerButton"/>
+    <attr format="reference" name="qupaiSweepLeft"/>
+    <attr format="reference" name="qupaiSweepright"/>
+    <attr format="reference" name="qupaiTabIndicator"/>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/screen_adaptation.xml -->
+    <eat-comment/>
+    <item name="qupai_is_long_screen" type="bool">false</item>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/bools.xml -->
+    <eat-comment/>
+    <bool name="qupai_recorder_timeline_time_indicator">true</bool>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/qupai_recorder_colors.xml -->
+    <eat-comment/>
+    <color name="defalut_primary_color">#00ccaa</color>
+    <color name="defalut_primary_color_alpha30">#4d00ccaa</color>
+    <color name="defalut_primary_color_pressed">#4ddbc3</color>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/qupai_common_colors.xml -->
+    <eat-comment/>
+    <color name="green_light">#c2eae4</color>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/qupai_recorder_colors.xml -->
+    <eat-comment/>
+    <color name="powered_text_color">#adadad</color>
+    <color name="qupai_album_divider_line">#434343</color>
+    <color name="qupai_background_trim">#7f333333</color>
+    <color name="qupai_balloon_tip_bg_cyan">#e626b8e9</color>
+    <color name="qupai_bg_color_list">#ffffff</color>
+    <color name="qupai_black_opacity_10pct">#1a000000</color>
+    <color name="qupai_black_opacity_30pct">#4d000000</color>
+    <color name="qupai_black_opacity_40pct">#66000000</color>
+    <color name="qupai_black_opacity_50pct">#80000000</color>
+    <color name="qupai_black_opacity_70pct">#b3000000</color>
+    <color name="qupai_color_list_default">@color/defalut_primary_color</color>
+    <color name="qupai_color_text_edit_single">#a6a6a6</color>
+    <color name="qupai_dilog_divider_line">#d9d9d9</color>
+    <color name="qupai_editor_asset_item_background">#484848</color>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/screen_adaptation.xml -->
+    <eat-comment/>
+    <item name="qupai_effect_chooser_item_text" type="color">@color/qupai_effect_chooser_item_text_short</item>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/qupai_recorder_colors.xml -->
+    <eat-comment/>
+    <color name="qupai_effect_chooser_item_text_short">#ffffff</color>
+    <color name="qupai_gray_0x19">#191919</color>
+    <color name="qupai_gray_0x33">#333333</color>
+    <color name="qupai_gray_0x48">#484848</color>
+    <color name="qupai_gray_0x4d">#4d4d4d</color>
+    <color name="qupai_gray_0x80">#808080</color>
+    <color name="qupai_gray_0x8c">#8c8c8c</color>
+    <color name="qupai_gray_0x92">#929292</color>
+    <color name="qupai_gray_0x99">#999999</color>
+    <color name="qupai_gray_0xf2">#f2f2f2</color>
+    <color name="qupai_import_toast_bg">#99000000</color>
+    <color name="qupai_line_gray_cc">#cccccc</color>
+    <color name="qupai_recorder_timeline_background">#4d4d4d</color>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/screen_adaptation.xml -->
+    <eat-comment/>
+    <item name="qupai_recording_tip_bg" type="color">@color/qupai_recording_tip_bg_short</item>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/qupai_recorder_colors.xml -->
+    <eat-comment/>
+    <color name="qupai_recording_tip_bg_long">@android:color/transparent</color>
+    <color name="qupai_recording_tip_bg_short">#4c000000</color>
+    <color name="qupai_text_dialog_bg">#f7f7f7</color>
+    <color name="qupai_text_dialog_green_default">@color/defalut_primary_color</color>
+    <color name="qupai_text_dialog_green_press">#4ddbc3</color>
+    <color name="qupai_text_dialog_nickname">#4d000000</color>
+    <color name="qupai_text_dialog_vcode">#b3000000</color>
+    <color name="qupai_theme_default_background_color">@color/defalut_primary_color</color>
+    <color name="qupai_theme_default_background_color_transparent_20">@color/defalut_primary_color_alpha30</color>
+    <color name="qupai_theme_default_background_press_color">#4ddbc3</color>
+    <color name="qupai_theme_default_message_backgroud_color">#c6ebe5</color>
+    <color name="qupai_theme_default_text_color">@color/defalut_primary_color</color>
+    <color name="qupai_theme_default_text_press_color">#4ddbc3</color>
+    <color name="qupai_translucent_0x7f">#7f7f7f7f</color>
+    <color name="qupai_transparent">#00ffffff</color>
+    <color name="qupai_trim_green_default">@color/defalut_primary_color</color>
+    <declare-styleable name="AbsHListView"><attr name="android:listSelector"/><attr name="android:stackFromBottom"/><attr name="android:textFilterEnabled"/><attr name="android:smoothScrollbar"/><attr name="android:fastScrollEnabled"/><attr name="android:fastScrollAlwaysVisible"/><attr name="android:scrollingCache"/><attr name="android:drawSelectorOnTop"/><attr name="android:cacheColorHint"/><attr name="android:transcriptMode"/><attr name="android:choiceMode"/></declare-styleable>
+    <declare-styleable name="AbsListView"><attr name="android:listSelector"/><attr name="android:stackFromBottom"/><attr name="android:textFilterEnabled"/><attr name="android:smoothScrollbar"/><attr name="android:fastScrollEnabled"/><attr name="android:fastScrollAlwaysVisible"/><attr name="android:scrollingCache"/><attr name="android:drawSelectorOnTop"/><attr name="android:cacheColorHint"/><attr name="android:transcriptMode"/><attr name="android:choiceMode"/></declare-styleable>
+    <declare-styleable name="AlertDialog"><attr name="progressLayout"/><attr name="horizontalProgressLayout"/></declare-styleable>
+    <declare-styleable name="AutoScaleText"><attr format="dimension" name="strokeWidth"/><attr format="dimension" name="strokeMiter"/><attr format="color" name="strokeColor"/><attr name="strokeJoinStyle"><enum name="miter" value="0"/><enum name="bevel" value="1"/><enum name="round" value="2"/></attr></declare-styleable>
+    <declare-styleable name="CircularImageView"><attr name="android:src"/></declare-styleable>
+    <declare-styleable name="EditOverlay_Layout"><attr name="android:layout_gravity"/><attr name="android:layout_width"/><attr name="android:layout_height"/></declare-styleable>
+    <declare-styleable name="ExpandableListView"><attr name="android:groupIndicator"/><attr name="android:childDivider"/><attr name="android:indicatorStart"/><attr name="android:indicatorEnd"/><attr name="android:indicatorLeft"/><attr name="android:indicatorRight"/><attr name="android:childIndicator"/><attr name="android:childIndicatorStart"/><attr name="android:childIndicatorEnd"/><attr name="android:childIndicatorLeft"/><attr name="android:childIndicatorRight"/></declare-styleable>
+    <declare-styleable name="FrameLayout_Layout"><attr name="android:layout_gravity"/><attr name="android:layout_marginTop"/><attr name="android:layout_marginLeft"/><attr name="android:layout_marginRight"/><attr name="android:layout_marginBottom"/><attr name="android:layout_width"/><attr name="android:layout_height"/><attr name="layout_reference"/></declare-styleable>
+    <declare-styleable name="HListView"><attr name="android:divider"/><attr name="android:overScrollFooter"/><attr name="android:overScrollHeader"/><attr name="android:dividerHeight"/><attr name="android:headerDividersEnabled"/><attr name="android:footerDividersEnabled"/><attr name="android:entries"/></declare-styleable>
+    <declare-styleable name="ListView"><attr name="android:divider"/><attr name="android:overScrollFooter"/><attr name="android:overScrollHeader"/><attr name="android:dividerHeight"/><attr name="android:headerDividersEnabled"/><attr name="android:footerDividersEnabled"/><attr name="android:entries"/></declare-styleable>
+    <declare-styleable name="WeightLayout"><attr format="float" name="weightWidth"/><attr format="float" name="weightHeight"/><attr format="boolean" name="keepAspectRatio"/></declare-styleable>
+    <declare-styleable name="WeightLayout_Layout"><attr format="float" name="layout_weightX"/><attr format="float" name="layout_weightY"/></declare-styleable>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/qupai_common_dimens.xml -->
+    <eat-comment/>
+    <dimen name="fasthscroll_overlay_padding">16dp</dimen>
+    <dimen name="fasthscroll_overlay_size">104dp</dimen>
+    <dimen name="fasthscroll_overlay_text_size">52sp</dimen>
+    <dimen name="fasthscroll_thumb_height">4dp</dimen>
+    <dimen name="fasthscroll_thumb_width">64dp</dimen>
+    <dimen name="fastscroll_overlay_padding">16dp</dimen>
+    <dimen name="fastscroll_overlay_size">104dp</dimen>
+    <dimen name="fastscroll_overlay_text_size">52sp</dimen>
+    <dimen name="fastscroll_thumb_height">52dp</dimen>
+    <dimen name="fastscroll_thumb_width">64dp</dimen>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/qupai_recorder_dimens.xml -->
+    <eat-comment/>
+    <dimen name="powered_margin">5dp</dimen>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/screen_adaptation.xml -->
+    <eat-comment/>
+    <item name="qupai_action_bar_size_edit" type="dimen">@dimen/qupai_action_bar_size_edit_short</item>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/qupai_recorder_dimens.xml -->
+    <eat-comment/>
+    <dimen name="qupai_action_bar_size_edit_long">60dp</dimen>
+    <dimen name="qupai_action_bar_size_edit_short">40dp</dimen>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/screen_adaptation.xml -->
+    <eat-comment/>
+    <item name="qupai_action_bar_size_recorder" type="dimen">@dimen/qupai_action_bar_size_recorder_short</item>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/qupai_recorder_dimens.xml -->
+    <eat-comment/>
+    <dimen name="qupai_action_bar_size_recorder_long">60dp</dimen>
+    <dimen name="qupai_action_bar_size_recorder_short">45dp</dimen>
+    <dimen name="qupai_draft_chooser_item_border">3dp</dimen>
+    <dimen name="qupai_draft_chooser_item_padding">6dp</dimen>
+    <dimen name="qupai_draft_chooser_item_size">84dp</dimen>
+    <dimen name="qupai_edit_thumbnail_bar_height_long">45dp</dimen>
+    <dimen name="qupai_edit_thumbnail_bar_height_short">40dp</dimen>
+    <dimen name="qupai_editbar_padding">34dp</dimen>
+    <dimen name="qupai_editbar_padding_1">4dp</dimen>
+    <dimen name="qupai_editbar_start_padding">10dp</dimen>
+    <dimen name="qupai_effect_chooser_diy_group_item_size">75dp</dimen>
+    <dimen name="qupai_effect_chooser_item_new_inidcator_height">6dp</dimen>
+    <dimen name="qupai_effect_diyoverlay_operation_size">44dp</dimen>
+    <dimen name="qupai_effect_list_item_border_size">3dp</dimen>
+    <dimen name="qupai_effect_list_item_image_size">66dp</dimen>
+    <dimen name="qupai_effect_list_item_image_with_border_size">72dp</dimen>
+    <dimen name="qupai_effect_list_item_margin">6dp</dimen>
+    <dimen name="qupai_effect_list_item_title_height">25dp</dimen>
+    <dimen name="qupai_effect_list_more_item_image_width">52dp</dimen>
+    <dimen name="qupai_ic_size_small">19dp</dimen>
+    <dimen name="qupai_import_tutorial_dialog">105dp</dimen>
+    <dimen name="qupai_overlay_effect_chooser_item_padding">1dp</dimen>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/screen_adaptation.xml -->
+    <eat-comment/>
+    <item name="qupai_overlay_effect_group_list_height" type="dimen">@dimen/qupai_overlay_effect_group_list_height_short</item>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/qupai_recorder_dimens.xml -->
+    <eat-comment/>
+    <dimen name="qupai_overlay_effect_group_list_height_long">40dp</dimen>
+    <dimen name="qupai_overlay_effect_group_list_height_short">30dp</dimen>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/screen_adaptation.xml -->
+    <eat-comment/>
+    <item name="qupai_radiogroup_size_edit" type="dimen">@dimen/qupai_radiogroup_size_edit_short</item>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/qupai_recorder_dimens.xml -->
+    <eat-comment/>
+    <dimen name="qupai_radiogroup_size_edit_long">45dp</dimen>
+    <dimen name="qupai_radiogroup_size_edit_short">32dp</dimen>
+    <dimen name="qupai_seekbar_default_margin">0dp</dimen>
+    <dimen name="qupai_seekbar_playbar_margin">0dp</dimen>
+    <dimen name="qupai_sys_camera_margin">9dp</dimen>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/screen_adaptation.xml -->
+    <eat-comment/>
+    <item name="qupai_timeline_size_edit" type="dimen">@dimen/qupai_timeline_size_edit_short</item>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/qupai_recorder_dimens.xml -->
+    <eat-comment/>
+    <dimen name="qupai_timeline_size_edit_long">45dp</dimen>
+    <dimen name="qupai_timeline_size_edit_short">45dp</dimen>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/screen_adaptation.xml -->
+    <eat-comment/>
+    <item name="qupai_timeline_size_recorder" type="dimen">@dimen/qupai_timeline_size_recorder_short</item>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/qupai_recorder_dimens.xml -->
+    <eat-comment/>
+    <dimen name="qupai_timeline_size_recorder_long">45dp</dimen>
+    <dimen name="qupai_timeline_size_recorder_short">15dp</dimen>
+    <dimen name="qupai_tip_padding_left">138dp</dimen>
+    <dimen name="qupai_tip_padding_preview_y">90dp</dimen>
+    <dimen name="qupai_tip_padding_timeline_x">10dp</dimen>
+    <dimen name="qupai_tip_padding_timeline_y">5dp</dimen>
+    <dimen name="qupai_tip_padding_top">20dp</dimen>
+    <dimen name="qupai_trim_tutorial_bottom">45dp</dimen>
+    <dimen name="qupai_trim_tutorial_dialog">135dp</dimen>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/screen_adaptation.xml -->
+    <eat-comment/>
+    <item name="qupai_typegroup_margin" type="dimen">@dimen/qupai_typegroup_margin_short</item>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/qupai_recorder_dimens.xml -->
+    <eat-comment/>
+    <dimen name="qupai_typegroup_margin_long">26dp</dimen>
+    <dimen name="qupai_typegroup_margin_short">29dp</dimen>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/screen_adaptation.xml -->
+    <eat-comment/>
+    <item name="qupai_typegroup_more_edit" type="dimen">@dimen/qupai_typegroup_more_edit_short</item>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/qupai_recorder_dimens.xml -->
+    <eat-comment/>
+    <dimen name="qupai_typegroup_more_edit_long">28dp</dimen>
+    <dimen name="qupai_typegroup_more_edit_short">22dp</dimen>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/screen_adaptation.xml -->
+    <eat-comment/>
+    <item name="qupai_typegroup_size_edit" type="dimen">@dimen/qupai_typegroup_size_edit_short</item>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/qupai_recorder_dimens.xml -->
+    <eat-comment/>
+    <dimen name="qupai_typegroup_size_edit_long">40dp</dimen>
+    <dimen name="qupai_typegroup_size_edit_short">30dp</dimen>
+    <dimen name="qupai_video_editor_tip_effect_offset">-5dp</dimen>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/qupai_recorder_tracking.xml -->
+    <eat-comment/>
+    <item name="qupai_event_cancel_special_font" type="id"/>
+    <item name="qupai_event_download_special_font" type="id"/>
+    <item name="qupai_event_edit_back" type="id"/>
+    <item name="qupai_event_gif_change" type="id"/>
+    <item name="qupai_event_gif_completedownload_close" type="id"/>
+    <item name="qupai_event_gif_completedownload_no" type="id"/>
+    <item name="qupai_event_gif_completedownload_now" type="id"/>
+    <item name="qupai_event_gif_move" type="id"/>
+    <item name="qupai_event_gif_rotate" type="id"/>
+    <item name="qupai_event_gif_time_length" type="id"/>
+    <item name="qupai_event_gif_time_map" type="id"/>
+    <item name="qupai_event_media_player_prepared" type="id"/>
+    <item name="qupai_event_overlay_editor_activate" type="id"/>
+    <item name="qupai_event_record_abandon" type="id"/>
+    <item name="qupai_event_record_autonext" type="id"/>
+    <item name="qupai_event_record_manualnext" type="id"/>
+    <item name="qupai_event_record_quit" type="id"/>
+    <item name="qupai_event_record_retake" type="id"/>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/screen_adaptation.xml -->
+    <eat-comment/>
+    <item name="item_header_qupai_editor_asset_more" type="layout">@layout/item_header_qupai_editor_asset_more_short</item>
+    <item name="item_header_qupai_editor_asset_null" type="layout">@layout/item_header_qupai_editor_asset_null_short</item>
+    <item name="item_qupai_editor_asset" type="layout">@layout/item_qupai_editor_asset_short</item>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/alisdk_system_messages.xml -->
+    <eat-comment/>
+    <string name="alisdk_message_10000_action">请检查对应名称模块的库文件是否包含在当前开发应用的依赖库里面</string>
+    <string name="alisdk_message_10000_message">JS Bridge 载入器未找到名称为 {0} 的模块</string>
+    <string name="alisdk_message_10000_name">JS_BRIDGE_MODULE_NOT_FOUND</string>
+    <string name="alisdk_message_10000_type">E</string>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/alisdk_kernel_messages.xml -->
+    <eat-comment/>
+    <string name="alisdk_message_10002_action">请使用默认的 androiddebugkey 对当前开发应用签名或在应用初始化之前调用 AlibabaSDK.turnOnDebug(), 运行程序查看 logcat 输出以获取更多错误细节，并采取对应操作</string>
+    <string name="alisdk_message_10002_message">SDK 初始化出错，错误信息为 {0}</string>
+    <string name="alisdk_message_10002_name">INIT_EXCEPTION</string>
+    <string name="alisdk_message_10002_type">E</string>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/alisdk_system_messages.xml -->
+    <eat-comment/>
+    <string name="alisdk_message_10003_action"/>
+    <string name="alisdk_message_10003_message">当前操作已经取消</string>
+    <string name="alisdk_message_10003_name">USER_CANCEL</string>
+    <string name="alisdk_message_10003_type">I</string>
+    <string name="alisdk_message_10004_action">请稍后重试当前操作，若仍然出错，请反馈至论坛，技术支持或 Android SDK 开发咨询群</string>
+    <string name="alisdk_message_10004_message">请求 INIT 服务器发生错误，错误消息为 {0}</string>
+    <string name="alisdk_message_10004_name">REQUEST_INIT_SERVER_EXCEPTION</string>
+    <string name="alisdk_message_10004_type">E</string>
+    <string name="alisdk_message_10005_action">请稍后重试当前操作，若仍然出错，请反馈至论坛，技术支持或 Android SDK 开发咨询群</string>
+    <string name="alisdk_message_10005_message">消息解密发生错误，错误消息为 {0}</string>
+    <string name="alisdk_message_10005_name">RSA_DECRYPT_EXCEPTION</string>
+    <string name="alisdk_message_10005_type">E</string>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/alisdk_kernel_messages.xml -->
+    <eat-comment/>
+    <string name="alisdk_message_10010_action">请使用默认的 androiddebugkey 对当前开发应用签名或在应用初始化之前调用 AlibabaSDK.turnOnDebug(), 运行程序查看 logcat 输出以获取更多错误细节，并采取对应操作</string>
+    <string name="alisdk_message_10010_message">发生错误，消息为 {0}, 请使用 LogCat 查看更多细节</string>
+    <string name="alisdk_message_10010_name">GENERIC_SYSTEM_ERROR</string>
+    <string name="alisdk_message_10010_type">E</string>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/alisdk_system_messages.xml -->
+    <eat-comment/>
+    <string name="alisdk_message_10011_action"/>
+    <string name="alisdk_message_10011_message">当前用户未登录</string>
+    <string name="alisdk_message_10011_name">USER_ALREADY_LOGOUT</string>
+    <string name="alisdk_message_10011_type">W</string>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/alisdk_kernel_messages.xml -->
+    <eat-comment/>
+    <string name="alisdk_message_10012_action">请在使用 SDK 业务功能之前确保已经调用 AlibabaSDK.asyncInit 方法并接收到初始化成功的回调</string>
+    <string name="alisdk_message_10012_message">SDK 尚未被初始化</string>
+    <string name="alisdk_message_10012_name">SDK_NOT_INIT</string>
+    <string name="alisdk_message_10012_type">E</string>
+    <string name="alisdk_message_10014_action">请检查网络设置后，并重试当前操作</string>
+    <string name="alisdk_message_10014_message">当前网络不可用</string>
+    <string name="alisdk_message_10014_name">NETWORK_NOT_AVAILABLE</string>
+    <string name="alisdk_message_10014_type">E</string>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/alisdk_securityguard_messages.xml -->
+    <eat-comment/>
+    <string name="alisdk_message_10016_action">请在开发环境中运行应用，检查 logcat 输出的异常信息</string>
+    <string name="alisdk_message_10016_message">安全模块初始化失败，错误消息为 {0}</string>
+    <string name="alisdk_message_10016_type">E</string>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/alisdk_kernel_messages.xml -->
+    <eat-comment/>
+    <string name="alisdk_message_10022_action">请使用默认的 androiddebugkey 对当前开发应用签名或在应用初始化之前调用 AlibabaSDK.turnOnDebug(), 运行程序查看 logcat 输出以获取更多错误细节，并采取对应操作</string>
+    <string name="alisdk_message_10022_message">SDK 组件 {0} 启动出错，错误消息为 {1}</string>
+    <string name="alisdk_message_10022_name">PLUGIN_INIT_FAILED</string>
+    <string name="alisdk_message_10022_type">E</string>
+    <string name="alisdk_message_100_action"/>
+    <string name="alisdk_message_100_message">操作成功</string>
+    <string name="alisdk_message_100_name">ACTION_SUCCESS</string>
+    <string name="alisdk_message_100_type">I</string>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/alisdk_system_messages.xml -->
+    <eat-comment/>
+    <string name="alisdk_message_101_action">请稍后重试当前操作，若仍然出错，请反馈至论坛，技术支持或 Android SDK 开发咨询群</string>
+    <string name="alisdk_message_101_message">会话刷新出错，错误消息为 {0}</string>
+    <string name="alisdk_message_101_name">REFRESH_SID_EXCEPTION</string>
+    <string name="alisdk_message_101_type">W</string>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/alisdk_kernel_messages.xml -->
+    <eat-comment/>
+    <string name="alisdk_message_12_action">请检查所依赖的 SDK 项目，或若是手动拷贝 SDK 至当前开发应用所在项目，请检查是否漏拷文件</string>
+    <string name="alisdk_message_12_message">在目录 {0} 未找到文件 {1}</string>
+    <string name="alisdk_message_12_name">RESOURCE_NOT_FOUND</string>
+    <string name="alisdk_message_12_type">E</string>
+    <string name="alisdk_message_13_action">请检查所依赖的 SDK 项目，或若是手动拷贝 SDK 至当前开发应用所在项目，请检查是否漏拷文件，或重新至官方网站下载 SDK</string>
+    <string name="alisdk_message_13_message">未能在下载 SDK 中找到指定插件 {0}</string>
+    <string name="alisdk_message_13_name">PLUGIN_NOT_FOUND</string>
+    <string name="alisdk_message_13_type">E</string>
+    <string name="alisdk_message_14_action">当前输入参数不应为 null 或者空，请调整输入参数</string>
+    <string name="alisdk_message_14_message">输入参数 {0} 为 null 或者为空</string>
+    <string name="alisdk_message_14_name">NULL_OR_EMPTY_PARAMETER</string>
+    <string name="alisdk_message_14_type">E</string>
+    <string name="alisdk_message_15_action"/>
+    <string name="alisdk_message_15_message">{0} 模块 请求服务端出错，错误消息为 {1}</string>
+    <string name="alisdk_message_15_name">SERVER_REQUEST_FAILED</string>
+    <string name="alisdk_message_15_type">E</string>
+    <string name="alisdk_message_16_action">请检查包含此类的库文件是否存在，或者是否因为代码混淆没有配置 SDK 对应的 -keep 选项，具体配置请参照在线网站</string>
+    <string name="alisdk_message_16_message">运行时不能载入类 {0}</string>
+    <string name="alisdk_message_16_name">CLASS_NOT_FOUND_ERROR</string>
+    <string name="alisdk_message_16_type">E</string>
+    <string name="alisdk_message_17_action">请检查 SDK 是否初始化成功，或者如果 APK 采取特定的打包方式 (e.g. multi-dex), 确保百川 SDK 的包含的 jar 文件中的 assets/ 文件包含在最终的 APK 中</string>
+    <string name="alisdk_message_17_message">不能获取类名为 {0}，过滤条件为 {1} 的服务</string>
+    <string name="alisdk_message_17_name">SERVICE_NOT_AVAILABLE_ERROR</string>
+    <string name="alisdk_message_17_type">E</string>
+    <string name="alisdk_message_1_action">请检查所依赖的 SDK 项目，或若是手动拷贝 SDK 至当前开发应用所在项目，请检查是否漏拷文件 res/values 下文件</string>
+    <string name="alisdk_message_1_message">未在消息文件中找到 id 为 {0} 的消息</string>
+    <string name="alisdk_message_1_name">MESSAGE_NOT_FOUND_ERROR</string>
+    <string name="alisdk_message_1_type">E</string>
+    <string name="alisdk_message_2_action">请检查所依赖的 SDK 项目，或若是手动拷贝 SDK 至当前开发应用所在项目，请检查是否漏拷文件 res/values 下文件</string>
+    <string name="alisdk_message_2_message">检索消息时发生如下错误 {0}</string>
+    <string name="alisdk_message_2_name">MESSAGE_UNKNOWN_ERROR</string>
+    <string name="alisdk_message_2_type">E</string>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/alisdk_security_messages.xml -->
+    <eat-comment/>
+    <string name="alisdk_message_651_action">请使用相关工具 (e.g.taobao.openiid.get API) 对原始参数进行加密</string>
+    <string name="alisdk_message_651_message">未能使用当前应用的信息对参数进行解密</string>
+    <string name="alisdk_message_651_name">INVALID_OPEN_ITEM_ID</string>
+    <string name="alisdk_message_651_type">E</string>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/alisdk_securityguard_messages.xml -->
+    <eat-comment/>
+    <string name="alisdk_message_701_action">1. 使用同一个 Keystore 签名的 Apk 在 SDK 下载页面重新下载 SDK \n
+        2. 调用 AlibabaSDK.setEnvirnoment 指定当前运行环境会导致 SDK 检索特定的图片，例如设置了 AlibabaSDK.setEnvirnoment(Environment.TEST), SDK 会检索 yw_1222_test.jpg，若您是应用开发方，请去除相关代码，此环境设置主要是针对 SDK 组件提供方开发调试使用。\n
+        3. 调用 AlibabaSDK.setSecGuardImagePostfix 会导致 SDK 检索指定后缀的图片，例如设置了 AlibabaSDK.setSecGuardImagePostfix("abc"), SDK 会检索 yw_1222_abc.jpg, 请检查代码中是否有相关调用，若有请做调整，确保当前使用图片与 APK 签名一致。</string>
+    <string name="alisdk_message_701_message">当前使用的图片文件 res\\drawable\\yw_1222{0}.jpg 和当前程序的 APK 签名不一致</string>
+    <string name="alisdk_message_701_type">E</string>
+    <string name="alisdk_message_702_action">1. 如果使用项目依赖方式使用 SDK，请检查所依赖的 SDK 项目中 res\\drawable 是否存在图片文件，如果是将 SDK 拷贝至当前开发应用中，请检查是否漏拷贝。\n 
+        2. 调用 AlibabaSDK.setEnvirnoment 指定当前运行环境会导致 SDK 检索特定的图片，例如设置了 AlibabaSDK.setEnvirnoment(Environment.TEST), SDK 会检索 yw_1222_test.jpg，若您是应用开发方，请去除相关代码，此环境设置主要是针对 SDK 组件提供方开发调试使用。\n
+        3. 调用 AlibabaSDK.setSecGuardImagePostfix 会导致 SDK 检索指定后缀的图片，例如设置了 AlibabaSDK.setSecGuardImagePostfix("abc"), SDK 会检索 yw_1222_abc.jpg, 请检查代码中是否有相关调用，若有请做调整，确保与实际存在的图片保持一致。 </string>
+    <string name="alisdk_message_702_message">没有找到图片文件，请确保图片文件 yw_1222{0}.jpg 在 res\\drawable 目录下</string>
+    <string name="alisdk_message_702_type">E</string>
+    <string name="alisdk_message_703_action">使用同一 Keystore 签名的 Apk 在 SDK 下载页面重新下载 SDK</string>
+    <string name="alisdk_message_703_message">SDK 中图片文件 (res\\drawable\\yw_1222.jpg) 的内容不正确</string>
+    <string name="alisdk_message_703_type">E</string>
+    <string name="alisdk_message_704_action">1. 如果使用项目依赖方式使用 SDK，请检查所依赖的 SDK 项目中 libs 目录下 securityguard***.jar 和 armeabi/armeabi-v7a/x86 下 securityguard***.so 是否存在，大小正常并版本是否一致，如果是将 SDK 拷贝至当前开发应用中，请在当前应用中检查。如文件存在而生成的 apk 中不存在，请检查 IDE 设置，例如 Android Studio 项目的 build.gradle 中 jniLibs.srcDirs。\n
+        2. 因为 Android 部分版本系统中载入不同架构原生库 (so 文件) 的限制，请确保项目运行所需的原生库文件在当前手机 CPU 对应架构目录下都存在。例如，安全模块暂时未提供 arm64 架构的原生库，若当前 apk 依赖的其他组件包含 arm64 原生库，会导致载入错误，解决方法是移除依赖组件中相关原生库，确保最终 apk 中不存在 arm64-v8a。</string>
+    <string name="alisdk_message_704_message">在 APK 中找不到对应的 securityguard***.so 文件或者 so 文件载入出错</string>
+    <string name="alisdk_message_704_type">E</string>
+    <string name="alisdk_message_705_action">请到百川官方网站重新下载 SDK 并使用其包含最新的图片文件</string>
+    <string name="alisdk_message_705_message">当前使用的 res\\drawable\\yw_1222{0}.jpg 与 SDK 中 securityguard***.jar 版本不匹配</string>
+    <string name="alisdk_message_705_type">E</string>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/alisdk_system_messages.xml -->
+    <eat-comment/>
+    <string name="alisdk_message_951_action">如当前应用使用 ProGuard 混淆代码，请检查 SDK 中相关类在 -keep 列表中</string>
+    <string name="alisdk_message_951_message">JS Bridge 载入器在类 {0} 未找到方法 {1}</string>
+    <string name="alisdk_message_951_name">JS_BRIDGE_METHOD_NOT_FOUND</string>
+    <string name="alisdk_message_951_type">E</string>
+    <string name="alisdk_message_952_action">如当前应用使用 ProGuard 混淆代码，请检查是否添加 -keepattributes *Annotation* 配置项</string>
+    <string name="alisdk_message_952_message">JS Bridge 载入器在类 {0} 中的方法 {1} 上未找到含有 BridgeMethod 标识</string>
+    <string name="alisdk_message_952_name">JS_BRIDGE_ANNOTATION_NOT_PRESENT</string>
+    <string name="alisdk_message_952_type">E</string>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/com_taobao_tae_sdk_strings.xml -->
+    <eat-comment/>
+    <string name="com_taobao_tae_sdk_alert_message">您离开太久了，请重新操作</string>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/alisdk_ui_messages.xml -->
+    <eat-comment/>
+    <string name="com_taobao_tae_sdk_back_message">返回</string>
+    <string name="com_taobao_tae_sdk_close_message">返回</string>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/com_taobao_tae_sdk_strings.xml -->
+    <eat-comment/>
+    <string name="com_taobao_tae_sdk_loading_progress_message">加载中</string>
+    <string name="com_taobao_tae_sdk_network_not_available_message">网络无法连接</string>
+    <string name="com_taobao_tae_sdk_system_exception">系统异常</string>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/qupai_recorder_strings.xml -->
+    <eat-comment/>
+    <string name="dlg_message_qupai_confirm_start_dubbing">是否要重新配音</string>
+    <string name="dlg_message_qupai_confirm_use_music">确认放弃配音，使用音乐吗？</string>
+    <string name="dlg_message_qupai_confirm_use_mv">若改用其他MV，将清除当前配音</string>
+    <string name="need_download_special_font">该动图使用我们推荐的字体效果更佳</string>
+    <string name="powered_text"/>
+    <string name="qupai_audio_mix_track_dubbing">配音</string>
+    <string name="qupai_audio_mix_track_main">原音</string>
+    <string name="qupai_audio_mix_track_music">音乐</string>
+    <string name="qupai_back">返回</string>
+    <string name="qupai_beautyskin">美颜</string>
+    <string name="qupai_beautyskin_close">已关闭美颜功能</string>
+    <string name="qupai_beautyskin_open">已开启美颜功能</string>
+    <string name="qupai_btn_text_download_music">更多音乐</string>
+    <string name="qupai_btn_text_download_mv">更多iMV</string>
+    <string name="qupai_camera_zoom_indicator">×%01.1f</string>
+    <string name="qupai_change_diyoverlay_group">换一换</string>
+    <string name="qupai_decompress_waiting">下载完成，正在安装</string>
+    <string name="qupai_diy_guide_tip_batch">一大波动图\n正在逼近</string>
+    <string name="qupai_diy_guide_tip_preview">点击这里可进行\n及时预览</string>
+    <string name="qupai_diy_guide_tip_timeline">拖动这里可调整动图\n起始画面和时长呦</string>
+    <string name="qupai_diy_guide_tip_video">拖动调整位置</string>
+    <string name="qupai_diy_locked_remark">使用其他效果发布视频并</string>
+    <string name="qupai_diy_locked_share">分享给</string>
+    <string name="qupai_diy_locked_sms">微信</string>
+    <string name="qupai_diy_locked_sucai">即可解锁整套Myoo动图</string>
+    <string name="qupai_diy_locked_three">3个好友</string>
+    <string name="qupai_diy_text_edit_completed">完成</string>
+    <string name="qupai_dlg_button_cancel">取消</string>
+    <string name="qupai_dlg_button_no">否</string>
+    <string name="qupai_dlg_button_ok">确认</string>
+    <string name="qupai_dlg_button_yes">是</string>
+    <string name="qupai_dlg_editor_quit_message">要保存到草稿箱吗？</string>
+    <string name="qupai_dlg_record_abandon_message">要重新录制吗？</string>
+    <string name="qupai_dlg_record_abandon_quit">放弃录制</string>
+    <string name="qupai_dlg_record_abandon_reset">重新录制</string>
+    <string name="qupai_dlg_record_quit_save">要保存草稿修改吗？</string>
+    <string name="qupai_download_cancel">暂不下载</string>
+    <string name="qupai_download_diyoverlay_group">整套下载</string>
+    <string name="qupai_download_failed_goon">网络不给力，请检查网络</string>
+    <string name="qupai_download_goon">继续下载</string>
+    <string name="qupai_download_immediately">立即下载</string>
+    <string name="qupai_download_paster_all">动图还未下载,是否立即\n下载整套动图？</string>
+    <string name="qupai_download_paster_goahead">该动图未完成下载\n是否继续下载</string>
+    <string name="qupai_downloading">下载中</string>
+    <string name="qupai_downloading_waiting">正在下载，请稍后</string>
+    <string name="qupai_dubbing_title">配音</string>
+    <string name="qupai_effect_animation_overlay">动图</string>
+    <string name="qupai_effect_audio_mix">音乐</string>
+    <string name="qupai_effect_filter">滤镜</string>
+    <string name="qupai_effect_mv">iMV</string>
+    <string name="qupai_effect_text_color">纯色</string>
+    <string name="qupai_effect_text_stroke">描边</string>
+    <string name="qupai_file_can_not_delete">该视频无法删除</string>
+    <string name="qupai_gallery_activity_title">导入</string>
+    <string name="qupai_gallery_tab_title_draft">草稿</string>
+    <string name="qupai_gallery_tab_title_import">本地视频</string>
+    <string name="qupai_import_empty_message">你还没有本地视频</string>
+    <string name="qupai_import_toast">仅支持小于10分钟的视频</string>
+    <string name="qupai_import_video_guide">从相册选一个\n有趣的视频</string>
+    <string name="qupai_imv">使用其他特效发布视频并分享到朋友圈，即可解锁3个iMV</string>
+    <string name="qupai_imv_locked_free">，即可解锁</string>
+    <string name="qupai_imv_locked_remark">使用其他特效发布视频并分享到\r\n</string>
+    <string name="qupai_imv_locked_unlock">3个iMV</string>
+    <string name="qupai_imv_locked_wx">微信朋友圈</string>
+    <string name="qupai_install_font">正在安装字体</string>
+    <string name="qupai_loading_font_waiting">正在下载字体</string>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/qupai_recorder_universal_strings.xml -->
+    <eat-comment/>
+    <string name="qupai_media_face_detect_process_name"/>
+    <string name="qupai_media_process_name"/>
+    <string name="qupai_media_workspace_dir">qupai_workspace</string>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/qupai_recorder_strings.xml -->
+    <eat-comment/>
+    <string name="qupai_message_camera_acquisition_failure">暂时无法录制\n请确认摄像机是否已被其它程序占用</string>
+    <string name="qupai_no_sdcard_exit">SD卡不可用,不能录制</string>
+    <string name="qupai_no_video_file">视频文件不存在</string>
+    <string name="qupai_nodraft">你还没有保存过草稿</string>
+    <string name="qupai_novideo">你还没有本地视频</string>
+    <string name="qupai_overlay_guide_tip_manage">可以对动图进行管理和排序</string>
+    <string name="qupai_paster_download_first_success">下载成功，可在更多动图界面进行管理</string>
+    <string name="qupai_paster_download_success">动图下载成功</string>
+    <string name="qupai_project_saved_toast">已保存到草稿箱</string>
+    <string name="qupai_recorder_face_appear_tip">已检测到人脸，添加表情动图更方便</string>
+    <string name="qupai_recorder_know">知道了</string>
+    <string name="qupai_recorder_timeline_time_format">%.1f秒</string>
+    <string name="qupai_skinlevelprocess">80%</string>
+    <string name="qupai_sound_mixer_effect_none">原音</string>
+    <string name="qupai_sure_delete_current_video">确定要删除本视频吗？</string>
+    <string name="qupai_sure_delete_draft">确定要删除草稿吗？</string>
+    <string name="qupai_text_count_outof">你输入的字数已经超过了限制!</string>
+    <string name="qupai_toast_asset_download_failure">下载失败！</string>
+    <string name="qupai_transcode_in_progress">请稍等 …</string>
+    <string name="qupai_trim_guide_drag">拖动视频\n调整显示区域</string>
+    <string name="qupai_trim_guide_drag_thumbnail">拖动手柄或视频缩略图，调整剪裁时间</string>
+    <string name="qupai_trim_open_video_failed">无法打开视频文件</string>
+    <string name="qupai_trim_video_failed">无法导入视频文件</string>
+    <string name="qupai_ve_none">原片</string>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/qupai_recorder_universal_strings.xml -->
+    <eat-comment/>
+    <item format="string" name="qupai_video_activity_parent" type="string"/>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/qupai_recorder_strings.xml -->
+    <eat-comment/>
+    <string name="qupai_video_album_list">相册</string>
+    <string name="qupai_video_edit_activity_title">编辑视频</string>
+    <string name="qupai_video_recorder_tip_beauty_skin">拥有神奇效果的美颜功能</string>
+    <string name="qupai_video_recorder_tip_before_start_1">按住</string>
+    <string name="qupai_video_recorder_tip_before_start_2">拍摄按钮进行拍摄</string>
+    <string name="qupai_video_recorder_tip_confirm_delete">再次点击将删除\n最后一段视频</string>
+    <string name="qupai_video_recorder_tip_first_delete">点击这里可删除\n不满意的片段</string>
+    <string name="qupai_video_recorder_tip_first_stop_1">换个场景，</string>
+    <string name="qupai_video_recorder_tip_first_stop_2">按住</string>
+    <string name="qupai_video_recorder_tip_first_stop_3">继续拍摄</string>
+    <string name="qupai_video_recorder_tip_import">可以导入本地视频啦</string>
+    <string name="qupai_video_recorder_tip_progress_1">松开</string>
+    <string name="qupai_video_recorder_tip_progress_2">可暂停</string>
+    <string name="qupai_video_recorder_tip_recording_1">可录制</string>
+    <string name="qupai_video_recorder_tip_recording_2">%1$d至%2$d秒</string>
+    <string name="qupai_video_recorder_tip_recording_3">时长的视频</string>
+    <string name="qupai_video_recorder_tip_save_completion">保存好的视频在这里</string>
+    <string name="qupai_video_recorder_tip_stop_1">继续</string>
+    <string name="qupai_video_recorder_tip_stop_2">拍摄</string>
+    <string name="qupai_video_recorder_tip_stop_3">或点击</string>
+    <string name="qupai_video_recorder_tip_stop_4">预览</string>
+    <string name="qupai_video_trim">裁剪</string>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/qupai_common_strings.xml -->
+    <eat-comment/>
+    <string name="settting_new_version">版本更新</string>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/qupai_recorder_strings.xml -->
+    <eat-comment/>
+    <string name="tip_qupai_self_timer_countdown">5秒后将开始自动拍摄</string>
+    <string name="tip_qupai_self_timer_countdown_cancel_1">点击</string>
+    <string name="tip_qupai_self_timer_countdown_cancel_2">退出倒计时</string>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/qupai_common_strings.xml -->
+    <eat-comment/>
+    <string name="update_later">以后再说</string>
+    <string name="update_now">立即更新</string>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/qupai_recorder_styles.xml -->
+    <eat-comment/>
+    <style name="AlertDialog.Qupai.Recorder" parent="">
+        <item name="android:bottomBright">@android:color/transparent</item>
+        <item name="android:bottomDark">@android:color/transparent</item>
+        <item name="android:bottomMedium">@android:color/transparent</item>
+        <item name="android:centerBright">@android:color/transparent</item>
+        <item name="android:centerDark">@android:color/transparent</item>
+        <item name="android:centerMedium">@android:color/transparent</item>
+        <item name="android:fullBright">@android:color/transparent</item>
+        <item name="android:fullDark">@android:color/transparent</item>
+        <item name="android:topBright">@android:color/transparent</item>
+        <item name="android:topDark">@android:color/transparent</item>
+        <item name="progressLayout">@layout/dlg_qupai_recorder_render_progress</item>
+    </style>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/qupai_common_styles.xml -->
+    <eat-comment/>
+    <style name="Animation.TypingFilter" parent="android:Animation">
+    </style>
+    <style name="Animation.TypingFilterRestore" parent="android:Animation">
+    </style>
+    <style name="CommentDlgStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>        
+        
+    </style>
+    <style name="DIY.Dialog.Fullscreen" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>        
+      
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowIsFloating">true</item>        
+        <item name="android:windowCloseOnTouchOutside">false</item>
+        <item name="android:backgroundDimEnabled">false</item>
+
+    </style>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/qupai_recorder_styles.xml -->
+    <eat-comment/>
+    <style name="ProgressBar.Qupai.Render" parent="">
+        <item name="android:indeterminateDrawable">@drawable/progress_qupai_circle</item>
+        <item name="android:indeterminateDuration">800</item>
+        <item name="android:minWidth">76dip</item>
+        <item name="android:maxWidth">76dip</item>
+        <item name="android:minHeight">76dip</item>
+        <item name="android:maxHeight">76dip</item>
+        <item name="android:max">100</item>
+    </style>
+    <style name="Qupai.ActivityNoAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityCloseExitAnimation">@anim/activity_close_qupai_exit</item>
+    </style>
+    <style name="Qupai.Text.BalloonTip" parent="">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="Qupai.Text.BalloonTip.Large">
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="Qupai.Text.BalloonTip.Medium">
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="Qupai.Text.Recorder.BalloonTip" parent="">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="Qupai.Text.Recorder.BalloonTip.Large">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/defalut_primary_color</item>
+    </style>
+    <style name="Qupai.Text.Recorder.BalloonTip.Medium">
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="Qupai.Text.Recorder.BalloonTip.Mediumless">
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="Qupai.Text.Recorder.BalloonTip.Small">
+        <item name="android:textSize">13sp</item>
+    </style>
+    <style name="Qupai.Widget.Default.ProgressBar.Horizontal" parent="android:Widget.ProgressBar.Horizontal">
+        <item name="android:minHeight">10dp</item>
+        <item name="android:maxHeight">10dp</item>
+        <item name="android:progressDrawable">@drawable/theme_default_qupai_progress_drawable</item>
+    </style>
+    <style name="Qupai.Widget.Default.SeekBar" parent="@android:style/Widget.DeviceDefault.SeekBar">
+        <item name="android:progressDrawable">@drawable/theme_default_qupai_seek_bar_progress_drawable</item>
+        <item name="android:indeterminateDrawable">@drawable/theme_default_qupai_seek_bar_progress_drawable</item>
+        <item name="android:thumb">@drawable/seek_bar_qupai_thumb</item>
+        <item name="android:thumbOffset">9dp</item>
+        <item name="android:paddingLeft">9dp</item>
+        <item name="android:paddingRight">9dp</item>
+        <item name="android:maxHeight">4dp</item>
+    </style>
+    <style name="Qupai.Widget.RadioButton.EffectChooser" parent="@android:style/Widget.DeviceDefault.TextView">
+        <item name="android:width">75dp</item>
+        <item name="android:background">?attr/qupaiEditEffectTabIndicator</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">?attr/qupaiEditEffectTextColor</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="Qupai.Widget.RadioButton.OverlayEffectChooser" parent="@android:style/Widget.DeviceDefault.TextView">
+        <item name="android:background">@drawable/tab_indicator_qupai_overlay_text_effect</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="TextAppearance.Widget.TabWidget.Qupai.Recorder" parent="android:TextAppearance.Widget.TabWidget">
+        <item name="android:textColor">@color/tab_widget_bg_qupai_drafts</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/qupai_common_styles.xml -->
+    <eat-comment/>
+    <style name="TextDlgStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>        
+        
+    </style>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/qupai_common_themes.xml -->
+    <eat-comment/>
+    <style name="Theme.Dialog.Overlay" parent="@android:style/Theme.Dialog">
+        <item name="android:windowIsFloating">false</item>
+
+        <!-- from Theme.Dialog.NoFrame -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+    </style>
+    <style name="Theme.Dialog.Overlay.Fullscreen">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="Theme.Dialog.Overlay.Fullscreen.Mask">
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/qupai_recorder_themes.xml -->
+    <eat-comment/>
+    <style name="Theme.Dialog.Recorder" parent="@android:style/Theme.DeviceDefault.Dialog.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+        <item name="android:alertDialogStyle">@style/AlertDialog.Qupai.Recorder</item>
+    </style>
+    <style name="Theme.Qupai.Video" parent="android:Theme.Holo.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowActionBar">false</item>
+
+        <item name="absHListViewStyle">@style/Widget.AbsHListView</item>
+        <item name="hListViewStyle">@style/Widget.HListView</item>
+    </style>
+    <style name="Theme.Qupai.Video.Default" parent="Theme.Qupai.Video">
+        <item name="android:progressBarStyleHorizontal">@style/Qupai.Widget.Default.ProgressBar.Horizontal</item>
+        <item name="android:actionButtonStyle">@style/Widget.ActionButton.Qupai.Recorder</item>
+        <item name="android:windowTitleStyle">@style/WindowTitle.Qupai.Recorder</item>
+        <item name="android:windowBackground">@color/qupai_gray_0x19</item>
+        <item name="android:tabWidgetStyle">@style/Widget.TabWidget.Qupai.Recorder</item>
+        <item name="android:imageButtonStyle">@style/Widget.ImageButton.Qupai.Recorder</item>
+        <item name="android:seekBarStyle">@style/Qupai.Widget.Default.SeekBar</item>
+        <item name="qupaiNextStepTickButton">@drawable/theme_default_qupai_btn_next_step_tick</item>
+        <item name="qupaiNextStepArrowButton">@drawable/theme_default_qupai_btn_next_step_arrow</item>
+        <item name="qupaiRecorderTimelineClip">@drawable/theme_default_qupai_recorder_timeline_clip</item>
+        <item name="qupaiTabIndicator">@drawable/theme_default_qupai_tab_indicator</item>
+        <item name="qupaiEditEffectTabIndicator">@drawable/theme_default_qupai_tab_indicator_edit_effect</item>
+        <item name="qupaiEditEffectTextColor">@color/theme_default_qupai_text_edit_effect</item>
+        <item name="qupaiEditEffectAudioMixIcon">@drawable/theme_default_ic_edit_effect_audio_mix</item>
+        <item name="qupaiSweepLeft">@drawable/theme_qupai_default_sweep_left</item>
+        <item name="qupaiSweepright">@drawable/theme_qupai_default_sweep_right</item>
+        <item name="qupaiBeautySkinHead">@drawable/theme_default_btn_qupai_toggle_beauty_skin</item>
+        <item name="qupaiDIYOverlayEditbar">@drawable/theme_default_qupai_diy_editbar_end_selector</item>
+        <item name="qupaiDIYOverlayEditbar_frame">@drawable/theme_default_qupai_diy_editbar_rectstroke</item>
+        <item name="qupaiDIYOverlayEditbar_progress">@drawable/theme_default_thumb_qupai_diy_editbar</item>
+        <item name="qupaiDIYOverlayContent_frame">@drawable/theme_default_qupai_edit_diy_overlay_content_frame_selector</item>
+        <item name="qupaiDIYOverlayDotte_frame">@drawable/theme_default_edit_diy_overlay_dotte_frame_selector</item>
+        <item name="qupaiDiyMaskColor">@color/qupai_theme_default_background_color_transparent_20</item>
+        <item name="qupaiDIYOverlayCancel">@drawable/theme_default_qupai_btn_edit_overlay_cancel_selector</item>
+        <item name="qupaiDIYOverlayTransform">@drawable/theme_default_qupai_btn_edit_overlay_transform_selector</item>
+        <item name="qupaiDIYOverlayText">@drawable/theme_default_qupai_btn_edit_overlay_text_selector</item>
+        <item name="qupaiEffectListMoreItem">@drawable/theme_default_qupai_effect_list_more_item</item>
+        <item name="qupaiOverlayListDownload">@drawable/theme_default_qupai_overlay_list_download_item</item>
+        <item name="qupaiSelfTimerButton">@drawable/theme_default_btn_qupai_self_timer</item>
+        <item name="qupaiDubbingButton">@drawable/theme_default_btn_qupai_dubbing</item>
+        <item name="qupaiDubbingAmplitudeProgress">@drawable/theme_default_progress_qupai_dubbing_amplitude</item>
+    </style>
+    <style name="Theme.RenderProgress" parent="android:Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/Qupai.ActivityNoAnimation</item>
+    </style>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/qupai_common_styles.xml -->
+    <eat-comment/>
+    <style name="Widget.AbsHListView" parent="android:Widget">
+        <item name="android:scrollbars">horizontal</item>
+        <item name="android:fadingEdge">horizontal</item>
+    </style>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/qupai_recorder_styles.xml -->
+    <eat-comment/>
+    <style name="Widget.ActionButton.Qupai.Recorder" parent="">
+        <item name="android:padding">4dp</item>
+    </style>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/qupai_common_styles.xml -->
+    <eat-comment/>
+    <style name="Widget.HListView" parent="Widget.AbsHListView">
+        <item name="android:listSelector">@android:drawable/list_selector_background</item>
+        <item name="android:cacheColorHint">?android:attr/colorBackgroundCacheHint</item>
+        <item name="android:divider">@null</item>
+    </style>
+    <!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/values/qupai_recorder_styles.xml -->
+    <eat-comment/>
+    <style name="Widget.ImageButton.Qupai.Recorder" parent="android:Widget.ImageButton">
+        <item name="android:background">@null</item>
+        <item name="android:padding">3dp</item>
+    </style>
+    <style name="Widget.TabWidget.Qupai.Recorder" parent="android:Widget.TabWidget">
+        <item name="android:textAppearance">@style/TextAppearance.Widget.TabWidget.Qupai.Recorder</item>
+        <item name="android:tabStripLeft">@null</item>
+        <item name="android:tabStripRight">@null</item>
+        <item name="android:tabStripEnabled">false</item>
+        <item name="android:background">@color/qupai_gray_0x33</item>
+    </style>
+    <style name="WindowTitle.Qupai.Recorder" parent="">
+        <item name="android:textSize">23sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="qupai_alert" parent="@android:style/Theme.Holo.Light.Dialog">
+        <item name="android:textSize">18sp</item>
+        <item name="android:foregroundGravity">center</item>
+    </style>
+    <style name="qupai_text">
+        <item name="android:gravity">center</item>
+    </style>
+</resources>

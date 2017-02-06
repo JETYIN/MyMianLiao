@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tjut.mianliao.black.MagicRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ScrollView
+        android:id="@+id/sv_my_medal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            android:id="@+id/ll_hava_medails"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:id="@+id/tv_showing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/is_showing"
+                android:textColor="#A1A1A1"
+                android:textSize="12sp" />
+
+            <com.tjut.mianliao.black.MagicLinearLayout
+                android:id="@+id/ll_showing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:color_magic="0" />
+
+            <com.tjut.mianliao.black.MagicLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="bottom"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp" >
+
+                <com.tjut.mianliao.theme.ThemeTextView
+                    android:id="@+id/tv_not_showing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/not_show"
+                    android:textColor="#A1A1A1"
+                    android:textSize="12sp" />
+
+                <com.tjut.mianliao.theme.ThemeTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/main_page_show"
+                    android:textColor="#A1A1A1"
+                    android:textSize="9sp" />
+            </com.tjut.mianliao.black.MagicLinearLayout>
+
+            <com.tjut.mianliao.black.MagicLinearLayout
+                android:id="@+id/ll_not_showing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:color_magic="0" />
+        </com.tjut.mianliao.black.MagicLinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/ll_not_medails"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/medal_elephant" />
+    </LinearLayout>
+
+</com.tjut.mianliao.black.MagicRelativeLayout>

@@ -1,0 +1,99 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ssv_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:right_padding="68dp"
+    app:scrollable="false">
+<!--DrawerLayout是v4包中实现侧滑的布局，包含两项，第一项是显示在主页中的，第二项是在侧滑中的-->
+    <FrameLayout
+        android:id="@+id/fl_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:onClick="onClick">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:context=".VideoPlayActivity">
+
+            <com.tjut.mianliao.component.CustomViewPager
+                android:id="@+id/vp_main"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@color/bg_basic" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#b2b2b2" />
+
+            <LinearLayout
+                android:id="@+id/ll_footbar"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/navi_bar_height"
+                android:background="@color/white"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <com.tjut.mianliao.component.NaviButton
+                    android:id="@+id/nb_forum"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:onClick="onClick"
+                    app:nb_title="@string/tab_forum"
+                    app:src="@drawable/selector_btn_navi_forum" />
+
+                <com.tjut.mianliao.component.NaviButton
+                    android:id="@+id/nb_tribe"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:onClick="onClick"
+                    app:nb_title="@string/tab_tribe"
+                    app:src="@drawable/selector_btn_navi_tribe" />
+
+                <com.tjut.mianliao.component.NaviButton
+                    android:id="@+id/nb_live"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:onClick="onClick"
+                    app:nb_title="@string/tab_live"
+                    app:src="@drawable/selector_btn_navi_more" />
+
+                <com.tjut.mianliao.component.NaviButton
+                    android:id="@+id/nb_chat"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:onClick="onClick"
+                    app:nb_title="@string/tab_chat"
+                    app:src="@drawable/selector_btn_navi_chat" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_post_success"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="54dp"
+            android:contentDescription="@null"
+            android:src="@drawable/img_sucssece_post"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <include layout="@layout/view_menu" />
+
+</android.support.v4.widget.DrawerLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="300"
+    android:valueFrom="1.0"
+    android:valueTo="0.7"
+    android:valueType="floatType" />
+<!-- From: file:/D:/MianLiao/MianLiao/OneSDK/res/animator/focus_area_focus_qupai_stop.xml -->

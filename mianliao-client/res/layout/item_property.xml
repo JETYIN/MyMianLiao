@@ -1,0 +1,7 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="wrap_content" android:layout_width="wrap_content">
+
+    <com.tjut.mianliao.theme.ThemeTextView android:drawableLeft="@drawable/ic_green_dot" android:drawablePadding="10dp" android:id="@+id/tv_prop_name" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="#424242" android:textSize="14sp" />
+
+    <com.tjut.mianliao.theme.ThemeTextView android:id="@+id/tv_prop_info" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_width="wrap_content" android:textColor="#979797" android:textIsSelectable="true" android:textSize="14sp" />
+
+</merge>

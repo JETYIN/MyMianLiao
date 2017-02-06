@@ -1,0 +1,9 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical" android:paddingLeft="15dp" android:paddingRight="15dp" android:paddingTop="10dp">
+
+    <com.tjut.mianliao.theme.ThemeTextView android:background="#82C6EB" android:id="@+id/tv_invite_time" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="@color/white" />
+
+    <include layout="@layout/item_job_scan_header" />
+
+    <ListView android:divider="@null" android:dividerHeight="0dp" android:id="@+id/lv_jobs" android:layout_height="wrap_content" android:layout_width="match_parent" android:scrollbars="none" />
+
+</com.tjut.mianliao.black.MagicLinearLayout>

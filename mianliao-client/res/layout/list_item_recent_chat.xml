@@ -1,0 +1,151 @@
+<com.tjut.mianliao.black.MagicRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/contact_item_height"
+    android:background="@drawable/selector_bg_item"
+    app:color_magic="0">
+
+    <FrameLayout
+        android:id="@+id/fl_avatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/contact_spacing_left">
+
+        <ImageView
+            android:id="@+id/iv_vip_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:src="@drawable/chat_avatar_bg"
+            android:visibility="invisible"/>
+
+        <com.tjut.mianliao.component.AvatarView
+            android:id="@+id/iv_contact_avatar"
+            android:layout_width="@dimen/contact_avatar_size"
+            android:layout_height="@dimen/contact_avatar_size"
+            android:layout_gravity="bottom|center_horizontal"
+            android:padding="1dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/chat_botton_bg_faviconboy"
+            app:borderType="roundCorner"
+            app:cornerRadius="100dp"/>
+
+        <ImageView
+            android:id="@+id/iv_type_icon"
+            android:layout_width="13dp"
+            android:layout_height="13dp"
+            android:layout_gravity="bottom|right"
+            android:contentDescription="@null"
+            android:padding="1dp"
+            android:visibility="gone"/>
+    </FrameLayout>
+
+    <com.tjut.mianliao.theme.ThemeImageView
+        android:id="@+id/v_connection_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/fl_avatar"
+        android:layout_marginBottom="-5dp"
+        android:layout_marginLeft="-8dp"
+        android:layout_toRightOf="@id/fl_avatar"
+        android:background="@drawable/ic_status_offline"
+        android:visibility="gone"
+        tools:ignore="ContentDescription"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/contact_name_margin_left"
+        android:layout_marginRight="80dp"
+        android:layout_toRightOf="@id/fl_avatar"
+        android:orientation="vertical">
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:id="@+id/tv_contact_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="@dimen/mdl_name_spacing"
+            android:singleLine="true"
+            android:textColor="@color/txt_darkgray"
+            android:textSize="15sp"/>
+
+        <com.tjut.mianliao.component.EmotionTextView
+            android:id="@+id/tv_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@color/contact_info_color"
+            android:textSize="@dimen/contact_info_size"
+            app:emotionSize="@dimen/emo_size_small"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/contact_spacing_right"
+        android:gravity="right"
+        android:orientation="vertical">
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:id="@+id/tv_unread_badge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_unread_red"
+            android:gravity="center"
+            android:minWidth="16dp"
+            android:textColor="@color/txt_white"
+            android:textSize="12sp"/>
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/contact_info_color"
+            android:textSize="@dimen/contact_info_size"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_count_down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/tv_message"
+        android:layout_marginRight="@dimen/contact_spacing_right"
+        android:drawableLeft="@drawable/memo_icon_clock_blue"
+        android:drawablePadding="10dp"
+        android:textSize="14sp"
+        android:visibility="gone"/>
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/bt_high_chat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/tv_message"
+        android:layout_marginRight="@dimen/contact_spacing_right"
+        android:background="@drawable/bg_bt_black"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:text="@string/is_entry"
+        android:textColor="#7D6FA7"
+        android:visibility="gone"/>
+
+    <com.tjut.mianliao.theme.ThemeLineView
+        android:id="@+id/view_line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="69dp"
+        android:background="#DFDFDF"
+        android:visibility="gone"/>
+
+</com.tjut.mianliao.black.MagicRelativeLayout>

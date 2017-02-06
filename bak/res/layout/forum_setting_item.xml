@@ -1,0 +1,11 @@
+<com.tjut.mianliao.black.MagicRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/selector_bg_card_item" android:baselineAligned="false" android:gravity="center_vertical" android:id="@+id/rl_forum_info" android:layout_height="60dp" android:layout_width="match_parent" android:onClick="onClick">
+
+    <com.tjut.mianliao.black.MagicRelativeLayout android:layout_height="60dp" android:layout_toLeftOf="@+id/switch_listen_forum" android:layout_width="match_parent">
+
+        <include layout="@layout/merge_forum_item" />
+    </com.tjut.mianliao.black.MagicRelativeLayout>
+
+    <CheckBox android:background="@drawable/bg_switch_button" android:button="@null" android:gravity="center" android:id="@+id/switch_listen_forum" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_height="30dp" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:layout_width="42dp" android:text="@string/fs_listen_on" android:textColor="@drawable/switch_button_text_color" android:textSize="13sp" />
+
+    <include layout="@layout/hr_divider" android:layout_alignParentBottom="true" android:layout_height="1px" android:layout_marginLeft="71dp" android:layout_width="match_parent" />
+</com.tjut.mianliao.black.MagicRelativeLayout>

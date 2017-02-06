@@ -1,0 +1,29 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector_bg_item"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    app:color_magic="0">
+
+    <CheckBox
+        android:id="@+id/cb_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="16dp"
+        android:button="@drawable/selector_btn_checkbox"
+        android:clickable="false"
+        android:focusable="false"/>
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_resume_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:textColor="#444444"
+        android:textSize="15sp"/>
+
+</com.tjut.mianliao.black.MagicLinearLayout>

@@ -1,0 +1,16 @@
+<com.tjut.mianliao.black.MagicRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/ll_stream_filter" android:layout_height="wrap_content" android:layout_width="match_parent">
+
+    <com.tjut.mianliao.black.MagicRelativeLayout android:background="@drawable/selector_bg_card_item" android:id="@+id/rl_forum_info" android:layout_height="60dp" android:layout_toLeftOf="@+id/ll_switch_container" android:layout_width="match_parent" android:onClick="onClick">
+
+        <include layout="@layout/merge_forum_item" />
+    </com.tjut.mianliao.black.MagicRelativeLayout>
+
+    <com.tjut.mianliao.black.MagicLinearLayout android:gravity="center" android:id="@+id/ll_switch_container" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_height="wrap_content" android:layout_marginRight="16dp" android:layout_width="wrap_content">
+
+        <View android:background="@color/hr_divider" android:layout_gravity="center_vertical" android:layout_height="40dp" android:layout_width="1px" />
+
+        <com.tjut.mianliao.theme.ThemeTextView android:background="@drawable/spinner_background_triangle" android:id="@+id/category_spinner" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_width="wrap_content" android:paddingRight="10dp" android:singleLine="true" android:textSize="17sp" android:visibility="gone" />
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+    <include layout="@layout/hr_divider" android:layout_alignParentBottom="true" android:layout_height="1px" android:layout_marginLeft="71dp" android:layout_width="match_parent" />
+</com.tjut.mianliao.black.MagicRelativeLayout>

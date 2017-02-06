@@ -1,0 +1,175 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sv_edit_course"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="none">
+
+    <com.tjut.mianliao.black.MagicLinearLayout
+        android:id="@+id/ll_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card_margin_horizontal"
+            android:layout_marginRight="@dimen/card_margin_horizontal"
+            android:layout_marginTop="@dimen/card_item_spacing"
+            android:background="@drawable/bg_card"
+            android:orientation="vertical"
+            app:color_magic="0">
+
+            <com.tjut.mianliao.black.MagicLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/card_margin_horizontal"
+                android:paddingRight="@dimen/card_margin_horizontal">
+
+                <com.tjut.mianliao.theme.ThemeTextView
+                    style="@style/MianLiao.CardText"
+                    android:layout_width="@dimen/edc_card_title_width"
+                    android:layout_height="wrap_content"
+                    android:text="@string/course_name_head"/>
+
+                <EditText
+                    android:id="@+id/et_name"
+                    style="@style/MianLiao.EditText.InCard"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1px"
+                    android:layout_weight="1"
+                    android:hint="@string/course_input_name"
+                    android:maxLength="100"
+                    android:maxLines="1"
+                    android:singleLine="true"/>
+            </com.tjut.mianliao.black.MagicLinearLayout>
+
+            <include layout="@layout/hr_divider_with_margin"/>
+
+            <com.tjut.mianliao.black.MagicLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/card_margin_horizontal"
+                android:paddingRight="@dimen/card_margin_horizontal">
+
+                <com.tjut.mianliao.theme.ThemeTextView
+                    style="@style/MianLiao.CardText"
+                    android:layout_width="@dimen/edc_card_title_width"
+                    android:layout_height="wrap_content"
+                    android:text="@string/course_teacher_head"/>
+
+                <EditText
+                    android:id="@+id/et_teacher"
+                    style="@style/MianLiao.EditText.InCard"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1px"
+                    android:layout_weight="1"
+                    android:hint="@string/course_input_teacher"
+                    android:maxLength="100"
+                    android:maxLines="1"
+                    android:singleLine="true"/>
+            </com.tjut.mianliao.black.MagicLinearLayout>
+        </com.tjut.mianliao.black.MagicLinearLayout>
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card_margin_horizontal"
+            android:layout_marginRight="@dimen/card_margin_horizontal"
+            android:layout_marginTop="@dimen/card_item_spacing"
+            android:background="@drawable/bg_card"
+            android:orientation="vertical"
+            app:color_magic="0">
+
+            <com.tjut.mianliao.black.MagicLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/card_margin_horizontal"
+                android:paddingRight="@dimen/card_margin_horizontal">
+
+                <com.tjut.mianliao.theme.ThemeTextView
+                    style="@style/MianLiao.CardText"
+                    android:layout_width="@dimen/edc_card_title_width"
+                    android:layout_height="wrap_content"
+                    android:text="@string/course_classroom_head"/>
+
+                <EditText
+                    android:id="@+id/et_room"
+                    style="@style/MianLiao.EditText.InCard"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1px"
+                    android:layout_weight="1"
+                    android:hint="@string/course_input_classroom"
+                    android:maxLength="100"
+                    android:maxLines="1"
+                    android:singleLine="true"/>
+            </com.tjut.mianliao.black.MagicLinearLayout>
+
+            <include layout="@layout/hr_divider_with_margin"/>
+
+            <com.tjut.mianliao.black.MagicLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_bg_card_item"
+                android:onClick="editWeeks"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/card_margin_horizontal"
+                android:paddingRight="@dimen/card_margin_horizontal">
+
+                <com.tjut.mianliao.theme.ThemeTextView
+                    style="@style/MianLiao.CardText"
+                    android:layout_width="@dimen/edc_card_title_width"
+                    android:layout_height="wrap_content"
+                    android:text="@string/course_weeks_head"/>
+
+                <com.tjut.mianliao.theme.ThemeTextView
+                    android:id="@+id/tv_weeks"
+                    style="@style/MianLiao.CardText.Light"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/course_choose_weeks"/>
+            </com.tjut.mianliao.black.MagicLinearLayout>
+
+            <include layout="@layout/hr_divider_with_margin"/>
+
+            <com.tjut.mianliao.black.MagicLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_bg_card_item"
+                android:onClick="editPeriod"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/card_margin_horizontal"
+                android:paddingRight="@dimen/card_margin_horizontal">
+
+                <com.tjut.mianliao.theme.ThemeTextView
+                    style="@style/MianLiao.CardText"
+                    android:layout_width="@dimen/edc_card_title_width"
+                    android:layout_height="wrap_content"
+                    android:text="@string/course_period_head"/>
+
+                <com.tjut.mianliao.theme.ThemeTextView
+                    android:id="@+id/tv_period"
+                    style="@style/MianLiao.CardText.Light"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/course_choose_periods"/>
+            </com.tjut.mianliao.black.MagicLinearLayout>
+        </com.tjut.mianliao.black.MagicLinearLayout>
+
+        <Button
+            android:id="@+id/btn_add_period"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/selector_btn_blue"
+            android:text="@string/course_add_period"/>
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+</ScrollView>

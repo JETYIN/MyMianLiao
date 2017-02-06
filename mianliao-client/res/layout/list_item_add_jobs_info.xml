@@ -1,0 +1,28 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical">
+
+    <com.tjut.mianliao.black.MagicLinearLayout android:background="@color/white" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_width="match_parent" android:orientation="horizontal" android:paddingLeft="15dp" android:paddingRight="15dp">
+
+        <com.tjut.mianliao.theme.ThemeTextView android:background="#EDEBD2" android:gravity="center" android:layout_height="match_parent" android:layout_width="80dp" android:paddingLeft="10dp" android:paddingRight="10dp" android:text="@string/is_three_noorder" android:textSize="14sp" />
+
+        <EditText android:background="@null" android:id="@+id/et_position" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_weight="1" android:layout_width="0dp" />
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+    <View android:background="#cccccc" android:layout_height="1px" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:layout_width="match_parent" />
+
+    <com.tjut.mianliao.black.MagicLinearLayout android:background="@color/white" android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal" android:paddingLeft="15dp" android:paddingRight="15dp">
+
+        <com.tjut.mianliao.theme.ThemeTextView android:background="#EDEBD2" android:gravity="center" android:layout_height="match_parent" android:layout_width="80dp" android:paddingLeft="10dp" android:paddingRight="10dp" android:text="@string/is_four_noorder" />
+
+        <EditText android:background="@null" android:id="@+id/et_corp" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_weight="1" android:layout_width="0dp" />
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+    <View android:background="#cccccc" android:layout_height="1px" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:layout_width="match_parent" />
+
+    <com.tjut.mianliao.black.MagicLinearLayout android:background="@color/white" android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal" android:paddingLeft="15dp" android:paddingRight="15dp">
+
+        <com.tjut.mianliao.theme.ThemeTextView android:background="#EDEBD2" android:gravity="center" android:layout_height="match_parent" android:layout_width="80dp" android:paddingLeft="10dp" android:paddingRight="10dp" android:text="@string/is_five_noorder" />
+
+        <EditText android:background="@null" android:editable="false" android:id="@+id/et_invite_time" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_weight="1" android:layout_width="0dp" />
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+</com.tjut.mianliao.black.MagicLinearLayout>

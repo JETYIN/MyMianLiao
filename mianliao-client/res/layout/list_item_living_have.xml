@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/iv_preview"
+                android:layout_width="190dp"
+                android:layout_height="190dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pic_face_07" />
+
+            <TextView
+                android:id="@+id/tv_flag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|top"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_tv_circle_write"
+                android:text="回放"
+                android:textColor="#eeeeee"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_school"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|bottom"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="15dp"
+                android:drawableLeft="@drawable/button_location"
+                android:drawablePadding="5dp"
+                android:text="电子科技大学"
+                android:textColor="#eeeeee" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/fl_choosed"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#34000000">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|left"
+                android:layout_marginBottom="7dp"
+                android:layout_marginLeft="32dp"
+                android:src="@drawable/icon_share_hover" />
+        </FrameLayout>
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="隔壁的"
+            android:textColor="#8c8c8c"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:text="1225人看过"
+            android:textColor="#959595"
+            android:textSize="9sp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="22dp"
+        android:paddingLeft="9dp"
+        android:paddingRight="9dp"
+        android:text="一个不能说的密密"
+        android:textColor="#959595"
+        android:textSize="12sp" />
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_title"
+        style="@style/MianLiao.CardText"
+        android:layout_width="@dimen/prof_head_width"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/card_margin_horizontal"
+        android:maxLines="1"
+        android:singleLine="true"/>
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_content"
+        style="@style/MianLiao.CardText.Light"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1"
+        android:ellipsize="middle"/>
+
+    <com.tjut.mianliao.theme.ThemeImageView
+        android:id="@+id/iv_button"
+        android:layout_width="@dimen/ci_btn_size"
+        android:layout_height="@dimen/ci_btn_size"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="15dp"
+        android:scaleType="center"
+        tools:ignore="contentDescription"/>
+
+</merge>

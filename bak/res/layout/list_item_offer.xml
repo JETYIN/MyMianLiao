@@ -1,0 +1,14 @@
+<com.tjut.mianliao.black.MagicRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/selector_bg_card" android:layout_height="wrap_content" android:layout_width="match_parent" android:paddingBottom="10dp">
+
+    <include layout="@layout/merge_user_info" />
+
+    <View android:background="@color/hr_divider" android:id="@+id/v_divider" android:layout_below="@+id/av_avatar" android:layout_height="1px" android:layout_marginBottom="4dp" android:layout_marginTop="10dp" android:layout_width="match_parent" />
+
+    <com.tjut.mianliao.black.MagicLinearLayout android:id="@+id/ll_info" android:layout_below="@+id/v_divider" android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="vertical" android:paddingLeft="10dp" android:paddingRight="10dp">
+
+        <include layout="@layout/qa_item_body" />
+
+        <com.tjut.mianliao.theme.ThemeTextView android:id="@+id/tv_view_details" android:layout_gravity="right" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_width="wrap_content" android:text="@string/offer_view_details" android:textColor="#A9A9A9" android:textSize="12sp" />
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+</com.tjut.mianliao.black.MagicRelativeLayout>

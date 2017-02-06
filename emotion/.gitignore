@@ -1,0 +1,14 @@
+.classpath
+.project
+.settings
+bin/
+gen/
+out/
+*.class
+*.iml
+build.properties
+lint.xmlk
+.svn/
+.idea/*
+build/*
+.DS_Store

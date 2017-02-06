@@ -1,0 +1,16 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/white" android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical">
+
+    <com.tjut.mianliao.black.MagicLinearLayout android:layout_height="@dimen/tab_height" android:layout_marginLeft="30dp" android:layout_marginRight="30dp" android:layout_width="match_parent" android:orientation="horizontal">
+
+        <com.tjut.mianliao.theme.ThemeTextView style="@style/MianLiao.TabItem" android:id="@+id/tv_published" android:layout_height="match_parent" android:layout_weight="1" android:layout_width="0dp" android:text="@string/bty_my_task_published" />
+
+        <com.tjut.mianliao.theme.ThemeTextView style="@style/MianLiao.TabItem" android:id="@+id/tv_accepted" android:layout_height="match_parent" android:layout_weight="1" android:layout_width="0dp" android:text="@string/bty_my_task_accepted" />
+
+        <com.tjut.mianliao.theme.ThemeTextView style="@style/MianLiao.TabItem" android:id="@+id/tv_favorited" android:layout_height="match_parent" android:layout_weight="1" android:layout_width="0dp" android:text="@string/bty_my_task_favorited" />
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+    <View android:background="@color/txt_tab_item_green" android:layout_height="1px" android:layout_width="match_parent" />
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView android:background="@color/bg_basic" android:divider="@null" android:id="@+id/ptrlv_bounty" android:layout_height="match_parent" android:layout_width="match_parent" android:listSelector="@color/bg_basic" android:scrollbarStyle="outsideOverlay" />
+
+</com.tjut.mianliao.black.MagicLinearLayout>

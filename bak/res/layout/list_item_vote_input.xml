@@ -1,0 +1,8 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+
+    <EditText android:background="@null" android:hint="@string/fp_hint_vote_input" android:id="@+id/et_option" android:layout_alignParentLeft="true" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/iv_delete" android:layout_width="match_parent" android:maxLength="30" android:maxLines="1" android:singleLine="true" />
+
+    <com.tjut.mianliao.theme.ThemeImageView android:id="@+id/iv_delete" android:layout_alignParentRight="true" android:layout_gravity="center_vertical" android:layout_height="wrap_content" android:layout_marginRight="4dp" android:layout_width="wrap_content" android:padding="6dp" android:src="@drawable/btn_vote_delete" tools:ignore="ContentDescription" />
+
+    <View android:background="@color/hr_divider" android:layout_below="@+id/et_option" android:layout_height="1px" android:layout_marginLeft="@dimen/card_margin_horizontal" android:layout_marginRight="@dimen/card_margin_horizontal" android:layout_width="match_parent" />
+</merge>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:gravity="center_horizontal|left"
+    android:orientation="horizontal"
+    android:paddingBottom="4dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="4dp">
+
+    <TextView
+        android:id="@id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="王子:"
+        android:shadowColor="#c0000000"
+        android:shadowDx="2"
+        android:shadowDy="0"
+        android:shadowRadius="1"
+        android:textColor="#FF8155" />
+
+    <TextView
+        android:id="@+id/tv_msg_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:shadowColor="#c0000000"
+        android:layout_marginLeft="5dp"
+        android:shadowDx="2"
+        android:shadowDy="0"
+        android:shadowRadius="1"
+        android:textSize="15sp"
+        android:text="Just ok is not real OK"
+        android:textColor="#59fe9f" />
+
+
+</LinearLayout>

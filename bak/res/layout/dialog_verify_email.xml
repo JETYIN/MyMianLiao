@@ -1,0 +1,6 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="vertical">
+
+    <com.tjut.mianliao.theme.ThemeTextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text="@string/prof_email_input_code_hint" android:textColor="#444444" />
+
+    <EditText android:id="@+id/input_code" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_width="match_parent" />
+</com.tjut.mianliao.black.MagicLinearLayout>

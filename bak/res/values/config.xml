@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <bool name="debug">true</bool>
+    <bool name="use_dev_server">true</bool>
+    <bool name="use_stg_server">false</bool>
+
+    <string name="server_domain_dev">dev.tjut.cc</string>
+    <!-- <string name="server_domain_dev">192.168.1.191</string> -->
+    <!-- <string name="server_domain_dev">192.168.1.112</string> -->
+    <string name="server_domain_dev_chat">dev.tjut.cc</string>
+    <string name="server_domain_prod">prodv1.tjut.cc</string>
+    <string name="server_domain_prod_chat">115.29.228.40</string>
+    <string name="server_domain_stg">stg.tjut.cc</string>
+    <string name="server_domain_stg_chat">stg.tjut.cc</string>
+
+</resources>

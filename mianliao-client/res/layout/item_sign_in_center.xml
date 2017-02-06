@@ -1,0 +1,39 @@
+<com.tjut.mianliao.black.MagicRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_signin_center"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:clickable="true"
+    android:onClick="onClick"
+    android:paddingLeft="15dp"
+    android:paddingRight="14dp"
+    app:color_magic="0" >
+
+    <com.tjut.mianliao.theme.ThemeImageView
+        android:id="@+id/iv_icon_signin"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/icon_signin" />
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="#494949"
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/iv_icon_signin"
+        android:text="@string/prof_sign_in_center" />
+
+    <com.tjut.mianliao.theme.ThemeImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:contentDescription="@null"
+        android:src="@drawable/botton_bg_chat_arrowright" />
+
+</com.tjut.mianliao.black.MagicRelativeLayout>

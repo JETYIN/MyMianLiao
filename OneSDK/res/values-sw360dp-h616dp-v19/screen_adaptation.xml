@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--DO NOT MODIFY, GENERATED FROM screen_adaptation.xqy-->
+<resources>
+  <item type="bool" name="qupai_is_long_screen">true</item>
+  <item type="color" name="qupai_recording_tip_bg">@color/qupai_recording_tip_bg_long</item>
+  <item type="color" name="qupai_effect_chooser_item_text">@color/qupai_effect_chooser_item_text_long</item>
+  <item type="layout" name="item_header_qupai_editor_asset_more">@layout/item_header_qupai_editor_asset_more_long</item>
+  <item type="layout" name="item_header_qupai_editor_asset_null">@layout/item_header_qupai_editor_asset_null_long</item>
+  <item type="layout" name="item_qupai_editor_asset">@layout/item_qupai_editor_asset_long</item>
+  <item type="dimen" name="qupai_action_bar_size_recorder">@dimen/qupai_action_bar_size_recorder_long</item>
+  <item type="dimen" name="qupai_timeline_size_recorder">@dimen/qupai_timeline_size_recorder_long</item>
+  <item type="dimen" name="qupai_action_bar_size_edit">@dimen/qupai_action_bar_size_edit_long</item>
+  <item type="dimen" name="qupai_timeline_size_edit">@dimen/qupai_timeline_size_edit_long</item>
+  <item type="dimen" name="qupai_radiogroup_size_edit">@dimen/qupai_radiogroup_size_edit_long</item>
+  <item type="dimen" name="qupai_typegroup_size_edit">@dimen/qupai_typegroup_size_edit_long</item>
+  <item type="dimen" name="qupai_typegroup_more_edit">@dimen/qupai_typegroup_more_edit_long</item>
+  <item type="dimen" name="qupai_typegroup_margin">@dimen/qupai_typegroup_margin_long</item>
+  <item type="dimen" name="qupai_overlay_effect_group_list_height">@dimen/qupai_overlay_effect_group_list_height_long</item>
+</resources>

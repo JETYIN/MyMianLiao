@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tjut.mianliao.black.MagicRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_history"
+    android:layout_width="match_parent"
+    android:layout_height="44dp">
+
+    <com.tjut.mianliao.theme.ThemeImageView
+        android:id="@+id/iv_search_history_logo"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_marginLeft="25dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/icon_search_history"/>
+    
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_search_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textSize="15sp"
+        android:textColor="#656565"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/iv_search_history_logo"/>
+    
+    <com.tjut.mianliao.theme.ThemeImageView
+        android:id="@+id/iv_clear_history"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:padding="5dp"
+        android:src="@drawable/icon_search_history_delet"/>
+    <com.tjut.mianliao.theme.ThemeLineView
+        android:layout_width="match_parent"
+        android:layout_height="1px"/>
+
+</com.tjut.mianliao.black.MagicRelativeLayout>

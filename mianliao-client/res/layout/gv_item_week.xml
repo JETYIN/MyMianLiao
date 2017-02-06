@@ -1,0 +1,3 @@
+<com.tjut.mianliao.theme.ThemeTextView xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:layout_height="35dp" android:layout_width="match_parent" android:textColor="#7D7D7D">
+
+</com.tjut.mianliao.theme.ThemeTextView>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RadioGroup
+        android:id="@+id/main_tab_group"
+        android:layout_width="fill_parent"
+        android:layout_height="51dp"
+        android:layout_alignParentBottom="true"
+        android:background="#f8f8f8"
+        android:orientation="horizontal"
+        android:paddingTop="5dp" >
+
+        <RadioButton
+            android:id="@+id/tab_home"
+            style="@style/main_bottom"
+            android:layout_weight="1"
+            android:checked="true"
+            android:drawableTop="@drawable/one"
+            android:text="主页" />
+
+        <RadioButton
+            android:id="@+id/tab_saled"
+            style="@style/main_bottom"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/main_footer_saled_selector"
+            android:text="@string/saled" />
+
+        <RadioButton
+            android:id="@+id/tab_warehourse"
+            style="@style/main_bottom"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/main_footer_warehourse_selector"
+            android:text="@string/warehourse" />
+
+        <RadioButton
+            android:id="@+id/tab_basic"
+            style="@style/main_bottom"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/main_footer_basic_selector"
+            android:text="@string/basic" />
+
+        <RadioButton
+            android:id="@+id/tab_summary"
+            style="@style/main_bottom"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/main_footer_summary_selector"
+            android:text="@string/summary" />
+    </RadioGroup>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_alignParentBottom="true" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#b5b5b5" />
+    </RelativeLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/tab_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/main_tab_group" />
+
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/tab_height"
+    android:background="#F2F2F2"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp"
+    app:color_magic="0">
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_type_normal"
+        style="@style/MianLiao.TabItem"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/create_text_new"/>
+
+    <com.tjut.mianliao.theme.ThemeImageView
+        android:layout_width="1px"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/normal_pic_vertical"/>
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_type_vote"
+        style="@style/MianLiao.TabItem"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/action_vote"/>
+
+</com.tjut.mianliao.black.MagicLinearLayout>

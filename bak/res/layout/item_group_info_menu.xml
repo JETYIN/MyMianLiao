@@ -1,0 +1,29 @@
+<com.tjut.mianliao.black.MagicRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@drawable/selector_group_chat_item_bg">
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="25dp"
+        android:text="@string/cht_group_name_txt"
+        android:textColor="#2E2E2E"
+        android:textSize="15sp"/>
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_group_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="25dp"
+        android:drawablePadding="14dp"
+        android:drawableRight="@drawable/icon_enter"
+        android:gravity="center"
+        android:textColor="#9D9D9D"
+        android:textSize="15sp"/>
+
+</com.tjut.mianliao.black.MagicRelativeLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f2f2f2"
+    android:orientation="vertical"
+    app:color_magic="0">
+
+    <com.tjut.mianliao.component.CommonBanner
+        android:id="@+id/vs_switcher"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        app:banner_plate="0"/>
+
+    <com.tjut.mianliao.black.MagicLinearLayout
+        android:id="@+id/ll_news_info"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:layout_marginTop="9dp"
+        android:background="#ffffff"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:onClick="onClick"
+        app:color_magic="0">
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:layout_width="24dp"
+            android:layout_height="16dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/bg_school_hot"
+            android:text="@string/news_homepage_title"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:textColor="#ff9c00"
+            android:textSize="9sp"/>
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:id="@+id/tv_news_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:textColor="#8b8b8b"
+            android:textSize="10sp"/>
+
+        <ImageView
+            android:id="@+id/iv_ticket_flag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/icon_ticket"/>
+        
+    </com.tjut.mianliao.black.MagicLinearLayout>
+    
+     <com.tjut.mianliao.theme.ThemeLineView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_alignParentBottom="true"
+        android:background="#E5E5E5"/>
+
+    <com.tjut.mianliao.black.MagicLinearLayout
+        android:id="@+id/ll_hot_posts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:color_magic="0">
+  
+      
+        <!-- 
+        <com.tjut.mianliao.black.MagicRelativeLayout
+            android:id="@+id/rl_more_hot"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="7dp"
+            android:background="#ffffff"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            app:color_magic="0">
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:drawableLeft="@drawable/club_bg_pic_hot"
+                android:drawablePadding="5dp"
+                android:text="@string/campus_hot_top_5"
+                android:textColor="#515151"
+                android:textSize="14sp"/>
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                android:id="@+id/tv_more_hot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"
+                android:clickable="true"
+                android:onClick="onClick"
+                android:text="@string/tab_explore"
+                android:textColor="#B6D1F4"
+                android:textSize="11sp"/>
+        </com.tjut.mianliao.black.MagicRelativeLayout>
+         -->
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            android:id="@+id/ll_top_five"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:orientation="vertical"
+            app:color_magic="0"/>
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+</com.tjut.mianliao.black.MagicLinearLayout>

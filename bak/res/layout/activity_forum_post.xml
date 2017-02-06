@@ -1,0 +1,57 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical">
+
+    <ScrollView android:layout_height="0dp" android:layout_weight="1" android:layout_width="match_parent">
+
+        <com.tjut.mianliao.black.MagicLinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="vertical" android:paddingBottom="20dp">
+
+            <com.tjut.mianliao.black.MagicLinearLayout android:background="@drawable/bg_item_with_top_bottom_lines" android:layout_height="wrap_content" android:layout_marginTop="@dimen/card_item_spacing" android:layout_width="match_parent" android:orientation="vertical">
+
+                <com.tjut.mianliao.black.MagicLinearLayout android:background="@drawable/selector_bg_card_item" android:id="@+id/ll_post_type" android:layout_height="wrap_content" android:layout_width="match_parent" android:onClick="onClick" android:padding="10dp">
+
+                    <com.tjut.mianliao.theme.ThemeTextView android:gravity="center_vertical" android:layout_height="wrap_content" android:layout_width="wrap_content" android:maxLines="1" android:singleLine="true" android:text="@string/fp_post_type" android:textColor="#434343" android:textSize="16sp" />
+
+                    <com.tjut.mianliao.theme.ThemeTextView android:drawablePadding="15dp" android:drawableRight="@drawable/ic_enter" android:gravity="center_vertical|right" android:id="@+id/tv_post_type" android:layout_height="wrap_content" android:layout_width="match_parent" android:textColor="@color/btn_blue" android:textSize="16sp" />
+                </com.tjut.mianliao.black.MagicLinearLayout>
+
+                <include layout="@layout/hr_divider_with_margin" />
+
+                <EditText android:background="@null" android:gravity="top" android:hint="@string/fp_hint_content" android:id="@+id/et_desc" android:layout_height="wrap_content" android:layout_width="match_parent" android:maxLength="1024" android:maxLines="8" android:minLines="5" android:onClick="onClick" android:textColor="#434343" />
+
+                <com.tjut.mianliao.component.ExpandableGridView android:horizontalSpacing="4dp" android:id="@+id/gv_gallery" android:layout_height="wrap_content" android:layout_width="match_parent" android:listSelector="@color/white" android:numColumns="5" android:paddingBottom="12dp" android:paddingLeft="10dp" android:paddingRight="10dp" android:paddingTop="12dp" android:stretchMode="columnWidth" android:verticalSpacing="4dp" android:visibility="gone" />
+
+                <com.tjut.mianliao.component.AttachmentView app:labelColor="#434343" app:nameColor="@color/btn_blue" app:textSize="16sp" android:id="@+id/av_att" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_width="match_parent" android:onClick="onClick" android:visibility="gone" />
+
+                <include layout="@layout/hr_divider_with_margin" />
+
+                <include layout="@layout/input_actions" />
+            </com.tjut.mianliao.black.MagicLinearLayout>
+
+            <com.tjut.mianliao.black.MagicLinearLayout android:background="@drawable/bg_item_with_bottom_line_last" android:id="@+id/ll_vote_options" android:layout_height="wrap_content" android:layout_marginTop="@dimen/card_item_spacing" android:layout_width="match_parent" android:orientation="vertical" android:visibility="gone">
+
+                <include layout="@layout/hr_divider" />
+
+                <com.tjut.mianliao.component.forum.VoteInputItem app:showDelete="false" android:layout_height="wrap_content" android:layout_width="match_parent" />
+
+                <Button android:background="@drawable/selector_btn_white" android:id="@+id/btn_add_option" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_marginTop="10dp" android:layout_width="match_parent" android:text="@string/fp_vote_add_more" android:textColor="@color/btn_white_txt" />
+            </com.tjut.mianliao.black.MagicLinearLayout>
+
+            <com.tjut.mianliao.black.MagicLinearLayout android:background="@drawable/bg_item_with_bottom_line_last" android:id="@+id/ll_vote_properties" android:layout_height="wrap_content" android:layout_marginTop="@dimen/card_item_spacing" android:layout_width="wrap_content" android:orientation="vertical" android:visibility="gone">
+
+                <include layout="@layout/hr_divider" />
+
+                <com.tjut.mianliao.component.CardItemConf app:cardTitle="@string/fp_vote_expire_on" android:id="@+id/cif_vote_time" android:layout_height="wrap_content" android:layout_width="match_parent" />
+
+                <include layout="@layout/hr_divider" />
+
+                <com.tjut.mianliao.component.CardItemConf app:cardContent="@string/fp_vote_type_normal" app:cardTitle="@string/fp_vote_type" android:id="@+id/cif_vote_type" android:layout_height="wrap_content" android:layout_width="match_parent" />
+            </com.tjut.mianliao.black.MagicLinearLayout>
+
+            <ViewStub android:id="@+id/vs_event" android:layout="@layout/forum_post_edit_event" android:layout_height="wrap_content" android:layout_marginTop="@dimen/card_item_spacing" android:layout_width="match_parent" />
+
+            <Button android:background="@drawable/selector_btn_blue" android:id="@+id/btn_submit" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_marginTop="13dp" android:layout_width="match_parent" android:onClick="onClick" android:text="@string/fp_post" />
+        </com.tjut.mianliao.black.MagicLinearLayout>
+    </ScrollView>
+
+    <com.tjut.mianliao.component.EmotionPicker android:background="@color/white" android:id="@+id/ep_emotions" android:layout_height="200dp" android:layout_width="match_parent" android:visibility="gone" />
+
+</com.tjut.mianliao.black.MagicLinearLayout>

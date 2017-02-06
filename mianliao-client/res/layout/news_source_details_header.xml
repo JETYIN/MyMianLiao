@@ -1,0 +1,176 @@
+<com.tjut.mianliao.black.MagicRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="10dp"
+    app:color_magic="0">
+
+    <com.tjut.mianliao.theme.ThemeImageView
+        android:id="@+id/iv_scene"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/prof_scene_height"
+        android:scaleType="fitXY"
+        android:src="@drawable/bg_news_source"
+        tools:ignore="ContentDescription"/>
+
+    <com.tjut.mianliao.component.ProAvatarView
+        android:id="@+id/av_avatar"
+        android:layout_width="@dimen/prof_avatar_size"
+        android:layout_height="@dimen/prof_avatar_size"
+        android:layout_below="@id/iv_scene"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="-26dp"
+        android:padding="@dimen/prof_avatar_border_size"
+        android:src="@drawable/ic_news_source_avatar"/>
+
+    <com.tjut.mianliao.theme.ThemeImageView
+        android:id="@+id/iv_star"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/av_avatar"
+        android:layout_alignRight="@id/av_avatar"
+        android:src="@drawable/ic_star"
+        tools:ignore="ContentDescription"/>
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_name"
+        style="@style/MianLiao.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/iv_scene"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="12dp"
+        android:layout_toRightOf="@id/av_avatar"
+        android:maxLines="1"
+        android:maxWidth="230dp"
+        android:shadowColor="@color/text_shadow"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="1"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textSize="@dimen/title_text_size"/>
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/tv_name"
+        android:layout_below="@id/iv_scene"
+        android:layout_marginTop="2dp"
+        android:maxLines="1"
+        android:maxWidth="130dp"
+        android:singleLine="true"
+        android:textColor="@color/news_mark"
+        android:textSize="14sp"
+        android:visibility="gone"/>
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_followed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/tv_name"
+        android:layout_below="@id/tv_desc"
+        android:layout_marginTop="2dp"
+        android:maxLines="1"
+        android:maxWidth="120dp"
+        android:singleLine="true"
+        android:textColor="@color/news_mark"
+        android:textSize="14sp"
+        android:visibility="gone"/>
+
+    <com.tjut.mianliao.black.MagicRelativeLayout
+        android:id="@+id/ll_action"
+        android:layout_width="92dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/iv_scene"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:id="@+id/tv_action"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:drawablePadding="8dp"
+            android:gravity="center"
+            android:text="@string/news_source_follow"
+            android:textColor="@color/white"
+            android:textSize="15sp"/>
+
+        <ProgressBar
+            android:id="@+id/pb_action"
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone"/>
+    </com.tjut.mianliao.black.MagicRelativeLayout>
+
+    <com.tjut.mianliao.black.MagicLinearLayout
+        android:id="@+id/ll_about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_followed"
+        android:layout_marginLeft="@dimen/card_margin_horizontal"
+        android:layout_marginRight="@dimen/card_margin_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_card"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:color_magic="0">
+
+        <com.tjut.mianliao.component.CardItem
+            android:id="@+id/ci_about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_bg_card_item"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            app:cardBtnSrc="@drawable/ic_enter"
+            app:cardSingleLine="true"
+            app:cardTitle="@string/news_source_about"/>
+
+        <include layout="@layout/hr_divider_with_margin"/>
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            android:id="@+id/ll_qrcard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_bg_card_item"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+
+            <com.tjut.mianliao.theme.ThemeTextView
+                style="@style/MianLiao.CardText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/card_margin_horizontal"
+                android:layout_weight="1"
+                android:text="@string/news_source_qrcode"/>
+
+            <com.tjut.mianliao.theme.ThemeImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/ic_qr_code"
+                tools:ignore="ContentDescription"/>
+
+            <com.tjut.mianliao.theme.ThemeImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="25dp"
+                android:src="@drawable/ic_enter"
+                tools:ignore="ContentDescription"/>
+        </com.tjut.mianliao.black.MagicLinearLayout>
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+</com.tjut.mianliao.black.MagicRelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/pic_face_01" android:duration="100"/>
+    <item android:drawable="@drawable/pic_face_02" android:duration="100"/>
+    <item android:drawable="@drawable/pic_face_03" android:duration="100"/>
+    <item android:drawable="@drawable/pic_face_04" android:duration="100"/>
+    <item android:drawable="@drawable/pic_face_05" android:duration="100"/>
+    <item android:drawable="@drawable/pic_face_06" android:duration="100"/>
+    <item android:drawable="@drawable/pic_face_07" android:duration="100"/>
+    <item android:drawable="@drawable/pic_face_08" android:duration="100"/>
+    <item android:drawable="@drawable/pic_face_09" android:duration="100"/>
+    <item android:drawable="@drawable/pic_face_10" android:duration="100"/>
+    <item android:drawable="@drawable/pic_face_11" android:duration="100"/>
+    <item android:drawable="@drawable/pic_face_12" android:duration="100"/>
+    <item android:drawable="@drawable/pic_face_13" android:duration="100"/>
+    <item android:drawable="@drawable/pic_face_14" android:duration="100"/>
+    <item android:drawable="@drawable/pic_face_15" android:duration="100"/>
+    <item android:drawable="@drawable/pic_face_16" android:duration="100"/>
+    <item android:drawable="@drawable/pic_face_17" android:duration="100"/>
+    <item android:drawable="@drawable/pic_face_18" android:duration="100"/>
+    <item android:drawable="@drawable/pic_face_19" android:duration="100"/>
+    <item android:drawable="@drawable/pic_face_20" android:duration="100"/>
+
+</animation-list>

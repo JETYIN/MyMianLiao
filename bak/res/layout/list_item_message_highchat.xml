@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tjut.mianliao.black.MagicRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_high_chat"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@drawable/selector_bg_item"
+    android:paddingLeft="3dp"
+    android:paddingRight="3dp"
+    android:paddingTop="5dp"
+    app:color_magic="0">
+
+    <com.tjut.mianliao.component.AvatarView
+        android:id="@+id/iv_highchat_avatar"
+        android:layout_width="@dimen/contact_avatar_size"
+        android:layout_height="@dimen/contact_avatar_size"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginLeft="@dimen/contact_spacing_left"
+        android:layout_marginTop="10dp"
+        android:padding="1dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/pic_high"
+        app:borderType="roundCorner"
+        app:cornerRadius="100dp"/>
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_high_chat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/iv_highchat_avatar"
+        android:layout_marginLeft="@dimen/contact_name_margin_left"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="@dimen/contact_name_margin_top"
+        android:layout_toRightOf="@+id/iv_highchat_avatar"
+        android:drawablePadding="@dimen/mdl_name_spacing"
+        android:singleLine="true"
+        android:text="@string/high_chat"
+        android:textColor="@color/txt_darkgray"
+        android:textSize="15sp"/>
+
+    <com.tjut.mianliao.component.EmotionTextView
+        android:id="@+id/tv_high_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/iv_highchat_avatar"
+        android:layout_alignLeft="@+id/tv_high_chat"
+        android:layout_marginRight="25dp"
+        android:layout_toLeftOf="@+id/tv_time"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="@string/high_open_time"
+        android:textColor="@color/contact_info_color"
+        android:textSize="@dimen/contact_info_size"
+        app:emotionSize="@dimen/emo_size_small"/>
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_count_down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/contact_spacing_right"
+        android:drawableLeft="@drawable/memo_icon_clock_blue"
+        android:drawablePadding="10dp"
+        android:textColor="#9b9a9a"
+        android:textSize="14sp"
+        android:visibility="gone"/>
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/bt_high_chat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/contact_spacing_right"
+        android:background="@drawable/bg_bt_black"
+        android:onClick="onClick"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:text="@string/access"
+        android:textColor="#7D6FA7"
+        android:visibility="gone"/>
+
+    <com.tjut.mianliao.theme.ThemeLineView
+        android:id="@+id/view_line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@id/iv_highchat_avatar"
+        android:layout_marginLeft="69dp"
+        android:layout_marginTop="10dp"
+        android:background="#DFDFDF"/>
+
+</com.tjut.mianliao.black.MagicRelativeLayout>

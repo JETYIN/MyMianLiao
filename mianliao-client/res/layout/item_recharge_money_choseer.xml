@@ -1,0 +1,7 @@
+<com.tjut.mianliao.black.MagicRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal">
+
+    <com.tjut.mianliao.theme.ThemeTextView android:layout_alignParentLeft="true" android:layout_height="wrap_content" android:layout_width="wrap_content" android:padding="15dp" android:text="@string/emo_recharge_balance_style" android:textColor="#747474" android:textSize="15sp" />
+
+    <com.tjut.mianliao.theme.ThemeTextView android:background="@drawable/recharge_money_bg" android:gravity="center" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_height="wrap_content" android:layout_marginRight="15dp" android:layout_width="100dp" android:paddingBottom="5dp" android:paddingTop="8dp" android:textColor="@color/white" android:textSize="15sp" />
+
+</com.tjut.mianliao.black.MagicRelativeLayout>

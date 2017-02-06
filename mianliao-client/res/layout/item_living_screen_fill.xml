@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fl_living_screen_fill"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.tjut.mianliao.anim.HeartLayout
+        android:id="@+id/bessal_view"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:layout_marginBottom="40dp"
+        android:background="@android:color/transparent"
+        android:clickable="true"
+        android:onClick="onClick" />
+
+    <com.tjut.mianliao.live.XDanmuView
+        android:id="@+id/danmu_rl"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="200dp"
+        android:background="@android:color/transparent"
+        android:clickable="true"
+        android:onClick="onClick" />
+
+    <ListView
+        android:id="@+id/list_live_msg"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="65dp"
+        android:background="@android:color/transparent"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:listSelector="@android:color/transparent"
+        android:stackFromBottom="true"
+        android:transcriptMode="alwaysScroll" />
+
+    <com.tjut.mianliao.anim.GiftAnimView
+        android:id="@+id/gift_anim_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="210dp"
+        android:background="@android:color/transparent" />
+
+    <LinearLayout
+        android:id="@+id/ll_reply"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:background="#99000000"
+        android:gravity="center_vertical"
+        android:visibility="gone">
+
+        <CheckBox
+            android:id="@+id/cb_send_dm"
+            android:layout_width="35dp"
+            android:layout_height="18dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/bg_living_checkbox"
+            android:button="@null"
+            android:checked="false"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:onClick="onClick" />
+
+        <com.tjut.mianliao.component.RichMlEditText
+            android:id="@+id/et_msg"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="6dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_input_white_transperent"
+            android:hint="说点什么..."
+            android:paddingBottom="9dp"
+            android:paddingLeft="12dp"
+            android:paddingTop="7dp"
+            android:textColor="@drawable/bg_living_editext_change"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_send"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="10dp"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="发送"
+            android:textColor="#9888f1"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_operate"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/iv_message"
+            android:layout_width="35dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:src="@drawable/img_living_send_meeage" />
+
+        <ImageView
+            android:id="@+id/iv_share"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:src="@drawable/img_living_user_share" />
+
+        <ImageView
+            android:id="@+id/iv_connection"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:visibility="gone"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:src="@drawable/img_living_contact_light" />
+
+        <ImageView
+            android:id="@+id/iv_gift_normal"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:src="@drawable/img_living_gift" />
+
+    </LinearLayout>
+
+    <com.tjut.mianliao.component.LiveGiftPicker
+        android:id="@+id/live_gift_emotions"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="bottom"
+        android:background="@color/white"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="7dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_avatar_black_transparent">
+
+                <FrameLayout
+                    android:id="@+id/fr_avatar"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerVertical="true">
+
+                    <com.tjut.mianliao.component.AvatarView
+                        android:id="@+id/iv_avatar"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:onClick="onClick"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/pic_face_05"
+                        app:borderType="circle"
+                        app:cornerRadius="100dp" />
+
+                    <ImageView
+                        android:id="@+id/iv_type_icon"
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:layout_gravity="bottom|right"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/ic_id_student" />
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/tv_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_toRightOf="@+id/fr_avatar"
+                    android:paddingRight="5dp"
+                    android:shadowDx="-1"
+                    android:shadowRadius="2"
+                    android:text="校长同志"
+                    android:textColor="@color/white"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/tv_follow_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_name"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_toRightOf="@+id/fr_avatar"
+                    android:shadowDx="-1"
+                    android:shadowRadius="2"
+                    android:text="120521"
+                    android:textColor="@color/white"
+                    android:textSize="9sp" />
+
+                <ImageView
+                    android:id="@+id/iv_living_follow"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@+id/tv_follow_count"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:onClick="onClick"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/img_focus"
+                    android:visibility="visible" />
+            </RelativeLayout>
+
+            <com.jess.ui.TwoWayGridView
+                android:id="@+id/follow_gridview"
+                android:layout_width="180dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="10dp"
+                android:background="@android:color/transparent"
+                android:scrollbars="none"
+                app:cacheColorHint="#E8E8E8"
+                app:columnWidth="50dp"
+                app:gravity="center_vertical"
+                app:horizontalSpacing="5dp"
+                app:numColumns="auto_fit"
+                app:numRows="1"
+                app:rowHeight="45dp"
+                app:scrollDirectionLandscape="horizontal"
+                app:scrollDirectionPortrait="horizontal"
+                app:stretchMode="spacingWidthUniform"
+                app:verticalSpacing="16dp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="12dp"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:src="@drawable/live_cancel" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_income"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_gravity="left|top"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/bg_black_transparent"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:text="贡献榜"
+            android:textColor="#ff7e7e"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/tv_income"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="13131313"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/img_living_right_arrow" />
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/tv_ml_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|top"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="59dp"
+        android:src="@drawable/watermark_mianliaotv" />
+
+    <TextView
+        android:id="@+id/tv_date_today"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|top"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="74dp"
+        android:shadowDx="-1"
+        android:shadowRadius="2"
+        android:text="2016.06.24"
+        android:textColor="#66ffffff"
+        android:textSize="9sp" />
+
+
+    <com.tjut.mianliao.component.LiveGiftPicker
+        android:id="@+id/gift_picker"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_gravity="bottom"
+        android:background="#B2000000"
+        android:visibility="gone" />
+
+
+    <LinearLayout
+        android:id="@+id/ll_connection"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_gravity="bottom"
+        android:background="#3d000000"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="连线互动"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="本场连线成功消耗10麦粒，一次付费，可多次连线"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/pic_face_01" />
+
+        <TextView
+            android:id="@+id/tv_connection"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:background="@drawable/bg_live_create"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="申请连线"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+
+    <include layout="@layout/activity_living_user_information" />
+
+    <ListView
+        android:id="@+id/lv_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:animationCache="true"
+        android:background="@color/white"
+        android:divider="@null"
+        android:dividerHeight="0px"
+        android:fadingEdge="none"
+        android:listSelector="@android:color/transparent"
+        android:scrollbars="none"
+        android:visibility="gone" />
+
+    <GridView
+        android:id="@+id/gv_share"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#CCffffff"
+        android:horizontalSpacing="15dp"
+        android:layout_gravity="bottom"
+        android:numColumns="4"
+        android:verticalSpacing="15dp"
+        android:visibility="gone"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"/>
+
+</FrameLayout>
+

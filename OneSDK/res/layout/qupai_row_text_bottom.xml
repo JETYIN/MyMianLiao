@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		android:background="@android:color/transparent"
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		>
+
+	<FrameLayout
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="1">
+
+		<com.duanqu.qupai.view.SquareFrameLayout
+				android:layout_width="match_parent"
+				android:layout_height="0dp"
+				android:id="@+id/video"
+				android:layout_gravity="bottom"/>
+
+		<TextView
+				android:id="@+id/message"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="44dp"
+				android:padding="5dp"
+				android:textSize="18sp"
+				android:gravity="center"
+				android:layout_gravity="center_horizontal"
+				android:textColor="@android:color/white"
+				android:background="@drawable/dialog_qupai_radius_bg_black_30"
+				/>
+
+		<!--<EditText
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/comment_edit"
+				android:textColor="@android:color/transparent"
+				android:background="@null"
+				android:focusable="true"
+				android:focusableInTouchMode="true"
+				android:inputType="none"
+				android:textAllCaps="false"
+				android:lines="2"/>-->
+
+	</FrameLayout>
+
+	<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="48dp"
+			android:baselineAligned="false"
+			android:background="@color/qupai_black_opacity_70pct"
+			android:orientation="horizontal"
+			android:gravity="center_vertical">
+		<LinearLayout
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:id="@+id/tab_group_chooser"
+				android:orientation="horizontal"
+				android:gravity="center_vertical">
+			<ImageView
+					android:id="@+id/tab_text"
+					style="@style/Qupai.Widget.RadioButton.OverlayEffectChooser"
+					android:layout_width="0dp"
+					android:layout_height="match_parent"
+					android:layout_weight="1"
+					android:scaleType="center"
+					android:src="@drawable/tab_board_qupai_selector" />
+
+			<FrameLayout
+				android:id="@+id/tab_font"
+				style="@style/Qupai.Widget.RadioButton.OverlayEffectChooser"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1">
+				<ImageView
+						android:id="@+id/tab_font_icon"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:scaleType="center"
+						android:duplicateParentState="true"
+						android:layout_gravity="center"
+						android:src="@drawable/tab_font_qupai_selector" />
+
+				<TextView
+						android:id="@+id/tab_effect_font_new"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginTop="5dp"
+						android:layout_marginRight="10dp"
+						android:layout_gravity="top|right"
+						android:background="@drawable/guide_qupai_diy_new_bg"
+						android:gravity="center"
+						android:text="new"
+						android:textColor="@android:color/white"
+						android:textSize="8sp"
+						android:visibility="gone" />
+			</FrameLayout>
+
+			<ImageView
+					android:id="@+id/tab_color"
+					style="@style/Qupai.Widget.RadioButton.OverlayEffectChooser"
+					android:layout_width="0dp"
+					android:layout_height="match_parent"
+					android:layout_weight="1"
+					android:scaleType="center"
+					android:src="@drawable/tab_color_qupai_selector" />
+		</LinearLayout>
+
+		<View
+				android:layout_width="1dp"
+				android:layout_height="25dp"
+				android:layout_gravity="center_vertical"
+				android:background="@color/qupai_color_text_edit_single"/>
+		<FrameLayout
+				android:layout_width="84dp"
+				android:layout_height="fill_parent"
+				>
+			<TextView
+					android:id="@+id/send"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:gravity="center"
+					android:textSize="17sp"
+					android:textColor="@drawable/text_send_qupai_selector"
+					android:layout_gravity="center"
+					android:text="@string/qupai_diy_text_edit_completed"/>
+		</FrameLayout>
+	</LinearLayout>
+
+	<FrameLayout
+			android:layout_width="match_parent"
+			android:layout_height="295dp"
+			android:visibility="visible"
+			android:background="@android:color/black"
+			android:id="@+id/container">
+		<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:orientation="vertical"
+				android:id="@+id/color_container"
+
+				>
+			<FrameLayout
+					android:layout_width="match_parent"
+					android:layout_height="0dp"
+					android:layout_weight="1"
+					android:paddingTop="5dp"
+					android:paddingLeft="10dp"
+					android:paddingRight="10dp"
+					>
+				<GridView
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:id="@+id/color_stroke_list"
+						android:horizontalSpacing="15dp"
+						android:verticalSpacing="20dp"
+						android:numColumns="6"
+						android:listSelector="@android:color/transparent"
+						android:cacheColorHint="@android:color/transparent"
+						android:choiceMode="singleChoice"
+						android:stretchMode="columnWidth"
+						android:layout_gravity="center"
+						android:gravity="center"
+						android:scrollbars="none"
+						/>
+
+				<GridView
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:id="@+id/color_list"
+						android:horizontalSpacing="15dp"
+						android:verticalSpacing="20dp"
+						android:numColumns="6"
+						android:listSelector="@android:color/transparent"
+						android:cacheColorHint="@android:color/transparent"
+						android:choiceMode="singleChoice"
+						android:stretchMode="columnWidth"
+						android:layout_gravity="center"
+						android:gravity="center"
+						android:scrollbars="none"
+						/>
+			</FrameLayout>
+			<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_gravity="bottom"
+					android:gravity="center"
+					android:orientation="horizontal"
+					android:id="@+id/color_list_tab">
+
+				<TextView
+						android:id="@+id/tab_text_effect_stroke"
+						style="@style/Qupai.Widget.RadioButton.OverlayEffectChooser"
+						android:layout_width="80dp"
+						android:layout_height="match_parent"
+						android:paddingBottom="5dp"
+						android:paddingRight="12dp"
+						android:paddingLeft="12dp"
+						android:textSize="15sp"
+						android:textColor="@color/tab_edit_text_qupai_overlay"
+						android:layout_marginRight="3dp"
+						android:text="@string/qupai_effect_text_stroke" />
+
+				<TextView
+						android:id="@+id/tab_text_effect_color"
+						style="@style/Qupai.Widget.RadioButton.OverlayEffectChooser"
+						android:layout_width="80dp"
+						android:layout_height="match_parent"
+						android:textSize="15sp"
+						android:textColor="@color/tab_edit_text_qupai_overlay"
+						android:paddingBottom="5dp"
+						android:paddingRight="12dp"
+						android:paddingLeft="12dp"
+						android:layout_marginLeft="3dp"
+						android:text="@string/qupai_effect_text_color" />
+
+			</LinearLayout>
+		</LinearLayout>
+
+		<FrameLayout
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:visibility="gone"
+				android:id="@+id/font_layout">
+			<GridView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:paddingTop="3dp"
+					android:id="@+id/font_list"
+					android:verticalSpacing="3dp"
+					android:horizontalSpacing="3dp"
+					android:numColumns="2"
+					android:listSelector="@android:color/transparent"
+					android:cacheColorHint="@android:color/transparent"
+					android:choiceMode="singleChoice"
+					android:stretchMode="columnWidth"
+					android:gravity="center"
+					android:scrollbars="none"
+					/>
+		</FrameLayout>
+
+	</FrameLayout>
+
+</LinearLayout>

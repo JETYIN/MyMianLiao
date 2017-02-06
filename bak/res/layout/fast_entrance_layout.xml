@@ -1,0 +1,26 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_centerVertical="true"
+    android:orientation="vertical">
+
+    <com.tjut.mianliao.theme.ThemeImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="85dp"
+        android:src="@drawable/team_pic_bg_font"/>
+
+    <com.tjut.mianliao.component.ExpandableGridView
+        android:id="@+id/gv_fast_entrance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="66dp"
+        android:gravity="center"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="3"
+        android:verticalSpacing="15dp"/>
+
+</com.tjut.mianliao.black.MagicLinearLayout>

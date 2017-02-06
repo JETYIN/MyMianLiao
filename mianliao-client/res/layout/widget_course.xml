@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="match_parent" android:layout_margin="@dimen/widget_course_margin" android:layout_width="match_parent" android:orientation="vertical">
+
+    <RelativeLayout android:background="@drawable/bg_widget_title" android:layout_height="34dp" android:layout_width="match_parent" android:orientation="horizontal">
+
+        <TextView android:gravity="center" android:id="@+id/tv_date" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginRight="14dp" android:layout_toLeftOf="@+id/btn_wid_course_prev" android:layout_toRightOf="@+id/btn_wid_course_prev" android:layout_width="wrap_content" android:textColor="#242424" android:textSize="16dp" />
+
+        <ImageButton android:background="@drawable/selector_btn_blue" android:id="@+id/btn_wid_course_prev" android:layout_centerVertical="true" android:layout_height="26dp" android:layout_marginRight="14dp" android:layout_toLeftOf="@+id/btn_wid_course_next" android:layout_width="26dp" android:src="@drawable/btn_prev" />
+
+        <ImageButton android:background="@drawable/selector_btn_blue" android:id="@+id/btn_wid_course_next" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_height="26dp" android:layout_marginRight="14dp" android:layout_width="26dp" android:src="@drawable/btn_next" />
+    </RelativeLayout>
+
+    <LinearLayout android:background="@drawable/bg_widget_body" android:id="@+id/ll_courses" android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical">
+
+        <ListView android:id="@+id/lv_courses" android:layout_height="match_parent" android:layout_width="match_parent" />
+
+        <TextView android:gravity="center" android:id="@+id/tv_widget_hint" android:layout_height="match_parent" android:layout_width="match_parent" android:paddingBottom="16dp" android:textColor="#242424" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<com.tjut.mianliao.theme.ThemeTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tv_view_more"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector_bg_news_item"
+    android:gravity="center"
+    android:paddingBottom="12dp"
+    android:paddingTop="12dp"
+    android:text="@string/news_source_more"
+    android:textColor="#9C978C"
+    android:textSize="15sp"
+    android:visibility="gone"/>

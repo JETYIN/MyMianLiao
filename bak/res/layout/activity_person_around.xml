@@ -1,0 +1,23 @@
+<com.tjut.mianliao.black.MagicFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fl_bg_person_around"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:color_magic="0" >
+
+    <include
+        android:id="@+id/waiting_view"
+        layout="@layout/person_around_waiting"
+        android:visibility="gone" />
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/ptrlv_person_around"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:divider="@color/hr_divider"
+        android:dividerHeight="1px"
+        android:listSelector="@null"
+        app:ptrMode="both" />
+
+</com.tjut.mianliao.black.MagicFrameLayout>

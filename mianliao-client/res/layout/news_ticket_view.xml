@@ -1,0 +1,13 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_height="wrap_content" android:layout_width="match_parent">
+
+    <com.tjut.mianliao.theme.ThemeTextView android:id="@+id/tv_tip" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="#7A7A7A" android:textSize="16sp" />
+
+    <com.tjut.mianliao.component.ProgressButton app:textColor="@color/white" app:textSize="16sp" android:background="@drawable/selector_btn_red" android:id="@+id/pb_action" android:layout_height="42dp" android:layout_marginTop="10dp" android:layout_width="match_parent" />
+
+    <com.tjut.mianliao.theme.ThemeTextView android:id="@+id/tv_congrat" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_width="wrap_content" android:text="@string/news_ticket_congrats" android:textColor="@color/news_marked" android:textSize="18sp" />
+
+    <com.tjut.mianliao.theme.ThemeImageView android:id="@+id/iv_code" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:layout_width="wrap_content" tools:ignore="ContentDescription" />
+
+    <com.tjut.mianliao.theme.ThemeTextView android:id="@+id/tv_code" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:layout_width="wrap_content" android:textColor="#585858" android:textSize="14sp" />
+
+</merge>

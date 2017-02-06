@@ -1,0 +1,105 @@
+<com.tjut.mianliao.component.ThemeFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fl_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.tjut.mianliao.black.MagicLinearLayout
+        android:id="@+id/rl_remind"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.handmark.pulltorefresh.library.PullToRefreshListView
+            android:id="@+id/ptrlv_post_stream"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:divider="@null"
+            android:dividerHeight="0px"
+            android:listSelector="@null"
+            android:scrollbarStyle="outsideOverlay"
+            app:color_magic="0"/>
+
+        <com.tjut.mianliao.theme.ThemeImageView
+            android:id="@+id/iv_comment_suc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:src="@drawable/img_sucssece_comment"
+            android:visibility="gone"/>
+
+        <com.tjut.mianliao.black.MagicLinearLayout
+            android:id="@+id/ll_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <com.tjut.mianliao.black.MagicRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/bg_item_with_top_bottom_lines"
+                android:paddingBottom="8dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="8dp"
+                app:color_magic="0">
+
+                <com.tjut.mianliao.theme.ThemeImageView
+                    android:id="@+id/iv_extention"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_centerVertical="true"
+                    android:clickable="true"
+                    android:onClick="onClick"
+                    android:scaleType="center"
+                    android:src="@drawable/button_emotion"
+                    tools:ignore="ContentDescription"/>
+
+                <com.tjut.mianliao.theme.ThemeTextView
+                    android:id="@+id/tv_send"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:onClick="onClick"
+                    android:text="@string/send"
+                    android:textColor="#848E9A"
+                    android:textSize="12sp"/>
+
+                <com.tjut.mianliao.component.RichMlEditText
+                    android:id="@+id/et_message"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_toLeftOf="@id/tv_send"
+                    android:layout_toRightOf="@id/iv_extention"
+                    android:background="@drawable/selector_bg_comment"
+                    android:hint="@string/post_reply_hit"
+                    android:inputType="textMultiLine"
+                    android:minHeight="35dp"
+                    android:onClick="onClick"
+                    android:paddingBottom="0dp"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="0dp"
+                    android:textSize="15sp"
+                    app:shouldWatcherTextChanged="true"/>
+            </com.tjut.mianliao.black.MagicRelativeLayout>
+
+            <com.tjut.mianliao.component.EmotionPicker
+                android:id="@+id/ep_emotions"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@color/white"
+                android:visibility="gone"/>
+        </com.tjut.mianliao.black.MagicLinearLayout>
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+</com.tjut.mianliao.component.ThemeFrameLayout>

@@ -1,0 +1,11 @@
+<com.tjut.mianliao.black.MagicRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="match_parent" android:layout_marginTop="@dimen/title_bar_height" android:layout_width="match_parent">
+
+    <SurfaceView android:id="@+id/sv_preview" android:layout_height="match_parent" android:layout_width="match_parent" />
+
+    <com.tjut.mianliao.scan.ScanCoverView android:id="@+id/scv_preview_cover" android:layout_height="match_parent" android:layout_width="match_parent" />
+
+    <com.tjut.mianliao.scan.ScanIndicatorView android:id="@+id/siv_scan_indicator" android:layout_centerInParent="true" android:layout_height="@dimen/scan_indicator_height" android:layout_width="@dimen/scan_indicator_width" />
+
+    <com.tjut.mianliao.theme.ThemeTextView android:gravity="center_horizontal" android:id="@+id/tv_info" android:layout_alignParentBottom="true" android:layout_below="@id/siv_scan_indicator" android:layout_centerHorizontal="true" android:layout_height="wrap_content" android:layout_marginLeft="50dp" android:layout_marginRight="50dp" android:layout_marginTop="22dp" android:layout_width="wrap_content" android:text="@string/scan_hint" android:textColor="@color/white" android:textSize="12dp" />
+
+</com.tjut.mianliao.black.MagicRelativeLayout>

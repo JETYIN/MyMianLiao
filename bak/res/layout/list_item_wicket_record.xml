@@ -1,0 +1,55 @@
+<com.tjut.mianliao.black.MagicRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="9dp"
+    android:paddingLeft="12dp"
+    android:paddingRight="12dp"
+    android:paddingTop="8dp">
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_news_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="8dp"
+        android:layout_toLeftOf="@+id/tv_time"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="#5B5654"
+        android:textSize="14dp"/>
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_news_title"
+        android:layout_alignParentRight="true"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="#AEA6A2"
+        android:textSize="12dp"/>
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_ticket_head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_news_title"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="@string/tic_ticket"
+        android:textColor="#5B5654"
+        android:textSize="14dp"/>
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_ticket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_news_title"
+        android:layout_toRightOf="@+id/tv_ticket_head"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="#5B5654"
+        android:textSize="14dp"/>
+
+</com.tjut.mianliao.black.MagicRelativeLayout>

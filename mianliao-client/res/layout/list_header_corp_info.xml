@@ -1,0 +1,88 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.tjut.mianliao.black.MagicRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <com.tjut.mianliao.component.ProImageView
+            android:id="@+id/iv_corp_logo"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="2dp"
+            android:focusable="true"
+            tools:ignore="ContentDescription"/>
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:id="@+id/tv_corp_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="44dp"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="#424242"
+            android:textIsSelectable="true"
+            android:textSize="16sp"/>
+
+        <RatingBar
+            android:id="@+id/rb_rank"
+            android:layout_width="32dp"
+            android:layout_height="10dp"
+            android:layout_alignLeft="@+id/tv_corp_name"
+            android:layout_below="@+id/tv_corp_name"
+            android:layout_marginTop="2dp"
+            android:isIndicator="true"
+            android:numStars="3"
+            android:progressDrawable="@drawable/job_ranking_stars"
+            android:rating="2"/>
+    </com.tjut.mianliao.black.MagicRelativeLayout>
+
+    <include layout="@layout/hr_divider"/>
+
+    <com.tjut.mianliao.component.PropertiesView
+        android:id="@+id/pv_corp_props"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"/>
+
+    <include layout="@layout/hr_divider"/>
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_corp_intro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:lineSpacingExtra="6dp"
+        android:textColor="#424242"
+        android:textIsSelectable="true"
+        android:textSize="14sp"/>
+
+    <com.tjut.mianliao.black.MagicFrameLayout
+        android:id="@+id/fl_other_jobs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/line_dash_horizontal"
+        android:layerType="software">
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/bg_basic"
+            android:maxLines="1"
+            android:padding="2dp"
+            android:text="@string/job_other_jobs"
+            android:textColor="#FFA524"
+            android:textSize="12sp"/>
+    </com.tjut.mianliao.black.MagicFrameLayout>
+
+</com.tjut.mianliao.black.MagicLinearLayout>

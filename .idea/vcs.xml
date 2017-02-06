@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/.repo/manifests" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/.repo/repo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/TuSDK" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/android-touch-gallery" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/appcompat" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cocos-avatar" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cocos_view_lib" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/common-library" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/emotion" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/fastBlur" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/mianliao-client" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/multi-image-selector" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/openmarket-sdk" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/pull-to-refresh" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/two_ways_lib" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/umeng-social-lib" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vitamio" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/wheel" vcs="Git" />
+  </component>
+</project>

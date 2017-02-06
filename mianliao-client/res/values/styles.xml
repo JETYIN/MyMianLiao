@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="MianLiao.TextView" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/txt_black</item>
+        <item name="android:textColorHint">#CACACA</item>
+    </style>
+
+    <style name="MianLiao.EditText" parent="@android:style/Widget.EditText">
+        <item name="android:textColor">#5B5B5B</item>
+        <item name="android:background">@drawable/bg_input_box</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColorHint">#CACACA</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:ellipsize">start</item>
+    </style>
+
+    <style name="MianLiao.ScrollView" parent="@android:style/Widget.ScrollView">
+        <item name="android:fadingEdge">none</item>
+    </style>
+
+    <style name="MianLiao.ListView" parent="@android:style/Widget.ListView">
+        <item name="android:fadingEdge">none</item>
+    </style>
+
+    <style name="MianLiao.EditText.InCard" parent="MianLiao.EditText">
+        <item name="android:background">@null</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/txt_in_card_light</item>
+    </style>
+
+    <style name="MianLiao.NaviItem">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/selector_color_navi_btn</item>
+        <item name="android:textSize">@dimen/navi_bar_text_size</item>
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:drawablePadding">-6dp</item>
+        <item name="android:maxWidth">58dp</item>
+    </style>
+
+    <style name="MianLiao.Title">
+        <item name="android:textColor">#242424</item>
+        <item name="android:textSize">@dimen/title_text_size</item>
+    </style>
+
+    <style name="MianLiao.Title.Small">
+        <item name="android:textSize">@dimen/title_text_size_small</item>
+    </style>
+
+    <style name="MianLiao.Headline">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/txt_headline</item>
+    </style>
+
+    <style name="MianLiao.CardText">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/txt_in_card</item>
+    </style>
+
+    <style name="MianLiao.CardText.Light">
+        <item name="android:textColorHint">#CACACA</item>
+        <item name="android:textColor">@color/txt_in_card_light</item>
+    </style>
+
+    <style name="MianLiao.CardText2">
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:textColor">@color/txt_in_card</item>
+    </style>
+
+    <style name="MianLiao.CardText2.Light">
+        <item name="android:textColorHint">#CACACA</item>
+        <item name="android:textColor">@color/txt_in_card_light</item>
+    </style>
+
+    <style name="MianLiao.Button" parent="@android:style/Widget.Button">
+        <item name="android:paddingTop">11dp</item>
+        <item name="android:paddingBottom">11dp</item>
+        <item name="android:paddingLeft">11dp</item>
+        <item name="android:paddingRight">11dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="MianLiao.Title.Curriculum">
+        <item name="android:textSize">11sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="MianLiao.SettingCategory">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="MianLiao.ShadowText">
+        <item name="android:shadowRadius">2</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowColor">@color/text_shadow</item>
+    </style>
+
+    <style name="MianLiao.ShadowText.White">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="MianLiao.TabItem">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:background">@drawable/selector_bg_card_item</item>
+        <item name="android:textColor">@color/txt_tab_item_grey</item>
+        <item name="android:padding">0dp</item>
+    </style>
+
+    <style name="MianLiao.TabItemPost">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/txt_tab_item_forum</item>
+        <item name="android:padding">0dp</item>
+    </style>
+
+    <style name="MianLiao.TabItemChannel">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/txt_tab_item_purple</item>
+        <item name="android:padding">0dp</item>
+    </style>
+
+    <style name="MianLiao.TitleTabItem">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">@dimen/title_tab_text_size</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">middle</item>
+    </style>
+
+    <style name="MianLiao.TabItem.EmotionPicker">
+        <item name="android:textSize">12sp</item>
+        <item name="android:background">@color/emo_picker_tab_bg</item>
+        <item name="android:textColor">@color/emo_picker_tab_txt</item>
+    </style>
+
+    <style name="MianLiao.EventItem">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:drawablePadding">12dp</item>
+        <item name="android:textColor">#6C6C6C</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+    </style>
+
+    <style name="MianLiao.RatingItem">
+        <item name="android:button">@null</item>
+        <item name="android:drawablePadding">2dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#717070</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="MianLiao.RatingNumberItem">
+        <item name="android:drawablePadding">4dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">#2E2E2E</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Translucent_NoTitle" parent="android:style/Theme.Dialog">
+        <item name="android:background">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="Translucent_NoTitle_FastEntry" parent="android:style/Theme.Black.NoTitleBar.Fullscreen">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="ProgressDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item> <!-- 边框 -->
+        <item name="android:windowIsFloating">true</item> <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">false</item> <!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item> <!-- 无标题 -->
+        <item name="android:windowBackground">@color/transparent</item> <!-- 背景透明 -->
+        <item name="android:backgroundDimEnabled">false</item> <!-- 模糊 -->
+    </style>
+    
+    <style name="Universal.Widget.ProgressBar" parent="@android:style/Widget.ProgressBar">
+        <item name="android:indeterminateDrawable">@drawable/uvv_progress_rotate</item>
+        <item name="android:indeterminateDuration">1000</item>
+    </style>
+    
+    <style name="LiveReplaySeekBar" parent="@android:style/Widget.SeekBar">
+        <item name="android:maxHeight">2dp</item>
+        <item name="android:minHeight">2dp</item>
+        <item name="android:scaleWidth">100%</item>
+        <item name="android:max">100</item>
+        <item name="android:secondaryProgress">@drawable/bg_live_replay_pregress_normal</item>
+        <item name="android:progressDrawable">@drawable/bg_live_replay_pregress</item>
+        <item name="android:thumb">@drawable/live_replay_seek_thumb</item>
+    </style>
+
+</resources>

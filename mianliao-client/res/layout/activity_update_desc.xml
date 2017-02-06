@@ -1,0 +1,54 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_update_desc"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="15dp"
+    android:orientation="vertical">
+
+    <com.tjut.mianliao.black.MagicRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingBottom="5dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="5dp"
+        app:color_magic="0">
+
+        <com.tjut.mianliao.theme.ThemeImageView
+            android:id="@+id/iv_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="15dp"
+            android:clickable="true"
+            android:visibility="gone"
+            android:onClick="onClick"
+            android:src="@drawable/ic_search_clear_pressed"/>
+
+        <EditText
+            android:id="@+id/et_content"
+            android:layout_width="match_parent"
+            android:layout_height="151dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@id/iv_clear"
+            android:layout_centerInParent="true"
+            android:layout_toLeftOf="@id/iv_clear"
+            android:background="@null"
+            android:gravity="top|left"
+            android:textSize="15sp"
+            android:hint="@string/prof_update_desc_des"
+            android:maxLength="100"/>
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:id="@+id/tv_size_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/et_content"
+            android:textColor="#DADADA"/>
+    </com.tjut.mianliao.black.MagicRelativeLayout>
+
+</com.tjut.mianliao.black.MagicLinearLayout>

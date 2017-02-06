@@ -1,0 +1,5 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:background="@null" android:layout_gravity="center" android:layout_height="wrap_content" android:layout_width="wrap_content">
+
+    <com.tjut.mianliao.theme.ThemeImageView android:background="@drawable/selector_group_operator" android:id="@+id/iv_operate" android:layout_height="65dp" android:layout_marginTop="7dp" android:layout_width="65dp" android:scaleType="center" tools:ignore="ContentDescription" />
+
+</com.tjut.mianliao.black.MagicLinearLayout>

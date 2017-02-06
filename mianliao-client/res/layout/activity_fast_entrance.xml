@@ -1,0 +1,15 @@
+<com.tjut.mianliao.black.MagicRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.tjut.mianliao.theme.ThemeImageButton
+        android:id="@+id/btn_close"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="#f1f1f1"
+        android:onClick="onClick"
+        android:src="@drawable/team_pic_bg_icon"/>
+
+</com.tjut.mianliao.black.MagicRelativeLayout>

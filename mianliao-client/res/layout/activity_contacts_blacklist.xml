@@ -1,0 +1,27 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/ll_black_list"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.tjut.mianliao.component.SearchView
+        android:id="@+id/sv_contacts_blacklist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <ListView
+        android:id="@+id/lv_contacts_blacklist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/hr_divider"
+        android:dividerHeight="1px"
+        android:footerDividersEnabled="true"
+        android:listSelector="@null"
+        android:overScrollFooter="@null"
+        android:overScrollHeader="@null">
+    </ListView>
+
+</com.tjut.mianliao.black.MagicLinearLayout>

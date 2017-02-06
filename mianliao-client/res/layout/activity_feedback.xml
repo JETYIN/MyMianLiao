@@ -1,0 +1,72 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_feedback"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/ptrlv_feedbacks"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:cacheColorHint="@color/bg_basic"
+        android:divider="@null"
+        android:drawSelectorOnTop="false"
+        android:listSelector="@color/bg_basic"
+        android:orientation="vertical"
+        android:overScrollFooter="@null"
+        android:overScrollHeader="@null"
+        android:transcriptMode="normal"/>
+
+    <com.tjut.mianliao.black.MagicLinearLayout
+        android:id="@+id/ll_footbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_chat_foot_bar"
+        android:gravity="center_vertical"
+        android:minHeight="@dimen/navi_bar_height"
+        android:orientation="horizontal"
+        app:color_magic="0">
+
+        <com.tjut.mianliao.theme.ThemeImageView
+            android:id="@+id/iv_fb_image"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="9dp"
+            android:layout_marginRight="7dp"
+            android:layout_marginTop="5dp"
+            android:cropToPadding="true"
+            android:onClick="onClick"
+            android:src="@drawable/ic_camera"/>
+
+        <EditText
+            android:id="@+id/edt_feedback"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_weight="1"
+            android:hint="@string/fbk_title"
+            android:inputType="textMultiLine"
+            android:maxLength="1024"
+            android:maxLines="4"
+            android:padding="7dp"
+            android:textSize="15sp"/>
+
+        <com.tjut.mianliao.theme.ThemeImageView
+            android:id="@+id/btn_submit"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/inset_5_selector_btn_red"
+            android:gravity="center_vertical|center_horizontal"
+            android:onClick="onClick"
+            android:padding="5dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/btn_confirm"/>
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+</com.tjut.mianliao.black.MagicLinearLayout>

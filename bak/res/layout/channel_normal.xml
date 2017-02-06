@@ -1,0 +1,6 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal">
+
+    <com.tjut.mianliao.component.ExpandableGridView android:horizontalSpacing="4dp" android:id="@+id/gv_gallery" android:layout_height="wrap_content" android:layout_width="match_parent" android:listSelector="@color/white" android:numColumns="5" android:paddingBottom="12dp" android:paddingLeft="10dp" android:paddingRight="10dp" android:paddingTop="12dp" android:stretchMode="columnWidth" android:verticalSpacing="4dp" android:visibility="gone" />
+
+        <com.tjut.mianliao.theme.ThemeImageView android:layout_height="60dp" android:layout_width="60dp" android:scaleType="center" android:src="@drawable/button_add" />
+</com.tjut.mianliao.black.MagicLinearLayout>

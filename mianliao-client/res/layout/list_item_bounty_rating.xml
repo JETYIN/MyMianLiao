@@ -1,0 +1,9 @@
+<com.tjut.mianliao.black.MagicRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="wrap_content" android:layout_width="match_parent" android:paddingBottom="10dp">
+
+    <include layout="@layout/merge_bounty_user" />
+
+    <com.tjut.mianliao.theme.ThemeImageView android:id="@+id/iv_rating" android:layout_alignParentRight="true" android:layout_alignTop="@+id/av_avatar" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:layout_width="wrap_content" android:src="@drawable/ic_rating_good" />
+
+    <com.tjut.mianliao.theme.ThemeTextView android:id="@+id/tv_comment" android:layout_alignLeft="@+id/tv_user_name" android:layout_below="@+id/av_avatar" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:layout_marginTop="5dp" android:layout_width="wrap_content" android:textColor="#7A7A7A" android:textIsSelectable="true" android:textSize="@dimen/card_content_txt_size" />
+
+</com.tjut.mianliao.black.MagicRelativeLayout>

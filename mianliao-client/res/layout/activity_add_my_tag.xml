@@ -1,0 +1,99 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_add_tag"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.tjut.mianliao.black.MagicLinearLayout
+        android:id="@+id/ll_add_tag_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible"
+        app:color_magic="0">
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:id="@+id/tv_my_tag_count"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:drawableLeft="@drawable/ic_green_dot"
+            android:drawablePadding="3dp"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:textColor="#8C8C8C"
+            android:textSize="14sp"/>
+
+        <com.tjut.mianliao.component.TagView
+            android:id="@+id/tg_mine"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center|top"
+            android:background="@color/white"/>
+
+        <com.tjut.mianliao.theme.ThemeImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/img_solid_split_down"/>
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/mc_add_my_tag_desc"
+            android:textColor="#8C8C8C"
+            android:textSize="10sp"/>
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="18dp"
+            android:drawableLeft="@drawable/ic_green_dot"
+            android:drawablePadding="3dp"
+            android:text="@string/mc_add_my_tag_all_write"
+            android:textColor="#8C8C8C"
+            android:textSize="14sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginTop="10dp"/>
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_refresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/btn_blue"
+        android:clickable="true"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:paddingBottom="10dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingTop="10dp"
+        android:text="@string/mc_add_my_tag_click_refresh"
+        android:textColor="@color/white"
+        android:visibility="gone"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="none">
+
+        <com.tjut.mianliao.component.TagView
+            android:id="@+id/tg_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            app:dynamic_size="true"/>
+    </ScrollView>
+
+</com.tjut.mianliao.black.MagicLinearLayout>

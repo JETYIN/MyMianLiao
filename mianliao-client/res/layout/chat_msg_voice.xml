@@ -1,0 +1,9 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:gravity="center_vertical" android:id="@+id/ll_msg_voice" android:layout_height="wrap_content" android:layout_width="wrap_content">
+
+    <com.tjut.mianliao.theme.ThemeImageView android:id="@+id/iv_msg_voice" android:layout_height="wrap_content" android:layout_marginRight="30dp" android:layout_width="wrap_content" android:src="@drawable/anim_voice_play_other" tools:ignore="contentDescription" />
+
+    <com.tjut.mianliao.theme.ThemeTextView android:id="@+id/tv_msg_voice" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="15sp" />
+
+    <com.tjut.mianliao.theme.ThemeImageView android:id="@+id/iv_msg_voice_me" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:layout_width="wrap_content" android:src="@drawable/anim_voice_play_me" tools:ignore="contentDescription" />
+
+</com.tjut.mianliao.black.MagicLinearLayout>

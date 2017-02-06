@@ -1,0 +1,34 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.tjut.mianliao.component.SearchView
+        android:id="@+id/sv_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_to_groupmanage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="15dp"
+        android:text="@string/group_chat_manager"
+        android:textSize="15sp"/>
+
+    <ListView
+        android:id="@+id/lv_friend_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/hr_divider"
+        android:dividerHeight="1px"
+        android:listSelector="@null"
+        android:overScrollFooter="@null"
+        android:overScrollHeader="@null"/>
+
+</com.tjut.mianliao.black.MagicLinearLayout>

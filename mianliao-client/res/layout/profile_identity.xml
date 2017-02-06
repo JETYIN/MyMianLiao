@@ -1,0 +1,135 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_identity_card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    app:color_magic="0">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@android:color/transparent"
+        android:gravity="center|left"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/icon_id"/>
+
+        <TextView
+            style="@style/MianLiao.CardText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/prof_account"
+            android:textColor="#515151"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/tv_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:textColor="#656565"
+            android:textSize="14sp"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="14dp"
+        android:background="#E6E6E6"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_id_verify"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@android:color/transparent"
+        android:gravity="center_vertical"
+        android:onClick="onClick"
+        android:clickable="true">
+
+        <ImageView
+            android:id="@+id/iv_icon_verify"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/icon_authentication"/>
+
+        <TextView
+            android:id="@+id/tv_id_auth"
+            style="@style/MianLiao.CardText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/iv_icon_verify"
+            android:text="@string/iv_title"
+            android:textColor="#515151"
+            android:textSize="15sp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/botton_bg_chat_arrowright"
+            tools:ignore="ContentDescription"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="14dp"
+        android:background="#E6E6E6"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_qr_card"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@android:color/transparent"
+        android:gravity="center_vertical"
+        android:onClick="onClick"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/iv_icon_card"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/icon_code"/>
+
+        <TextView
+            android:id="@+id/tv_card_title"
+            style="@style/MianLiao.CardText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/iv_icon_card"
+            android:text="@string/prof_my_qrcode"
+            android:textColor="#515151"
+            android:textSize="15sp"/>
+
+        <ImageView
+            android:id="@+id/iv_enter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/botton_bg_chat_arrowright"
+            tools:ignore="ContentDescription"/>
+    </RelativeLayout>
+
+</LinearLayout>

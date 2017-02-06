@@ -1,0 +1,5 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical">
+
+    <com.tjut.mianliao.theme.ThemeTextView android:gravity="center" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="&#28459;&#28216;&#39640;&#26657;" />
+
+</com.tjut.mianliao.black.MagicLinearLayout>

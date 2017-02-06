@@ -1,0 +1,9 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:gravity="center_vertical" android:id="@+id/ll_msg_share_loc" android:layout_height="wrap_content" android:layout_width="wrap_content">
+
+    <com.tjut.mianliao.theme.ThemeImageView android:id="@+id/iv_msg_share_loc" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:layout_width="wrap_content" android:src="@drawable/map_ic_sharelocation_friend" tools:ignore="contentDescription" />
+
+    <com.tjut.mianliao.theme.ThemeTextView android:id="@+id/tv_msg_share_loc" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/cht_share_location_text" android:textSize="15sp" />
+
+    <com.tjut.mianliao.theme.ThemeImageView android:id="@+id/iv_msg_share_loc_me" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_width="wrap_content" android:src="@drawable/map_ic_sharelocation_me" tools:ignore="contentDescription" />
+
+</com.tjut.mianliao.black.MagicLinearLayout>

@@ -1,0 +1,33 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/tab_height"
+    android:background="@color/white">
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_type_square"
+        style="@style/MianLiao.TabItemPost"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/cf_school_myschool"/>
+
+    <com.tjut.mianliao.theme.ThemeImageView
+        android:layout_width="1px"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/normal_pic_vertical"/>
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_type_roam"
+        style="@style/MianLiao.TabItemPost"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/forun_roam_college"
+        android:textColor="@color/txt_tab_item_grey"/>
+
+</com.tjut.mianliao.black.MagicLinearLayout>

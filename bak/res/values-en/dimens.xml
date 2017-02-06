@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Edit Course -->
+    <dimen name="edc_card_title_width">74dp</dimen>
+
+    <!-- Course Detail -->
+    <dimen name="course_title_width">120dp</dimen>
+
+</resources>

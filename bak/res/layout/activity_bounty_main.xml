@@ -1,0 +1,26 @@
+<com.tjut.mianliao.black.MagicRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/ptrlv_task"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:dividerHeight="0px"
+        android:listSelector="@color/bg_basic"
+        android:scrollbarStyle="outsideOverlay"
+        app:ptrMode="both"/>
+
+    <com.tjut.mianliao.theme.ThemeImageView
+        android:id="@+id/iv_new_task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="6dp"
+        android:layout_marginRight="6dp"
+        android:src="@drawable/selector_btn_add_float"/>
+
+</com.tjut.mianliao.black.MagicRelativeLayout>

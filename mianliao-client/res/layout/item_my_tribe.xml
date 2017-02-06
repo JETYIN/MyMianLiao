@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_my_follow_tribe"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/card_item_spacing"
+    android:background="@color/white"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:paddingBottom="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="15dp"
+    app:color_magic="0">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:drawableLeft="@drawable/channel_see"
+        android:drawablePadding="10dp"
+        android:text="@string/tribe_follow_tribe"
+        android:textColor="#9B9A9A"
+        android:textSize="12sp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:id="@+id/ll_my_tribe"
+            android:layout_width="wrap_content"            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp">
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_right_tribe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/botton_bg_chat_arrowright"/>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_voice_view"
+    android:layout_width="match_parent"
+    android:layout_height="25dp"
+    android:background="@drawable/bg_item_voice_view"
+    android:clickable="true"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_voice_time_play"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#b0c1f3"
+        android:textSize="12sp"/>
+
+    <com.tjut.mianliao.theme.ThemeImageView
+        android:id="@+id/iv_voice_anim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/anim_voice_play_post"/>
+
+</LinearLayout>

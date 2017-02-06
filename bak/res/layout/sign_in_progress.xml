@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_continue_title1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/bg_tv_sign_day"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textColor="#03B4BC"
+                android:textSize="12sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_continue_title2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/bg_tv_sign_day"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textColor="#03B4BC"
+                android:textSize="12sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_continue_title3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/bg_tv_sign_day"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textColor="#03B4BC"
+                android:textSize="12sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_progress1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/progress_lin1"
+                android:layout_width="0dp"
+                android:layout_height="3dp"
+                android:layout_weight="0"
+                android:background="#3BC330"/>
+
+            <View
+                android:id="@+id/progress_lin2"
+                android:layout_width="0dp"
+                android:layout_height="3dp"
+                android:layout_weight="1"
+                android:background="#1C385F"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_progress_isfinish1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img_sign_continue_hold"/>
+
+        <LinearLayout
+            android:id="@+id/ll_progress2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/progress_lin3"
+                android:layout_width="0dp"
+                android:layout_height="3dp"
+                android:layout_weight="0"
+                android:background="#3BC330"/>
+
+            <View
+                android:id="@+id/progress_lin4"
+                android:layout_width="0dp"
+                android:layout_height="3dp"
+                android:layout_weight="1"
+                android:background="#1C385F"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_progress_isfinish2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img_sign_continue_hold"/>
+
+        <LinearLayout
+            android:id="@+id/ll_progress3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/progress_lin5"
+                android:layout_width="0dp"
+                android:layout_height="3dp"
+                android:layout_weight="0"
+                android:background="#3BC330"/>
+
+            <View
+                android:id="@+id/progress_lin6"
+                android:layout_width="0dp"
+                android:layout_height="3dp"
+                android:layout_weight="1"
+                android:background="#1C385F"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_progress_isfinish3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img_sign_continue_hold"/>
+
+        <LinearLayout
+            android:id="@+id/ll_progress4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/progress_lin7"
+                android:layout_width="0dp"
+                android:layout_height="3dp"
+                android:layout_weight="0"
+                android:background="#3BC330"/>
+
+            <View
+                android:id="@+id/progress_lin8"
+                android:layout_width="0dp"
+                android:layout_height="3dp"
+                android:layout_weight="1"
+                android:background="#1C385F"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.tjut.mianliao.component.ProImageView
+                android:id="@+id/iv_gift1"
+               android:layout_width="50dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:background="@drawable/img_sign_gift_bg"
+                android:paddingBottom="2dp"
+                android:paddingLeft="2dp"
+                android:paddingRight="2dp"
+                android:paddingTop="8dp"
+                android:src="@drawable/img_sign_gift_text"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.tjut.mianliao.component.ProImageView
+                android:id="@+id/iv_gift2"
+                android:layout_width="50dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:background="@drawable/img_sign_gift_bg"
+                 android:paddingBottom="2dp"
+                android:paddingLeft="2dp"
+                android:paddingRight="2dp"
+                android:paddingTop="8dp"
+                android:src="@drawable/img_sign_gift_text"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.tjut.mianliao.component.ProImageView
+                android:id="@+id/iv_gift3"
+                android:layout_width="50dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:background="@drawable/img_sign_gift_bg"
+                 android:paddingBottom="2dp"
+                android:paddingLeft="2dp"
+                android:paddingRight="2dp"
+                android:paddingTop="8dp"
+                android:src="@drawable/img_sign_gift_text"/>
+        </LinearLayout>
+    </LinearLayout>
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_gift_name1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textColor="#8596B6"
+                android:textSize="12sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                 android:id="@+id/tv_gift_name2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textColor="#8596B6"
+                android:textSize="12sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                 android:id="@+id/tv_gift_name3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textColor="#8596B6"
+                android:textSize="12sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

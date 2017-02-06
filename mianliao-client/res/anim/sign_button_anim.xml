@@ -1,0 +1,5 @@
+<translate xmlns:android="http://schemas.android.com/apk/res/android"  
+android:fromXDelta="0"  
+android:toXDelta="30"  
+android:duration="500"  
+android:interpolator="@anim/sign_bt_interpolator" />  

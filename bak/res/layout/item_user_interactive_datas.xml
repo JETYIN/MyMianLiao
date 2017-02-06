@@ -1,0 +1,119 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:background="#26FFFFFF"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <com.tjut.mianliao.black.MagicLinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center" >
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:id="@+id/tv_post_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/buttom_like_hover"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="10dp" />
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+    <View
+        android:layout_width="1px"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="#4CFFFFFF" />
+
+    <com.tjut.mianliao.black.MagicLinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center" >
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:id="@+id/tv_down_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/buttom_hate_hover"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="10dp" />
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+    <View
+        android:layout_width="1px"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="#4CFFFFFF" />
+
+    <com.tjut.mianliao.black.MagicLinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center" >
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:id="@+id/tv_won_up_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/pic_person_icon_post"
+            android:drawablePadding="5dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="10dp" />
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+    <View
+        android:layout_width="1px"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="#4CFFFFFF" />
+
+    <com.tjut.mianliao.black.MagicLinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center" >
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:id="@+id/tv_visitor_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/button_flower_pressed"
+            android:drawablePadding="5dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="10dp" />
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+    <View
+        android:layout_width="1px"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="#4CFFFFFF" />
+
+    <com.tjut.mianliao.black.MagicLinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center" >
+
+        <com.tjut.mianliao.theme.ThemeTextView
+            android:id="@+id/tv_eggs_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/button_egg_pressed"
+            android:drawablePadding="5dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="10dp" />
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+</com.tjut.mianliao.black.MagicLinearLayout>

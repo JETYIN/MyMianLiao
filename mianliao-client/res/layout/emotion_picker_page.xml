@@ -1,0 +1,9 @@
+<GridView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:listSelector="@android:color/transparent"
+    android:horizontalSpacing="1dp"
+    android:verticalSpacing="1dp"
+    android:scrollbars="none"
+    android:numColumns="@integer/emo_picker_cols"/>

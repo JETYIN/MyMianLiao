@@ -1,0 +1,83 @@
+<com.tjut.mianliao.black.MagicRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector_bg_item"
+    android:paddingLeft="@dimen/card_margin_horizontal"
+    android:paddingRight="@dimen/card_margin_horizontal"
+    android:paddingTop="9dp"
+    app:color_magic="0">
+
+    <com.tjut.mianliao.component.ProImageView
+        android:id="@+id/iv_corp_logo"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:contentDescription="@null"
+        android:src="@drawable/find_botton_icon"/>
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_title"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@+id/iv_corp_logo"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textSize="15sp"/>
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_utime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:textColor="#979797"
+        android:textSize="12sp"/>
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_corp_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_title"
+        android:layout_below="@+id/tv_title"
+        android:layout_marginRight="85dp"
+        android:layout_marginTop="-1dp"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="#979797"
+        android:textSize="11sp"/>
+
+    <com.tjut.mianliao.component.ProgressButton
+        android:id="@+id/pb_apply_job"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/tv_utime"
+        android:background="@drawable/selector_btn_blue"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        app:textColor="@color/white"
+        app:textSize="15sp"/>
+
+    <com.tjut.mianliao.theme.ThemeTextView
+        android:id="@+id/tv_salary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/tv_title"
+        android:layout_toRightOf="@id/tv_title"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="#8C8C8C"
+        android:textSize="11sp"/>
+
+    <com.tjut.mianliao.theme.ThemeLineView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@id/pb_apply_job"
+        android:layout_marginTop="5dp"
+        android:background="@color/hr_divider"/>
+
+</com.tjut.mianliao.black.MagicRelativeLayout>

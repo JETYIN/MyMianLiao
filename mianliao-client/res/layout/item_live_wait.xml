@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:paddingLeft="32dp"
+    android:paddingRight="32dp">
+
+    <LinearLayout
+        android:layout_width="293dp"
+        android:layout_height="152dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/bg_live_dialog"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ll_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="30dp"
+                android:text="@string/sucess_imformation"
+                android:textColor="#9fff"
+                android:textSize="17sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_marginTop="25dp"
+            android:background="#70000000" />
+
+        <TextView
+            android:id="@+id/tv_know"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/know"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textColor="#5ac449"
+            android:textSize="17sp" />
+    </LinearLayout>
+</FrameLayout>

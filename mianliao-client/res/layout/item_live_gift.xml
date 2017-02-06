@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/live_gift_image"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/img_living_contact_light" />
+
+    <TextView
+        android:id="@+id/live_git_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:gravity="center"
+        android:text="旋转棒棒糖"
+        android:textColor="#7fffffff"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/live_git_exprience"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:text="33麦粒"
+        android:textColor="#66ffffff"
+        android:textSize="9sp" />
+
+</LinearLayout>

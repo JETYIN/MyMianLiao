@@ -1,0 +1,7 @@
+<com.tjut.mianliao.black.MagicLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical" android:paddingLeft="20dp" android:paddingRight="20dp">
+
+    <com.tjut.mianliao.theme.ThemeTextView android:layout_height="wrap_content" android:layout_marginTop="14dp" android:layout_width="wrap_content" android:text="@string/cur_widget_hint" android:textColor="#5E5E5E" android:textSize="15dp" />
+
+    <com.tjut.mianliao.theme.ThemeImageView android:layout_height="wrap_content" android:layout_marginTop="14dp" android:layout_width="wrap_content" android:src="@drawable/pic_cur_wiget_hint" />
+
+</com.tjut.mianliao.black.MagicLinearLayout>

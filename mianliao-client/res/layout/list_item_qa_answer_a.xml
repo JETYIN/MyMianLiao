@@ -1,0 +1,17 @@
+<com.tjut.mianliao.black.MagicRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:layout_height="wrap_content" android:layout_width="match_parent">
+
+    <include layout="@layout/merge_user_info" />
+
+    <com.tjut.mianliao.black.MagicLinearLayout android:id="@+id/top_right_item" android:layout_alignParentRight="true" android:layout_height="wrap_content" android:layout_width="wrap_content" android:orientation="horizontal">
+
+        <com.tjut.mianliao.theme.ThemeImageView android:id="@+id/iv_chosen" android:layout_height="wrap_content" android:layout_marginRight="6dp" android:layout_width="wrap_content" android:src="@drawable/ic_best_answer" android:visibility="gone" tools:ignore="ContentDescription" />
+
+        <com.tjut.mianliao.theme.ThemeImageView android:background="@drawable/selector_btn_white_ring" android:id="@+id/iv_menu" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:layout_marginTop="10dp" android:layout_width="wrap_content" android:padding="4dp" android:src="@drawable/ic_cf_more" tools:ignore="ContentDescription" />
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+    <com.tjut.mianliao.black.MagicLinearLayout android:id="@+id/ll_content" android:layout_alignLeft="@+id/fl_user_name" android:layout_below="@+id/av_avatar" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_width="match_parent" android:orientation="vertical" android:paddingRight="10dp">
+
+        <include layout="@layout/qa_item_body" />
+    </com.tjut.mianliao.black.MagicLinearLayout>
+
+</com.tjut.mianliao.black.MagicRelativeLayout>

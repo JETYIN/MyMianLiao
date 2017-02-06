@@ -1,0 +1,9 @@
+<com.tjut.mianliao.theme.ThemeTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tv_view_more"
+    android:layout_width="match_parent"
+    android:layout_height="44dp"
+    android:background="@drawable/selector_bg_news_item"
+    android:gravity="center"
+    android:text="@string/news_source_more"
+    android:textColor="#7F7F7F"
+    android:textSize="14sp"/>
